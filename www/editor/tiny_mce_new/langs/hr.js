@@ -1,0 +1,247 @@
+tinyMCE.addI18n({hr:{
+common:{
+edit_confirm:"\u017Delite li koristiti WYSIWYG na\u010Din rada za ovo tekstualno polje?",
+apply:"Primjeni",
+insert:"Umetni",
+update:"Obnovi",
+cancel:"Odustani",
+close:"Zatvori",
+browse:"Pregled",
+class_name:"Klasa",
+not_set:"-- Nije postavljeno --",
+clipboard_msg:"Kopiraj/Izre\u017Ei/Zalijepi nije dostupno Mozilla i Firefox preglednicima.\nVi\u0161e informacija?",
+clipboard_no_support:"Trenuta\u010Dno va\u0161 preglednik ne podr\u017Eava ovu opciju, poku\u0161ajte koristiti tipkovni\u010Dku kraticu.",
+popup_blocked:"Oprostite, izgleda da je va\u0161 popup-blocker onemogu\u0107io prozor u sklopu ovog programa. Morate onemogu\u0107iti blokiranje popup prozora da bi u potpunosti iskoristili ovaj alat.",
+invalid_data:"{#field} is invalid",
+invalid_data_number:"{#field} must be a number",
+invalid_data_min:"{#field} must be a number greater than {#min}",
+invalid_data_size:"{#field} must be a number or percentage",
+more_colors:"Vi\u0161e boja"
+},
+colors:{
+'000000':'Black',
+'993300':'Burnt orange',
+'333300':'Dark olive',
+'003300':'Dark green',
+'003366':'Dark azure',
+'000080':'Navy Blue',
+'333399':'Indigo',
+'333333':'Very dark gray',
+'800000':'Maroon',
+'FF6600':'Orange',
+'808000':'Olive',
+'008000':'Green',
+'008080':'Teal',
+'0000FF':'Blue',
+'666699':'Grayish blue',
+'808080':'Gray',
+'FF0000':'Red',
+'FF9900':'Amber',
+'99CC00':'Yellow green',
+'339966':'Sea green',
+'33CCCC':'Turquoise',
+'3366FF':'Royal blue',
+'800080':'Purple',
+'999999':'Medium gray',
+'FF00FF':'Magenta',
+'FFCC00':'Gold',
+'FFFF00':'Yellow',
+'00FF00':'Lime',
+'00FFFF':'Aqua',
+'00CCFF':'Sky blue',
+'993366':'Brown',
+'C0C0C0':'Silver',
+'FF99CC':'Pink',
+'FFCC99':'Peach',
+'FFFF99':'Light yellow',
+'CCFFCC':'Pale green',
+'CCFFFF':'Pale cyan',
+'99CCFF':'Light sky blue',
+'CC99FF':'Plum',
+'FFFFFF':'White'
+},
+contextmenu:{
+align:"Poravnavanje",
+left:"Lijevo",
+center:"Sredina",
+right:"Desno",
+full:"Puno"
+},
+insertdatetime:{
+date_fmt:"%d.%m.%Y.",
+time_fmt:"%H:%M:%S",
+insertdate_desc:"Umetni datum",
+inserttime_desc:"Umetni vrijeme",
+months_long:"sije\u010Danj,velja\u010Da,o\u017Eujak,travanj,svibanj,lipanj,srpanj,kolovoz,rujan,listopad,studeni,prosinac",
+months_short:"sij,velj,o\u017Eu,tra,svi,lip,srp,kol,ruj,lis,stu,pro",
+day_long:"nedjelja,ponedjeljak,utorak,srijeda,\u010Detvrtak,petak,subota,nedjelja",
+day_short:"ned,pon,uto,sri,\u010Det,pet,sub,ned"
+},
+print:{
+print_desc:"Ispis"
+},
+preview:{
+preview_desc:"Prikaz"
+},
+directionality:{
+ltr_desc:"S lijeva na desno",
+rtl_desc:"S desna na lijevo"
+},
+layer:{
+insertlayer_desc:"Umetni novi sloj",
+forward_desc:"Pomakni naprijed",
+backward_desc:"Pomakni natrag",
+absolute_desc:"Uklju\u010Di/isklju\u010Di apsolutno pozicioniranje",
+content:"Novi sloj..."
+},
+save:{
+save_desc:"Spremi",
+cancel_desc:"Odustani od svih promjena"
+},
+nonbreaking:{
+nonbreaking_desc:"Umetni razmak"
+},
+iespell:{
+iespell_desc:"Pokreni provjeru pravopisa",
+download:"Provjera pravopisa nije postaljena. Postaviti sada?"
+},
+advhr:{
+advhr_desc:"Vodoravna crta"
+},
+emotions:{
+emotions_desc:"Emocije"
+},
+searchreplace:{
+search_desc:"Prona\u0111i",
+replace_desc:"Prona\u0111i/Zamijeni"
+},
+advimage:{
+image_desc:"Umetni/uredi sliku"
+},
+advlink:{
+link_desc:"Insert/edit link",
+delta_width:"100"
+},
+xhtmlxtras:{
+cite_desc:"Citat",
+abbr_desc:"Kratica",
+acronym_desc:"Akronim",
+del_desc:"Brisanje",
+ins_desc:"Unos",
+attribs_desc:"Umetni/uredi atribute"
+},
+style:{
+desc:"Uredi CSS"
+},
+paste:{
+paste_text_desc:"Zalijepi kao obi\u010Dni tekst",
+paste_word_desc:"Zalijepi iz Worda",
+selectall_desc:"Odaberi sve",
+plaintext_mode_sticky:"Paste is now in plain text mode. Click again to toggle back to regular paste mode. After you paste something you will be returned to regular paste mode.",
+plaintext_mode:"Paste is now in plain text mode. Click again to toggle back to regular paste mode."
+},
+paste_dlg:{
+text_title:"Koristite CTRL+V na tipkovnici da zalijepite tekst u prozor.",
+text_linebreaks:"Zadr\u017Ei prijelome",
+word_title:"Koristite CTRL+V na tipkovnici da zalijepite tekst u prozor."
+},
+table:{
+desc:"Nova tablica",
+row_before_desc:"Umetni redak iznad",
+row_after_desc:"Umetni redak ispod",
+delete_row_desc:"Izbri\u0161i redak",
+col_before_desc:"Umetni stupac lijevo",
+col_after_desc:"Umetni stupac desno",
+delete_col_desc:"Ukloni stupac",
+split_cells_desc:"Razdvoji spojene \u0107elije",
+merge_cells_desc:"Spoji \u0107elije",
+row_desc:"Svojstva retka",
+cell_desc:"Svojstva \u0107elije",
+props_desc:"Svojstva tablice",
+paste_row_before_desc:"Zalijepi redak iznad",
+paste_row_after_desc:"Zalijepi redak ispod",
+cut_row_desc:"Izre\u017Ei redak",
+copy_row_desc:"Kopiraj redak",
+del:"Izbri\u0161i tablicu",
+row:"Redak",
+col:"Stupac",
+cell:"\u0106elija"
+},
+autosave:{
+unload_msg:"Promjene u dokumentu \u0107e biti izgubljene ako iza\u0111ete s ove stranice.",
+restore_content:"Restore auto-saved content.",
+warning_message:"If you restore the saved content, you will lose all the content that is currently in the editor.\n\nAre you sure you want to restore the saved content?."
+},
+fullscreen:{
+desc:"Uklju\u010Di/isklju\u010Di prikaz preko cijelog ekrana"
+},
+media:{
+desc:"Insert / edit embedded media",
+edit:"Edit embedded media"
+},
+fullpage:{
+desc:"Svojstva dokumenta"
+},
+template:{
+desc:"Umetni sadr\u017Eaj iz predlo\u017Eak"
+},
+visualchars:{
+desc:"Vizualni kontrolni znakovi uklju\u010Deni/isklju\u010Deni."
+},
+spellchecker:{
+desc:"Uklju\u010Di/isklju\u010Di provjeru pravopisa",
+menu:"Postavke provjere pravopisa",
+ignore_word:"Zanemari rije\u010D",
+ignore_words:"Zanemari sver",
+langs:"Jezici",
+wait:"Pri\u010Dekajte...",
+sug:"Prijedlozi",
+no_sug:"Nema prijedloga",
+no_mpell:"Nije prona\u0111ena nijedna pravopisna gre\u0161ke.",
+learn_word:"Learn word"
+},
+pagebreak:{
+desc:"Umetni prijelom."
+},
+save_template_dlg:{
+save_template_title : 'Save as template',
+save_template_name : 'File name',
+save : 'Save',
+save_template_desc : 'Save editor\'s content as template file',
+fileexists : 'This filename already exists',
+filesaved : 'Template was saved successfully',
+problem : 'Problem in saving template'
+},
+advlist:{
+types:"Types",
+def:"Default",
+lower_alpha:"Lower alpha",
+lower_greek:"Lower greek",
+lower_roman:"Lower roman",
+upper_alpha:"Upper alpha",
+upper_roman:"Upper roman",
+circle:"Circle",
+disc:"Disc",
+square:"Square"
+},
+aria:{
+rich_text_area:"Rich Text Area"
+},
+wordcount:{
+words: 'Words: '
+},
+iframe_dlg:{
+file: "File",
+name:"Name",
+width:"Width",
+height:"Height",
+scroll:"Scrolling",
+auto:"Auto",
+yes:"Always",
+no:"Never",
+border:"Border"
+},
+iframe:{
+iframe_desc:"Insert iframe"
+}
+}});

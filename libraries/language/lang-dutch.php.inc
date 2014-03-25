@@ -1,0 +1,4298 @@
+<?php
+if (is_file($GLOBALS['path']."language/custom-dutch.php.inc")) {
+include($GLOBALS['path']."language/custom-dutch.php.inc");
+}
+define("_EFRONTURL","http://www.efrontlearning.net");//http://www.efrontlearning.net
+define("_EFRONTNAME","eFront");//eFront
+define("_EFRONTLOGIN","Inloggen bij eFront");//Login to eFront
+define("_HEADERLANGUAGEHTMLTAG","nl");//en
+define("_CURRENTLANGUAGESYMBOL","nl");//en
+define("_HEADERLANGUAGETAG","dutch");//en_US.utf8
+define("_CHARSET","ISO-8859-1");//ISO-8859-1
+define("_LANGUAGE","Taal");//Language
+define("_PASSWORD","Wachtwoord");//Password
+define("_SUBMIT","Versturen");//Submit
+define("_REGISTER","Registreren");//Register
+define("_CONTACT","Neem contact met ons op");//Contact us
+define("_FROM","Van");//From
+define("_SENDSUCCESS","Het bericht is verzonden. Bedankt dat u contact met ons op heeft genomen!");//Your message was sent successfully. Thank you for contacting us!
+define("_SENDFAILURE","Er heeft zich een probleem voorgedaan. Probeer het opnieuw.");//A problem has come up. Please try again.
+define("_LOGIN","Inloggen");//Login
+define("_NAME","Naam");//Name
+define("_SURNAME","Achternaam");//Surname
+define("_ADDRESS","Adres");//Address
+define("_POSTCODE","Postcode");//Post code
+define("_CITY","Stad");//City
+define("_HOMEPHONE","Telefoonnummer");//Phone number
+define("_EMAILADDRESS","E-mailadres");//Email address
+define("_COMMENTS","Opmerkingen");//Comments
+define("_TIME","Tijd");//Time
+define("_BACK","&larr;&nbsp;Terug");//&larr;&nbsp;Back
+define("_CONFIGURATIONVARIABLES","Systeem configuratie");//System settings
+define("_CHANGESITELOGO","Wijzig site logo");//Site logo
+define("_ONLYONELANGUAGE","Ondersteund slechts 1 (de standaard) Taal");//Support only one (the default) Language
+define("_YES","Ja");//Yes
+define("_NO","Nee");//No
+define("_UPDATELESSONS","Update lessen");//Update lessons
+define("_ADMINEMAIL","E-mail beheerder");//Administrator email
+define("_LESSONSDELETED","De les is verwijderd");//The lesson was deleted
+define("_SHOWFOOTER","Toon voettekst");//Show footer
+define("_DEFAULTLANGUAGE","Standaard taal");//Default language
+define("_DIGITALLIBRARY","Digitale bestanden bibliotheek");//Digital file library
+define("_BACKUP","Backup");//Backup
+define("_RESTORE","Herstel");//Restore
+define("_FREE","Gratis les");//Free lesson
+define("_SUCCESSREGISTER","U bent succelvol geregistreerd");//You have registered successfully
+define("_LESSONSREGISTRATION","Registratie les");//Lesson registration
+define("_YOUREMAIL","Uw e-mail");//Your Email 
+define("_MESSAGESUBJECT","Onderwerp");//Message subject
+define("_PASSWORDLEAVEBLANK","Wachtwoord (blanco om ongewijzigd te laten)");//Password (blank to leave unchanged)
+define("_PERSONALDATACHANGESUCCESS","Uw persoonlijke info is succesvol gewijzigd");//Your personal info has been successfully altered
+define("_REGISTRATIONDATE","Registratie datum");//Registration date
+define("_SAVECHANGES","Wijzigingen opslaan");//Save
+define("_PERSONALDATA","Persoonlijke info");//Personal info
+define("_LESSONOPTIONS","Les opties");//Lesson options
+define("_PERSONALOPTIONS","Gereedschap");//Tools
+define("_QUESTIONWEIGHT","Moeilijkheid vraag (1.10)");//Question weight (1-10)
+define("_WEIGHT","Moeilijkheid");//Weight
+define("_NONEWLESSONREGISTRATIONS","Geen nieuwe les registratie");//No new lesson registration
+define("_LESSONS","Lessen");//Lessons
+define("_RECREATESEARCHTABLE","Genereer zoek tabel");//Recreate search table
+define("_LESSONSREGISTRATIONS","Les registraties");//Lesson registrations
+define("_TOOLS","Gereedschap");//Tools
+define("_ONLINEUSERS","Online gebruikers");//Connected
+define("_DATE","Datum");//Date
+define("_STUDENT","Student");//Student
+define("_LINE","Lijn");//Line
+define("_SOMEPROBLEMEMERGED","Een probleem heeft zich voorgedaan");//Some problem has occured
+define("_CORRECTION","Corrigeren");//Correct it
+define("_LESSONNAME","Naam les");//Lesson name
+define("_DIRECTION","Categorieën");//Categories
+define("_DIRECTIONNAME","Naam categorie");//Category name
+define("_NEWLESSON","Nieuwe les");//New lesson
+define("_NEWDIRECTION","Nieuwe categorie");//New category
+define("_EMAILSENDAT","E-mail is verzonden naar");//Email was sent to 
+define("_CHOOSELESSON","Kies een les");//Choose lesson
+define("_SUBJECT","Onderwerp");//Subject
+define("_RECIPIENTSSELECTION","Selectie ontvangers");//Recipients selection
+define("_EMAILBODY","E-mail");//Email body
+define("_SENDEMAIL","Verzend E-mail");//Send Email
+define("_EXIT","Verlaten");//Exit
+define("_MORE","meer");//more
+define("_DELETE","Wissen");//Delete
+define("_MESSAGES","Berichten");// Messages
+define("_THEORY","Theorie");//Theory
+define("_PROJECTS","Projecten");//Projects
+define("_TESTS","Toetsen");//Tests
+define("_PREVIOUS","&lt;Vorige");//Previous
+define("_NEXT","Volgende&gt;");//Next
+define("_CANNOTACCESSTHISUNIT","Je kunt deze eenheid niet zien omdat:");//You cannot see this unit because:
+define("_SENDPERSONALMESSAGE","Stuur persoonlijk bericht");//Send personal message
+define("_SEND","Versturen");//Send
+define("_STATISTICS","Rapporten");//Reports
+define("_OPTIONS","Opties");//Options
+define("_THEFIELD","Het veld");//The field
+define("_WELCOMETO","Welkom bij de");//Welcome to
+define("_LESSONANNOUNCEMENT","Aankondiging voor de les");//Announcement for the lesson
+define("_COLOR","Kleur");//Color
+define("_HOUR","uur");//hour
+define("_HOURS","uren");//hours
+define("_MINUTE","minuut");//minute
+define("_MINUTES","minuten");//minutes
+define("_SECONDS","seconden");//seconds
+define("_LASTLOGIN","Laatste log-in");//Last log-in
+define("_MEAN","Gemiddeld");//Average
+define("_LOGINAT","Log-in op");//Log-in at
+define("_TESTHADAT","Toets voltooid op");//Test completed at
+define("_HASMAXIMUMDURATION","Het heeft de maximale tijdsduur bereikt");//It had maximum duration
+define("_YOURSCOREIS","Uw score is");//Your score is
+define("_FINALSCOREWILLBEFROM","De definitieve score is");//Final score will be from
+define("_ANDYOUDIDITIN","en u heeft het voltooid in");//and you completed it in
+define("_TO","aan");//to
+define("_DEPENDSONQUESTIONS","Afhankelijk van uw antwoorden op de open vragen.");//depending on your answers on open-answer questions.
+define("_EXAMPLEANSWER","Voorbeeld antwoord");//Example answer
+define("_SCORE","Score");//Score
+define("_THISQUESTIONCORRECTEDPROFESSOR","Deze vraag moet worden gecorrigeerd door de professor.");//This question will be corrected by the professor
+define("_RIGHTANSWER","Juiste antwoord");//Correct answer
+define("_TESTSHOULDCOMPLETEIN","Deze toets moet worden voltooid in");//This test must be completed in
+define("_TIMELEFT","Resterende tijd");//Time remaining
+define("_YOUCANNOTLOGINAS","Er is geen gebruiker met deze login naam:");//No user exists with login name:
+define("_WRONGPASSWORDTRYAGAIN","U heeft een verkeerd wachtwoord ingegeven. Probeer het opnieuw.");//You gave a wrong password. Please try again.
+define("_NOTACTIVATEDACCOUNTTRYAGAINLATER","Uw account is nog niet geactiveerd. Probeer het later opnieuw.");//Your account has not been activated yet. Please try again later.
+define("_YOUHAVEBEENEXCLUDEDBYPROFESSOR","U bent uitgesloten door de professor");//You are excluded by professor
+define("_MUSTFIRSTREADUNIT","U moet eerst het onderdeel lezen");//You must first read unit
+define("_MUSTFIRSTTAKEATLEAST","U moet eerst ten minste");//You must first take at least
+define("_YOURTIMEISUP","Uw tijd is om");//Your time is up
+define("_ATTEST","bij toets");//at test
+define("_WANTTOREDOTEST","Ik wil deze toets herhalen");//I want to redo this test
+define("_PERCENT","Percentage");//Percent
+define("_CANNOTREDOTEST","U kunt deze toets niet herhalen!");//You cannot redo this test!
+define("_LESSON","Les");//Lesson
+define("_ALL","Alle inhoud");//All content
+define("_GOTOFORUM","Ga naar forum");//Go to forum
+define("_SENDMESSAGEATFORUM","Plaats bericht");//Post message
+define("_SENDMESSAGE","Stuur bericht");//Send message
+define("_ANNOUNCEMENTS","Mededelingen");//Announcements
+define("_MESSAGESATFORUM","Forum berichten");//Forum messages
+define("_PERSONALMESSAGES","Persoonlijke berichten");//Personal messages
+define("_SOLVEDTESTS","Opgeloste toetsen");//Solved tests
+define("_ATFORUM","Op dit forum");//At forum
+define("_PRINTERFRIENDLY","Print eenheid");//Print unit
+define("_PRINTERFRIENDLYALLCONTENT","Print de volledige inhoud");//Print all the content
+define("_ADDCOMMENT","Voeg reactie toe");//Add comment
+define("_LESSONSELECT","Selecteer les");//Select lesson
+define("_CURRENTCONTENT","Huidige inhoud");//Material
+define("_COMMENTDELETED","De reactie is verwijderd");//The comment has been deleted
+define("_COMMENTADD","Voeg reactie toe");//Add comment
+define("_ADDYOURCOMMENT","Geef uw reactie");//Add your comment
+define("_SUCCESFULLYADDEDCOMMENT","De reactie is toegevoegd");//The comment was added successfully
+define("_SUCCESFULLYUPDATEDCOMMENT","De reactie is succesvol bijgewerkt");//The comment was updated successfully
+define("_SUCCESFULLYDELETEDFILEWINDOWCLOSE5SECONDS","Het bestand is verwijderd. Dit venster wordt automatisch gesloten binnen 5 seconden.");//The file was deleted. This window will automatically close in 5 seconds.
+define("_SUCCESFULLYDELETEDFOLDERWINDOWCLOSE5SECONDS","De map is verwijderd. Dit venster wordt automatisch gesloten binnen 5 seconden.");//The folder was deleted. This window will automatically close in 5 seconds.
+define("_NOTSUCCESFULLYDELETEDFOLDERWINDOWCLOSE5SECONDS","De map is niet verwijderd. Er mogen geen bestanden of mappen worden verwijderd. Dit venster wordt automatisch gesloten binnen 5 seconden.");//The folder was not deleted. It must not contain any files or folders to be deleted. This window will automatically close in 5 seconds.
+define("_SUCCESFULLYCREATEDFOLDERWINDOWCLOSE5SECONDS","De map is aangemaakt. Dit venster wordt automatisch gesloten binnen 5 seconden.");//The folder was created. This window will automatically close in 5 seconds.
+define("_FOLDERNAME","Naam map");//Folder name
+define("_CREATE","Maak");//Create
+define("_LESSONNOTSET","De les is niet ingesteld.");//The lesson was not set.
+define("_COPYNAMESFROMLEFTTORIGHTTOSAVEIMAGES","Kopieer de namen van de linker naar de rechter kolom, om de afbeelding op te slaan in uw document.");//Copy names from the left to the right column, in order to save the image files in your document.
+define("_THEFILE","Het bestand");//The file
+define("_MUSTBESMALLERTHAN","moet kleiner zijn dan");//must be smaller than
+define("_KILOBYTES","Kbytes.");//Kbytes.
+define("_HASBEENSEND","is verzonden.");//was sent.
+define("_SENDFILE","Verstuur bestand");//Send file
+define("_CLOSEWINDOW","Sluit venster");//Close window
+define("_UPDATE","Update");//Update
+define("_SUCCESFULLYDELETEDANNOUNCEMENTWINDOWCLOSE5SECONDS","De aankondiging is succesvol verwijderd");//The announcement was deleted successfully
+define("_ANNOUNCEMENTADD","Voeg aankondiging toe");//Add announcement
+define("_ANNOUNCEMENTTITLE","Titel aankondiging");//Announcement title
+define("_ANNOUNCEMENTBODY","Inhoud aankondiging");//Announcement body
+define("_SUCCESFULLYADDEDANNOUNCEMENTWINDOWCLOSE5SECONDS","De aankondiging is toegevoegd");//The announcement was added successfully
+define("_SUCCESFULLYUPDATEDANNOUNCEMENTWINDOWCLOSE5SECONDS","De aankondiging is bijgewerkt");//The announcement was updated successfully
+define("_ENDDATEMUSTBEBEFORESTARTDATE","De einddatum moet na de startdatum zijn.");//End date must be after start date.
+define("_SAVE","Opslaan");//Save
+define("_SUCCESFULLYUPDATEDQUESTION","De vraag is succesvol bijgewerkt");//The question was updated successfully
+define("_SUCCESFULLYADDEDQUESTION","De vraag is toegevoegd");//The question was added successfully
+define("_QUESTIONTEXT","Tekst vraag");//Question text
+define("_SAVEQUESTION","Vraag opslaan");//Save question
+define("_UNIT","Eenheid");//Unit
+define("_QUESTIONTYPE","Type vraag");//Type
+define("_DIFFICULTY","Moeilijkheid");//Difficulty
+define("_RATEMUSTBEBETWEEN0100","De score moet tussen 0 en 100 liggen");//The score must range between 0 and 100
+define("_ALLOFTHEM","Alle gebruikers");//All users
+define("_VALIDFOR","Geldig voor");//Valid for
+define("_TOBEEXCLUDEDFROMUNIT","te worden uitgesloten van de eenheid");//to be excluded from the unit
+define("_THEUNIT","de eenheid");//the unit
+define("_TESTNAME","Naam toets");//Test name
+define("_UNITPARENT","Moeder eenheid");//Parent unit
+define("_SAVETEST","Toets opslaan");//Save test
+define("_SUCCESFULLYADDEDRATE","Het percentage is succesvol toegevoegd");//The rate was inserted successfully
+define("_STUDENTANSWER","Antwoord student");//Student answer
+define("_SEARCHTABLERECREATED","De zoektabel is opnieuw aangemaakt");//The search table was recreated
+define("_SAVETHE","Opslaan");//Save the
+define("_OFTHELESSONATYOURCOMPUTER","van de les naar uw computer.");//of the lesson at your computer.
+define("_ATYOURCOMPUTER","op uw computer.");//at your computer.
+define("_DATAFILE","Data bestand");//Data file
+define("_NOTGIVEFILENAME","U heeft geen bestandsnaam opgegeven");//You did not supply a file name
+define("_LESSONDATAFILE","Lesgegevens bestand");//Lesson data file
+define("_INSERTDATA","Gegevens importeren");//Import data
+define("_OFLESSON","Van de les");//Of the lesson
+define("_CATEGORY","Categorie");//Category
+define("_SEARCH","Zoeken");//Search
+define("_DESCRIPTION","Beschrijving");//Description
+define("_TYPE","Type");//Type
+define("_POSITION","Positie");//Position
+define("_LESSONCONTENT","Les inhoud");//Lesson content
+define("_TITLE","Titel");//Title
+define("_TEXT","Tekst");//Text
+define("_NORESULTSFOUNDINFORUM","Geen resultaten gevonden in forum");//No results found in forum
+define("_SEARCHRESULTSINLESSONS","Zoekresultaten in lessen");//Search results in lessons
+define("_SEARCHRESULTSINFORUM","Zoekresultaten in forum");//Search results in forum
+define("_SEARCHRESULTSINUSERS","De zoekresultaten van gebruikers");//Search results in users
+define("_NOSEARCHRESULTSFOUND","Geen resultaten gevonden tijdens het zoeken");//No results found during the search
+define("_PRINTIT","Druk af!");//Print it!
+define("_LANGUAGEADMINISTRATION","Selecteer talen");//Set languages
+define("_INTERMEDIATESELLER","Tussenverkoper");//Intermediate salesman
+define("_PROFESSOR","Professor");//Professor
+define("_ADMINSTRATOR","Beheerder");//Administrator
+define("_CONTROLCENTER","Controle centrum");//Control center
+define("_EXAMPLES","Voorbeelden");//Examples
+define("_FORUM","Forum");//Forum
+define("_NOCONTENT","Eenheid zonder inhoud");//Unit without content
+define("_INACTIVE","Inactieve eenheid");//Inactive
+define("_CONTENTMANAGEMENT","Inhoud");//Content
+define("_SCHEDULING","Planning");//Scheduling
+define("_OFDEVELOPMENT","ontwikkeling");//development
+define("_MULTIPLECHOICEONESELECTION","Meerdere keuzes, 1 juist antwoord");//Multiple choices, single correct answer
+define("_MULTIPLECHOICEMULTIPLESELECTIONS","Meerdere keuzes, meerdere juiste antwoorden");//Multiple choices, multiple correct answers
+define("_OFMATCH","matching");//matching
+define("_OFEMPTYSPACES","Vul de lege velden in");//Fill in the blanks
+define("_LOW","Laag");//Low
+define("_MEDIUM","Gemiddeld");//Medium
+define("_HIGH","Hoog");//High
+define("_PERIODSPERSTUDENT","Periodes per student");//Periods per student
+define("_NETMEETINGSUPPORT","Netmeeting ondersteuning");//Netmeeting support
+define("_IFSTUDENTHASNOTSEEN","Als student niet heeft gezien");//If student has not seen
+define("_IFSTUDENTHASNOTPASSED","Als student het niet gehaald heeft");//If student has not passed
+define("_STUDENTALLWAYS","Student altijd");//Student allways
+define("_ACCESSRULES","Regels les");//Lesson rules
+define("_EMAILS","E-mails");//Emails
+define("_CHAT","Chat");//Chat
+define("_OFJANUARY","Januari");//January
+define("_OFFEBRUARY","Februari");//February
+define("_OFMARCH","Maart");//March
+define("_OFAPRIL","April");//April
+define("_OFMAY","Mei");//May
+define("_OFJUNE","Juni");//June
+define("_OFJULY","Juli");//July
+define("_OFAUGUST","Augustus");//August
+define("_OFSEPTEMBER","September");//September
+define("_OFOCTOBER","Oktober");//October
+define("_OFNOVEMBER","November");//November
+define("_OFDECEMBER","December");//December
+define("_ADDLANGUAGE","Voeg taal toe");//Add language
+define("_CURRENTLANGUAGES","Huidige taal");//Current languages
+define("_CHANGE","Veranderen");//Change
+define("_RETURN","Terug");//Return
+define("_UPDATESUCCESFULLYMADE","De update is voltooid");//The update was completed successfully
+define("_LESSONMATERIAL","Lesmateriaal");//Lesson material
+define("_NOQUESTIONSSETFORTHISUNIT","Er zijn geen vragen gedefinieerd");//There are no questions defined
+define("_ADDQUESTION","Vraag toevoegen");//Add question
+define("_PREVIEW","Voorvertoning");//Preview
+define("_RENAME","Andere naam geven");//Rename
+define("_CLONE","Kloon");//Clone
+define("_NOTESTSSETFORTHISUNIT","Geen toetsen gevonden");//No tests found
+define("_ADDTEST","Voeg toets toe");//Add test
+define("_UNITANDSUBUNITSTESTS","Eenheid en subeenheden toets");//Unit and subunits tests
+define("_NORESULTSFOUND","Geen resultaten gevonden!");//No results found!
+define("_PAGES","pagina's");//pages
+define("_UPLOADFILESANDIMAGES","Uploaden van bestanden en afbeeldingen");//Upload files and images
+define("_COPYFROMANOTHERLESSON","Kopiëren van een andere les");//Copy from another lesson
+define("_UNITNAME","Naam eenheid");//Unit name
+define("_CONTENTTYPE","Inhoud type");//Content type
+define("_CONTENT","Inhoud");//Content
+define("_UPDATEUNIT","Bijwerken eenheid");//Update unit
+define("_CREATESUBUNIT","Maak subeenheid");//Create subunit
+define("_CREATETEST","Maak toets");//Create test
+define("_ADDPERIOD","Toevoegen periode");//Add period
+define("_LESSONPERIODS","Les periodes");//Lesson periods
+define("_COPY","Kopiëren");//Copy
+define("_EXCLUDECONSTRAINT","Uitsluiting beperking");//Exclusion constraint
+define("_EXCLUSIONUNIT","Uitsluiting eenheid");//Exclusion unit
+define("_FUNCTIONS","Functies");//Functions
+define("_THETEST","de toets");//the test
+define("_WITHSCOREATLEAST","met een score van ten minste");//with rate at least
+define("_NOQUESTIONSTOCORRECTFORTHISLESSON","Geen vragen om te corrigeren voor deze les.");//No questions to correct for this lesson.
+define("_QUESTIONSTOCORRECT","Te corrigeren vragen");//Questions to correct
+define("_DELETESELECTED","Verwijder geselecteerde");//Delete selected
+define("_REDOABLE","Herhalingen toets");//Test repetitions
+define("_PROFESSORS","Professoren");//Professors
+define("_CANNOTOPENFOLDER","De map kan niet worden geopend");//The folder can&#039;t be opened
+define("_CREATEFOLDER","Maak map");//Create folder
+define("_OPENFOLDER","Open map");//Open folder
+define("_CUT","Knippen");//Cut
+define("_PASTE","Plakken");//Paste
+define("_UNDO","Ongedaan maken");//Undo
+define("_REDO","Opnieuw");//Redo
+define("_FIND","Zoeken");//Find
+define("_INSERTHYPERLINK","Invoegen hyperlink");//Insert hyperlink
+define("_INSERTIMAGE","Afbeelding invoegen");//Insert image
+define("_NORMAL","Normaal");//Normal
+define("_DEFAULT","Standaard");//Default
+define("_BOLD","Vet");//Bold
+define("_ITALIC","Cursief");//Italics
+define("_UNDERLINED","Onderstreept");//Underlined
+define("_FONTCOLOR","Kleur lettertype");//Font color
+define("_DIMENSIONS","Afmetingen");//Dimensions
+define("_CANCEL","Annuleren");//Cancel
+define("_OR","of");//or
+define("_LEFT","Links");//Left
+define("_RIGHT","Rechts");//Right
+define("_UP","Omhoog");//Up
+define("_MIDDLE","Midden");//Middle
+define("_DOWN","Omlaag");//Down
+define("_FILE","Bestand");//File
+define("_SELECTTHEONEYOUWANTASLINK","Selecteer het gewenste wat u wilt invoegen als hyperlink");//Select the one you want inserted as hyperlink
+define("_SELECTTHEONEYOUWANTAS","Selecteer het gewenste wat u wilt invoegen als");//Select the one you want inserted as
+define("_SMALLCAPSHYPERLINK","hyperlink");//hyperlink
+define("_ADD","Toevoegen");//Add
+define("_NOTE","Opmerking");//Note
+define("_SELECTLESSON","Kies een les");//Choose lesson
+define("_STUDENTS","Studenten");//Students
+define("_ADMINISTRATORS","Beheerders");//Administrators
+define("_LESSONSTATISTICS","Les verslagen");//Lesson reports
+define("_FILES","Bestanden");//Files
+define("_TOTALSIZE","De totale omvang");//Total size
+define("_NEWMESSAGE","Nieuw bericht");//New message
+define("_PARTICIPATION","Deelname");//Participation
+define("_AVERAGE","onopvallend");//unremarkable
+define("_ACTIVE","Actief");//Active
+define("_PASSWORDLOST","Bent u uw wachtwoord vergeten?");//Forgot your password?
+define("_ANEMAILHASBEENSENT","Een e-mailbericht met instructies is naar u verzonden.");//An email with instructions was sent to you.
+define("_PASSWORDRECOVERY","Achterhaal uw wachtwoord");//Recover your password
+define("_THENEWPASSWORDIS","Uw nieuwe wachtwoord is:");//Your new password is: 
+define("_EMAILWITHPASSWORDSENT","Een e-mail met uw nieuwe wachtwoord is naar u verzonden.");//An email with your new password was sent to you.
+define("_LINEARCONTENT","Volgorde inhoud");//Content order
+define("_ONEBYONE","Toon vragen 1 voor 1");//Show questions one by one
+define("_NEXTQUESTION","Volgende vraag");//Next question
+define("_IDONOTWANTTODOTHETEST","Ik heb mij bedacht. Ga terug");//I changed my mind. Please take me back
+define("_YOUHAVE","U heeft");//You have
+define("_SENDFILEASANSWER","Upload een bestand als antwoord");//Upload a file as an answer
+define("_FILEUPLOADED","File ge-upload");//File uploaded
+define("_PREVIOUSQUESTION","Vorige vraag");//Previous question
+define("_RESTARTLESSON","Initialiseren les");//Lesson initialization
+define("_RESTARTLESSONCOMPLETED","De les is geïnitialiseerd");//The lesson has been initialized
+define("_UPLOADFILE","Upload bestand");//Upload file
+define("_PROBLEMUPLOADINGFILE","Er heeft zich een probleem voorgedaan bij het uploaden van het bestand");//There was a problem while uploading file
+define("_SHOW","Tonen");//Show
+define("_URL","URL");//URL
+define("_TARGET","Doel");//Target
+define("_NONE","Geen");//None
+define("_OTHER","Andere");//Other
+define("_TEXTTOP","Bovenkant tekst");//Texttop
+define("_ABSMIDDLE","Absmiddle");//Absmiddle
+define("_ABSBOTTOM","Absbottom");//Absbottom
+define("_BASELINE","Baseline");//Baseline
+define("_CELLSPACING","Cell spacing");//Cell spacing
+define("_CELLPADDING","Cell padding");//Cell padding
+define("_EM","Em");//Em
+define("_WIDTH","Breedte");//Width
+define("_ALIGN","Uitlijnen");//Align
+define("_BORDER","Grens");//Border
+define("_BOTTOM","Onderkant");//Bottom
+define("_CSS","CSS");//CSS
+define("_CAPTION","Hoofdletter");//Caption
+define("_CENTER","Midden");//Center
+define("_CHAR","Char");//Char
+define("_HEIGHT","Hoogte");//Height
+define("_JUSTIFY","Uitvullen");//Justify
+define("_MARGIN","Marge");//Margin
+define("_PADDING","Padding");//Padding
+define("_RULES","Regels");//Rules
+define("_SUMMARY","Samenvatting");//Summary
+define("_TEXTALIGN","Tekst uitlijnen");//Text align
+define("_TOP","Top");//Top
+define("_ENTER","Inloggen");//Login
+define("_HASBEENLOGGEDOUT","is afgemeld");//has been logged out
+define("_LOGOUT","Uitloggen");//Logout
+define("_EACHFILESIZEMUSTBESMALLERTHAN","Elk bestand moet kleiner zijn dan");//Each file must be smaller than
+define("_DONE","Gereed");//Done
+define("_UPLOADTHESCORMFILEINZIPFORMAT","Upload SCORM bestand als ZIP");//Upload SCORM file in ZIP format
+define("_SCORMEXPORT","Exporteer les naar SCORM");//Export lesson to SCORM
+define("_SCORMIMPORT","Importeer SCORM-inhoud");//Import SCORM content
+define("_FORUMPOSTS","Forum berichten");//Forum messages
+define("_TOTAL","Totaal");//Total
+define("_ALLLESSONS","Alle lessen");//All lessons
+define("_STUDENTSOFLESSON","Studenten van les");//Students of lesson
+define("_REVIEWSCORMDATA","Bekijk SCORM gegevens");//Review SCORM data
+define("_IMPORTOFUNIT","Importeer van eenheid");//Import of unit
+define("_SELECTFILE","Selecteer een bestand");//Select a file
+define("_THESYSTEMSUGGESTSTHEFILES","Het systeem stelt de volgende bestanden voor");//The systems suggests the files
+define("_CHECKIFITISASINGLESCO","Controleer of het een enkele SCO is");//Check if it is a single SCO
+define("_CHOOSESTUDENT","Selecteer een student");//Select a student
+define("_NOSCORMDATAFOUNDFORTHISSTUDENT","Geen SCORM gegevens gevonden voor deze student");//No SCORM data found for this student
+define("_ENTRY","Input");//Entry
+define("_TOTALTIME","Totale tijd");//Total time
+define("_MINSCORE","Minimale score");//Minimum score
+define("_MAXSCORE","Maximale score");//Maximum score
+define("_FINALSCORE","Definitieve score");//Final score
+define("_TOCAPITAL","Aan");//To
+define("_NOTEPUBLICROOMSARESTOREDANDACCESSED","Opmerking: Gesprekken in de openbare ruimte worden vastgelegd en beschikbaar gesteld aan alle gebruikers");//Note: Conversations in public rooms are recorded and made available to all users
+define("_PRIVATEROOM","Persoonlijke ruimte");//Private room
+define("_ENTEREDROOM","de ruimte binnen gegaan");//entered the room
+define("_LEFTTHEROOM","de ruimte verlaten");//left the room
+define("_WRONGROOMID","Verkeerde ruimte ID");//Wrong room id
+define("_EXITCHAT","Chat verlaten");//Exit chat
+define("_ADJUSTTOPAGE","Aanpassen aan pagina");//Adjust to page
+define("_CREATEPUBLICROOM","Maak openbare ruimte");//Create public room
+define("_CREATEPRIVATEROOM","Maak persoonlijke ruimte");//Create private room
+define("_OPENROOMS","Open ruimtes");//Open rooms
+define("_NEWPUBLICROOM","Nieuwe openbare ruimte");//New public room
+define("_NEWPRIVATEROOM","Nieuwe persoonlijke ruimte");//New private room
+define("_SHOWPASTCOVERSATIONS","Toon gesprekken uit het verleden");//Show past conversations
+define("_PUBLICROOMS","Openbare ruimtes");//Public rooms
+define("_PRIVATEROOMS","Persoonlijke ruimtes");//Private rooms
+define("_PARTICIPANTS","deelnemers");//participants
+define("_NOROOMSFOUND","Geen ruimtes gevonden");//No rooms found
+define("_DEACTIVATE","Deactiveren");//Deactivate
+define("_ACTIVATE","Activeren");//Activate
+define("_SYSTEMMESSAGE","Systeem bericht");//System message
+define("_ROOMALREADYEXISTS","Een ruimte met deze naam bestaat al");//A room with this name already exists
+define("_ROOMNAME","Naam ruimte");//Room name
+define("_ACTIVENEUTRAL","Actief");//Active
+define("_SHOWCONVERSATIONSFORROOM","Toon gesprekken voor de ruimte");//Show conversations for the room
+define("_NOMESSAGESFOUNDFORTHISINTERVAL","Geen conversaties gevonden in deze ruimte voor de opgegeven interval");//No conversations found in this room for the specified interval
+define("_MESSAGE","Bericht");//Message
+define("_FILESIZE","Bestandsgrootte");//File size
+define("_ILLEGALFILENAME","Onjuiste bestandsnaam");//Illegal file name
+define("_IRREVERSIBLEACTIONAREYOUSURE","Deze handeling is onomkeerbaar! Weet u het zeker?");//This operation is irreversible! Are you sure?
+define("_FILENAME","Bestandsnaam");//File name
+define("_SUCCESFULLYDELETEDFILE","Bestand succesvol verwijderd");//Successfully deleted file
+define("_TAKEBACKUP","Backup!");//Backup!
+define("_SUCCESFULLYBACKEDUP","Backup met succes voltooid");//Backup successfully completed
+define("_NONEXISTINGMAIL","Deze e-mail/login behoort tot geen enkele gebruiker");//This email/login does not belong to any user
+define("_PORT","Server poort");//Server port
+define("_DATABASE","Database naam");//Database name
+define("_ACTIVATELDAP","Activeer LDAP-ondersteuning");//Activate LDAP support
+define("_LDAPSERVER","LDAP-server");//LDAP server
+define("_LDAPBINDDN","LDAP verbinden DN");//LDAP bind DN
+define("_LDAPPASSWORD","LDAP verbinden wachtwoord");//LDAP bind password
+define("_SUPPORTONLYLDAP","Ondersteuning alleen LDAP-registratie");//Support only LDAP registration
+define("_LOGINATTRIBUTE","Eigenschap login naam");//Login name attribute
+define("_LDAPCOMMONNAME","Eigenschap volledige naam");//Full name attribute
+define("_LDAPADDRESS","Eigenschap adres");//Address attribute
+define("_LDAPLOCALITY","Eigenschap stad");//City attribute
+define("_LDAPTELEPHONENUMBER","Eigenschap telefoonnummer");//Phone number attribute
+define("_LDAPMAIL","Eigenschap e-mail");//Email attribute
+define("_LDAPLANGUAGE","Eigenschap taal");//Language attribute
+define("_CHECKSETTINGS","Check instellingen");//Check settings
+define("_LDAPPORT","LDAP-server poort");//LDAP server port
+define("_USESSL","Gebruik SSL-verbinding");//Use SSL connection
+define("_CANNOTCONNECTLDAPSERVER","Het systeem kan geen verbinding maken met LDAP-server");//The system was unable to connect to LDAP server
+define("_CANNOTBINDLDAPSERVER","Het systeem was niet in staat te verbinden met LDAP-server");//The system was unable to bind to LDAP server
+define("_LDAPCONFIGURATION","LDAP-configuratie");//LDAP configuration
+define("_LDAPBASEDN","LDAP Basis DN");//LDAP Base DN
+define("_YOUHAVEALREADYCORRECTEDTHISQUESTION","U heeft deze vraag al gecorrigeerd");//You have already corrected this question
+define("_SHOWALL","Toon alles");//Show all
+define("_TOTALLOGINS","Totaal aantal systeem logins");//Total system logins
+define("_ALLOWEDIPS","Toegestane IP-adressen");//Allowed IPs
+define("_COMMASEPARATEDLISTASTERISKEXAMPLE","Door komma´s gescheiden lijst. Het sterretje * is toegestaan. Voorbeeld: 192.168.0 .*, 192.168.1.1, 192.168.1.100");//Comma separated list. The asterisk * is allowed. Example: 192.168.0.*, 192.168.1.1, 192.168.1.100
+define("_DISALLOWEDIPS","Niet toegestane IP-adressen");//Disallowed IPs
+define("_ALLOWEDEXTENSIONS","Toegestane bestandsextensies");//Allowed file extensions
+define("_DISALLOWEDEXTENSIONS","Niet toegestane bestandsextensies");//Disallowed file extensions
+define("_COMMASEPARATEDLISTASTERISKEXTENSIONEXAMPLE","Door komma´s gescheiden lijst. Voorbeeld: php, js, exe, cgi");//Comma separated list. Example: php, js, exe, cgi
+define("_DENIALTAKESPRECEDENCE","Afwijzen gaat vooraf aan toestemming vragen. Als beide velden leeg zijn, dan is alles toegestaan");//Denial precedes permission. If both fields are left blank, then everything is allowed
+define("_CONTACTUS","Neem contact met ons op");//Contact us
+define("_LDAPPROTOCOLVERSION","LDAP-protocol versie");//LDAP Protocol Version
+define("_GOTOINBOX","Ga naar Postvak IN");//Go to inbox
+define("_RECENTCOMMENTS","Laatste reacties");//Last comments
+define("_CONTROLPANEL","Controle paneel");//Control panel
+define("_YOUCANNOTCREATETHISFOLDER","U kunt een dergelijke map niet aanmaken");//You cannot create such a folder
+define("_INVALIDID","Ongeldige ID");//Invalid id
+define("_UNPRIVILEGEDATTEMPT","U heeft niet de rechten voor het uitvoeren van deze handeling");//You do not have the priviledges to perform this action
+define("_INVALIDLOGIN","Ongeldige login naam");//Invalid login name
+define("_DOWNLOADLANGUAGEFILE","Download taal bestand");//Download language file
+define("_SOMEPROBLEMOCCURED","Er heeft zich een probleem voorgedaan");//Some problem occured
+define("_ALTERNATIVELYCOPYANDPASTEBROWSER","Als alternatief kunt u de link kopiëren en plakken in de adresbalk van de browser");//Alternatively, you may copy the link and paste it in your browser&#039;s address field
+define("_YOUCANNOTACCESSTHISFOLDER","U heeft geen toegang tot deze map");//You do not have access to this folder
+define("_YOUCANNOTDELETETHISFILE","U kunt dit bestand niet verwijderen");//You cannot delete this file
+define("_TRIEDTODELETE","Geprobeerd bestand te verwijderen");//Tried to delete file
+define("_ACTION","Actie");//Action
+define("_NOTES","Notities");//Notes
+define("_SENDFILES","Stuur bestanden");//Send files
+define("_YOUCANNOTUPLOADFILESWITHTHISEXTENSION","U kunt geen bestanden oploaden met deze extensie");//You cannot upload files with this extension
+define("_YOUMAYONLYUPLOADFILESWITHEXTENSION","U mag alleen bestanden uploaden met de extensie");//You may only upload files with extension
+define("_COULDNOTCREATEFOLDER","Kan map niet aanmaken. Controleer de naam van de map en controleer of de map nog niet bestaat");//Could not create folder. Please check the folder name and that the folder does not already exist
+define("_REGISTERANEWACCOUNT","Nieuwe gebruikersaccount");//New user account
+define("_REC","Rec");//rec
+define("_SUCESSFULLYCONNECTEDTOLDAPSERVER","Met succes verbonden met LDAP-server");//Successfully connected to LDAP server
+define("_DIRECTIONDELETED","Categorie verwijderd");//Category deleted
+define("_NOANNOUNCEMENTSPOSTED","Geen mededelingen geplaatst voor deze les");//No announcements posted
+define("_NONEWFORUMMESSAGES","Geen forum berichten met betrekking tot deze les");//No forum messages
+define("_NONEWPERSONALMESSAGES","Geen nieuwe persoonlijke berichten in uw Postvak IN");//No new personal messages in your inbox
+define("_NONEWCOMMENTS","Geen nieuwe opmerkingen");//No new comments
+define("_NOMATERIALINTHISLESSON","De les is momenteel leeg");//The lesson is currently empty
+define("_NOSOLVEDTESTSFOUND","Geen voltooide toetsen");//No solved tests
+define("_NORELATEDPOSTSFOUND","Geen berichten die relevant zijn voor deze eenheid.");//No posts relevant to this unit.
+define("_SUCCESSFULLYCREATEDLESSON","De les is met succes aangemaakt");//The lesson was created successfully
+define("_SORRYNEEDIFRAME","Sorry, u heeft iframe-ondersteuning nodig voor het gebruiken van de Chat");//Sorry, you need iframe support to use the Chat
+define("_TOPICSUBJECT","Onderwerp");//Topic subject
+define("_SEARCHRESULTS","Zoekresultaten");//Search results
+define("_NORESULTSFOUNDINPERSONALMESSAGES","Geen resultaten gevonden in persoonlijke berichten");//No results found in personal messages
+define("_SEARCHRESULTSINPERSONALMESSAGES","Zoekresultaten in persoonlijke berichten");//Search results in personal messages
+define("_SEARCHRESULTSINCOURSES","Zoekresultaten in cursussen");//Search results in courses
+define("_MESSAGEFOLDER","Berichten map");//Message folder
+define("_EMAIL","e-mail");//Email
+define("_RESETPASSWORD","Het wachtwoord opnieuw instellen");//Reset password
+define("_JOINED","Toegevoegd");//Joined
+define("_MOREINFO","Meer info");//More info
+define("_AVERAGESCORE","Gemiddelde score");//Average score
+define("_CHATMESSAGES","Chat-berichten");//Chat messages
+define("_MONTHLOGINS","Logins afgelopen maand");//Logins last month
+define("_WEEKLOGINS","Logins vorige week");//Logins last week
+define("_MEANDURATION","De gemiddelde duur per sessie");//Mean session duration
+define("_MONTHMEANDURATION","De gemiddelde duur per sessie afgelopen maand");//Mean session duration last month
+define("_WEEKMEANDURATION","De gemiddelde duur per sessie afgelopen week");//Mean session duration last week
+define("_MONTH","Maand");//Month
+define("_WEEK","Week");//Week
+define("_PRICE","Prijs");//Price
+define("_DURATION","Duur");//Duration
+define("_MAINTENANCE","Onderhoud");//Maintenance
+define("_FORUMLASTMESSAGE","Laatste bericht in het forum");//Last message in forum
+define("_MESSAGESFOLDERS","Persoonlijke berichten mappen");//Personal messages folders
+define("_FOLDERS","Mappen");//Folders
+define("_CHATLASTMESSAGE","Laatste bericht in chat");//Last message in chat
+define("_INFO","Informatie");//Information
+define("_LASTPOST","Laatste bericht");//Last post
+define("_TOTALQUESTIONS","Totaal vragen");//Total questions
+define("_DEVELOPMENT","Ontwikkeling");//Development
+define("_MULTIPLEONE","Meerdere keuzes - 1 juist antwoord");//Multiple choices - Single correct answer
+define("_MULTIPLEMANY","Meerdere keuzes - Meerdere juiste antwoorden");//Multiple choices - Many correct answers
+define("_MATCH","Combineer");//Match
+define("_EMPTYSPACES","Lege ruimtes");//Empty spaces
+define("_LOWDIFFICULTY","Lage moeilijkheidsgraad");//Low difficulty
+define("_MEDIUMDIFFICULTY","Gemiddelde moeilijkheidsgraad");//Medium difficulty
+define("_HIGHDIFFICULTY","Hoge moeilijkheidsgraad");//High difficulty
+define("_CATEGORIES","Categorieën");//Categories
+define("_OVERALL","In zijn totaal");//Overall
+define("_BACKTOTOP","Terug naar boven");//Back to top
+define("_STATISTICSFORLESSON","Rapporten voor de les");//Reports for lesson
+define("_GENERALLESSONINFO","Algemene les informatie");//General lesson information
+define("_LESSONPARTICIPATIONINFO","Informatie les deelname");//Lesson participation information
+define("_LESSONCONTENTINFO","Informatie les inhoud");//Lesson content information
+define("_TESTINFO","Informatie toets");//Test information
+define("_QUESTIONINFO","Informatie vraag");//Question information
+define("_VIEWTEST","Bekijk toets");//View test
+define("_SYSTEMSTATISTICS","Systeem rapporten");//System reports
+define("_ORDER","Volgorde");//Order
+define("_TEST","Toets");//Test
+define("_TOPICSUCCESFULLYCREATED","Het onderwerp is aangemaakt");//The topic was created successfully
+define("_SUCCESFULLYPOSTEDMESSAGE","Uw bericht is met succes verzonden");//Your message was posted successfully
+define("_SUCCESFULLYUPDATEDTOPIC","Het onderwerp is bijgewerkt");//The topic was updated successfully
+define("_SUCCESFULLYUPDATEDMESSAGE","Het bericht is bijgewerkt");//Your message was updated successfully
+define("_INVISIBLE","Onzichtbaar");//Invisible
+define("_LOCKED","Geblokkeerd");//Locked
+define("_PUBLIC","Openbaar");//Public
+define("_PREVIEWMESSAGE","Voorbeeld van bericht");//Preview message
+define("_BODY","Inhoud");//Body
+define("_ATTACHMENT","Bijlage");//Attachment
+define("_RECENTMESSAGESATFORUM","Laatste berichten op het forum");//Last messages at forum
+define("_RECENTUNREADPERSONALMESSAGES","Recente ongelezen persoonlijke berichten");//Recent unread personal messages
+define("_NOCONTENTAVAILABLE","Geen eenheden met een dergelijke inhoud zijn momenteel beschikbaar");//No units of this content-type currently available
+define("_THEREWASAPROBLEMDELETETINGFILEWINDOWCLOSE5SECONDS","Een probleem heeft zich voorgedaan tijdens het verwijderen van het bestand. Dit venster sluit automatisch in 5 seconden");//A problem occured during the file deletion. This window will close automatically in 5 seconds
+define("_TRIEDTOCREATEFOLDER","Geprobeerd map aan te maken:");//Tried to create folder:
+define("_COULDNOTCREATEFOLDERWINDOWCLOSE5SECONDS","De map kan niet worden aangemaakt. Dit venster sluit automatisch in 5 seconden");//The folder could not be created. This window will close automatically in 5 seconds
+define("_INVALIDNAME","Ongeldige naam");//Invalid name
+define("_THISFOLDERCONTAINS","Deze map bevat");//This folder contains
+define("_TOPICS","Onderwerpen");//Topics
+define("_FILEDOESNOTEXIST","Bestand bestaat niet");//File does not exist
+define("_ADDLINK","Voeg link toe");//Add link
+define("_CONTENTUNITS","Inhoud eenheden");//Content units
+define("_MAINPAGE","Hoofdpagina");//Main page
+define("_PLEASEGIVEYOURLOGINOREMAIL","Vul uw gebruikersnaam of e-mail in");//Please give your login or email
+define("_LESSONSETTINGS","Beheer");//Administration
+define("_ADMINISTRATOR","Beheerder");//Administrator
+define("_PROGRESS","Voortgang");//Progress
+define("_IMAGEFILE","Afbeeldingsbestand");//Image file
+define("_SETAVATAR","Stel avatar in");//Set avatar
+define("_CURRENTAVATAR","Huidige avatar");//My avatar
+define("_DELETECURRENTAVATAR","Verwijder huidige avatar");//Delete current avatar
+define("_ONLYIMAGEFILESAREVALID","Alleen beeldbestanden zijn geldig. Selecteer een beeldbestand.");//Only image files are valid. Please select an image file.
+define("_VIEWLIST","Bekijk de lijst");//View list
+define("_SUCCESFULLYSETAVATAR","Nieuwe avatar is ingesteld");//New avatar is set successfully
+define("_TOPICDELETEDSUCCESSFULLY","Onderwerp verwijderd");//Topic deleted successfully
+define("_MESSAGEDELETEDSUCCESSFULLY","Het bericht is verwijderd");//Message deleted successfully
+define("_POSTS","Berichten");//Posts
+define("_BY","door");//by
+define("_NEWCATEGORY","Nieuwe categorie");//New category
+define("_FORUMCONFIGURATIONPANEL","Forum configuratie scherm");//Forum configuration
+define("_VIEWS","Bezoeken");//Views
+define("_STICKY","Sticky");//Sticky
+define("_NOTOPICSFOUND","Geen onderwerpen gevonden");//No topics found
+define("_NEWTOPIC","Nieuw onderwerp");//New topic
+define("_POSTEDBY","Geplaatst door");//Posted by
+define("_ON","op");//on
+define("_INREPLYTO","als antwoord op");//in reply to
+define("_REPLYWITHQUOTE","Antwoord met citaat");//Reply with quote
+define("_QUOTE","citeren");//quote
+define("_REPLY","Antwoorden");//Reply
+define("_AREYOUSUREYOUWNATTODELETEMESSAGE","Weet u zeker dat u het bericht wilt verwijderen");//Are you sure you want to delete message
+define("_EDIT","Bewerken");//Edit
+define("_STATUS","Status");//Status
+define("_NOMESSAGESFOUND","Er zijn geen berichten gevonden");//No messages found
+define("_GOTOCHATROOMSLIST","Ga naar lijst chat ruimten");//Go to chat rooms list
+define("_ROOM","Ruimte");//Room
+define("_INVITE","Uitnodigen");//Invite
+define("_INVITESYOUCLICKLINK","nodigt u uit voor een chatsessie. Klik op de link hieronder om deel te nemen aan de chatsessie.");//invites you to a chat session. Click the link below to be taken to the chat room.
+define("_GOTOCHATROOM","Ga naar de chatruimte");//Go to chat room
+define("_CHATINVITATION","Uitnodiging chat");//Chat invitation
+define("_NEWCONTENT","Nieuwe inhoud");//New content
+define("_NONEWCONTENT","Geen nieuwe inhoud");//No new content
+define("_TEMPLATE","Template");//Template
+define("_APPLY","Doorvoeren");//Apply
+define("_PRIVATECONVERSATIONWITH","Prive-gesprek met");//Private conversation with
+define("_TORESPOND","om te reageren ...");//to respond...
+define("_TOAPRIVATECONVERSATION","naar een prive-gesprek");//to a private conversation
+define("_INVITESYOUTOPRIVATECONVERSATION","nodigt u uit voor een prive-gesprek");//is inviting you to a private conversation
+define("_DOYOU","Heeft u");//Do you
+define("_QUESTIONMARK","?");//?
+define("_CONVERSATIONINVITATIONACCEPTED","De gespreksuitnodiging is geaccepteerd");//The conversation invitation was accepted
+define("_CONVERSATIONINVITATIONDENIED","De gespreksuitnodiging werd geweigerd");//The conversation invitation was denied
+define("_YOUACCEPT","accepteren");//accept
+define("_YOUDENY","weigeren");//deny
+define("_THEMAILCOULDNOTBESENDTRYLATER","De e-mail kan niet worden verzonden. Probeer het later opnieuw of neem contact op met de systeembeheerder");//The email could not be send. Please try again later or contact the system administrator
+define("_AUTOMATEDEMAILSENTFROM","Dit is een automatische e-mail verstuurd vanaf het adres:");//This is an automated email sent from the address:
+define("_CLIKCINGONTHELINKWILLCONFIRM","Als u op de link klikt bevestigt u dat uw e-mailadres geldig is, zodat een nieuw wachtwoord naar u kan worden gestuurd.");//Clicking on the link will confirm that your email address is valid so a new password can be sent to you.
+define("_FORFURTHERCONTACTADMINAT","Voor meer informatie kunt u contact opnemen met de systeembeheerder via de volgende URL");//For further information you may contact the system administrator through the following URL:
+define("_KINDREGARDSEFRONT","Met vriendelijke groet");//With kind regards
+define("_THISISANAUTOMATEDEMAILSENTFROM","Dit is een automatisch verzonden e-mail van");//This is an automated email sent from
+define("_BECAUSEYOUASKEDTORECOVERPASSWORD","omdat u uw wachtwoord opnieuw opgevraagd heeft.");//because you asked to recover your password.
+define("_PLEASECLICKTHECONFIRMATIONLINKBELOW","Klik op de bevestigings-link hieronder:");//Please click the confirmation link below:
+define("_WITHTHENEWPASSWORD","met uw nieuwe wachtwoord.");//with your new account password.
+define("_REGISTRATIONEMAIL","Registratie e-mail");//Registration email
+define("_CURRENCYSYMBOL","€");//&euro;
+define("_ELEARNINGPLATFORM","e-learning systeem");//eLearning platform
+define("_ACCOUNTACTIVATEDWITHPERSONALINFORMATION","Uw account is aangemaakt met de volgende persoonlijke gegevens:");//Your account was successfully created with the following personal information:
+define("_YOUHAVEAPPLIEDFORTHELESSONS","U heeft zich aangemeld om deel te nemen aan de volgende lessen:");//You have applied to attend the following lessons:
+define("_YOUMAYSTARTUSINGFREEIMMEDIATELYBUTNOTNONFREE","U kunt direct beginnen met het bijwonen van lessen die gratis zijn. Als uw selectie geen lessen bevat die gratis zijn, dan zal de beheerder de selectie eerst moeten goedkeuren voordat u deze lessen kunt bijwonen.");//You may start attending lessons that are free immediately. If your selection includes lessons that are not free, the administrator must apply your selection before using them.
+define("_YOUMAYALTERPERSONALINFORMATIONFROMSETTINGS","Alle persoonlijke gegevens die u hebt opgestuurd, alsmede uw selectie van lessen, kan op elk gewenst moment veranderd worden vanaf uw persoonlijke instellingen pagina.");//All the personal info you have submitted, as well as your lessons selection, may be altered at any time from your personal settings page.
+define("_YOUMAYLOGINIMMEDIATELY","U kunt inloggen en onmiddellijk gebruik maken van het systeem");//You may login and start using the system immediately
+define("_YOUMAYLOGINWHENADMINACTIVATESYOU","U kunt gebruik maken van het systeem zodra de beheerder uw account heeft goedgekeurd");//You may start using the system as soon as the administrator activates your account
+define("_EMAILSENTFROM","E-mail verzonden van");//Email sent from
+define("_STUDENTSOFLESSONSMALL","studenten van les");//students of lesson
+define("_DIRECTIONDEACTIVATED","Categorie uitgeschakeld");//Category deactivated
+define("_DIRECTIONACTIVATED","Categorie geactiveerd");//Category activated
+define("_LESSONUPDATED","Les bijgewerkt");//Lesson updated
+define("_LESSONDEACTIVATED","Les uitgeschakeld");//Lesson deactivated
+define("_LESSONACTIVATED","Les geactiveerd");//Lesson activated
+define("_VIEWALL","Bekijk alle");//View all
+define("_FILESANDSUBFOLDERS","bestanden en submappen");//files and subfolders
+define("_ATTACHMENTS","Bijlagen");//Attachments
+define("_PROBLEMQUERYINGDATABASE","Probleem database query");//Problem querying database
+define("_FIRSTNAME","Voornaam");//First name
+define("_LASTNAME","Achternaam");//Last name
+define("_LESSONSTATUS","Status les");//Lesson status
+define("_SPACEUSAGE","Gebruik ruimte");//Space usage
+define("_NEWFOLDER","Nieuwe map");//New folder
+define("_VIEWFOLDERSTATISTICS","Bekijk statistieken map");//View folder statistics
+define("_VIEWMESSAGE","Bekijk bericht");//View message
+define("_OFTOTAL","van het totaal");//of total
+define("_KBYTESUSED","Kbytes gebruikt");//Kbytes used
+define("_MARK","Markeren");//Mark
+define("_WITHSELECTED","Met geselecteerde");//With selected
+define("_MARKASREAD","Markeren als gelezen");//Mark&nbsp;as&nbsp;read
+define("_MARKASUNREAD","Markeren als ongelezen");//Mark&nbsp;as&nbsp;unread
+define("_MOVETOFOLDER","Verplaatsen naar map");//Move to folder
+define("_MOVE","Verplaatsen");//Move
+define("_PERSONALMESSAGE","Persoonlijk bericht");//Personal message
+define("_FROM2","Van:");//From:
+define("_TO2","Aan:");//To:
+define("_SUBJECT2","Onderwerp:");//Subject:
+define("_BECAUSEYOURMESSAGEBOXISFULL","omdat uw mailbox vol is");//because your message box is full
+define("_YOURMESSAGETO","Uw bericht aan");//Your message to
+define("_COULDNOTBEDELIVERED","kon niet worden afgeleverd");//could not be delivered
+define("_BECAUSEHISMESSAGEBOXISFULL","omdat zijn mailbox vol is");//because his message box is full
+define("_THEMESSAGE","Bericht");//Message
+define("_MESSAGEWASSENT","Bericht is verzonden");//Message was sent 
+define("_INVALIDFOLDERNAME","Ongeldige mapnaam");//Invalid folder name
+define("_SORRYYOUCANNOTCREATEANYMOREFOLDERS","Excuses, maar u kunt geen enkele andere map aanmaken");//Sorry but you cannot create any other folders
+define("_FOLDERWITHSAMENAMEALREADYEXISTS","Een map met deze naam bestaat al");//A folder with the same name already exists
+define("_FOLDERCREATED","Map aangemaakt");//Folder created
+define("_FOLDERUPDATED","Map bijgewerkt");//Folder updated
+define("_FOLDERDELETED","Map verwijderd");//Folder deleted
+define("_NEWFOLDERNAME","Nieuwe mapnaam");//New folder name
+define("_THISFOLDERDOESNOTEXIT","Deze map bestaat niet");//This folder does not exist
+define("_MODIFY","Wijzigen");//Modify
+define("_FOLDER","Map");//Folder
+define("_SIZE","Grootte");//Size
+define("_YOUMUSTSPECIFYANACTION","U moet een handeling aangeven");//You must specify an action
+define("_ALLOWHTMLFPM","Sta HTML toe in forum en persoonlijke berichten");//Allow HTML in Forum and Personal messages
+define("_ACTIVATEPOLLS","Activeer polls");//Activate polls
+define("_ALLOWATTACHMENTSINF","Laat bijlagen in forum toe");//Allow attachments in forum
+define("_PMQUOTA","Persoonlijke berichten quota");//Personal messages quota
+define("_PMATTACHMENTSQUOTA","Persoonlijke berichten bijlagen quota");//Personal messages attachments quota
+define("_YOUMUSTSELECTMESSAGESTODELETE","U moet berichten kiezen om te verwijderen");//You must select messages to delete
+define("_YOUMUSTSELECTMESSAGESTOMOVE","U moet berichten kiezen om te verplaatsen");//You must select messages to move
+define("_YOUMUSTSELECTMESSAGESTOMARK","U moet berichten kiezen om te markeren");//You must select messages to mark
+define("_SUCCESSFULLYDELETEDMESSAGES","Berichten zijn verwijderd");//Messages were successfully deleted
+define("_AREYOUSURETODELETEFOLDER","Weet u zeker dat u deze map wilt verwijderen");//Are you sure you want to delete folder
+define("_ANDALLCONTENTS","en al zijn onderdelen?");//and all its components?
+define("_APPROACHINGMESSAGEQUOTA","U heeft bijna uw berichten quota bereikt.");//You are approaching your message quota.
+define("_DELETEOLDMESSAGES","Verwijder oude berichten om ruimte te besparen.");//Please delete any old messages to save space.
+define("_MESSAGEBOXSIZECRITICAL","Uw inbox is bijna vol.");//Your messages box size is critical.
+define("_ERASEMESSAGESNOTRECEIVENEW","Als u geen berichten verwijderd, zal u geen nieuwe berichten meer kunnen ontvangen.");//If you don&#039;t erase any messages, you will not be able to receive new ones.
+define("_NOMESSAGESINFOLDER","Er zijn geen berichten in deze map");//No messages in this folder
+define("_AREYOUSURETODELETEMESSAGE","Weet u zeker dat u dit bericht wilt verwijderen?");//Are you sure you want to delete this message?
+define("_TRIEDACCESSMESSAGEMALFORMEDID","Het openen van berichten met misvormde ID");//Tried to access messages with malformed id
+define("_THISMESSAGEDOESNOTEXIST","Dit bericht bestaat niet");//This message does not exist
+define("_RETURNFOLDERSLIST","Terug naar de lijst met mappen");//Return to folders list
+define("_TOFORUM","Aan");//To
+define("_RE","Re");//Re
+define("_INCOMING","Inkomende");//Incoming
+define("_SENT","Verstuurd");//Sent
+define("_DRAFTS","Concepten");//Drafts
+define("_CALENDAR","Kalender");//Calendar
+define("_JANUARY","Januari");//January
+define("_FEBRUARY","Februari");//February
+define("_MARCH","Maart");//March
+define("_APRIL","April");//April
+define("_MAY","Mei");//May
+define("_JUNE","Juni");//June
+define("_JULY","Juli");//July
+define("_AUGUST","Augustus");//August
+define("_SEPTEMBER","September");//September
+define("_OCTOBER","Oktober");//October
+define("_NOVEMBER","November");//November
+define("_DECEMBER","December");//December
+define("_MON","M");//M
+define("_TUE","D");//T
+define("_WED","W");//W
+define("_THU","D");//T
+define("_FRI","V");//F
+define("_SAT","Z");//S
+define("_SUN","Z");//S
+define("_VALUE","Waarde");//Value
+define("_PERSONALDATACHANGESUCCESSADMIN","Persoonlijke info van gebruiker is succesvol gewijzigd");//User&#039;s personal info have been successfully altered
+define("_CONTINUE","Doorgaan");//Continue
+define("_WEB","Persoonlijke pagina");//Personal page
+define("_DATA","Data");//Data
+define("_USERNAMEERROR","Vul hier een display naam in!");//Please enter the a display name!
+define("_CVERROR","Vul wat informatie over u in!");//Please fill in some information about you!
+define("_NUM","Ticker aantal");//Ticker number
+define("_SCORM","SCORM");//SCORM
+define("_MYSETTINGS","mijn Instellingen");//my Settings
+define("_MYLESSONS","mijn Lessen");//my Lessons
+define("_MYOPTIONS","mijn Opties");//my Options
+define("_YOUHAVENOBOOKMARKS","Je hebt geen bladwijzers");//You have no bookmarks
+define("_ADDCONTENT","Inhoud toevoegen");//Add content
+define("_NEWMESSAGES","Nieuwe berichten");//New messages
+define("_DOYOUWANTTOADDTHISPAGETOYOURBOOKMARKS","Wilt u deze pagina toevoegen aan uw bladwijzers?");//Do you want to add this page to your bookmarks?
+define("_BOOKMARKS","Bladwijzers");//Bookmarks
+define("_SHOWBOOKMARKS","Toon bladwijzers");//Show bookmarks
+define("_ADDTHISPAGETOYOURBOOKMARKS","Voeg deze pagina toe aan uw bladwijzers");//Add this page to your bookmarks
+define("_YOUCANDOTEST","U kunt toets");//You can do test
+define("_TIMESMORE","keer meer doen");//times more
+define("_FIELDNAME","Veld naam");//Field name
+define("_FIELDDESCRIPTION","Veld beschrijving");//Field description
+define("_DBTYPE","Database type");//Database type
+define("_ADDFIELD","Voeg veld toe");//Add field
+define("_TREESAVEDSUCCESSFULLY","Boom succesvol opgeslagen");//Tree saved succefully
+define("_ERROROCCURED","Er is een fout opgetreden. Probeer het opnieuw.");//An error occured. Please try again.
+define("_EXPORTSTATS","Export rapporten:");//Export reports:
+define("_MATHTYPEHELP1","U kunt in de editor wiskundige formules invoegen door gebruik te maken van een speciale code die een ASCII wiskunde notatie naar wiskundige formules vertaalt. In eFront is een editor ingebouwd voor deze speciale code. Gebruikers kunnen hiermee gemakkelijk wiskundige formules toevoegen. Meer informatie over deze code kunt u vinden in de tabel of op <a target=\"_blank\" href=\"http://www1.chapman.edu/~jipsen/mathml/asciimath.html\">deze pagina</a>");//You can insert math expressions in the editor by using a special code which tranlates an ASCII math notation to mathematic expressions. This special code is built into the editor. So users can easily add math types. You can learn about this code from the table below or from <a target=\"_blank\" href=\"http://www1.chapman.edu/~jipsen/mathml/asciimath.html\">this page</a>
+define("_MATHTYPEHELP2","<p> U kunt het symbool \" niet gebruiken, omdat het een speciaal teken is bij het coderen van een website. Als u dit symbool wilt gebruiken, gebruik dan escape voorafgaand aan het symbool, zoals bijvoorbeeld \\\" </p>");//<p>You should  avoid to use symbol \` because it represents a special character for the encoding. In case you want to use it, use escape character \ before it, e.g. \\\`</p>
+define("_PERCENTCORRECT","procent correct");//percent correct
+define("_GLOSSARY","Woordenlijst");//Glossary
+define("_ADDDEFINITION","Voeg definitie toe");//Add definition
+define("_SUCCESFULLYADDEDDEFINITION","De definitie is toegevoegd");//The definition was added successfully
+define("_DEFINITION","Definitie");//Definition
+define("_NODEFINITIONSFOUNDFORTHISLESSON","Er zijn geen definities gevonden voor deze les");//No definitions found for this lesson
+define("_CHOOSEWHATTOEXPORT","Kies wat u wilt exporteren (afgezien van de inhoud)");//Choose what to export (apart from content)
+define("_CREATED","Aangemaakt");//Created
+define("_CANCELTEST","Annuleer toets");//Cancel test
+define("_DELETEEXISTINGDATAFROM","Verwijder de bestaande gegevens uit:");//Delete existing data from:
+define("_CLOSE","Sluiten");//Close
+define("_SHOWHIDE","Toon / Verberg");//Show/Hide
+define("_EFRONTLOGO","Systeem logo");//System logo
+define("_READ","Lezen");//Read
+define("_UNREAD","Ongelezen");//Unread
+define("_SUCCESFULLYADDEDROOM","Ruimte succesvol toegevoegd");//Successfully added room
+define("_AND","en");//and
+define("_TRUEFALSE","Waar / Onwaar");//True/False
+define("_DROPDOWN","Selecteer uit lijst");//Select from list
+define("_TRUE","Waar");//True
+define("_FALSE","Onwaar");//False
+define("_QUESTIONNUMBER","Vraag nummer");//Question number
+define("_QUESTIONTITLE","Titel vraag");//Question title
+define("_NUMBEROFOPTIONS","Aantal opties");//Number of options
+define("_YOUHAVELOGGEDOUTBECAUSEYOURSESSIONHASTIMEDOUT","U bent afgemeld omdat uw sessie is verlopen");//You have logged out because your session has timed out
+define("_ORSELECTONEFROMLIST","Of kies 1 uit lijst");//Or select one from list
+define("_EXPLANATION","Uitleg");//Explanation
+define("_QUESTION","Vraag");//Question
+define("_CHANGESTYLE","Verander Thema");//Change theme
+define("_PREDEFINED","Vooraf ingesteld");//Predefined
+define("_SELECTNEWSTYLE","Selecteer nieuw thema");//Select new theme
+define("_SETSTYLE","Stel thema in");//Set theme
+define("_NOPREVIEWIMAGEFOUND","Voorbeeld afbeelding niet gevonden");//Preview image not found
+define("_CHOOSELANGUGETOSYNC","Kies een taal om te synchroniseren");//Choose language to synchronize
+define("_INSERTJAVA","Invoegen Java-bestand");//Insert java file
+define("_INSERTMEDIA","Invoegen media bestand");//Insert media file
+define("_CHANGEORDER","Verander volgorde");//Change order
+define("_DRAGITEMSTOCHANGEQUESTIONSORDER","Versleep items om de getoonde volgorde van de vragen te veranderen");//Drag items to change the display order of the questions
+define("_TERM","Voorwaarden");//Term
+define("_OPERATIONS","Handelingen");//Operations
+define("_AREYOUSUREYOUWANTTODELETELESSON","Weet u zeker dat u de les wilt verwijderen?");//Are you sure you want to delete lesson?
+define("_EDITLESSON","Bewerk les");//Edit lesson
+define("_DIRECTIONS","Categorieën");//Categories
+define("_UPDATEDIRECTIONS","Bewerk categorieën");//Edit categories
+define("_PARENTDIRECTIONS","Bovenliggende categorie");//Parent category
+define("_AREYOUSUREYOUWANTTODELETEDIRECTION","Weet u zeker dat u de categorie wilt verwijderen?");//Are you sure you want to delete the category?
+define("_YOUMUSTDELETEALLLESSONSANDSUBDIRECTIONSINTHISDIRECTIONBEFOREDELETINGIT","U moet alle lessen en alle subcategorieën verwijderen die behoren tot deze categorie voordat u de categorie kunt verwijderen");//You must delete all lessons and all subcategories that belong to this category before deleting it
+define("_ROOTDIRECTION","---- Root categorie ----");//----Root category----
+define("_CHECK","Controleren");//Check
+define("_REQUIREDNOTE","*Verplichte velden");//*Mandatory fields
+define("_BEFOREJAVASCRIPTERROR","De volgende fouten zijn opgetreden:");//The following errors occured:
+define("_AFTERJAVASCRIPTERROR","Corrigeer de bovenstaande fouten");//Please correct the above errors
+define("_ISMANDATORY","is verplicht");//is mandatory
+define("_HASINVALIDCHARACTERS","bevat ongeldige tekens");//has invalid characters
+define("_ONLYALLOWEDCHARACTERSLOGIN","Alleen de letters en tekens <strong>. - _ @</strong> zijn toegestaan");//Only letters and the characters <strong>. - _ @</strong> are allowed
+define("_ALREADYEXISTS","bestaat al");//already exists
+define("_PASSWORDSDONOTMATCH","De wachtwoorden komen niet overeen");//The passwords do not match
+define("_ONLYALLOWEDCHARACTERSTEXT","Gebruik geen aanhalingstekens en andere speciale tekens.");//Please do not use quotes and other special characters.
+define("_REPEATPASSWORD","Herhaal wachtwoord");//Repeat password
+define("_TERMS","Voorwaarden");//Terms of Service
+define("_REGISTRATIONFAILEDCONTACTADMIN","Registratie mislukt. Neem contact op met de systeembeheerder.");//Registration failed. Please contact the system administrator.
+define("_THELOGIN","Gebruikersnaam");//The user name
+define("_THEEMAIL","E-mail");//The email
+define("_PASSWORDMUSTBE6CHARACTERS","Het wachtwoord moet minimaal %x tekens hebben");//Password must be at least %x characters
+define("_DEFAULTCONTACTMESSAGE","Ik zou graag worden geïnformeerd over de inhoud en de specificaties van uw lessen, alsmede over eventuele eisen voor deelname");//I would like to be informed on the content and specifications of your lessons, as well as on any course participation requirements
+define("_DEFAULTTERMSOFUSAGE","eFront systeem voorwaarden voor gebruik. Elke gebruiker die zich registreert bij het huidige e-learning systeem dient de volgende voorwaarden met betrekking tot  correct gebruik te lezen en op te volgen. 1. Het is verboden gebruik te maken van het systeem om andere redenen dan het uitvoeren van een leer-procedure, zoals bijvoorbeeld: Het promoten van producten of diensten of een combinatie hiervan, persoonlijke promotie of promotie van een andere persoon, belediging van een persoon, hetzij geregistreerde gebruikers of niet");//\tTerms of usage\n\nEvery user registering to the present e-learning system must read and comply with the following terms of proper usage.\n\n1. It is forbidden to use the system for reasons other than performing a learning procedure, as for example: Promotion of products or services or any combination of these, personal or other person promotional practices, affront to other person, either registered system users or not
+define("_YOUMUSTAGREEWITHTERMSOFUSAGETOCONTINUE","U dient akkoord te gaan met de gebruiksvoorwaarden om door te kunnen gaan");//You must agree with the terms of usage in order to continue
+define("_INVALIDFIELDDATA","Ongeldige gegevens");//Invalid field data
+define("_SUCCESFULLYINSERTEDNEWUNIT","Succesvol nieuwe eenheid ingevoegd");//Successfully inserted new unit
+define("_ACCEPTTERMS","Accepteer voorwaarden");//Accept terms
+define("_SUCCESFULLYUPDATEDUNIT","Eenheid bijgewerkt");//Successfully updated unit
+define("_ACTIVE2","Actief");//Active
+define("_ACTIVEFEM","Actief");//Active
+define("_LESSONSNUMBER","Aantal lessen");//Number of lessons
+define("_PARENTDIRECTION","Oorspronkelijke categorie");//Parent category
+define("_EXPANDCOLLAPSE","Uitvouwen / Inklappen");//Expand/Collapse
+define("_RAWTEXT","Ruwe tekst");//Raw text
+define("_SUCCESFULLYADDEDTEST","Toets toegevoegd");//Successfully added test
+define("_SUCESSFULLYDELETEDTEST","Toets verwijderd");//Successfully deleted test
+define("_SUCCESFULLYMODIFIEDTEST","Toets succesvol gewijzigd");//Successfully modified test
+define("_USEQUESTION","Gebruik vraag");//Use question
+define("_SHUFFLEANSWERS","Mix antwoorden");//Shuffle answers
+define("_SHUFFLEQUESTIONS","Mix vragen");//Shuffle questions
+define("_QUESTIONS","Vragen");//Questions
+define("_INSERTMULTIPLEQUESTIONS","Voeg meerdere keuzes toe");//Insert the multiple choices
+define("_INSERTEXPLANATION","Voeg uitleg toe");//Insert explanation
+define("_THISQUESTIONIS","Deze vraag is");//This question is
+define("_CREATEEMPTYSPACES","Maak lege ruimtes");//Create empty spaces
+define("_EMPTYSPACESEXPLANATION","Schrijf de tekst en voeg ### toe waar een lege ruimte moet komen. Als u wilt, kunt u de afmeting van de tekst velden aanpassen door de afmeting (in pixels) naast de hekjes te zetten. Bijvoorbeeld ###300 maakt het tekst veld 300 pixels breed. Wanneer u klaar bent, klikt u op de &quot;Maak lege ruimtes&quot; knop hieronder");//Write the question text and wherever you need to insert a blank space, insert ###. If you want to specify a specific size for text boxes, you can enter its size (in pixels) next to the hashes. For example, ###300 will create a text box 300px wide. When you are done, click on the &quot;Create empty spaces&quot; button below
+define("_INSERTMATCHCOUPLES","Invoegen passende combinaties");//Insert matching pairs
+define("_ADDOPTION","Toevoegen optie");//Add option
+define("_GOTOCALENDAR","Ga naar kalender");//Go to calendar
+define("_EXPANDALL","Alles uitvouwen");//Expand all
+define("_COLLAPSEALL","Alles inklappen");//Collapse all
+define("_SURVEY","Enquête");//Survey
+define("_SURVEYADDEDSUCCESSFULLY","Enquête toegevoegd");//Survey added successfully
+define("_SURVEYFAILEDTOBEADDED","Enquête niet toegevoegd");//Survey failed to be added
+define("_SURVEYDELETEDSUCCESSFULLY","Enquête verwijderd");//Survey deleted successfully
+define("_QUESTIONADDEDSUCCESSFULLY","Vraag toegevoegd");//Question added successfully
+define("_QUESTIONFAILEDTOBEADDED","Vraag toevoegen mislukt");//Failed to add question
+define("_CREATESURVEYQUESTION","Maak een vraag voor de enquête");//Create question for survey
+define("_CREATESURVEY","Maak enquête");//Create survey
+define("_EDITSURVEY","Bewerk enquête");//Edit survey
+define("_NOSURVEYFORLESSON","Er is geen enquête voor deze les");//There is no survey for the lesson
+define("_NOQUESTIONSFORSURVEY","Er zijn geen vragen voor de enquête");//There are no questions for the survey
+define("_SURVEYCODE","Code");//Code
+define("_SURVEYNAME","Enquête naam");//Survey name
+define("_SURVEYSTATUS","Status");//Status
+define("_SURVEYNUMBEROFQUESTIONS","Belangrijkheid vraag");//Question cardinality
+define("_SURVEYAVALIABLEFROM","Beschikbaar vanaf");//Availiable from
+define("_SURVEYUNTIL","Tot");//Until
+define("_PUBLISH","Publiceren");//Publish
+define("_SURVEYSELECTION","Selecteer");//Select
+define("_SELECTALL","Selecteer alles");//Select all
+define("_SURVEYINFO","Ondertitel voor de enquête");//Subtitle for the survey
+define("_SURVEYINTROTEXT","Inleidende tekst enquête");//Survey introductory text
+define("_SURVEYENDTEXT","Afsluitende tekst enquête");//Survey ending text
+define("_YES_NO","Ja/Nee");//Yes/No
+define("_SURVEYQUESTIONMULTIPLEONE","Meerdere keuzes - 1 antwoord");//Multiple choices-one answer
+define("_SURVEYQUESTIONMULTIPLEMANY","Meerdere keuzes - meerdere antwoorden");//Multiple choices-multiple answers
+define("_ENTERMAILMESSAGE","Bericht");//Message
+define("_PLEASESELECTAVALIDTYPEOFQUESTION","Selecteer een geldig type vraag bij de vorige stap.");//Please select a valid type of question in the previous step.
+define("_SURVEYDATAUPDATEDSUCCESSFULLY","Enquête gegevens bijgewerkt");//Survey data updated successfully
+define("_SURVEYDATAFAILEDTOBEUPDATED","Enquête gegevens kunnen niet worden bijgewerkt");//Survey data failed to be updated
+define("_QUESTIONDELETEDSUCCESSFULLY","Vraag is verwijderd");//Question deleted successfully
+define("_THEQUESTIONWASSUCCESSFULLYMOVED","De vraag is verplaatst");//The question moved successfully
+define("_THEQUESTIONFAILEDTOBEMOVED","De vraag kan niet worden verplaatst");//The question failed to be moved
+define("_NOSUCHOPERATION","Geen dergelijke handeling");//No such operation
+define("_SHOWDATAFORUNIT","Toon gegevens voor eenheid");//Show data for unit
+define("_ALLUNITS","Alle eenheden");//All units
+define("_YOUMUSTUPLOADFILE","U moet een bestand aangeven om te uploaden");//You must indicate a file to upload
+define("_TOTALINSERTED","Totaal toegevoegd");//Totally inserted
+define("_PERSONALOPTIONSFOR","Persoonlijke opties voor gebruiker");//Personal options for user
+define("_LESSONOPTIONSFOR","Opties voor de les");//Options for lesson
+define("_NEWLESSONOPTIONS","Nieuwe les opties");//New lesson options
+define("_ROLES","Type gebruikers");//User types
+define("_TYPENAME","Type naam");//Type name
+define("_UPDATEUSERTYPEFOR","Update type gebruiker voor");//Update user type for
+define("_SYSTEMANNOUNCEMENTS","Systeem aankondigingen");//System announcements
+define("_CREATEUNIT","Maak eenheid aan");//Create unit
+define("_DONETIMES","Aantal keren afgerond");//Times completed
+define("_QUESTIONSTATISTICS","Statistieken vraag");//Question statistics
+define("_ADDQUESTIONOFTYPE","Voeg vraag toe van het type");//Add question of type
+define("_NOSYSTEMANNOUNCEMENTSPOSTED","Geen systeem mededelingen geplaatst");//No system announcements posted
+define("_DURATIONINMINUTES","Duur in minuten");//Duration in minutes
+define("_ADDCALENDAR","Toevoegen kalender afspraak");//Add calendar event
+define("_EVENTS","gebeurtenissen");//events
+define("_NOEVENTSPLANNED","Er zijn geen gebeurtenissen gepland");//There are no events planned
+define("_UNITOPERATIONS","Operaties eenheid");//Unit operations
+define("_LESSONINFORMATION","Les informatie");//Lesson information
+define("_GENERALDESCRIPTION","Algemene beschrijving");//General description
+define("_OBJECTIVES","Doelstellingen");//Objectives
+define("_OTHERINFO","Overige informatie");//Other information
+define("_ASSESSMENT","Beoordeling");//Assessment
+define("_RESOURCES","Bronnen");//Resources
+define("_LESSONTOPICS","Les onderwerpen");//Lesson topics
+define("_NODESCRIPTIONSET","Er is geen beschrijving ingesteld voor deze les");//There is no description set for this lesson
+define("_HASINVALIDEMAILADDRESS","heeft een ongeldig e-mailadres");//has invalid email address
+define("_SUCCESFULLYADDEDDIRECTION","Categorie toegevoegd");//Successfully added category
+define("_SUCCESFULLYUPDATEDDIRECTION","Categorie bijgewerkt");//Successfully updated category
+define("_LESSONRULES","Les regels");//Lesson rules
+define("_BASEDONTERM","Gebaseerd op de voorwaarden");//Based on term
+define("_HASNOTSEENTHEUNIT","Heeft de eenheid niet gezien");//Has not seen the unit
+define("_HASNOTPASSEDTHETEST","Is nog niet klaar met de toets");//Has not completed the test
+define("_ALWAYS","Altijd");//Always
+define("_WITHNAME","Met naam");//With name
+define("_ANDSCOREGREATEROREQUAL","En score groter dan of gelijk aan");//And score greater or equal to
+define("_INVALIDRULE","Ongeldige regel type");//Invalid rule type
+define("_INVALIDSCORE","Ongeldige score");//Invalid score
+define("_SUCCESFULLYUPDATEDRULE","Regel bijgewerkt");//Succefully updated rule
+define("_SUCCESFULLYINSERTEDRULE","Regel ingevoegd");//Succefully inserted rule
+define("_ADDRULE","Toevoegen regel");//Add rule
+define("_RULEDELETED","Regel verwijderd");//Rule deleted successfully
+define("_NEWSURVEYPUBLISHED","Enquête:");//Survey:
+define("_DOSURVEY","Doe de enquête");//Do the survey
+define("_THANKYOU","Bedankt");//Thank you
+define("_THISEMAIL","Deze e-mail");//This email
+define("_CONTAINSINFORMATIONABOUTYOURACCOUNTINTHEPLATFORM","bevat informatie over uw account in het systeem");//contains information about your account in the platform
+define("_SURVEYPUBLISHEDSUCCESSFULLY","Enquête gepubliceerd");//Survey published sucessfully
+define("_STARTSURVEY","Start enquête");//Start survey
+define("_SURVEYSUBMISSIONSUCCESSFUL","Enquête toegevoegd");//Survey submitted successfully
+define("_YOUCANNOTACCESSTHISPAGE","U krijgt geen toegang tot deze pagina");//You cannot access this page
+define("_NOCONTENTFOUND","Geen inhoud");//There is no content
+define("_EDITLESSONSDIRECTION","Categorie lessen");//Category lessons
+define("_EXTERNALLYSIGNUP","Externe inschrijving");//External signup
+define("_EVENT","Gebeurtenis");//Event
+define("_EDITEVENT","Afspraak bewerken");//Edit event
+define("_DELETEEVENT","Verwijder gebeurtenis");//Delete event
+define("_ADDEVENT","Gebeurtenis toevoegen");//Add event
+define("_SUCCESFULLYADDEDEVENT","Gebeurtenis toegevoegd");//Successfully added event
+define("_SUCCESFULLYUPDATEDEDEVENT","Gebeurtenis bijgewerkt");//Successfully updated event
+define("_SUCCESFULLYDELETEDEVENT","Gebeurtenis verwijderd");//Successfully deleted event
+define("_SHOWALLEVENTS","Toon alle gebeurtenissen");//Show all events
+define("_NOEVENTSPLANNEDTHISWEEK","Er zijn geen gebeurtenissen gepland deze week");//There are no events planned for this week
+define("_NOEVENTSPLANNEDTHISMONTH","Er zijn geen gebeurtenissen gepland deze maand");//There are no events planned for this month
+define("_NOEVENTSPLANNEDTODAY","Er zijn vandaag geen gebeurtenissen gepland");//There are no events planned for this day
+define("_SHOWDAYEVENTS","Toon de gebeurtenissen van deze dag");//Show this day&#039;s events
+define("_SHOWWEEKEVENTS","Toon de gebeurtenissen van deze week");//Show this week&#039;s events
+define("_SHOWMONTHEVENTS","Toon de gebeurtenissen van deze maand");//Show this month&#039;s events
+define("_SUBTITLE","Ondertitel");//Subtitle
+define("_SURVEYSTATISTICS","Enquête rapporten");//Survey reports
+define("_PROJECT","Project");//Project
+define("_DEADLINE","Deadline");//Deadline
+define("_ADDPROJECT","Project toevoegen");//Add project
+define("_PROJECTCREATEDSUCCESSFULLY","Project aangemaakt");//Project created successfully
+define("_PROJECTUPDATEDSUCCESSFULLY","Project bijgewerkt");//Project updated successfully
+define("_CREATOR","Maker");//Creator
+define("_EDITPROJECT","Project bewerken");//Edit project
+define("_NOPROJECTS","Er zijn geen projecten voor deze les");//There are no projects
+define("_SURVEYDONE","Enquête gedaan");//Survey done
+define("_DONESURVEYUSERS","Deelnemers enquête");//Survey participants
+define("_SURVEYPREVIEWFORUSER","Enquête voorbeeld voor de gebruiker:");//Survey preview for user:
+define("_QUESTIONSKIND","Soorten vragen");//Questions types
+define("_QUESTIONUPDATEDSUCCESSFULLY","Vraag bijgewerkt");//Question updated successfully
+define("_QUESTIONFAILEDTOBEUPDATED","Vraag niet bijgewerkt");//Question failed to update
+define("_INVALIDPERCENTAGE","Ongeldig percentage");//Invalid percentage
+define("_PASSEDALLUNITS","Alle eenheden gezien");//Seen all units
+define("_PERCENTAGEUNITS","Deel van de eenheden gezien");//Seen a fraction of units
+define("_SPECIFICUNIT","Specifieke eenheid gezien");//Seen a specific unit
+define("_PASSEDALLTESTS","Alle toetsen succesvol voltooid");//Passed all tests
+define("_SPECIFICTEST","Alle specifieke toetsen succesvol voltooid");//Passed a specific test
+define("_INVALIDCONDITION","Ongeldige voorwaarde");//Invalid rule
+define("_THEUSERMUSTHAVE","De student moet hebben");//The student must have
+define("_UNITSPERCENTAGE","Percentage");//Percentage
+define("_SUCCESFULLYADDEDCONDITION","Voorwaarde toegevoegd");//Successfully added rule
+define("_SUCCESFULLYUPDATEDCONDITION","Voorwaarde bijgewerkt");//Successfully updated rule
+define("_SUCCESFULLYDELETEDCONDITION","Voorwaarde verwijderd");//Successfully deleted rule
+define("_LESSONCONDITIONS","Voorwaarden voltooien les");//Lesson completion rules
+define("_ADDCONDITION","Voorwaarde toevoegen");//Add completion rule
+define("_CONDITION","Voorwaarde");//Completion rule
+define("_CONDITIONTYPE","Type voorwaarde");//Rule type
+define("_RELATIONTOOTHERS","Betrokkenheid bij anderen");//Relation to others
+define("_SCROLLTOTOPOFPAGE","Ga naar het begin van de pagina");//Scroll to top of page
+define("_SCROLLTOBOTTOMOFPAGE","Ga naar het einde van de pagina");//Scroll to bottom of page
+define("_NOUSERHAVEDONETHISSURVEYYET","Geen enkele gebruiker heeft deze enquête gedaan");//No user has done this survey yet
+define("_SYSTEM","Systeem");//System
+define("_EMAILCONFIGURATIONS","E-mail server configuratie");//Emails server configuration
+define("_SAWUNIT","Markeer als voltooid");//Set the unit as completed
+define("_NOTSAWUNIT","Markeer als niet voltooid");//Set the unit as not completed
+define("_CONDITIONSCOMPLETED","Aan voorwaarden voldaan");//Completion rules completed
+define("_OUTOF","van de");//out of
+define("_LESSONPROGRESS","Les vooruitgang");//Lesson progress
+define("_YOUMUSTSEEUNIT","U moet de eenheid voltooien");//You must complete unit
+define("_YOUMUSTSEEALLUNITS","U moet alle eenheden voltooien");//You must complete all units
+define("_OFLESSONUNITS","van les-eenheden");//of lesson units
+define("_YOUMUSTSEE","U moet voltooien");//You must complete
+define("_YOUMUSTCOMPLETEALLTESTSWITHSCORE","U moet alle toetsen voltooien met een gemiddelde score van");//You must complete all tests with mean score
+define("_YOUMUSTCOMPLETETEST","U moet de toets afronden");//You must complete test
+define("_WITHSCORE","met score");//with score
+define("_NOCONDITIONSSET","Er zijn geen voorwaarden voor deze les");//There are no completion rules set for this lesson
+define("_CONDITIONS","voorwaarden");//completion rules
+define("_RESUMELESSON","Vervolg les");//Resume lesson
+define("_STARTLESSON","Start les");//Start lesson
+define("_TRACKING","Volgen");//Tracking
+define("_FORMATCERTIFICATE","Formaat certificaat");//Format certificate
+define("_FORMATCERTIFICATETEMPLATE","Formaat certificaat sjabloon");//Format certificate template
+define("_SETCERTIFICATEEXPIRATION","Stel geldigheidsduur certificaat in");//Set certificate expiration
+define("_FORMATCERTIFICATELIVEDOCXMETHOD","Gebruik de LiveDocX methode voor het maken van certificaten");//Use the LiveDocX method for creating certifications
+define("_FORMATCERTIFICATEFPDFMETHOD","Gebruik de XML-methode voor het maken van certificaten");//Use the XML method for creating certifications
+define("_ADDCERTIFICATETEMPLATEXML","Voeg certificaat sjabloon toe (xml-formaat)");//Add certificate template (xml format)
+define("_EDITCERTIFICATETEMPLATEXML","Pas certificaat sjabloon aan (xml-formaat)");//Edit certificate template (xml format)
+define("_RENAMECERTIFICATETEMPLATEXML","Veranderen naam certificaat sjabloon");//Rename certificate template
+define("_CLONECERTIFICATETEMPLATEXML","Kloon certificaat sjabloon");//Clone certificate template
+define("_CERTIFICATENAME","Naam van certificaat");//Certificate name
+define("_CERTIFICATEDESCRIPTION","Certificaat beschrijving");//Certificate description
+define("_ADDCERTIFICATETEMPLATEEMPTYXML","het veld XML-beschrijving kan niet leeg zijn");//XML description cannot be empty
+define("_EXISTINGCERTIFICATETEMPLATESXML","Bestaande certificaat sjablonen");//Existing certificate templates
+define("_TRAFFIC","Verkeer");//Traffic
+define("_LESSONTRAFFIC","Les verkeer");//Lesson traffic
+define("_EDITTEST","Toets bewerken");//Edit test
+define("_EDITQUESTION","Vraag bewerken");//Edit question
+define("_CERTIFICATE","Certificaat");//Certificate
+define("_SUCCESFULLYUPDATEDCERTIFICATE","Certificaat bijgewerkt");//Certificate was successfully updated
+define("_SUCCESSFULLYADDEDCERTIFICATETEMPLATE","Het certificaat sjabloon is met succes toegevoegd");//Certificate template was successfully added
+define("_PROBLEMADDEDCERTIFICATETEMPLATE","Er heeft zich een probleem voorgedaan tijdens het toevoegen van het certificaat sjabloon");//There was a problem while adding certificate template
+define("_SUCCESSFULLYUPDATEDCERTIFICATETEMPLATE","Het certificaatsjabloon is succesvol bijgewerkt");//Certificate template was successfully updated
+define("_PROBLEMUPDATEDCERTIFICATETEMPLATE","Er heeft zich een probleem voorgedaan tijdens het bijwerken van het certificaat sjabloon");//There was a problem while updating certificate template
+define("_SUCCESSFULLYRENAMECERTIFICATETEMPLATE","De naam van het certificaat sjabloon is aangepast");//Certificate template was successfully renamed
+define("_PROBLEMRENAMECERTIFICATETEMPLATE","Er heeft zich een probleem voorgedaan bij het aanpassen van de naam van het certificaat sjabloon");//There was a problem while renaming certificate template
+define("_SUCCESSFULLYCLONECERTIFICATETEMPLATE","Het certificaat sjabloon is succesvol gekloond");//Certificate template was successfully cloned
+define("_PROBLEMCLONECERTIFICATETEMPLATE","Er heeft zich een probleem voorgedaan tijdens het klonen van het certificaat sjabloon");//There was a problem while cloning certificate template
+define("_SUCCESSFULLYDELETECERTIFICATETEMPLATE","het certificaat sjabloon is met succes verwijderd");//Certificate template was successfully deleted
+define("_PROBLEMDELETECERTIFICATETEMPLATE","Er heeft zich een probleem voorgedaan tijdens het verwijderen van het certificaat sjabloon");//There was a problem while deleting certificate template
+define("_CERTIFICATETEMPLATENOACCESS","U heeft niet de rechten om dit certificaat sjabloon te wijzigen");//You don't have the rights to modify this certificate template
+define("_EDITCONDITION","Voorwaarde bewerken");//Edit rule
+define("_SMTPSERVERCONFIGURATIONS","SMTP-server configuratie");//SMTP server configuration
+define("_SMTPSERVER","SMTP-server");//SMTP server
+define("_SMTPPASSWORD","SMTP-wachtwoord");//SMTP password
+define("_SMTPPORT","Server SMTP-poort");//Server SMTP port
+define("_TOTALACCESS","Totaal aantal toegangen");//Total number of accesses
+define("_ACCESSNUMBER","Aantal toegangen");//Number of accesses
+define("_LESSONTRAFFICANALYSIS","Analyse van bezoek van lessen");//Analysis of Lesson&#039;s Traffic
+define("_SETTINGS","Instellingen");//Settings
+define("_LESSONACCESS","Aantal bezochte lessen");//Number of lessons&#039; accesses
+define("_ACCESSPERLESSON","Aantal bezoeken per les");//Number of Accesses per Lesson
+define("_NOFILESFOUNDDIGITALLIBRARY","Er bevinden zich geen bestanden in de digitale bibliotheek");//There aren&#039;t any files in the digital library
+define("_BLANKFORUNLIMITED","Laat dit leeg voor onbeperkt");//Leave blank for unlimited
+define("_CERTIFICATES","Certificaten");//Certificates
+define("_NOUSERDATAFOUND","Geen gebruikersvooruitgang gegevens gevonden");//No user progress data found
+define("_ISSUECERTIFICATE","Afgifte certificaat");//Issue certificate
+define("_LESSONFILES","Les bestanden");//Lesson files
+define("_TOTALACCESSTIME","Totale bezoektijd");//Total access time
+define("_DEFAULTPAGE","Standaard pagina");//Default page
+define("_NEWPAGE","Nieuwe pagina");//New page
+define("_UPDATEPAGES","Update pagina&#39;s");//Update pages
+define("_PAGECONTENT","De inhoud van de pagina");//Page content
+define("_UPDATEPAGE","Update pagina");//Update page
+define("_TOTALSTATISTICS","Totaal statistieken");//Total statistics
+define("_LOGINS","Logins");//Logins
+define("_USENONE","Gebruik geen");//Use none
+define("_PAGEDELETED","Pagina verwijderd");//Page deleted
+define("_AREYOUSUREYOUWANTTODELETEPAGE","Weet u zeker dat u de pagina wilt verwijderen?");//Are you sure you want to delete page?
+define("_SUCCESFULLYADDEDPAGE","Pagina toegevoegd");//Page added successfully
+define("_LESSONMAINPAGE","Startpagina les");//Lesson main page
+define("_GOTOPROJECTS","Ga naar projecten");//Go to projects
+define("_ACCESSSTATISTICS","Bezoek-statistieken");//Access statistics
+define("_ANALYTICLOG","Analytische log");//Analytic log
+define("_SHOWANALYTICLOG","Toon analytische log");//Show analytic log
+define("_SHOWALLLESSONS","Toon alle lessen");//Show all lessons
+define("_CHATROOMDEACTIVATEDBYADMIN","Chat room uitgeschakeld door beheerder");//Chat room deactivated by administrator
+define("_IPADDRESS","IP adres");//IP address
+define("_YOUHAVEALREADYUPLOADEDAFILE","U heeft een bestand geupload");//You have uploaded a file
+define("_FILEDELETEDSUCCESSFULLY","Bestand is verwijderd");//File deleted successfully
+define("_GRADE","Cijfer");//Grade
+define("_PROFESSORCOMMENTS","Opmerkingen docent");//Professor comments
+define("_DEADLINEPASSEDYOUCANNOLONGERUPLOADFILES","De vastgestelde termijn is verstreken. U kunt geen bestanden meer uploaden.");//The deadline has passed. You can no longer upload files.
+define("_UPLOADEDFILE","Geupload bestand");//Uploaded file
+define("_CMS","Externe pagina´s");//External pages
+define("_YOUMAYNOTSIGNUPCONTACTADMINISTRATOR","U kunt zich niet aanmelden, neem contact op met de systeembeheerder");//You may not sign up; contact the system administrator
+define("_OPERATIONCOMPLETEDSUCCESFULLY","Voltooid");//Operation completed successfully
+define("_REMOVECHOICE","Verwijder keuze");//Remove choice
+define("_SURVEYDISABLEDSUCCESSFULLY","Enquête uitgeschakeld");//Survey disabled successfully
+define("_SURVEYENABLEDSUCCESSFULLY","Enquête ingeschakeld");//Survey enabled successfully
+define("_SURVEYSUBMIT","Bevesting enquête");//Submit survey
+define("_ROWSPERPAGE","Rijen per pagina");//Rows per page
+define("_FILTER","Filter");//Filter
+define("_OF","van");//of
+define("_SENDALSOVIAEMAIL","Stuur uitnodiging via e-mail");//Send invitation via Email
+define("_STYLE","Stijl");//Style
+define("_MENU","Menu");//Menu
+define("_SELECTION","Selectie");//Selection
+define("_SMTPCONFIGURATIONARECORRECT","De configuraties van de SMTP-server zijn correct");//The configurations of the SMTP server are correct
+define("_SMTPCONFIGURATIONERROR","Er heeft zich een fout voorgedaan tijdens de configuratie, neem contact op met de SMTP-server beheerder");//There is an error with the configuration please contact SMTP server administrator
+define("_ADDNEWFIELD","Nieuw veld toevoegen");//Add new field
+define("_FIELDCREATED","Veld aangemaakt");//The field was created
+define("_FIELDUPDATED","Veld bijgewerkt");//The field was updated
+define("_LESSONSCORE","Score les");//Lesson score
+define("_COMPLETED","Afgerond");//Completed
+define("_NOTCOMPLETED","Niet afgerond");//Not completed
+define("_CONDITIONSMET","Aan de voorwaarden voldaan en in afwachting van goedkeuring");//Completion rules met and awaiting approval
+define("_STUDENTSTATUSCHANGED","Student les status is aangepast");//Student lesson status changed successfully
+define("_MUSTBENUMERIC","Moet numeriek zijn");//Must be numeric
+define("_DEFAULTCERTIFICATE","De eLearning organisatie verklaart dat \n\n #user_name# #user_surname# \n\n met succes \n #course_name# \n heeft afgerond met het cijfer \n\n #grade# \n\n Dit certificaat is afgegeven op datum # #");//Elearning organization certifies that \n\n #user_name# #user_surname# \n\n has successfully completed \n #course_name# \n with grade \n\n #grade# \n\nThis certificate was issued on #date#
+define("_NOQUESTIONSTOCORRECT","Er zijn geen vragen om te corrigeren");//There are no questions to correct
+define("_RESTTESTSCORE","Score voor de rest van de toets");//Score at the remaining of the test
+define("_CORRECTQUESTION","Corrigeer vraag");//Correct question
+define("_FILEMANAGER","Bestandsbeheer");//File manager
+define("_NOFILESFOUND","Geen bestanden gevonden");//No files found
+define("_LASTMODIFIED","Laatst gewijzigd");//Last modified
+define("_KB","KB");//KB
+define("_UPONELEVEL","Een niveau hoger");//Up one level
+define("_DOWNLOADFILE","Download bestand");//Download file
+define("_ZIPANDDOWNLOAD","Comprimeren en downloaden bestand");//Compress file and download
+define("_COMPRESSTOZIP","Comprimeren tot een zip");//Compress to zip
+define("_SELECT","Selecteer");//Select
+define("_WITHSELECTEDFILES","Met geselecteerde bestanden");//With selected files
+define("_UNCOMPRESS","Decomprimeer");//Uncompress
+define("_UNZIPFILE","Unzip bestand");//Unzip file
+define("_OVERWRITEFILESWITHSAMENAME","Overschrijven van bestanden met dezelfde naam");//Overwrite files with the same name
+define("_UPLOAD","Upload");//Upload
+define("_SUCCESFULLYCREATEDFOLDER","Map aangemaakt");//Folder created successfully
+define("_CANNOTDELETEFILE","Kan bestand niet verwijderen");//Cannot delete file
+define("_FILEWILLUNZIPINFOLDERWITHSAMENAME","Het bestand wordt uitgepakt in een map met dezelfde naam");//The file will be uncompressed in a folder with the same name
+define("_FILEALREADYEXISTS","Bestand bestaat al");//File already exists
+define("_ROOTDIR","Root map");//Root folder
+define("_GOTOCORRECTQUESTIONS","Ga naar de vragen corrigeer pagina");//Go to questions correct page
+define("_THEREARE","Er zijn");//There are
+define("_YOUCANNOTACCESSTHISLESSONORITDOESNOTEXIST","U heeft mogelijk geen toegang tot deze les of deze les bestaat niet");//Either you may not access this lesson, or this lesson does not exist
+define("_SHOWSIDEBAR","Toon zijbalk");//Show sidebar
+define("_HIDESIDEBAR","Verberg zijbalk");//Hide sidebar
+define("_YOURPROJECTSCOREIS","Uw score");//Your score
+define("_USERSEXPORTUSINGCSVFORMATCOMMA","Exporteer gerbruikersgegevens met behulp van CSV-formaat (met gescheiden \",\")");//Export users data using csv format (separated with &quot;,&quot;)
+define("_USERSEXPORTUSINGCSVFORMATQM","Exporteer gebruikersgegevens met behulp van CSV-formaat (gescheiden door \";\")");//Export users data using csv format (separated with &quot;;&quot;)
+define("_SHOWGIVENANSWERS","Toon gegeven antwoorden");//Show given answers
+define("_SHOWRIGHTANSWERS","Toon juiste antwoorden");//Show correct answers
+define("_COULDNOTBESEND","Kan niet worden verzonden");//Could not be sent
+define("_ENVIRONMENTALCHECK","Omgevingscontrole");//Environmental check
+define("_REPAIRTREE","Herstel boomstructuur");//Restore tree
+define("_RULEPROPERTIES","Eigenschappen voorwaarden");//Rule properties
+define("_CONDITIONPROPERTIES","Eigenschappen voorwaarden");//Rule properties
+define("_ORPHANLESSONFOLDERSCHECK","Ongekoppelde les mappen controleren");//Orphan lesson folders check
+define("_LESSONSWITHOUTFOLDERSCHECK","Lessen zonder mappen controleren");//Lessons without folders check
+define("_FOLDERSWITHOUTALESSONASSOCIATED","De volgende mappen hebben geen les");//The following folders do not have a lesson associated
+define("_LESSONSWITHOUTAFOLDER","De volgende lessen hebben geen map");//The following lessons do not have a folder
+define("_PROBLEM","Probleem");//Problem
+define("_CLEANUP","Opruimen");//Clean up
+define("_OK","OK");//OK
+define("_PEMANENTLYDELETEFOLLOWINGFOLDERS","Met deze handeling verwijdert u permanent de volgende mappen");//This action will permanently delete the following folders
+define("_PEMANENTLYDELETEFOLLOWINGLESSONS","Met deze handeling verwijdert u permanent de volgende lessen");//This action will permanently delete the following lessons
+define("_CREATEFOLLOWINGLESSONFOLDERS","Met deze handeling maakt u mappen aan voor de volgende lessen");//This action will create folders for the following lessons
+define("_AREYOUSURE","Weet u het zeker?");//Are you sure?
+define("_CHECKAGAIN","Controleer opnieuw");//Check again
+define("_GENERICQUERIES","Generieke zoekopdrachten");//Generic queries
+define("_SENDINFOVIAEMAIL","Stuur inlog-gegevens naar e-mailaccount");//Send login information in email account
+define("_NOONEHASBEENASSIGNEDTHISPROJECT","Dit project is nog niet toegekend aan een deelnemer");//This project has not been assigned to any student
+define("_PROJECTINFO","Project informatie");//Project information
+define("_ANNOUNCEMENTGO","Ga naar de aankondigingen pagina");//Go to announcements page
+define("_PROJECTAVERAGESCOREFORLESSON","Gemiddelde score voor les-projecten");//Average score for lesson&#039;s projects
+define("_NEWPOLL","Nieuwe poll");//New poll
+define("_NOBOOKMARKSFOUND","Geen bladwijzers gevonden");//No bookmarks found
+define("_FOLDERSTATISTICS","Statistieken map");//Folder statistics
+define("_DROPAUNITTOCOPY","Plaats een eenheid om het naar de aangewezen positie te kopiëren");//Drop a unit to copy it to the designated position
+define("_DRAGAUNITTOCOPY","Sleep de eenheid om deze te kopiëren");//Drag the unit to copy it
+define("_ERROR","Fout");//Error
+define("_ERRORUPLOADINGFILE","Fout bij uploaden van bestand");//Error uploading file
+define("_EDITANNOUNCEMENT","Aankondiging bewerken");//Edit announcement
+define("_ANNOUNCEMENT","Aankondiging");//Announcement
+define("_THEFOLLOWINGFOLDERSCOULDNOTBEDELETED","De volgende mappen kunnen niet worden verwijderd");//The following folders could not be deleted
+define("_SUCCESFULLYCLEANEDUPFOLDERS","Mappen opgeruimd");//Successfully cleaned up folders
+define("_THEFOLLOWINGLESSONSCOULDNOTBEDELETED","De volgende lessen kunnen niet worden verwijderd");//The following lessons could not be deleted
+define("_SUCCESFULLYCLEANEDUPLESSONS","Lessen opgeruimd");//Successfully cleaned up lessons
+define("_SUCCESFULLYCREATEDLESSONFOLDERS","Les mappen aangemaakt");//Successfully created lesson folders
+define("_THEFOLLOWINGLESSONFOLDERSCOULDNOTBECREATED","De mappen voor de volgende lessen kunnen niet worden aangemaakt");//The folders for the following lessons could not be created
+define("_EDITCONTENT","Inhoud bewerken");//Edit content
+define("_NORMALSTATUS","Normale status");//Normal status
+define("_APPLICATIONPENDING","In afwachting van toepassing");//Application pending
+define("_SUCCESS","Importeren IMS file succesvol");// imported IMS fileSuccess
+define("_WARNING","Waarschuwing");//Warning
+define("_DEFINITIONCOULDNOTBEINSERTED","Definitie kan niet worden ingevoegd");//Definition could not be inserted
+define("_SUCCESFULLYUPDATEDDEFINITION","Definitie bijgewerkt");//Successfully updated definition
+define("_SUCCESFULLYDELETEDDEFINITION","Definitie verwijderd");//Successfully deleted definition
+define("_DEFINITIONCOULDNOTBEUPDATED","Definitie kan niet worden bijgewerkt");//Deinition could not be updated
+define("_SUBMITTERM","Voer termijn in");//Submit term
+define("_EDITDEFINITION","Definitie bewerken");//Edit definition
+define("_NOFOLDERSFOUNDTOCOPYTO","Er zijn geen mappen om te kopiëren / verplaatsen naar");//There are no folders to copy/move to
+define("_SCORMFILE","SCORM bestand");//SCORM file
+define("_SMILIES","Smilies");//Smilies
+define("_SURVEYS","Enquêtes");//Surveys
+define("_MODULES","Modules");//Modules
+define("_INSTALLMODULE","Installeer module");//Install module
+define("_COULDNOTOPENZIPFILE","Het ZIP-bestand kan niet worden geopend");//The ZIP file could not be opened
+define("_MODULEINFORMATION","Module informatie");//Module information
+define("_MODULESUCCESFULLYINSTALLED","De module is met succes geïnstalleerd");//The module was successfully installed
+define("_DESCRIPTIONFILECOULDNOTBEFOUND","De module kan niet worden geïnstalleerd omdat het omschrijvingsbestand, module.xml, niet is gevonden.");//The module could not be installed because the description file, module.xml, was not found.
+define("_SUCCESFULLYDELETEDMODULE","De module is verwijderd");//The module was successfully deleted
+define("_AUTHOR","Auteur");//Author
+define("_VERSION","Versie");//Version
+define("_THEFIELDSINYOURCSVFILEMUSTCONTAINTHEFOLLOWINGFIELDS","De velden in uw CSV-bestand moeten de volgende velden bevatten");//The fields in your csv file must contain the following fields
+define("_IFEMPTYNEWPASSWORD","Velden in rood zijn verplicht. Als er geen wachtwoord is opgegeven dan zal het eerste wachtwoord hetzelfde zijn als bij de login. Wanneer u de gebruikers wilt verifiëren via LDAP, vul dan 'ldap' in bij wachtwoord");//Fields in red are mandatory. If there is no password given, the initial password will be set the same as the login. Please specify 'ldap' for password, if you want the users to authenticate via LDAP
+define("_PLEASECHECKYOURCSVFILEFORMAT","Controleer het formaat van uw CSV-bestand");//Please check the format of your CSV file
+define("_CERTIFICATEINSTRUCTIONS","Gebruik in de template #organization# voor organisatienaam, #user_name# voor gebruikersnaam, #user_surname# voor de gebruikersachternaam, #course_name# voor de cursusnaam, #grade# voor niveau en #date# voor datum.");//In the template, use #organization# for organization&#039;s name, #user_name# for user&#039;s name, #user_surname# for user&#039;s surname, #course_name# for course&#039;s name, #grade# for grade and #date# for date.
+define("_CERTIFICATEINSTRUCTIONSXML","Gebruik in de template &lt;organization&gt; &lt;/ organisatie&gt; voor de naam van de organisatie, &lt;student&gt; &lt;/ student&gt; voor de volledige naam van de student, &lt;course&gt; &lt;/ cursus&gt; voor de naam van de cursus, &lt;grade&gt; &lt;/ rang&gt; voor het niveau, &lt; seriële&gt; &lt;/ serial&gt; voor het serienummer, &lt;date&gt; &lt;/ date&gt; voor datum, &lt;logo&gt; &lt;/ logo&gt; voor het logo en &lt;background&gt; &lt;/ achtergrond&gt; voor de achtergrond.");//In the template, use &lt;organization&gt;&lt;/organization&gt; for organization&#039;s name, &lt;student&gt;&lt;/student&gt; for student&#039;s full name, &lt;course&gt;&lt;/course&gt; for course&#039;s name, &lt;grade&gt;&lt;/grade&gt; for grade, &lt;serial&gt;&lt;/serial&gt; for serial number, &lt;date&gt;&lt;/date&gt; for date, &lt;logo&gt;&lt;/logo&gt; for logo, &lt;background&gt;&lt;/background&gt; for background and &lt;orientation&gt;&lt;/orientation&gt; for page orientation.
+define("_VOTES","Stemmen");//Votes
+define("_PERCENTAGE","Percentage");//Percentage
+define("_CERTIFICATEISSUED","Certificaat afgegeven");//Certificate issued
+define("_ISSUE","Issue");//Issue
+define("_PROBLEMISSUINGCERTIFICATE","Het certificaat kan niet worden afgegeven");//The certificate could not be issued
+define("_REVOKECERTIFICATE","Intrekken certificaat");//Revoke certificate
+define("_VIEWCERTIFICATE","Bekijk certificaat");//View certificate
+define("_CERTIFICATEREVOKED","Het certificaat is ingetrokken");//The certificate was revoked successfully
+define("_PROBLEMREVOKINGCERTIFICATE","Het certificaat kan niet worden ingetrokken");//The certificate could not be revoked
+define("_CHECKFORUPDATES","Controleren op updates");//Check for updates
+define("_MODULEUPDATE","Update module");//Update module
+define("_PENDING","In behandeling");//Pending
+define("_DEADLINEPASSED","De termijn is verstreken");//The deadline has passed
+define("_PROJECTFINISHED","Het project is voltooid");//The project is finished
+define("_FILEUPLOADEDAWAITINGGRADE","Het bestand is geupload, maar het project is nog niet ingedeeld.");//The file was uploaded, but the project has not been graded yet.
+define("_LOCKDOWN","Sluit af");//Lock down
+define("_LOCKDOWNFROM","Sluit systeem af van");//Lock down system from
+define("_LOCKDOWNTO","Sluit systeem af naar");//Lock down system to
+define("_DISPLAYINDEXMESSAGE","Laat een bericht zien op de eerste pagina van het systeem");//Display notification message to system first page
+define("_SETANNOUNCEMENT","Stel een systeem aankondiging in");//Set a system announcement
+define("_NOLESSONSFOUND","Geen lessen gevonden");//No lessons found
+define("_SUCCESFULLYSETORDER","De bestelling van lessen in deze cursus is goed gegaan");//The lessons order in course was set successfully
+define("_PROBLEMSETTINGORDER","De bestelling van lessen in deze cursus kan niet worden ingesteld");//The lessons order in the course could not be set
+define("_ENABLEDAPI","Schakel XML API in");//Enable XML API
+define("_OLDUPGRADEBACKUPS","Oude upgrade backups");//Old upgrade backups
+define("_CLEANUPALL","Ruim alles op");//Clean up all
+define("_THISOPERATIONALTERSYSTEM","Deze handeling zal permanent gegevens en bestanden van het systeem verwijderen. Bent u absoluut zeker?");//This operation will permanently delete data and files from the system. Are you absolutely sure?
+define("_SMTPAUTH","SMTP-verificatie");//SMTP authentication
+define("_FLAG","Vlag");//Flag
+define("_SETNORMALPRIORITY","Stel normale prioriteit in");//Set priority to normal
+define("_SETHIGHPRIORITY","Stel hoge prioriteit in");//Set priority to high
+define("_YOUMUSTSELECTMESSAGESTOFLAG","U moet berichten selecteren om te kunnen markeren met een vlag");//You must select messages to flag
+define("_SYSTEMEMAIL","Systeem e-mail");//System email
+define("_MAXFILESIZE","Maximale grootte van het bestand");//Maximum file size
+define("_SUCCESFULLYUPDATECONFIGURATION","Configuratie variabelen bijgewerkt");//Successfully updated configuration variables
+define("_COULDNOTUPDATE","Kan niet bijgewerkt worden");//Could not update
+define("_WITHVALUE","met waarde");//with value
+define("_INVALIDFIELDDATAFORFIELD","Ongeldige gegevens voor veld");//Invalid data for field
+define("_LDAPVARIABLES","LDAP-server configuratie");//LDAP server configuration
+define("_EMAILCOULDNOTBESENDBECAUSE","De e-mail kan niet worden verzonden");//The email could not be sent
+define("_EMAILSENDTOYOURADDRESS","De e-mail is verstuurd naar uw e-mailadres");//The email was send to your email address
+define("_YOUMUSTFIRSTCREATEDIRECTION","Voor het aanmaken van een les, moet u eerst een categorie aanmaken");//In order to create a lesson, you must first create a category
+define("_SAVEQUESTIONANDCREATENEW","Sla vraag op en maak een andere aan");//Save question and create another
+define("_SAVEASNEWQUESTION","Opslaan als nieuwe vraag");//Save as new question
+define("_SUCCESFULLYUPDATEDPOLL","De poll is bijgewerkt");//The poll was updated successfully
+define("_YOUHAVESEENALLCONTENT","U heeft alle inhoud voltooid");//You have completed all content
+define("_CONDITIONMET","Voldaan aan voorwaarden");//Completion rules met
+define("_CONDITIONNOTMET","Niet voldaan aan voorwaarden");//Completion rules met
+define("_OLDMODULES","Oude modules");//Old modules
+define("_PHPLDAPEXTENSIONISNOTLOADED","De PHP LDAP extensie is niet geladen");//The PHP LDAP extension is not loaded
+define("_LESSONCONDITIONSCOMPLETED","U heeft volledig voldaan aan de voorwaarden van de les. Deze les moet door de docent als voltooid worden ingesteld");//You meet the lesson's completion rules. This lesson needs to be set as completed by the professor
+define("_LESSONCOMPLETE","Les afgerond");//Lesson completed
+define("_CERTIFICATEISSUEDSUCCESFULLY","Certificaat afgegeven");//Certificate issued successfully
+define("_NOTITLE","Geen titel");//No title
+define("_AUTOMATICCERTIFICATES","Automatische certificaten");//Automatic certificates
+define("_OFF","uit");//off
+define("_POLLDELETEDSUCCESSFULLY","De poll is verwijderd");//The poll was deleted successfully
+define("_POLLS","Polls");//Polls
+define("_TWOOPTIONSATMINIMUMREQUIRED","Ten minste twee verschillende opties zijn vereist voor de poll");//At minimum two different options are required for the poll
+define("_POLL","Poll");//Poll
+define("_VOTE","Stem");//Vote
+define("_YOUHAVEALREADYVOTED","U heeft al gestemd voor deze poll");//You have already voted for this poll
+define("_SUCCESFULLYVOTED","Uw stem is toegevoegd");//Your vote has been submited
+define("_VIEWRESULTS","Bekijk de resultaten");//View results
+define("_TOTALVOTES","Totaal aantal stemmen");//Total votes
+define("_SUBMITTEST","Verzenden toets");//Submit test
+define("_RATEMUSTBEBETWEEN1100","De score moet liggen tussen 1 en 100");//The score must range between 1 and 100
+define("_NUMOFQUESTIONS","Aantal vragen");//Number of questions
+define("_TESTDURATION","Duur toets");//Test duration
+define("_QUESTIONSARESHOWN","Vragen worden weergegeven");//Questions are shown
+define("_YOUCANDOTHETEST","U kunt de toets maken");//You can do the test
+define("_DONETIMESSOFAR","Voor nu heeft u deze toets gemaakt");//So far you have done this test
+define("_ALLTOGETHER","Allemaal samen");//All together
+define("_ONEBYONEQUESTIONS","1 voor 1");//One by one
+define("_TIMES","Keer");//times
+define("_LDAPACCOUNTPASSWORD","Wachtwoord LDAP account");//LDAP account password
+define("_USELDAPACCOUNT","Gebruik uw LDAP account gegevens om gebruik te maken van het systeem");//Use your LDAP account credentials in order to use the system
+define("_ONLYLDAPREGISTRATIONPERMITTED","Alleen registratie met behulp van een geldig LDAP account is toegestaan");//Only registration using a valid LDAP account is permitted
+define("_GENERALLYAVAILABLE","is algemeen beschikbaar");//is generally available
+define("_DELETECONDITION","Voorwaarde verwijderen");//Delete rule
+define("_ADDFORUMPOSTONTHISUNIT","Plaats forum bericht voor deze eenheid");//Post forum message for this unit
+define("_AUTOCOMPLETE","Auto compleet");//Auto complete
+define("_DUPLICATESARENOTALLOWED","U kunt niet twee keer dezelfde les gebruiken in een voorwaarde");//You can&#039;t use twice the same lesson in a rule
+define("_TIMEINLESSON","Tijd in de les");//Time in lesson
+define("_ACCOUNTACTIVATIONMAILSUBJECT","Account activerings e-mail");//Account activation email
+define("_YOUWILLRECEIVEMAILFORACCOUNTACTIVATION","U ontvangt een e-mail om uw account te activeren");//You will receive an email to activate your account
+define("_ACCOUNTACTIVATIONMAILBODY","Volg onderstaande link om uw account te activeren:");//Please, follow link below to activate your account:
+define("_ACCOUNTSUCCESSFULLYACTIVATED","Uw account is geactiveerd");//Your account was successfully activated
+define("_SUCCESSFULLYINSERTEDVALUES","Waarden ingevoegd");//Successfully inserted values
+define("_NEWFORUM","Nieuw forum");//New forum
+define("_FORUMS","Forums");//Forums
+define("_FORUMADDEDSUCCESSFULLY","Forum toegevoegd");//Forum added succesfully
+define("_FORUMUPDATEDSUCCESSFULLY","Forum bijgewerkt");//Forum updated succesfully
+define("_ACCESSIBLEBYUSERSOFLESSON","Voor les");//For lesson
+define("_FORUMDELETEDSUCCESSFULLY","Forum verwijderd");//Forum deleted succesfully
+define("_ACCESSIBLEBY","Bereikbaar met");//Accessible by
+define("_ROOTUNIT","--- Root eenheid ----");//---Root unit----
+define("_GENERICLESSONINFO","Generieke les informatie");//Generic lesson info
+define("_LOGRECORD","Log rapport");//Log record
+define("_NOFORUMPOSTSYET","Er bevinden zich nog geen berichten in dit forum");//There are no posts in this forum yet
+define("_NOTOPICSFOUNDINTHISFORUM","Er bevinden zich geen onderwerpen in dit forum");//There are no topics in this forum
+define("_NOMESSAGESFOUNDINTHISTOPIC","Er bevinden zich geen berichten in dit onderwerp");//There are no messages in this topic
+define("_AVAILABLEFROM","Beschikbaar vanaf");//Available from
+define("_SUCCESSFULLYADDEDPOLL","Poll toegevoegd");//Successfully added poll
+define("_RECIPIENT","Ontvanger");//Recipient
+define("_SENDASEMAILALSO","Stuur ook als e-mail");//Send also as email
+define("_NOSUBJECT","Geen onderwerp");//No subject
+define("_THEMESSAGEWASNOTSENTASEMAIL","Het bericht kan niet worden verzonden per e-mail");//The message could not be emailed
+define("_TOTALLOGINTIME","Totale tijd in het systeem");//Total time in system
+define("_THENEWFORMOFADDITIVELEARNING","Refreshing eLearning");//Refreshing eLearning
+define("_AUTOMATICUSERACTIVATION","Automatische activering gebruikers");//Automatic user activation
+define("_USERSEXPORT","Exporteer gebruikers");//Export users
+define("_USERSIMPORT","Importeer gebruikers");//Import users
+define("_NEWUSERS","Nieuwe gebruikers");//New users
+define("_USER","Gebruiker");//User
+define("_CHOOSEUSER","Selecteer Gebruiker");//Select user
+define("_USERS","Gebruikers");//Users
+define("_ALLSYSTEMUSERS","Alle systeem gebruikers");//All system users
+define("_USERSCONNECTEDTOSPECIFICCOURSE","Gebruikers betrokken bij cursus");//Users involved with specific course
+define("_USERSCONNECTEDTOSPECIFICLESSON","Gebruikers betrokken bij les");//Users involved with specific lesson
+define("_SPECIFICTYPEUSERS","Specifieke soort gebruikers");//Specific type of users
+define("_USERTYPE","Soort bebruiker");//User type
+define("_ACTIVEUSER","Actieve gebruiker");//Active user
+define("_USERDELETED","Gebruiker verwijderd.");//User deleted.
+define("_THEUSER","De gebruiker");//The user
+define("_CHOOSEUSERTODISCONNECT","Selecteer een gebruiker om de verbinding mee te verbreken");//Select a user to disconnect
+define("_LOGOUTUSER","Meld gebruiker af");//Log out user
+define("_THEREARENOOTHERUSERSRIGHTNOWINTHISROOM","Geen enkele gebruiker is momenteel in deze chat room");//No user currently in this chat room
+define("_USERSONLINE","Online gebruikers");//Connected users
+define("_ANDTHEMESSAGESOFUSER","En de berichten van gebruiker");//And the messages of user
+define("_ALLUSERS","Alle gebruikers");//All users
+define("_INVALIDUSER","Ongeldige gebruikersnaam");//Invalid user name
+define("_REPLACEEXISTINGUSERS","Vervang dubbele gebruikers");//Replace duplicate users
+define("_KEEPEXISTINGUSERS","behoud dubbele gebruikers");//Don't update duplicate users
+define("_NOOTHERUSERSONLINE","Geen andere gebruikers momenteel online");//No other users currently online
+define("_USERNAME","Gebruikersnaam");//User name
+define("_STATISTICSFORUSER","Rapporten voor de gebruiker");//Reports for user
+define("_GENERALUSERINFO","Algemene gebruikersinformatie");//General user information
+define("_USERCOMMUNICATIONINFO","Gebuikersinformatie over communicatie");//User information on communication
+define("_USERUSAGEINFO","Gebruikersinformatie over het systeem gebruik");//User information on system usage
+define("_THEUSERHASNOTDONEANYTESTSINTHISLESSON","De gebruiker heeft nog geen toetsen voltooid in deze les");//The user has not completed any tests in this lesson
+define("_USERSTATISTICS","Rapporten gebruikers");//User reports
+define("_REPORTSFORUSER","Rapporten voor gebruikersopties");//Reports for user
+define("_OTHERUSERSINROOM","Andere gebruikers in de chatroom");//Other users in the room
+define("_NOMESSAGESFOUNDFORTHISINTERVALANDUSER","Er zijn geen berichten gevonden voor de opgegeven interval, chatroom en gebruiker");//No messages found for the specified interval, room and user
+define("_INVITEUSERS","Gebruikers uitnodigen");//Invite users
+define("_SPECIFICUSER","Specifieke gebruiker");//Specific user
+define("_ALLACTIVESYSTEMUSERS","Alle actieve systeem gebruikers");//All active system users
+define("_WAITINGFORUSER","Wachten op gebruiker");//Waiting for user
+define("_YOUHAVEINVITEDUSER","U heeft de volgende gebruiker uitgenodigd");//You have invited user
+define("_DEARUSER","Beste gebruiker");//Dear user
+define("_ISVISIBLEFROMOTHERUSERS","Zichtbaar vanuit een gebruiker?");//Visible from any user?
+define("_CUSTOMIZEUSERSPROFILE","Uitgebreid gebruikersprofiel");//Extend user profile
+define("_USERISONLINE","De gebruiker is online");//The user is online
+define("_USERJUSTLOGGEDIN","De gebruiker is net ingelogd");//The user just logged in
+define("_UPDATEUSERSTOLESSONS","Wijs les toe aan gebruikers");//Select lesson users
+define("_EDITUSERSLESSON","Gebruikers les");//Lesson users
+define("_NEWUSER","Nieuwe gebruiker");//New user
+define("_UPDATEUSERS","Update gebruikers");//Update users
+define("_EDITUSER","Instellingen gebruikers");//User settings
+define("_EDITUSEREDIT","Bewerk gebruiker");//Edit user
+define("_ADDUSERSTOSURVEY","Voeg de gebruik toe aan de enquête");//Add users to the survey
+define("_UPDATEUSERTYPES","Update gebruikerstype");//Update user types
+define("_EDITUSERTYPE","Bewerk gebruikerstype");//Edit user type
+define("_OPTIONSUSERTYPEFOR","Opties voor gebruikerstype");//Options for user type
+define("_NEWUSERTYPE","Nieuw type gebruiker");//New user type
+define("_BASICUSERTYPE","Standaard gebruikerstype");//Basic user type
+define("_AREYOUSUREYOUWANTTODELETEUSERTYPE","Weet u zeker dat u het gebruikerstype wilt verwijderen?");//Are you sure you want to delete user type?
+define("_SUCCESFULLYUPDATEDUSERTYPE","Gebruikers type is bijgewerkt");//User type was updated successfully
+define("_SUCCESFULLYADDEDUSERTYPE","Gebruikers type is toegevoegd");//User type was added successfully
+define("_USERSMANAGEMENT","Beheer gebruikers");//Users management
+define("_AREYOUSUREYOUWANTTODELETEUSER","Weet u zeker dat u de gebruiker wilt verwijderen?");//Are you sure you want to delete user?
+define("_USERTYPEDELETED","Gebruikerstype verwijderd");//User type deleted
+define("_EDITUSERSCOURSE","Cursus gebruikers");//Course users
+define("_USERDEACTIVATED","Gebruiker uitgeschakeld");//User deactivated
+define("_USERACTIVATED","Gebruiker geactiveerd");//User activated
+define("_USERSKIND","Gebruikerstype");//User types
+define("_USERTYPES","Gebruikerstype");//User types
+define("_SMTPUSER","SMTP-login");//SMTP user
+define("_USERCREATED","Gebruiker aangemaakt");//User created
+define("_USERTRAFFIC","Gebruikersverkeer");//User&#039;s traffic
+define("_USERSPROGRESS","Status gebruikers");//Users status
+define("_THEUSERHASNOTCOMPLETEDTHELESSON","De gebruiker is nog niet klaar met deze les");//The user has not completed this lesson yet
+define("_MOSTACTIVEUSERS","Meest actieve gebruikers");//Most active users
+define("_5MOSTACTIVEUSERS","5 meest actieve gebruikers");//5 most active users
+define("_NOUSERFORTHISSURVEYYET","Nog geen gebruikers voor deze enquête.");//No users for this survey yet.
+define("_SHOWALLUSERS","Toon alle gebruikers");//Show all users
+define("_THEREARENOLESSONSDEFINEDFORTHEUSERLANGUAGE","Er zijn geen lessen beschikbaar in de taal van deze gebruiker");//There are no lessons defined for the users&#39;s language
+define("_VIEWUSERLESSONPROGRESS","Bekijk de vooruitgang van de student in de les");//View the student progress throughout the lesson
+define("_USERCAPITAL","Gebruiker");//User
+define("_USERSDATA","Importeer / Exporteer gebruikers");//Import/Export users
+define("_ORPHANUSERFOLDERSCHECK","Controleer mappen zonder gebruiker");//Orphan user folders check
+define("_USERSWITHOUTFOLDERSCHECK","Controleer gebruikers zonder mappen");//Users without folders check
+define("_FOLDERSWITHOUTAUSERASSOCIATED","De volgende mappen hebben geen link met een gebruiker");//The following folders do not have a user associated
+define("_USERSWITHOUTAFOLDER","De volgende gebruikers hebben geen map");//The following users do not have a folder
+define("_PEMANENTLYDELETEFOLLOWINGUSERS","Deze handeling zal de volgende gebruikers permanent verwijderen");//This action will permanently delete the following users
+define("_CREATEFOLLOWINGUSERFOLDERS","Deze handeling zal mappen aanmaken voor de volgende werknemers");//This action will create folders for the following users
+define("_USERPROGRESS","Vooruitgang gebruiker");//User progress
+define("_LOGOUTUSERS","Online gebruikers uitloggen");//Log out users online
+define("_USERTRACKINGINFORMATION","Informatie over vorderingen gebruikers");//User tracking information
+define("_MAILUSERACTIVATION","Activatie gebruiker per e-mail");//User activation by email
+define("_USERSMAYADDFORUMS","gebruikers mogen forums toevoegen");//Users may add forums
+define("_NONEWAPPLICATIONS","Geen toepassing voor nieuwe gebruikers");//No application from new users
+define("_EXPORTUSERSDATA","Exporteer gebruikersgegevens");//Export users data
+define("_IMPORTUSERSDATA","Importeer gebruikersgegevens");//Import users data
+define("_THEUSERHASNOTBEENASSIGNEDANYPROJECT","Geen project is toegewezen aan deze gebruiker");//No project has been assigned to this user
+define("_SUCCESFULLYCLEANEDUPUSERS","Gebruikers opgeruimd");//Successfully cleaned up users
+define("_SUCCESFULLYCREATEDUSERFOLDERS","Gebruikers mappen aangemaakt");//Successfully created user folders
+define("_THEFOLLOWINGUSERFOLDERSCOULDNOTBECREATED","De volgende gebruikersmappen kunnen niet worden aangemaakt");//The following user folders could not be created
+define("_GROUP","Gebruikersgroep");//User group
+define("_USERSINFO","Gebruikersinfo");//Users info
+define("_PROFESSORSINFO","Info docent");//Professors info
+define("_EMPLOYEEWASASSIGNEDGROUP","Gebruiker toegewezen aan groep");//User was assigned to group
+define("_EMPLOYEEWASRELEASEDFROMGROUP","Gebruiker verwijderd uit groep");//User was released from group
+define("_PROFESSORCAPITAL","Docent");//Professor
+define("_STUDENTROLE","Rol studenten");//Student role
+define("_PROFESSORROLE","Rol docent");//Professor role
+define("_COURSES","Cursussen");//Courses
+define("_COURSEDELETED","Cursus verwijderd");//Course deleted
+define("_COURSEDEACTIVATED","Cursus uitgeschakeld");//Course deactivated
+define("_COURSEACTIVATED","Cursus geactiveerd");//Course activated
+define("_COURSENAME","Naam cursus");//Course name
+define("_COURSEUPDATED","Cursus bijgewerkt");//Course updated
+define("_SUCCESFULLYCREATEDCOURSE","Cursus is aangemaakt");//Course was created successfully
+define("_COURSEOPTIONSFOR","Cursus opties");//Options for course
+define("_NEWCOURSEOPTIONS","Nieuwe cursus opties");//New course options
+define("_EDITCOURSE","Bewerk cursus");//Edit course
+define("_EDITLESSONSCOURSE","Cursus lessen");//Course lessons
+define("_NEWCOURSE","Nieuwe cursus");//New course
+define("_UPDATECOURSES","Bijwerken cursussen");//Update courses
+define("_COURSE","Cursus");//Course
+define("_COURSEONLY","Uitsluitend via cursus");//Exclusively through course
+define("_AREYOUSUREYOUWANTTODELETECOURSE","Weet u zeker dat u de cursus wilt verwijderen?");//Are you sure you want to delete course?
+define("_NOCOURSESFOUND","Geen cursus gedefinieerd");//No courses defined
+define("_UPDATEEMPLOYEES","Bijwerken gebruikers");//Update users
+define("_NEWJOB","Nieuwe opdracht toewijzen");//Assign new job
+define("_AREYOUSUREYOUWANTTOCANCELJOB","Weet u zeker dat u de opdracht voor deze gebruiker wilt annuleren?");//Are you sure you want to cancel this user from this job.
+define("_AREYOUSUREYOUWANTTOFIREEMPLOYEE","Weet u zeker dat u deze gebruiker wilt ontslaan bij het bedrijf?");//Are you sure you want to fire this user from the company?
+define("_FIRE","Ontslaan");//Fire
+define("_WAGE","Loon");//Wage
+define("_VATREGNUMBER","BTW nummer");//VAT Reg.No.
+define("_HIREDON","In dienst per");//Hired on
+define("_SUPERVISOR","Manager");//Supervisor
+define("_JOBDESCRIPTIONS","Functies");//Job positions
+define("_EMPLOYEERELEASEDFROMJOB","Werknemer ontslagen");//User released from job
+define("_SKILLS","Vaardigheden");//Skills
+define("_SKILL","Vaardigheid");//Skill
+define("_SPECIFICATION","Specificatie");//Specification
+define("_DETAILS","Details");//Details
+define("_PLACEMENTS","Plaatsingen");//Placements
+define("_JOBALREADYASSIGNED","De geselecteerde plaatsing is al toegewezen aan deze gebruiker");//Selected placement is already assigned to this user
+define("_BRANCHNAME","Naam afdeling");//Branch name
+define("_EMPLOYEEPOSITION","Functie gebruiker");//User position
+define("_JOBDESCRIPTION","Functieomschrijving");//Job position
+define("_UPDATEBRANCHES","Bijwerken afdelingen");//Update branches
+define("_NEWBRANCH","Nieuwe afdeling");//New branch
+define("_FATHERBRANCHNAME","Hoofdafdeling");//Father branch
+define("_BRANCHES","Afdelingen");//Branches
+define("_BRANCHDELETED","Afdeling verwijderd");//Branch deleted
+define("_AREYOUSUREYOUWANTTODISMISSTHEBRANCH","Weet u zeker dat u die afdeling wilt verwijderen?");//Are you sure you want to dismiss that branch?
+define("_COUNTRY","Land");//Country
+define("_TELEPHONE","Telefoon");//Telephone
+define("_BRANCHRECORD","Gegevens afdeling");//Branch record
+define("_BRANCHDATAUPDATED","Afdelingsgegevens bijgewerkt");//Branch data updated
+define("_FATHERBRANCH","Hoofdafdeling");//Father branch
+define("_HCD","Persoonlijke ontwikkeling");//Human Capital Development
+define("_ORGANISATIONCHART","Organogram");//Organization chart
+define("_CANDIDATES","Kandidaten");//Candidates
+define("_SUCCSSFULLYCREATEDBRANCH","Afdeling aangemaakt");//Branch was successfully created
+define("_ATBRANCH","bij afdeling");// at branch 
+define("_FATHERBRANCHCOULDNOTBESET","Hoofdafdeling kon niet worden vastgesteld, want die is ondergeschikt aan deze afdeling in de bedrijfshiërarchie");//Target father branch could not be set, because it is inferior to this branch in the hierarchy
+define("_JOBSASSIGNED","Opdrachten toegewezen");//Jobs assigned
+define("_AREYOUSUREYOUWANTTOREMOVETHATSKILL","Weet u zeker dat u die vaardigheden wilt verwijderen uit de lijst?");//Are you sure you want to remove that skill from the list?
+define("_SKILLDATA","Gegevens vaardigheden");//Skill data
+define("_NEWSKILL","Nieuwe vaardigheden");//New skill
+define("_SKILLDESCRIPTION","Beschrijving vaardigheden");//Skill description
+define("_HAVINGSKILL","met de vaardigheid");// having the skill 
+define("_EMPLOYEESWITHTHATSKILL","Gebruikers met vaardigheden");//Users with skill
+define("_UPDATESKILLS","Bijwerken vaardigheden");//Update skills
+define("_THISSKILLSELEMENTSCOULDNOTBEDELETED","Deze vaardigheden kunnen niet worden verwijderd");//This skill could not be deleted
+define("_SKILLDATAUPDATED","Beschrijving vaardigheden bijgewerkt");//Skill description updated
+define("_SKILLCOULDNOTBECREATED","Vaardigheid kan niet worden aangemaakt");//Skill could not be created
+define("_SUCCESSFULLYCREATEDSKILL","Vaardigheid aangemaakt");//Skill created successfully
+define("_SKILLDELETED","Vaardigheid verwijderd");//Skill deleted
+define("_NOEMPLOYEESPOSSESSSKILL","Geen gebruikers beschikken over deze vaardigheid");//No users possess this skill
+define("_NOEMPLOYEESWORKATBRANCH","Geen gebruikers werken momenteel bij die afdeling");//No users currently work at this branch
+define("_UPDATEJOBDESCRIPTIONS","Bijwerken functiebeschrijvingen");//Update job positions
+define("_NEWJOBDESCRIPTION","Nieuwe functieomschrijving");//New job position
+define("_CURRENTLYEMPLOYEED","Momenteel werkzaam");//Currently employed
+define("_VACANCIES","Beschikbare posities");//Available placements
+define("_AREYOUSUREYOUWANTTOREMOVETHATJOBDESCRIPTION","Weet u zeker dat u de functieomschrijving wilt verwijderen?");//Are you sure you want to remove that job position?
+define("_JOBDESCRIPTIONDATA","Gegevens functieomschrjving");//Job position data
+define("_HAVINGJOBDESCRIPTION","met de functie");// having the job position 
+define("_NOEMPLOYEESPOSSESSJOBDESCRIPTION" , "Op dit moment zijn geen gebruikers toegewezen aan deze functie");//No users are currently assigned to this job position
+define("_SUCCESSFULLYCREATEDJOBDESCRIPTION","Functieomschrijving aangemaakt");//Successfully created job position
+define("_JOBDESCRIPTIONCOULDNOTBECREATED","Functieomschrijving kan niet worden aangemaakt");//Job position could not be created
+define("_JOBDESCRIPTIONDATAUPDATED","Functie gegevens zijn bijgewerkt");//Job position data were successfully updated
+define("_JOBDESCRIPTIONDELETED","Functie verwijderd");//Job position deleted
+define("_THISJOBDESCRIPTIONSELEMENTSCOULDNOTBEDELETED","De onderdelen van de functieomschrijving kunnen niet worden verwijderd");//The job position&#039;s elements could not be deleted
+define("_EDITJOBDESCRIPTION","Functieomschrijving bewerken");//Edit job position
+define("_SKILLSREQUIRED","Benodigde vaardigheden");//Skills desired
+define("_EMPLOYEESOFBRANCH","Gebruikers van afdeling");//Users of branch
+define("_EMPLOYEESWITHSKILL","Gebruikers met vaardigheid");//Users with skill
+define("_FILERECORD","File");//Files
+define("_VIEW","Bekijken");//View
+define("_SORRYYOUDONOTHAVEPERMISSIONTOPERFORMTHISACTION","Sorry, u heeft geen toestemming voor het uitvoeren van deze handeling");//Sorry you do not have the permission to perform this action
+define("_MOBILEPHONE","Mobiele telefoon");//Mobile phone
+define("_EMPLOYEESDATASUCCESSFULLYUPDATED","Gebruikersgegevens zijn bijgewerkt");//User data successfully updated
+define("_EMPLOYEESRECORDCOULDNOTBEUPDATED","Gebruikersgegevens kunnen niet worden bijgewerkt");//User record could not be updated
+define("_NOPLACEMENTSASSIGNEDYET","Nog geen posities toegewezen");//No placements assigned yet
+define("_BRANCHCOULDNOTBECREATED","Afdeling kan niet worden gemaakt");//Branch could not be created
+define("_NOSKILLSHAVEBEENREGISTERED","Er zijn geen vaardigheden geregistreerd");//No skills have been registered
+define("_NOJOBDESCRIPTIONSHAVEBEENREGISTERED","Er zijn geen functies geregistreerd");//No job positions have been registered
+define("_PLACEMENTCOULDNOTBEASSIGNED","Positie kan niet worden toegewezen");//Placement could not be assigned
+define("_NOSKILLSASSIGNED","Geen vaardigheden toegewezen");//No skills assigned
+define("_NOSKILLSREGISTEREDASPREREQUISITES","Geen vaardigheden geregistreerd als voorwaarden");//No skills registered as prerequisites
+define("_SATISFYANYCRITERIA","Voldoe aan een criterium");//Satisfy any criteria
+define("_SATISFYALLCRITERIA","Voldoe aan alle criteria");//Satisfy all criteria
+define("_WORKINGATBRANCH","Werkend bij afdeling");//Working at branch
+define("_WITHJOBDESCRIPTION" ,"Met functie"); //With job position
+define("_FINDEMPLOYEES","Zoek gebruikers");//Find users
+define("_WITHSKILL","Met vaardigheid");//With skill
+define("_EMPLOYEESFULFILLINGCRITERIA","Gebruikers die voldoen aan de criteria");//Users fulfilling the criteria
+define("_NOEMPLOYEESFULFILLTHESPECIFIEDCRITERIA","Geen gebruikers voldoen aan de opgegeven criteria");//No users fulfill the specified criteria
+define("_ORGANIZATIONCHARTTREE","Organigram");//Organization chart tree
+define("_ANYBRANCH","Elke afdeling");//Any branch
+define("_ANYJOBDESCRIPTION","Elke functie");//Any job position
+define("_EXPORTVACANCIES","Exporteer vacatures");//Export vacancies
+define("_NATIONALSERVICECOMPLETED","Nationale dienst");//National service
+define("_DRIVINGLICENSE","Rijbewijs");//Driver license
+define("_BANKACCOUNT","Rekeningnummer");//Account
+define("_BANK","Bank");//Bank
+define("_TAXOFFICE","Belastingkantoor");//Tax office
+define("_POLICEIDNUMBER","Politie ID");//Police id
+define("_WORKPERMISSIONDATA","Gegevens werkvergunning");//Work permission data
+define("_WAYOFWORKING","Werkend als");//Working as
+define("_EMPLOYMENTTYPE","Soort werk");//Employement type
+define("_MARRIED","Gehuwd");//Married
+define("_SINGLE","Alleenstaand");//Single
+define("_MARITALSTATUS","Burgerlijke stand");//Marital status
+define("_FEMALE","Vrouwelijk");//Female
+define("_MALE","Mannelijk");//Male
+define("_GENDER","Geslacht");//Gender
+define("_FATHERNAME","Achternaam");//Father name
+define("_MOTHERTONGUE","Moedertaal");//Mother tongue
+define("_NATIONALITY","Nationaliteit");//Nationality
+define("_PARTTIME","Deeltijd");//Part time
+define("_FULLTIME","Voltijd");//Full time
+define("_BIRTHDAY","Verjaardag");//Birthday
+define("_BIRTHPLACE","Geboorteplaats");//City of birth
+define("_BIRTHCOUNTRY","Geboorteland");//Country of birth
+define("_EMPLOYEES","Gebruikers");//People
+define("_NEWEMPLOYEE","Nieuwe gebruiker");//New user
+define("_OFFICE","Kantoor");//Office
+define("_COMPANYINTERNALPHONE","Intern telefoonnummer");//Company internal phone
+define("_EMPLOYEECREATED","Gebruiker aangemaakt");//User created successfully
+define("_EMPLOYEEDELETED","Gebruiker verwijderd");//User deleted
+define("_SKILLSOFFERED","Vaardigheden aangeboden");//Skills offered
+define("_NOSKILLSOFFERED","Geen vaardigheden aangeboden");//No skills offered
+define("_NOJOBDESCRIPTIONSSHAVEBEENREGISTERED","Geen functies zijn geregistreerd");//No job positions have been registered
+define("_INSERTEDINTOTHESYSTEM","Ingevoegd in het systeem");//Inserted into the system
+define("_HIRED","Aangenomen");//Hired
+define("_RAISEOF","Verhoging van");//Raise of
+define("_EMPLOYEESNEWWAGEIS","Het nieuwe loon van de gebruiker is");//The user&#039;s new wage is
+define("_DECREASEOF","Verlaging van");//Decrease of
+define("_EMPLOYEEWASASSIGNEDJOB","Toegewezen opdracht gebruiker");//User was assigned job
+define("_EMPLOYEEWASRELEASEDFROMDJOB","Gebruiker is niet meer werkzaam in de functie");//User was released from job
+define("_EMPLOYEEWASASSIGNEDSKILL","Gebruiker is de  volgende vaardigheid toegewezen");//User was assigned skill
+define("_WASRELEASEDFROMEMPLOYEE","werd vrijgesteld door gebruiker");//was released from user
+define("_EMPLOYEESSKILLSPECIFICATIONSFORSKILL","Specificaties gebruiker voor vaardigheden");//User&#039;s skill specifications for skill
+define("_WERECHANGEDTO","werden gewijzigd in");//were changed to
+define("_FIRED","Ontslagen");//Fired
+define("_NOHISTORYREGARDINGTHISEMPLOYEE","Geen geschiedenis met betrekking tot deze gebruiker geregistreerd");//No history regarding this user recorded
+define("_HISTORYOFEMPLOYEE","Geschiedenis van gebruiker");//History of user
+define("_HISTORY","Geschiedenis");//History
+define("_NOANNOUNCEMENTSPOSTEDADMIN","Geen mededelingen");//No announcements
+define("_SEPARATEMULTIPLEUSERS","Scheid meerdere ontvangers met ;");//Separate multiple recipients with ;
+define("_STARTTYPINGFORRELEVENTMATCHES","Begin met typen zodat het systeem corresponderende opties kan aanbieden (Type % voor iedereen)");//Start typing to get relevant matches (Type % for all)
+define("_ADVANCEDSEARCH","Geavanceerd zoek opties");//Advanced search options
+define("_REGISTERADVANCEDSEARCHFIELDS","Registreer velden voor geavanceerd zoeken");//Register advanced search fields
+define("_EDITBRANCH","Bewerk afdeling");//Edit branch
+define("_ASSIGNEMPLOYEES","Gebruikers toewijzen");//Assign users
+define("_ASSIGNEMPLOYEESTOBRANCH","Gebruikers toewijzen aan afdeling");//Assign users to branch 
+define("_EDITSKILL","Vaardigheid bewerken");//Edit skill
+define("_ASSIGNSKILL","Vaardigheid toewijzen");//Assign skill
+define("_ASSIGNEMPLOYEESTHESKILL","De gebruikers de vaardigheid toewijzen");//Assign to users the skill 
+define("_NOBRANCHESHAVEBEENREGISTERED","Geen afdelingen zijn geregistreerd");//No branches have been registered
+define("_ORGANIZATION","Organisatie");//Organization
+define("_SEARCHFOREMPLOYEE","Zoek een medewerker [Organisatie criteria]");//Find users [Organization criteria]
+define("_SUBFORUMS","Subforums");//Subforums
+define("_NOSUBFORUMSFOUND","Er bevinden zich geen subforums in dit forum");//There are no subforums defined in this forum
+define("_NONEWMESSAGELOCKED","U kunt geen nieuwe berichten plaatsen, omdat dit onderwerp of forum is vergrendeld");//You cannot post any new messages because this topic or forum is locked
+define("_ACTIVITY","Activiteit");//Activity
+define("_ISVALID","Geldig");//Valid
+define("_LEFTON","Achtergelaten op");//Left on
+define("_ADVANCED","Uitgebreide criteria");//Advanced criteria
+define("_MYSTUDENTS","Mijn studenten");//My students
+define("_EMPLOYEE","Gebruiker");//User
+define("_NOBRANCHJOBSERROR","Er zijn geen functies geregistreerd voor deze afdeling");//No job positions have been registered for this branch
+define("_TESTSTATISTICS","Rapporten toetsen");//Test reports
+define("_CHOOSETEST","Kies toets");//Choose test
+define("_USERPROFILE","Gebruikersprofiel");//Public profile
+define("_VIEWBRANCHES","Bekijk afdelingen");//View branches
+define("_NOEMPLOYEESFOUND","Er zijn geen gebruikers gevonden");//No users found
+define("_SEARCHEMPLOYEE","Zoek gebruikers");//Find users
+define("_ALLBRANCHES","Alle afdelingen");//All branches
+define("_ANSWERS","Antwoorden");//Answers
+define("_GROUPDOESNOTEXIST","De groep bestaat niet");//The group doesn&#039;t exist
+define("_SUBBRANCHES","Sub-afdelingen");//Sub-branches
+define("_OFBRANCH","van afdeling");// of branch 
+define("_NEWSUBBRANCH","Nieuwe sub-afdeling");//New sub-branch
+define("_SMTPTIMEOUT","SMTP-time-out");//SMTP timeout
+define("_ILLEGALPATH","Illegaal pad");//Illegal path
+define("_FILEWASPARTIALLYUPLOADED","Het bestand is slechts gedeeltelijk geupload");//The uploaded file was only partially uploaded
+define("_NOFILEUPLOADED","Geen bestand geupload");//No file was uploaded
+define("_NOTMPDIR","Er ontbreekt een tijdelijke systeemmap. Update de php.ini instellingen");//Missing a system upload temporary folder. Please update php.ini settings accordingly
+define("_UPLOADCANTWRITE","Schrijven van bestand naar schijf mislukt");//Failed to write file to disk
+define("_UPLOADERREXTENSION","Uploaden bestand gestopt door extensie");//File upload stopped by extension
+define("_CANNOTCOPYFILE","Het bestand kan niet worden gekopieerd");//The file cannot be copied
+define("_CANNOTMOVEFILE","Het bestand kan niet worden verplaatst");//The file cannot be moved
+define("_DIRECTORYDOESNOTEXIST","De map bestaat niet");//The directory does not exist
+define("_COULDNOTCREATEDIRECTORY","De map kan niet worden aangemaakt");//The directory could not be created
+define("_CANNOTCOPYDIRECTORY","De map kan niet worden gekopieerd");//The directory cannot be copied
+define("_DIRECTORYALREADYEXISTS","De map bestaat al");//The directory already exists
+define("_AUTOASSIGNTONEWUSERS","Automatisch toewijzen aan nieuwe gebruikers");//Automatically assign to new users
+define("_CANNOTOPENCOMPRESSEDFILE","Het gecomprimeerde bestand kan niet worden geopend");//The compressed file cannot be opened
+define("_CHOOSEWHATTODELETE","Kies wat u wilt verwijderen tijdens de les initialisatie");//Choose what to delete during lesson initialization
+define("_PERIODS","Perioden");//Periods
+define("_IMPORTLESSON","Importeer les");//Import lesson
+define("_EXPORTLESSON","Exporteer les");//Export lesson
+define("_LESSONEXPORTEDSUCCESFULLY","Les met succes geexporteerd");//Lesson successfully exported
+define("_LESSONIMPORTEDSUCCESFULLY","Les succesvol geïmporteerd");//Lesson successfully imported
+define("_FILESIZEMUSTBESMALLERTHAN","Het bestand moet kleiner zijn dan");//The file must be smaller than
+define("_PROBLEMIMPORTINGFILE","Probleem bij het importeren van bestand");//Problem importing file
+define("_PAGE","Pagina");//Page
+define("_ACTIVE_PROJECTS","Actief");//Active
+define("_INACTIVE_PROJECTS","Inactief");//Inactive
+define("_TIMEREMAIN","Blijven");//Remain
+define("_WEEKS","weken");//weeks
+define("_WEEKs","week");//week
+define("_DAYS","dagen");//days
+define("_DAYSCAPITAL","Dagen");//Days
+define("_DAY","Dag");//Day
+define("_EVALUATIONDATAUPDATED","Evaluatie gegevens bijgewerkt");//Evaluation data updated successfully
+define("_EVALUATION","Evaluatie");//Evaluation
+define("_EVALUATIONOFEMPLOYEE","Evaluatie van de gebruiker");//Evaluation of user
+define("_NEWEVALUATION","Nieuwe evaluatie");//New evaluation
+define("_EVALUATIONCOMMENT","Evaluatie commentaar");//Evaluation comment
+define("_EVALUATIONDELETED","Evaluatie verwijderd");//Evaluation deleted
+define("_THEEVALUATIONCOULDNOTBEDELETED","De evaluatie kan niet worden verwijderd");//The evaluation could not be deleted
+define("_SUCCESSFULLYCREATEDEVALUATION","Evaluatie aangemaakt");//Successfully created evaluation
+define("_EVALUATIONCOULDNOTBECREATED","Evaluatie kan niet worden aangemaakt");//Evaluation could not be created
+define("_AREYOUSUREYOUWANTTODELETEEVALUATION","Weet u zeker dat u de evaluatie wilt verwijderen?");//Are you sure you want to delete the evaluation?
+define("_NOEVALUATIONSASSIGNEDYET","Geen evaluatie geschreven");//No evaluation written yet
+define("_BRANCH","Afdeling");//Branch
+define("_PLACEMENT","Plaatsing");//Placement
+define("_EVALUATIONS","Evaluaties");//Evaluations
+define("_TRANSPORTMEANS","Vervoermiddel");//Means of transport
+define("_YOUCANNOTDELETESOMEELSESEVALUATION","U kunt geen evaluatie verwijderen die is geschreven door een andere gebruiker");//You cannot delete an evaluation written by another user
+define("_YOUCANNOTEDITSOMEELSESEVALUATION","U kunt geen evaluatie bewerken die is geschreven door een andere gebruiker");//You cannot edit an evaluation written by another user
+define("_EMPLOYEEFORM","Gebruikersformulier");//Training record
+define("_EMPLOYEEFORMPRINTPREVIEW","Gebruikersformulier afdrukvoorbeeld");//Training record print preview
+define("_PRINTPREVIEW","Afdrukvoorbeeld");//Print preview
+define("_PRINTEMPLOYEEFORM","Afdrukken gerbuikersformulier");//Print training record
+define("_PRINT","Afdrukken");//Print
+define("_NOSPECIFICJOB","Geen specifieke functieomschrijving");//No specific job position
+define("_GROUPS","Gebruikersgroepen");//User groups
+define("_NEWGROUP","Nieuwe groep");//New group
+define("_NOGROUPSDEFINED","Geen groepen gedefinieerd");//No groups defined
+define("_UPDATEGROUPS","Bijwerken groepen");//Update groups
+define("_GROUPDEACTIVATED","De groep is uitgeschakeld");//The group was deactivated
+define("_GROUPACTIVATED","De groep is geactiveerd");//The group was activated
+define("_EDITGROUP","Bewerk groep");//Edit group
+define("_UPDATEGROUP","Bijwerken groep");//Update group
+define("_SUCCESFULLYADDEDGROUP","De groep is toegevoegd");//The group was successfully added
+define("_AREYOUSUREYOUWANTTODELETEGROUP","Weet u zeker dat u de groep wilt verwijderen?");//Are you sure you want to delete the group?
+define("_GROUPDELETED","De groep is verwijderd");//The group was deleted
+define("_GROUPFILTER","Groep filter");//Group filter
+define("_NOUSERSFOUND","Geen gebruikers gevonden");//No users where found
+define("_SEPARATEALTERNATIVESEXAMPLE","Scheid alternatieve juiste antwoorden met |, bijvoorbeeld: Blauw | Zwart | Wit");//Separate alternative correct answers with |, for example: Blue|Black|White
+define("_CREATERANODOMTEST","Maak willekeurige toets aan");//Create random test
+define("_USING","Met behulp van");//Using
+define("_EASY","Gemakkelijk");//Easy
+define("_HARD","Moeilijk");//Hard
+define("_LOCALESETTINGS","Locale instellingen");//Locale settings
+define("_CURRENCY","Valuta");//Currency
+define("_DECIMALPOINT","Decimale punt");//Decimal point
+define("_THOUSANDSSEPARATOR","Duizenden splitsingsteken");//Thousands separator
+define("_DATEFORMAT","Datum-formaat");//Date format
+define("_SPECIFICLOCALE","Specifieke locale");//Specific locale
+define("_LOCATION","Locatie");//Location
+define("_TIMEZONE","Tijdzone");//Time zone
+define("_INVALIDRECIPIENT","Ongeldige ontvanger");//Invalid recipient
+define("_NOBRANCHSELECTED","Geen afdeling werd geselecteerd");//No branch was selected
+define("_AREYOUSUREYOUWANTTODELETEPROJECT","Weet u zeker dat u dit project wilt verwijderen?");//Are you sure that you want to delete this project?
+define("_TIMESDONE","Aantal keer gedaan");//Times done
+define("_HASLEFT","Over");//Left
+define("_EMPLOYEESINGROUP","Gebruikers van de groep");//Users of group
+define("_ERRORRESTORINGFILE","Een probleem deed zich voor tijdens het herstellen");//A problem came up during restore
+define("_DATABASEONLY","Database alleen");//Database only
+define("_ALLDATABACKUP","Alle data backup");//All data backup
+define("_LESSONDIRECTORYCANNOTBCREATED","De les map kan niet worden aangemaakt");//The lesson directory could not be created
+define("_YOUHAVENOTCOMPLETEDTHEFOLLOWINGQUESTIONS","U heeft niet voltooide vragen");//You have not completed questions
+define("_AREYOUSUREYOUWANTTOSUBMITTEST","Weet u zeker dat u de toets wilt inzenden?");//Are you sure you want to submit the test?
+define("_JOBANALYTICALDESCRIPTION","Gedetailleerde beschrijving");//Detailed description
+define("_INCLUDESUBBRANCHES","Inclusief subafdelingen");//Include subbranches
+define("_PDFFORMAT","PDF-formaat");//PDF format
+define("_XLSFORMAT","EXCEL-formaat");//EXCEL format
+define("_ATTENDING","Bijwonen");//Attending
+define("_USERAVERAGESCOREFORTESTS","Gemiddelde score voor les-toetsen");//Average score for lesson&#039;s tests
+define("_PROJECTSCOMPRESSED","Download project bestanden");//Download project files
+define("_EDUCATIONALROLE","Educatieve rol");//Educational role
+define("_ORGANIZATIONALROLE","Organisatorische rol");//Organizational role
+define("_TYPEOFUSER","Gebruikerstype");//User type
+define("_MESSAGEBODY","Berichttekst");//Message body
+define("_ONLYRECIPIENTSDEFINEDBELOW","Alleen ontvangers omschreven in het onderstaande veld");//Only recipients defined in the field below
+define("_NORECIPIENTSHAVEBEENSELECTED","Geen ontvangers zijn geselecteerd");//No recipients have been selected
+define("_NORECIPIENTSHAVEBEENFOUND","Geen ontvangers zijn gevonden");//No recipients have been found
+define("_CHANGELESSON","Verander van les");//Change lesson
+define("_HOME","Start");//Home
+define("_FFROM","van");//from
+define("_CALENDARTYPE","Kalendertype");//Calendar type
+define("_ORGANIZATIONPROFILE","Organisatieprofiel");//Organization profile
+define("_CURRENTLESSON","Huidige les");//Current lesson
+define("_SUBMITANDADDANOTHER","Bevestig en voeg een andere toe");//Submit and add another
+define("_EDUCATIONAL","Educatief");//Educational
+define("_PAYPALTITLE","Paypal");//Paypal
+define("_PAYPALCONFIGURATIONPANEL","Paypal configuratie scherm");//Paypal configuration panel
+define("_PAYPALMYTRANSACTIONS","Mijn transacties");//My transactions
+define("_PAYPALTRANSACTION","Transactie");//Transaction
+define("_PAYPALCONFIGURATION","Configuratie");//Configuration
+define("_PAYPALBUSINESSMAIL","Paypal kantooradres");//Paypal business address
+define("_PAYPALBUSINESSMAILPLZ","Vul het Paypal bedrijfsadres in");//Fill in the Paypal business address
+define("_PAYPALMAILSTUDENTS","Informeer deelnemers");//Inform students
+define("_PAYPALMAILPROFESSORS","Informeer docenten");//Inform professors
+define("_PAYPALMAILADMINS","Informeer beheerders");//Inform admins
+define("_PAYPALORDERPREVIEW","Voorbeeld order");//Preview order
+define("_PAYPALFINALPRICE","Definitieve prijs");//Final price
+define("_PAYPALPAYNOW","Betaal nu met Paypal");//Pay now with Paypal
+define("_PAYPALNOCONFIGURATION","U kunt geen gebruik maken van deze dienst, omdat deze niet goed is ingesteld.");//You can not use this service because its not configured properly.
+define("_PAYPALORDERPROCESSING","Uw bestelling wordt verwerkt via Paypal.");//Your order is being processing through Paypal.
+define("_PAYPALORDERPROCESSINGERROR","Er is iets fout gegaan met uw bestelling.");//There was an error with your order.
+define("_PAYPALORDERSSUCCESS","Voltooid");//Finished
+define("_PAYPALORDERSNOSUCCESS","Niet-Voltooid");//Not-Finished
+define("_PAYPALTABLEPRICE","Hoeveelheid");//Amount
+define("_PAYPALITEMCODE","Code");//Code
+define("_PAYPALTABLEDATESUBMIT","Besteldatum");//Order date
+define("_PAYPALTABLEDATEPAYPAL","Betaaldatum");//Payment date
+define("_PAYPALTRANSACTIONCODE","Transactie-code");//Transaction code
+define("_PAYPALTABLEUSER","Gebruiker");//User
+define("_PAYPALTABLESTATUS","Betalingsstatus");//Payment status
+define("_PAYPALTABLELESSONS","Lessen");//Lessons
+define("_PAYPALORDERINFO","Transactiedetails");//Transaction details
+define("_PAYPALCUSTOMERINFO","Klantinformatie");//Customer&#039;s information
+define("_PAYPALITEMSINFO","Items informatie");//Items information
+define("_PAYPALPURCHASEORDER","Bestelling");//Purchase order
+define("_PAYPALPURCHASEORDERFOR","Betaling voor");//Payment to
+define("_ADDTOCART","Voeg toe aan winkelwagen");//Add to cart
+define("_REMOVEFROMCART","Verwijderen uit winkelwagen");//Remove from cart
+define("_REMOVEALLFROMCART","Alles verwijderen uit winkelwagen");//Remove all from cart
+define("_CART","Winkelwagen");//Shopping cart
+define("_NOCART","De winkelwagen is leeg");//The cart is empty
+define("_FREEOFCHARGE","Vrij");//Free
+define("_LOGINFIRST","Eerst inloggen om verder te kopen");//Log in first to proceed purchase
+define("_RESULTS","resultaten");//results
+define("_RESULT","resultaat");//result
+define("_PAYPALORDERSUCCESS","De transactie voltooid");//The transaction completed successfully
+define("_PAYPALORDERFAILURE","Er is iets fout gegaan met de transactie");//There was an error with the transaction
+define("_PAYPALFREEORDERSUCCESS","Registratie van lessen met succes voltooid");//Lessons registration finished successfully
+define("_FREEREGISTRATION","Gratis registratie");//Free registration
+define("_VIEWDIRECTORY","Toon les / cursussen-catalogus");//Show lesson/courses catalog
+define("_VIEWDIRECTORYYESAFTERLOGIN","Ja (alleen na log-in)");//Yes (only after login)
+define("_VIEWDIRECTORYYESONLOGIN","Ja (op login pagina en na het inloggen)");//Yes (on login page and after login)
+define("_VIEWDIRECTORYNO","Nee");//No
+define("_VIEWDIRECTORYDISABLED","De calatogus is momenteel inactief");//The calatog is inactive this moment
+define("_INTERFACEVIEW","Selecteer de interface van de index-pagina");//Select the interface of index page
+define("_INTERFACEVIEWSIMPLE","Gewone");//Simple
+define("_INTERFACEVIEWEXTENDED","Uitgebreide");//Extended
+define("_PAYPALUSE","Betalingen met PayPal");//Payments through Paypal
+define("_DIRECTORY","Map");//Directory
+define("_LESSONSDIRECTORY","Cursus catalogus");//Course catalog
+define("_ASSOCIATEDLESSONS","Toegevoegde lessen");//Associated lessons
+define("_APPLYTOALLDESCRIPTIONSWITHDESCRIPTION","Van toepassing op alle banen met een beschrijving:");//Apply to all job positions described as: 
+define("_AREYOUSUREYOUWANTTOREMOVETHATSKILLFROMTHISEMPLOYEE","Weet u zeker dat u die vaardigheid wilt verwijderen van die gebruiker?");//Are you sure you want to remove that skill from that user?
+define("_JOBDESCRIPTIONEXISTSALREADY","Functieomschrijving bestaat al");//Job position exists already
+define("_EVENTFIELDISMANDATORY","Gebeurtenis is een verplicht veld");//Event field is mandatory
+define("_SKILLCATEGORY","Vaardigheden categorie");//Skill category
+define("_ADDSKILLCATEGORY","Voeg toe aan vaardigheden categorie");//Add skill category
+define("_EDITSKILLCATEGORY","Bewerken vaardigheid categorie");//Edit skill category
+define("_DELETESKILLCATEGORY","Verwijderen vaardigheid categorie");//Delete skill category
+define("_AREYOUSUREYOUWANTTODISMISSTHISSKILLCATEGORY","Weet u zeker dat u deze vaardigheid categorie wilt verwijderen?");//Are you sure you want to dismiss this skill category?
+define("_UPDATESKILLSCATEGORY","Vaardigheid categorie bijwerken");//Update skill category
+define("_SKILLCATEGORYDATAUPDATED","Vaardigheden categorie gegevens bijgewerkt");//Skill category data updated
+define("_SUCCESSFULLYCREATEDSKILLCATEGORY","Vaardigheden categorie aangemaakt");//Skill category successfully created
+define("_SKILLCATEGORYDELETED","Vaardigheden categorie verwijderd");//Skill category deleted
+define("_USERDOESNOTEXIST","De gebruiker bestaat niet");//The user does not exist
+define("_INVALIDSURNAME","De opgegeven achternaam van de gebruiker is niet geldig");//The user last name specified is not valid
+define("_INVALIDEMAIL","Het opgegeven e-mailadres van de gebruiker is niet geldig");//The user email specified is not valid
+define("_USERALREADYEXISTS","Een gebruiker met de opgegeven gebruikersnaam bestaat al");//A user with the specified login already exists
+define("_EMAILALREADYEXISTS","Een gebruiker met het opgegeven e-mailadres bestaat al");//A user with the specified email already exists
+define("_COULDNOTINSERTUSER","De opgegeven gebruiker kan niet worden toegevoegd aan de database");//The user specified could not be inserted to database
+define("_INVALIDUSERTYPE","Het opgegeven type gebruiker is niet geldig");//The specified user type is not valid
+define("_REMEMBERME","Onthouden");//Remember me
+define("_INVALIDPASSWORD","Ongeldig wachtwoord");//Invalid password
+define("_INVALIDPASSWORDFORUSER","Ongeldig wachtwoord voor gebruiker");//Invalid password for user
+define("_PROBLEMACTIVATINGACCOUNT","Er heeft zich een probleem voorgedaan tijdens account activatie");//There was a problem during account activation
+define("_THEUSERCOULDNOTBEDELETED","De gebruiker kan niet worden verwijderd");//The use could not be deleted
+define("_THEUSERCOULDNOTBEDEACTIVATED","De gebruiker kan niet worden uitgeschakeld");//The user could not be deactivated
+define("_THEUSERCOULDNOTBEACTIVATED","De gebruiker kan niet worden geactiveerd");//The user could not be activated
+define("_USERDIRECTORYCOULDNOTBEDELETED","De gebruikersmap kan niet worden verwijderd");//The user directory could not be deleted
+define("_INVALIDLESSONID","Ongeldige les ID");//Invalid lesson id
+define("_UNITDOESNOTEXIST","De eenheid bestaat niet");//The unit does not exist
+define("_DOWNLOADEXPORTED","Download geexporteerde les");//Download exported lesson
+define("_SUCCESFULLYRESTOREDSYSTEM","De herstel procedure is voltooid");//The restoring procedure completed successfully
+define("_LESSONDOESNOTEXIST","De opgegeven les bestaat niet");//The lesson specified does not exist
+define("_UNDOCHANGES","Veranderingen ongedaan maken");//Undo changes
+define("_CONTENTTREEMANAGEMENT","Contentbeheer (boomstructuur)");//Content tree management
+define("_ORDERWILLPERMANENTLYCHANGE","Deze handerling zal blijvende veranderen aanbrengen en kan niet ongedaan worden gemaakt. Weet u het zeker?");//This operation will permanently change unit ordering and cannot be undone. Are you sure?
+define("_ERRORLOADINGCONTENT","Fout bij het laden van de inhoud voor de les");//Error loading content for lesson
+define("_USERROLE","Gebruikersrol");//User role
+define("_CANNOTUPDATEUSERLESSONINFORMATION","De les informatie van deze gebruiker kan niet worden bijgewerkt");//The lesson information on this user could not be updated
+define("_PROBLEMUPDATINGUSERSTOLESSON","Er heeft zich een probleem voorgedaan tijdens het bijwerken van de lesinformatie van de gebruiker");//There was a problem updating the user lesson information
+define("_INVALIDPROJECTID","Ongeldig project-id");//Invalid project Id
+define("_PROJECTNOTFOUND","Het opgegeven project is niet gevonden");//The specified project was not found
+define("_USERDOESNOTHAVETHISLESSON","De gebruiker is niet geregistreerd voor deze les");//The user is not registered to this lesson
+define("_COURSEDOESNOTEXIST","De opgegeven cursus bestaat niet");//The specified course does not exist
+define("_NODEDOESNOTEXIST","Het opgegeven knooppunt bestaat niet");//The specified node does not exist
+define("_PROJECTCOULDNOTBEDELETED","Het project kan niet worden verwijderd");//The project could not be deleted
+define("_FREELESSON","Gratis les");//Free lesson
+define("_BUYCOURSE","Cursus kopen");//Buy course
+define("_FREECOURSE","Gratis cursus");//Free course
+define("_USERDOESNOTHAVETHISPROJECT","De gebruiker beschikt niet over dit project");//The user does not have this project
+define("_SCOREMUSTBEINTEGERBETWEEN0100","De project score moet een getal zijn van 0 tot 100");//The project score must be an integer ranging from 0 to 100
+define("_THEPROJECTGRADECOULDNOTBEUPDATED","De projectuitslag kan niet worden bijgewerkt");//The project grade could not be updated
+define("_INVALIDDATA","Ongeldige gegevens");//Invalid data
+define("_UPLOADEDON","Geupload op");//Uploaded on
+define("_PROJECTDELETEDSUCCESSFULLY","Project verwijderd");//The project was deleted succesfully
+define("_FILESCOULDNOTBEDOWNLOADED","De project bestanden kunnen niet worden gedownload");//The project files could not be downloaded
+define("_RESULTSFORPROJECT","Resultaten voor project");//Results for project
+define("_VIEWPROJECT","Bekijk project");//View project
+define("_REMAINING","Resterend");//Remaining
+define("_PROJECTEXPIRED","De projecttermijn is verstreken");//The project deadline has expired
+define("_SENDPROJECT","Verzend project");//Send project
+define("_NEWLESSONS","Nieuwe lessen");//New lessons
+define("_YOUMUSTDELETEALLLESSONSANDSUBDIRECTIONSINTHISDIRECTIONBEFOREDEACTIVATINGIT","U kunt geen niet-lege catergorie deactiveren");//You cannot deactivate a non-empty category
+define("_CANNOTUPDATEUSERCOURSEINFORMATION","De cursus informatie van deze gebruiker kan niet worden bijgewerkt");//The course information on this user could not be updated
+define("_CANNOTADDUSERTOCOURSE","De gebruiker kan niet worden toegevoegd aan de cursus");//The user could not be added to course
+define("_CANNOTREMOVEUSERFROMCOURSE","De gebruiker kan niet worden verwijderd uit de cursus");//The user could not be removed from the course
+define("_USERHASNOTDONETEST","De gebruiker heeft deze toets niet gedaan");//The user has not done this test
+define("_TESTISNOTDONE","De toets is nog niet klaar");//The test is not done
+define("_INVALIDQUESTIONTYPE","Ongeldig type vraag");//Invalid question type
+define("_YOUCANNOTDEACTIVATEANONEMPTYDIRECTION","U kunt geen niet-lege categorie deactiveren");//You cannot deactivate a non-empty category
+define("_YOUCANNOTDELETEANONEMPTYDIRECTION","U kunt niet een niet-lege categorie verwijderen");//You cannot delete a non-empty category
+define("_MAXFILEISAFFECTEDANDIS","De maximale grootte van het bestand om te uploaden is ook afhankelijk van de PHP ini-instellingen. De huidige maximale grootte van een bestand is");//The maximum upload file size is also affected by PHP ini settings. Current true max file size is
+define("_CAREFULNOTLOCKOUT","Bij het vaststellen van IP toegang, moet u oppassen dat u uzelf niet de toegang verbiedt!");//When setting ip access lists, be careful not to ban yourself out!
+define("_ADMINISTRATORWILLACTIVATEYOURACCOUNT","Registratie is voltooid. Uw account wordt geactiveerd door de systeembeheerder");//Registration is complete. Your account will be activated by the system administrator
+define("_USERPENDING","Het account is nog niet geactiveerd door de beheerder");//The account has not been activated yet by the administrator
+define("_DOWNLOADDEFAULTSTYLE","Download standaard stijl");//Download default style
+define("_SETDEFAULTSTYLE","Stel standaard stijl in");//Set default style as active
+define("_SUCCESFULLYUPDATEDLOGO","Logo-bestand is bijgewerkt");//Logo file was updated successfully
+define("_USEDEFAULTLOGO","Gebruik standaard logo");//Use default logo
+define("_GROUPOPTIONS","Groep opties");//Group options
+define("_GROUPUSERS","Groep gebruikers");//Group users
+define("_USETHIS","Gebruik deze");//Use this
+define("_PAGESETSUCCESSFULLY","Pagina ingesteld");//Page set succesfully
+define("_TEXTBOX","Tekstvak");//Text box
+define("_SELECTBOX","Selecteer lijst");//Select list
+define("_EDITFIELD","Veld bewerken");//Edit field
+define("_COULDNOTADDFIELD","Het veld kan niet worden toegevoegd");//The field could not be added
+define("_COULDNOTUPDATEFIELD","Het veld kan niet worden bijgewerkt");//The field could not be updated
+define("_FIELDALREADYEXISTS","Een veld met deze naam bestaat al");//A field with this name already exists
+define("_INTEGER","Integer");//Integer
+define("_DEFAULTVALUE","Standaard waarde");//Default value
+define("_VALUES","Waarden");//Values
+define("_ADDVALUES","Toevoegen waarden");//Add values
+define("_DELETEBOOKMARK","Verwijder bladwijzer");//Delete bookmark
+define("_SUCCESSFULLYINSERTEDBOOKMARK","De pagina is toegevoegd als bladwijzer");//The page was bookmarked
+define("_ERRORINSERTINGBOOKMARK","De pagina kan niet als bladwijzer worden toegevoegd");//The page could not be bookmarked
+define("_LOADING","Laden ...");//Loading...
+define("_UNITS","Eenheden");//Units
+define("_USERCOULDNOTBECREATED","De gebruiker kan niet worden aangemaakt");//The user could not be created
+define("_PROCEEDTOTEST","Ga verder naar toets");//Proceed to test
+define("_OPERATIONWILLAFFECTMANYAREYOUSURE","Deze operatie zal onherstelbaar van invloed zijn op een groot aantal entiteiten. Doorgaan?");//This operation will affect irreversibly a large number of entities. Proceed?
+define("_CLICKTOTOGGLE","Klik om in te schakelen");//Click to toggle
+define("_COMPRESSDOWNLOAD","Comprimeren en downloaden");//Compress and download
+define("_SELECTEDENTRYTO","het geselecteerde item om");//the selected entry to
+define("_YOUWANTTO","U wilt");//You want to
+define("_UPLOADTODIGITALLIBRARY","Upload naar digitale bibliotheek");//Upload to digital library
+define("_SHARE","Delen");//Share
+define("_OPERATIONSUCCESFULLYAPPLIEDON","Actie met succes toegepast op");//Operation successfully applied on
+define("_BYUSER","door gebruiker");//by user
+define("_VIEWSOLVEDTEST","Bekijk opgeloste toetsen");//View solved test
+define("_VIEWQUESTION","Bekijk de vraag");//View question
+define("_COULDNOTCREATETESTSDIRECTORY","De toetsen map kan niet worden aangemaakt");//The tests folder could not be created
+define("_SAVEASNEWTEST","Opslaan als nieuwe toets");//Save as new test
+define("_SELECTLESSONTOCOPYFROM","Kies een les waaruit u wilt kopiëren");//Select a lesson to copy from
+define("_VIEWCOMMENT","Bekijk reactie");//View comment
+define("_SHOWEVALUATIONS","Toon evaluaties");//Show evaluations
+define("_RECIPIENTS","Ontvangers");//Recipients
+define("_SHOWRECIPIENTSCATEGORIES","Toon ontvanger van bepaalde categorieën");//Show recipient&#039;s predefined categories
+define("_HIDERECIPIENTSCATEGORIES","Verberg ontvanger van bepaalde categorieën");//Hide recipient&#039;s predefined categories
+define("_TOYOURSUPERVISORS","Al uw managers");//All your supervisors
+define("_BASICINFO","Standaard info");//Basic info
+define("_TRAININGCAP","T R A I N I N G");//T R A I N I N G
+define("_COURSESAVERAGE","Gemiddelde score in alle cursussen");//Average score in all courses
+define("_LESSONSAVERAGE","Gemiddelde score in alle lessen");//Average score in all lessons
+define("_TESTSAVERAGE","Gemiddelde score in alle toetsen");//Average score in all tests
+define("_DONTTAKEINTOACCOUNT","Houd geen rekening mee");//Do not take into account
+define("_CANNOTADDUSERTOLESSON","Kan gebruiker niet toevoegen aan les");//Cannot add user to lesson
+define("_UNKNOWNUSER","Onbekende gebruiker");//Unknown user
+define("_DEPENDSON","Afhankelijk van");//Depends on
+define("_COURSEINFORMATION","Cursusinformatie");//Course information
+define("_NODATAFOUND","Geen gegevens gevonden");//No data found
+define("_ERROROPENINGATTACHMENT","Fout bij het openen van bijlage");//Error opening attachment
+define("_USERAVERAGESCOREFORLESSON","Gemiddelde score voor les");//User&#039;s average score for lesson
+define("_LESSONSINFO","Informatie lessen");//Lessons info
+define("_USERSINGROUP","Gebruikers in groep");//Users in group
+define("_PROFESSORSOFLESSON","Docenten van de les");//Professors of lesson
+define("_TOBRANCHSUPERVISORS","Alleen uw afdelingsmanagers");//Only your branch supervisors
+define("_OTHERBRANCHJOBS","Functies van andere afdelingen");//Job positions from other branches
+define("_SENDMESSAGETOALLFOUNDEMPLOYEES","Berichten versturen naar alle gevonden gebruikers");//Send messages to all users found
+define("_SEARCHCOURSEUSERS","Zoek gebruikers [Course criteria]");//Find users [Course criteria]
+define("_COMPLETIONDATE","Eind datum");//Completion date
+define("_YEAR","Jaar");//Year
+define("_NOTASSIGNED","Nog niet toegewezen");//Not assigned yet 
+define("_NEWSEARCHCRITERIUM","Voeg zoekcriterium toe");//Add search criterium
+define("_NOSEARCHCRITERIADEFINED","Geen criteria voor het zoeken gedefinieerd");//No search criteria defined
+define("_ERRORSAVINGTREE","Fout bij het opslaan van boom");//Error saving tree
+define("_MAXEXECUTIONTIME","Maximale uitvoeringstijd");//Maximum execution time
+define("_MEMORYLIMIT","Geheugen beperking");//Memory limit
+define("_PHPSETTINGS","PHP-instellingen");//PHP settings
+define("_MEGABYTES","MB");//megabytes
+define("_LEAVEBLANKTOUSEPHPINI","Laat de velden leeg om de php.ini standaard instellingen te gebruiken");//Leave fields blank in order to use php.ini default settings
+define("_DISPLAYERRORS","Laat fouten zien");//Display errors
+define("_UPLOADLESSONFILE","Upload les bestand");//Upload lesson file
+define("_DCTITLE","Titel");//Title
+define("_DCCREATOR","Maker");//Creator
+define("_DCSUBJECT","Onderwerp");//Subject
+define("_DCDESCRIPTION","Beschrijving");//Description
+define("_DCPUBLISHER","Uitgever");//Publisher
+define("_DCCONTRIBUTOR","Bijdrager");//Contributor
+define("_DCDATE","Datum");//Date
+define("_DCTYPE","Type");//Type
+define("_DCFORMAT","Formaat");//Format
+define("_DCIDENTIFIER","Identificatiecode");//Identifier
+define("_DCSOURCE","Bron");//Source
+define("_DCLANGUAGE","Taal");//Language
+define("_DCRELATION","Verbintenis");//Relation
+define("_DCCOVERAGE","Dekking");//Coverage
+define("_DCRIGHTS","Rechten");//Rights
+define("_NOENTRYFOUNDFOR","Geen invoer gevonden voor");//No entry found for
+define("_FIELD","veld");//field
+define("_COURSECERTIFICATES","Cursus certificaten");//Course certificates
+define("_LDAPUSERMUSTCONTACTADMIN","Uw account is toegankelijk via de LDAP-server. Neem contact op met de systeembeheerder");//Your account is accessed through the LDAP server. Please contact the system administrator at 
+define("_COURSEMETADATA","Cursus metadata");//Course metadata
+define("_COURSESTATUS","Cursus status");//Course status
+define("_LESSONSCOMPLETED","Afgeronde lessen");//Completed lessons
+define("_COURSESCORE","Cursus score");//Course score
+define("_VIEWUSERCOURSEPROGRESS","Bekijk de vooruitgang van de gebruiker in de cursus");//View the user progress throughout the course
+define("_COURSERULES","Cursus regels");//Course rules
+define("_INFORMATIONFORCOURSE","Informatie voor de cursus");//Information for course
+define("_CERTIFICATESFORCOURSE","Certificaten voor de cursus");//Certificates for course
+define("_FORMATCERTIFICATEFORCOURSE","Formaat certificaat voor de cursus");//Format certificate for course
+define("_RULESFORCOURSE","Regels voor de cursus");//Rules for course
+define("_CONTENTDONE","Inhoud voltooid");//Content done
+define("_LESSONSPROGRESS","Vooruitgang lessen");//Lessons progress
+define("_COMPLETECOURSE","Voltooien cursus");//Complete course
+define("_PROPOSEDSCOREISAVERAGELESSONSCORE","De voorgestelde score is de gemiddelde lessenscore");//The proposed score is the average lessons score
+define("_INTHESELECTEDLANGUAGE","Typ de omschrijving in de gewenste taal");//Type the description in the prefered language
+define("_SUCCESSFULLYDELETEDFIELD","Veld verwijderd");//Successfully deleted field
+define("_COMPLETELESSON","Complete les");//Complete lesson
+define("_AUTOCOMPLETEDCOURSE","De cursus wordt automatisch afgesloten wanneer alle lessen zijn voltooid");//The course was automatically completed when all lessons were completed
+define("_INFORMATIONFORLESSON","Informatie voor de les");//Information for lesson
+define("_LESSONMETADATA","Les metadata");//Lesson metadata
+define("_DISPLAYINGRESULTS","Overzicht resultaten");//Displaying results
+define("_LOADINGDATA","Laden...");//Loading...
+define("_COURSESTATISTICS","Cursus rapporten");//Course reports
+define("_CHOOSECOURSE","Kies cursus");//Choose course
+define("_HISTORYRECORDDELETED","Geschiedenis file verwijderd");//History record deleted
+define("_AREYOUSUREYOUWANTTODELETETHEHISOTYRECORD","Weet u zeker dat u de geschiedenis file wilt verwijderen?");//Are you sure you want to delete the history record?
+define("_HIDEALL","Alles verbergen");//Hide all
+define("_COURSEORDER","Cursusaanvraag");//Course order
+define("_ORDERFORCOURSE","Aanvraag voor de cursus");//Order for course
+define("_DRAGITEMSTOCHANGELESSONSORDER","Versleep items om de indeling te veranden van de lessen in de cursus");//Drag items to change the display order of the course lessons
+define("_IRREVERSIBLEACTIONDELETESUBUNITSAREYOUSURE","Deze actie zal onherstelbaar deze eenheid en alle gegevens die deze eenheid bevat verwijderen. Weet u het zeker?");//This action will irreversably delete this unit and any subunits it may have. Are you sure?
+define("_CLICKOKTOACTIVATEITEM","Klik op OK om het item te activeren / deactiveren");//Click OK to activate/deactivate item
+define("_ANDITSSUBNODES","en de subknooppunten");//and it&#039;s sub nodes
+define("_ERRORDELETINGUNIT","Fout bij verwijderen van eenheid");//Error deleting unit
+define("_ERRORACTIVATINGUNIT","Fout bij het activeren van eenheid");//Error activating unit
+define("_ERRORDEACTIVATINGUNIT","Fout bij uitschakelen van eenheid");//Error deactivating unit
+define("_ERRORDEPOSITIONINGUNIT","Fout bij positionering eenheid");//Error positioning unit
+define("_ERRORREPAIRINGTREE","Fout bij het herstellen van boom");//Error repairing tree
+define("_DRAGAUNITTOCHANGEITSPOSITION","Sleep een onderdeel om de positie te wijzigen");//Drag a unit to change its position
+define("_IFUSESSLTHENPHPOPENSSL","Als u gebruik wilt maken van ssl, zorg er dan voor dat PHP openssl ondersteuning is ingeschakeld");//If you want to use ssl, make sure that PHP openssl support is enabled
+define("_COURSECOMPLETED","Cursus afgerond");//Course completed
+define("_COURSECERTIFICATE","Cursus certificaat");//Course certificate
+define("_COURSESINFO","Informatie cursussen");//Courses info
+define("_DRAGTOMOVEMAILTOFOLDER","Sleep deze e-mail om deze naar een andere map te verplaatsen");//Drag to move this email to another folder
+define("_SCORMOPTIONS","Scorm opties");//Scorm options
+define("_SCORMOPTIONSFOR","Scorm opties voor");//Scorm options for
+define("_SCORMREVIEW","Bekijk SCORM gegevens");//Review SCORM data
+define("_REVIEWSCORMDATAFOR","Bekijk SCORM gegevens voor");//Review SCORM data for
+define("_SCORMFILEINZIPFORMAT","SCORM zip-bestand");//SCORM zip file
+define("_TREEROOT","Basis boom");//Tree root
+define("_INVALIDPAGE","Ongeldige pagina");//Invalid page
+define("_VALUEISSMALLERTHATPHPINI","De waarde kleiner is dan degene die is ingesteld door php.ini");//The value is smaller than the one set by php.ini
+define("_PERMISSIONS","Toestemmingen");//Permissions
+define("_UNSHARE","Annuleer delen");//Cancel sharing
+define("_UNSHARESELECTED","Annuleer delen van de geselecteerde bestanden");//Cancel sharing of selected files
+define("_SHARESELECTED","Deel geselecteerde bestanden");//Share selected files
+define("_YOUDONTHAVEPERMISSION","U heeft geen toestemming voor het uitvoeren van de geselecteerde handeling");//You don&#039;t have permission to perform the selected action
+define("_EXPORT","Exporteer");//Export
+define("_NOMODULECLASSFOUND","Geen module klasse gevonden met de naam");//No module class found with name
+define("_ERRORLOADINGMODULE","Fout bij het laden van module");//Error loading module
+define("_VERSIONKEYTITLE","Versie sleutel");//Registration
+define("_VERSIONKEY","Versie sleutel");//Registration key
+define("_VERSIONALLOEDUSERS","Gebruikers toegestaan");//Allowed Users
+define("_VERSIONTYPE","Versie Type");//Version Type
+define("_VERSIONSERIAL","Serienummer");//Serial Number
+define("_USERSEXCEEDED","Met uw versie type is het niet mogelijk nieuwe gebruikers aan te maken");//Your version type does not allow the creation of new users
+define("_BASICCRITERIA","Basiscriteria");//Basic criteria
+define("_BASICSEARCHOPTIONS","Standaard zoekopties");//Basic search options
+define("_DELETEDATA","Verwijderen van gegevens");//Delete data
+define("_ERRORDETAILS","Fout details");//Error Details
+define("_PARTOFTHISGROUP","De gebruiker maakt deel uit van deze groep");//The user is part of this group
+define("_SUCCESSFULLYIMPORTEDSCORMFILE","SCORM bestand is geïmporteerd");//SCORM file was successfully imported
+define("_CONVERTTOSCORMCONTENT","Converteren naar SCORM inhoud eenheid");//Convert to SCORM content unit
+define("_CONVERTTOSCORMTEST","Converteren naar SCORM test eenheid");//Convert to SCORM test unit
+define("_SCORMTREE","SCORM boom");//SCORM tree
+define("_MASTERYSCORE","Meester score");//Mastery score
+define("_GZHANDLER","GZ handelaar");//GZ handler
+define("_PROJECTPENDING","Dit project is in behandeling");//This project is pending
+define("_USERHASNOTTHISLESSON","De gebruiker is niet geregistreerd voor deze les");//The user is not registered for this lesson
+define("_SHIFTSCHEDULEFORNEWUSERS","Verander schema voor nieuwe gebruikers");//Shift schedule for new users
+define("_CURRENTSCHEDULE","Huidig schema");//Current schedule
+define("_NOSCHEDULESET","Geen tijdschema vastgesteld");//No schedule set
+define("_DELETESCHEDULE","Verwijderen schema");//Delete schedule
+define("_SCHEDULINGFORCOURSE","Planning voor de cursus");//Scheduling for course
+define("_ADDSCHEDULE","Toevoegen schema");//Add schedule
+define("_COURSESCHEDULE","Cursusschema");//Course schedule
+define("_AVAILABLEUNTIL","Beschikbaar tot");//Available until
+define("_FILETYPE","Bestandstype");//File type
+define("_FULLPATH","Het volledige pad");//Full path
+define("_MIMETYPE","MIME-type");//MIME type
+define("_CANNOTSHAREFILE","Kan bestand niet delen");//Cannot share file
+define("_SHAREDFILES","Gedeelde bestanden");//Shared files
+define("_CLICKTOEXPORT","Klik op de knop om de les te exporteren");//Click the button to export lesson
+define("_EXISTINGFILE","Het volgende bestand bestaat al");//The following file already exists
+define("_PROBLEMADDINGUSERSTOLESSON","De gebruiker kan niet worden toegevoegd aan de les");//The user could not be added to the lesson
+define("_TRANSLATEFILESYSTEM","Codeer niet-latijnse bestandsnamen naar");//Encode non-latin file names to
+define("_INCOMPATIBLEVERSIONS","Onverenigbare versies");//Incompatible versions
+define("_BACKUPVERSION","Backup versie");//Backup version
+define("_CURRENTVERSION","Huidige versie");//Current Version
+define("_MAXIMUMUPLOADSIZE","Maximale grootte van het bestand");//Maximum file size
+define("_BACKUPFAILED","Backup mislukt");//Backup failed
+define("_PERSONALFILES","Persoonlijke bestanden");//Personal files
+define("_MAXIMUMUSERSNUMBERREACHED","Het maximum aantal gebruikers is bereikt");//The maximum number of users has been reached
+define("_UPLOADING","Uploaden");//Uploading
+define("_SELECTEDFILESTO","geselecteerde bestanden naar");//selected files to
+define("_CATEGORYDOESNOTEXIST","De categorie bestaat niet");//The category does not exist
+define("_EDITCATEGORY","Categorie bewerken");//Edit category
+define("_CATEGORYSETTINGS","Categorie instellingen");//Category settings
+define("_YOUWANTTOBEDONE","U wilt");//You want to
+define("_OVERWRITE","Overschrijven");//Overwrite
+define("_LESSONUSERS","Gebruikers les");//Lesson users
+define("_ASSOCIATEDCOURSES","Gekoppelde cursussen");//Associated courses
+define("_OUTPUT","Output");//Output
+define("_TOKEN","Token");//Token
+define("_PERMITTEDROLESMODULEERROR","Een of meer toegestane rollen in de module zijn verkeerd");//One or more module permitted roles are wrong
+define("_SMARTYTEMPLATEDOESNOTEXIST","Het smarty template bestand bestaat niet");//The smarty template file does not exist
+define("_FOLDERWITHMODULENAMEEXISTSIN","Folder met module naam bestaat al in");//Folder with module name already exists in 
+define("_SITENAME","Naam van de site");//Site name
+define("_SITEMOTO","Site motto");//Site motto
+define("_UNKNOWNSEPARATOR","Onbekend separator");//Unknown separator
+define("_LDAPUSER","Deze gebruiker verifieert door middel van de LDAP-server");//This user authenticates through the LDAP server
+define("_EXECUTE","Uitvoeren");//Execute
+define("_RECREATE","Opnieuw aanmaken");//Recreate
+define("_CLICKHERETOREINDEX","Maak de zoekopdracht tabel opnieuw aan");//Recreate the search table
+define("_TRANSLATION","Vertaling");//Translation
+define("_ENGLISHNAME","Naam in het Engels");//Name in english
+define("_SUCCESSFULLYADDEDLANGUAGE","De taal is aangemaakt");//The language was successfully created
+define("_SUCCESSFULLYUPDATEDLANGUAGE","De taal is bijgewerkt");//The language was successfully updated
+define("_LANGUAGES","Talen");//Languages
+define("_SERIALRULE","Gebruikers moeten de inhoud zien in een opeenvolgende volgorde");//Users must see content in a serial order
+define("_TREERULE","Gebruikers moeten de knooppunten van een afdeling voltooien voordat men naar het volgende onderdeel kan");//Users must complete a branch&#039;s nodes before moving to the next one
+define("_ADDCUSTOMRULE","Voeg aangepaste regel toe");//Add custom rule
+define("_ADDREADYRULE","Toevoegen regel gereed");//Add ready rule
+define("_THEFOLLOWINGUSERSCOULDNOTBEIMPORTED","De volgende gebruikers kunnen niet worden geïmporteerd");//The following users could not be imported
+define("_STARTHERE","Start hier");//Start here
+define("_COPYSELECTED","Kopieer het geselecteerde");//Copy selected
+define("_USERACCESSESINLESSON","De toegang van de gebruikers in de les");//User access in lesson
+define("_NUMBEROFFIELDSMUSTBE","Het aantal velden moet worden");//The number of fields must be
+define("_BUTFOUND","maar er was gevonden");//but there was found
+define("_APPLYAVATARCHANGES","Avatar wijzigingen toepassen");//Apply avatar changes
+define("_TERMFIELDISMANDATORY","Termijn is een verplicht veld");//Term field is mandatory
+define("_DEFINITIONFIELDISMANDATORY","Begrip is een verplicht veld");//Definition field is mandatory
+define("_TOPLEFTCORNER","Linkerbovenhoek");//Top left corner
+define("_TOPRIGHTCORNER","Rechterbovenhoek");//Top right corner
+define("_BOTTOMLEFTCORNER","Linkeronderhoek");//Bottom left corner
+define("_BOTTOMRIGHTCORNER","Rechteronderhoek");//Bottom right corner
+define("_LOGOPOSITION","Positie logo");//Logo position
+define("_LOGOFILE","Logo-bestand");//Logo file
+define("_LESSONSKILLSSELECTION","Selecteer vaardigheden aangeboden door de les");//Select skills offered by the lesson
+define("_TOPCENTER","Bovenkant midden");//Top center
+define("_BOTTOMCENTER","Onderkant midden");//Bottom center
+define("_HIDECOMPLETEUNITICON","Verberg voltooi eenheid pictogram");//Hide complete unit icon
+define("_HIDENAVIGATION","Verberg navigatie");//Hide navigation handles
+define("_AUTOCOMPLETEDAT","Automatisch afgesloten op");//Auto completed at
+define("_SECOND","tweede");//second
+define("_NOACCESSDATA","Geen toegang tot de gegevens");//No access data
+define("_USERAVATAR","Avatar gebruiker");//User avatar
+define("_MOSTACTIVELESSONS","Meest actieve lessen");//Most active lessons
+define("_LESSONSACTIVITY","Lessen activiteit");//Lessons activity
+define("_USERSACTIVITY","Gebruikers activiteit");//Users activity
+define("_USERHASNOTTHELESSON","De gebruiker beschikt niet over deze les");//The user doesn&#039;t have this lesson
+define("_USERHASTHELESSON","De gebruiker heeft deze les");//The user has this lesson
+define("_TESTSINFORMATION","Toets informatie");//Tests information
+define("_QUESTIONSINFORMATION","Vragen informatie");//Questions information
+define("_PROJECTSINFORMATION","Projecten Informatie");//Projects Information
+define("_MCEXPLANATION","* MC = Meerdere keuzes - 1 antwoord");//* MC = Multiple choices - Single Answers
+define("_MCMAEXPLANATION","* MCMA = Meerdere keuzes - Meerdere antwoorden");//* MCMA = Multiple choices - Multiple Answers
+define("_MAEXPLANATION","* MA = Overeemkomend");//* MA = Matching
+define("_FBEXPLANATION","* FB = Vul de lege velden in");//* FB = Fill the blank
+define("_OAEXPLANATION","* OA = Open antwoord");//* OA = Open answer
+define("_YNEXPLANATION","* YN = Ja / Nee");//* YN = Yes/No
+define("_PROJECTNAME","Project naam");//Project name
+define("_STATISTICSFORCOURSE","Statistieken van cursus");//Statistics for course
+define("_YOUARENOTAUTHORISEDTOSEETHISTEST","U bent niet gemachtigd om deze test te bekijken");//You are not authorized to see this test
+define("_YOUCANNOTREDOTHISTEST","U kunt deze toets niet herhalen");//You cannot redo this test
+define("_ACCESSEDLESSON","Les bezocht");//Accessed lesson
+define("_ACCESSEDCONTENT","Inhoud eenheid bezocht");//Accessed content unit
+define("_ACCESSEDTEST","Toetsen bezocht");//Accessed test
+define("_BEGUNTEST","Toets begonnen");//Begun test
+define("_NAVIGATEDSYSTEM","Navigeren via het systeem");//Navigated through the system
+define("_PROJECTDESCRIPTION","Beschrijving van het project");//Project description
+define("_CONTENTTRAVERSINGRULES","Inhoud in strijd met de regels");//Content traversing rules
+define("_FILEUPLOADEDON","Het bestand is geupload op");//The file was uploaded on
+define("_DIRECTIONOPTIONSFOR","Opties voor categorie");//Options for category
+define("_NEWDIRECTIONOPTIONS","Nieuwe categorie opties");//New category options
+define("_COURSELESSONS","Cursus lessen");//Course lessons
+define("_RELATEDTO","Gerelateerd aan");//Related to
+define("_SUCCESSFULLYEXPORTEDSCORMFILE","De les naar SCORM formaat geëxporteerd");//The lesson was exported to SCORM format succesfully
+define("_LDAPEXTENSIONNOTLOADED","Waarschuwing: LDAP extensie niet geladen");//Warning: LDAP Extension  not loaded
+define("_PERCENTAGEMUSTBEBETWEEN1100","Percentage moet tussen 1 en 100 zijn");//Percentage must be between 1 and 100
+define("_MUSTSEECONTENTSERIALSOMUSTFIRSTREADUNIT","U moet de inhoud in een bepaalde volgorde zien, dus lees eerst eenheid");//You must see content in a serial order, so you must first read unit
+define("_YOUDONTHAVEANYLESSONS","Er zijn geen lessen of cursussen");//You don&#039;t have any lessons or courses
+define("_THEADMINISTRATORWILLASSIGNYOULESSONS","De systeembeheerder zal u lessen of cursussen toewijzen");//The system administrator will assign you lessons or courses
+define("_BACKTOINDEX","Terug naar index pagina");//Back to index page
+define("_LESSONAVAILABLE","Les is beschikbaar");//Lesson is available
+define("_DIRECTLY","Direct");//Directly
+define("_ADDFILE","Bestand toevoegen");//Add file
+define("_DOWNLOADSCORMEXPORTEDFILE","Download geëxporteerd SCORM bestand");//Download exported SCORM file
+define("_EMPTYUNIT","Lege unit");//Empty unit
+define("_YOUMUSTPROVIDELOGINLINK","U moet een login-link hebben, anders kunt u niet rechtstreeks verbinden. Het aanmeldingsformulier is verkrijgbaar via de link: ". G_SERVERNAME."index.php?index_efront");//You must provide a login link, otherwise you will not be able to connect directly. Login form is available through the link: ".G_SERVERNAME."index.php?index_efront
+define("_FONTSIZE","Lettergrootte");//Font size
+define("_FONTSTYLE","Letterstijl");//Font style
+define("_PROBLEMINSERTINGPARSEDXMLVALUESORMODULEEXISTS","Probleem bij het toevoegen van de parsed XML-waarden aan de database. Controleer uw bestand of controleer of de module al is geïnstalleerd");//Problem inserting the parsed XML values to the database. Please check your description file or whether the module is already installed
+define("_NOMODULEPERMITTEDROLESDEFINED","Geen module rollen bepaald. Controleer functie getPermittedRoles ()");//No module permitted roles defined. Check function getPermittedRoles()
+define("_MODULECLASSNOTEXISTSIN","module klasse is niet bepaald in");//module class is not defined in
+define("_MODULEDBERRORONINSTALL","Database fout tijdens de uitvoering van de functie onInstall voor de module");//Database error during the execution of function onInstall for the module
+define("_MODULEISALREADYINSTALLED","De module is al geïnstalleerd");//The module is already installed
+define("_LOGOUTREDIRECT","Doorsturen na uitloggen naar");//Redirect after logout to
+define("_INFORMATIONFORFILE","Informatie voor bestand");//Information for file
+define("_METADATA","Metadata");//Metadata
+define("_FILEMETADATA","Bestand metadata");//File metadata
+define("_NOENTRYFOUNDFORTHEFIELD","Geen invoer gevonden voor het veld");//No entry found for the field
+define("_CONTENTMETADATA","Inhoud Metadata");//Content Metadata
+define("_METADATAFORUNIT","Metadata voor eenheid");//Metadata for unit
+define("_RESOURCEREQUESTEDREQUIRESLOGIN","U dient eerst in te loggen voordat u de informatie opvraagt");//The resource that you requested requires that you login first
+define("_DATABASEERROR","Database fout");//Database error
+define("_CANNOTACCESSRESOURCE","U heeft geen toestemming om deze informatie te bekijken");//You don&#039;t have permission to access this resource
+define("_RESOURCEISNOTACCESSIBLEFROMOUTSIDE","Deze informatie is niet direct toegankelijk");//This resource is not directly accessible
+define("_RESOURCEISNOTAVAILABLE","Deze informatie is niet beschikbaar");//This resource is not available
+define("_DIRECTLYACCESSIBLE","Bereikbaar met een rechtstreekse URL");//Accessible with a direct URL
+define("_DIRECTLACCESSIBLEEXPLANATION","Dit betekent dat de eenheid direct kan worden geopend met behulp van de volgende url:");//This means that the unit can be accessed using the following direct url:
+define("_HIDE","Verbergen");//Hide
+define("_LESSONOPTIONSET","Les optie");//Lesson option set
+define("_BACKUPRESTORE","Backup / herstellen");//Backup/restore
+define("_CONFIGURATIONOPTIONS","Configuratie-opties");//Configuration options
+define("_UNAUTHORIZEDACCESS","U heeft geen toestemming om dit gedeelte te bekijken");//You do not have permission to access this section
+define("_LESSONUSER","Les gebruiker");//Lesson user
+define("_PROGRESSFORUSER","Vooruitgang voor gebruiker");//Progress for user
+define("_LESSONSORDER","Lessen bestelling");//Lessons order
+define("_COURSEUSER","Cursus gebruiker");//Course user
+define("_COURSELESSON","Cursus les");//Course lesson
+define("_CANNOTDELETEOWNTYPE","U mag uw eigen type niet verwijderen");//You may not delete your own type
+define("_GROUPUSER","Groep gebruiker");//Group user
+define("_EXPLICITIFRAMESIZE","Expliciete iframe grootte");//Explicit iframe size
+define("_EXPLICITSIZEEXPLANATION","Dit is de grootte van de SCORM inhoud met frame. Als u dit veld leeg laat, dan wordt dit automatisch berekend");//This is the size of the SCORM content containing frame. Leave it blank to have it automatically calculated
+define("_USERROLEINLESSON","Gebruikersrol bij de les");//User role in lesson
+define("_LESSONROLE","Rol in de les");//Role in lesson
+define("_COURSEROLE","Rol in de cursus");//Role in course
+define("_PAYPAL","Paypal");//Paypal
+define("_DOWNLOADEXAMPLE","Download voorbeeld");//Download example
+define("_CONTENTTREEFIRSTPAGE","Inhoud boom op de eerste pagina");//Content tree in first page
+define("_LAYOUT","Lay-out");//Layout
+define("_CONNECTIONERROR","Verbindingsfout");//Connection error
+define("_ONLYEFRONTNOTSCORM","Gebruik dit om lessen up te loaden met een eFront-indeling. Voor SCORM uploads, gebruik de SCORM optie bij het Professor bedieningspaneel");//Use this to upload lessons in proprietary format only. For SCORM uploads, use the SCORM option at the professor's control panel
+define("_TESTSMATRIX","Toets matrix");//Tests matrix
+define("_PROJECTSMATRIX","Projecten matrix");//Projects matrix
+define("_MODULEDBERRORONUPGRADECHECKUPGRADEFUNCTION","Database fout tijdens de uitvoering van onUpgrade voor de module");//Database error during the execution of function onUpgrade for the module
+define("_MODULENOTUPGRADEDFOLDERNOTDELETEDCLOSEALLOPENFILES","Module upgrade mislukt, omdat de bestaande directory niet kan worden verwijderd. Sluit alle geopende bestanden in die map en probeer het opnieuw");//Module upgrade failed, because existing directory could not be deleted. Close all open files in that directory and try again
+define("_MODULESUCCESFULLYUPGRADED","Module met succes opgewaardeerd");//Module successfully upgraded
+define("_USERRESULTS","Resultaten gebruiker");//User results
+define("_SKILLSCORES","Vaardigheid-scores");//Skill scores
+define("_PROPOSEDASSIGNMENTS","Voorgestelde opdrachten");//Proposed assignments
+define("_THRESHOLD","Drempel");//Threshold
+define("_SKILLGAPANALYSISFORUSER","Vaardigheidsanalyse voor de gebruiker");//Skill gap analysis for user
+define("_ACCORDINGTOTEST","volgens toets");//according to test
+define("_NOLESSONSPROPOSEDACCORDINGTOANALYSIS","Geen lessen worden voorgesteld naar aanleiding van de vaardigheidsanalyse");//No lessons are proposed according to the skill gap analysis
+define("_NOCOURSESPROPOSEDACCORDINGTOANALYSIS","Er worden geen vakken voorgesteld naar aanleiding van de vaardigheidsanalyse");//No courses are proposed according to the skill gap analysis
+define("_CERTIFICATETEMPLATE","Certificaat sjabloon (rtf-formaat)");//Certificate template (rtf format)
+define("_COMMANDS","Commando&#39;s");//Commands
+define("_SEARCHRESULTSCOMMANDS","Zoekresultaten in commando&#39;s");//Search results in commands
+define("_TOGGLEHTMLEDITORMODE","Schakel tussen bewerker/html-modus");//Toggle editor/html mode
+define("_UPLOADFILEFROMURL","Upload bestand via url");//Upload file from url
+define("_OPENCLOSEFILEMANAGER","Open/sluit bestandsbeheerder");//Open/close file manager
+define("_INSERTEDITOR","Invoegen bij bewerker");//Insert to editor
+define("_AUTOMATICALLYASSIGNTOALLNEWSTUDENTS","Automatisch toewijzen aan alle nieuwe studenten");//Automatically assign to all new students
+define("_SKILLGAPTESTSTOBECOMPLETED","Vaardigheidstoetsen te voltooien");//Skill gap tests to be completed
+define("_SKILLGAPTESTCOMPLETEDSUCCESSFULLY","Vaardigheidstoets voltooid");//Skill gap test completed successfully
+define("_RELEVANCE","Relevantie");//Relevance
+define("_KNOWLEDGEOFLESSON" , "Kennis van les");//Knowledge of lesson
+define("_KNOWLEDGEOFCOURSE","Kennis van cursus");//Knowledge of course
+define("_NOSKILLSCORRELATEDWITHTHETESTSQUESTIONS","Geen vaardigheden hebben een relatie met de in de toets gestelde vragen");//No skills correlated with the test&#039;s questions
+define("_OPENFILEMANAGER","Open file manager");//Open file manager
+define("_CLOSEFILEMANAGER","Sluiten bestandsbeheerder");//Close file manager
+define("_CLICKFORHELP","Klik hier voor Help");//Click for help
+define("_NOSKILLGAPTESTSASSIGNEDTOYOU","Geen vaardigheidstoets aan u toegewezen");//No skill gap tests assigned to you
+define("_TESTSOLVEDVIEWTOSEESKILLGAPANALYSIS","Toets voltooid: bekijk de vaardigheidsanalyse");//Test solved: View skill gap analysis
+define("_GENERALTHRESHOLD","Algemene Drempel");//General Threshold
+define("_UPLOADPDFFORCONTENT","Upload pdf / eigen inhoud");//Toggle pdf/custom content
+define("_PDFFILE","Upload nieuw pdf-bestand");//Upload new pdf file
+define("_ASSOCIATEDSKILLS","Geassocieerde vaardigheden");//Associated skills
+define("_SKILLGAPTESTS","Vaardigheidstoetsen");//Skill gap tests
+define("_ASSOCIATEDWITH","Aangesloten bij");//Associated with
+define("_NEWSKILLGAPTESTS","Nieuwe vaardigheidstoetsen");//New skill gap tests
+define("_CORRELATESKILLSTOQUESTION","Verbind vaardigheden aan vraag");//Correlate skills to question
+define("_EDITSKILLGAPTEST","Bewerk vaardigheidstoets");//Edit skill gap test
+define("_ADDSKILLGAPTEST","Toevoegen vaardigheidstoets");//Add skill gap test
+define("_YOUMUSTUPLOADAPDFFILE","U moet een pdf-bestand uploaden");//You must upload a pdf file
+define("_RECENTLYCOMPLETEDSKILLGAP","Onlangs voltooide vaardigheidstoetsen");//Recently completed skillgap tests
+define("_NOCOMPLETEDSKILLGAP","Geen voltooide vaardigheidstoetsen gevonden");//No completed skillgap tests found
+define("_SHOWALLSOLVEDSKILLGAPTESTS","Toon alle opgeloste vaardigheidstoetsen");//Show all solved skillgap tests
+define("_DELETESKILLGAPTESTRECORD","Verwijderen vaardigheidstoets record");//Delete skill gap test record
+define("_ASSIGNTOALLNEWSTUDENTS","Toewijzen aan alle nieuwe deelnemers");//Assign to all new students
+define("_AUTOMATICALLYASSIGNLESSONS","Automatisch lessen toewijzen");//Automatically assign lessons
+define("_AUTOMATICASSIGNMENTINFO","Na afloop van de toets, zal de deelnemer automatisch worden toegewezen aan alle <br> lessen en cursussen die overeenkomen met zijn of haar onderwijsbehoeften");//After completing the test, a student will be automatically assigned with all<br> lessons and courses matching his or her educational needs
+define("_SKILLGAPTESTCOMPLETEDSUCCESSFULLYANDTHECORRESPONDING","Vaardigheidstoets is voltooid en de bijbehorende");//Skill gap test completed successfully and the corresponding
+define("_HAVEBEENASSIGNED","zijn toegewezen aan u");//have been assigned to you
+define("_SKILLGAPTESTRESULTS","Vaardigheidstoets resultaten");//Skill gap test results
+define("_CURRENTPDFFILE","Huidig pdf-bestand");//Current pdf file
+define("_SEARCHTEXTWASINSCRIPT","Zoektekst werd gevonden in een script");//Search text was found inside a script
+define("_NUMBERFROM000TO9999REQUIRED","Nummer van 0.00 tot 99.99 vereist");//Number from 0.00 to 99.99 required
+define("_COMPLETETHESKILLGAPTESTSBELOWSOTHATWECANASSIGNLESSONS","Vul de onderstaande vaardigheidtoets in, zodat we cursussen aan u kunnen toewijzen die voldoen aan uw behoeften.");//Complete the skill gap tests below so that we can assign courses most suitable to your neeeds.
+define("_YOUHAVECOMPLETEDALLSKILLGAPSTESTSASSIGNEDTOYOUWAITTOBEASSIGNEDLESSONS","U heeft alle vaardigheidtoetsen voltooid die aan u zijn toegewezen. <br> Wacht tot de docent u de meest geschikte cursussen toewijst op basis van de resultaten van de toesten.");//You have completed all skill gap tests assigned to you. <br>Please wait until your professors assign to you the most suitable courses according to your needs.
+define("_YOURRESULTSHAVEBEENSENTTOYOURPROFESSORSWHOWILLASSIGNLESSONSACCORDINGTOYOURNEEDS","Uw resultaten zijn verzonden naar uw docenten die binnenkort cursussen aan u zullen toewijzen die voldoen aan uw behoeften, bepaald aan de hand van de resultaten van deze test");//Your results have been sent to your professors who will soon assign courses to your according to your needs as identified from this test
+define("_JOBPLACEMENTS","Banen");//Job placements
+define("_NEWJOBPLACEMENT","Nieuwe baan");//New job placement
+define("_UPGRADEMODULE","Upgrade module");//Upgrade module
+define("_NEWUNITOPTIONS","Opties nieuwe eenheid");//New unit options
+define("_UNITOPTIONSFOR","Opties voor eenheid");//Options for unit
+define("_OPTIONSFORSKILLGAPTEST","Opties voor vaardigheidstoets");//Options for skill gap test
+define("_OPTIONSFORTEST","Opties voor de toets");//Options for test
+define("_REPORTSFORCOURSE","Rapporten voor de cursus");//Reports for course
+define("_REPORTSFORTEST","Rapporten voor de toetsen");//Reports for test
+define("_USERISNOTVALIDORYOUCANNOTSEEUSER","De opgegeven gebruiker is niet geldig, of u heeft geen toegang tot de gegevens van deze gebruiker");//The user specified is not valid, or you cannot access this user&#039;s data
+define("_SELECTGROUP","Selecteer de groep");//Select group
+define("_BLANKFORNOLIMIT","Laat leeg voor geen tijdslimiet");//Leave blank for no time limit
+define("_HARDPLURAL","Moeilijk");//Hard
+define("_MEDIUMPLURAL","Gemiddeld");//Medium
+define("_EASYPLURAL","Gemakkelijk");//Easy
+define("_UNLIMITED","Onbeperkt");//Unlimited
+define("_INCORRECTQUESTION","De vraag is onjuist");//The question is incorrect
+define("_QUESTIONISCORRECT","De vraag is juist");//The question is correct
+define("_PARTIALLYCORRECTQUESTION","De vraag is ten dele juist");//The question is partially correct
+define("_FAILED","Mislukt");//Failed
+define("_PASSED","Geslaagd");//Passed
+define("_TESTOPTIONS","Toets opties");//Test options
+define("_TESTQUESTIONS","Toets vragen");//Test questions
+define("_SAVETESTANDADDQUESTIONS","Opslaan en vragen selecteren");//Save and select questions
+define("_RANDOMPOOLTEST","Willekeurige toets");//Random pool test
+define("_SUBMITANDCONTINUEEDITING","Verzenden en ga verder met bewerken");//Submit and continue editing
+define("_SUBMITANDRETURN","Verzenden en terug gaan");//Submit and return
+define("_SUBMITASNEWANDCONTINUEEDITING","Verzenden als nieuw en ga verder met bewerken");//Submit as new and continue editing
+define("_SUBMITASNEWANDRETURN","Verzenden als nieuw en ga terug");//Submit as new and return
+define("_QUESTIONSINPOOL","Vragen in poel");//Questions in pool
+define("_SELECTRANDOMQUESTIONS","Willekeurige vragen");//Randomize questions
+define("_RANDOMIZE","Willekeurig");//Randomize
+define("_PAUSETEST","Pauzeer toets");//Pause test
+define("_ALLFORUMS","Alle forums");//All forums
+define("_USERCANDOTEST","De gebruiker kan de toets doen");//The user can do the test
+define("_ANDUSERDIDITIN","Het werd voltooid in");//It was completed in
+define("_TESTSCOREIS","Toets score is");//Test score is
+define("_USERREDOTEST","Toets opnieuw maken");//Redo test
+define("_SOLVEDTEST","Toets voltooid");//Solved test
+define("_CHANGESCORE","Verander score");//Change score
+define("_ADDFEEDBACK","Toevoegen feedback");//Add feedback
+define("_EDITFEEDBACK","Bewerk feedback");//Edit feedback
+define("_RESETTESTSTATUS","Reset deze toets");//Reset this test execution
+define("_THETESTISDONE","De toets is klaar");//The test is done
+define("_ANDCANBEDONE","en kan worden gedaan");//and can be done
+define("_TESTCANBEPAUSED","Toets kan worden onderbroken");//Test can be paused
+define("_TESTSTARTEDAT","De toets is begonnen op");//The test started at
+define("_ANDCOMPLETEDAT","en ingevuld op");//and completed at
+define("_SCOREINTEST","Score van toets");//Score in test
+define("_TESTRESULTS","Toetsresultaten");//Test results
+define("_JUMPTOEXECUTION","Ga naar uitvoeren");//Jump to execution
+define("_LASTEXECUTION","Laatste uitvoering");//Last execution
+define("_EXECUTION","uitvoering");//execution
+define("_LAST","Laatste");//Last
+define("_CORRECTIONPENDING","Correctie in behandeling");//Correction pending
+define("_FULLNAME","Volledige naam");//Full name
+define("_PARTIALLYCORRECT","Gedeeltelijk correct");//Partially correct
+define("_CORRECT","Correct");//Correct
+define("_NOUNIT","Geen eenheid");//No unit
+define("_TESTANALYSIS","Toets analyse");//Test analysis
+define("_THISLEVEL","Dit niveau");//This level
+define("_BELOWLEVELS","Beneden niveau");//Below levels
+define("_SUCCESSRATES","Successcore");//Success rates
+define("_NOPARENT","Geen bovenliggend element");//Without parent
+define("_THEUSERUNDERGOINGTESTSTARTEDAT","De gebruiker doet nu de test, begonnen om");//The user is right now undergoing the test, started at
+define("_NONEXISTENTTEST","Dit is niet een voltooide toets");//This is not a completed test
+define("_FORTEST","voor de toets");//for test
+define("_ANDUSER","en de gebruiker");//and user
+define("_TESTANALYSISFORTEST","Toets analysemethoden voor toets");//Test analysis for test
+define("_RESETALLTESTSSTATUS","Reset gehele teststatus");//Reset all execution status
+define("_ADDANOTHERFILE","Voeg nog een bestand toe");//Add another file
+define("_YOUPAUSEDTHISTESTON","U heeft de toets onderbroken op");//You paused this test on
+define("_RESUMETEST","Ga door met toets");//Resume test
+define("_DISPLAYQUESTIONWEIGHTS","Laat moeilijkheidsgraad zien tijdens toets");//Display weights during test
+define("_UNAVAILABLEOPTION","Deze optie is niet beschikbaar");//This option is not available
+define("_HOURSSHORTHAND","u");//h
+define("_MINUTESSHORTHAND","m");//m
+define("_SECONDSSHORTHAND","s");//s
+define("_NONEUNIT","Geen eenheid");//None unit
+define("_NOSYSTEMANNOUNCEMENTS","Er zijn geen systeemaankondigingen");//There are no system announcements
+define("_NOONELOGGEDIN","Niemand is op dit moment ingelogd");//None are currently connected
+define("_ENTERYOUREMAILADDRESS","Vul uw e-mailadres in");//Enter you email address
+define("_ENTERMESSAGESUBJECT","Geef het onderwerp van het bericht");//Enter the message subject
+define("_ENTERMESSAGE","Voer het bericht in");//Enter the message
+define("_ENTERANYCOMMENTS","Voer eventuele opmerkingen in die u zou kunnen hebben");//Enter any comments you might have
+define("_LOGINOREMAIL","Log in of e-mail");//Login or email
+define("_USETHISTORESETPASSWORD","Gebruik dit formulier om uw wachtwoord opnieuw in te stellen");//Use this form to reset your password
+define("_USETHISTOREGISTERANEWACCOUNT","Gebruik dit formulier om een nieuwe gebruikersaccount aan te maken");//Use this form to create a new user account
+define("_USETHISTOCONTACTUS","Gebruik dit formulier om contact met ons op te nemen voor elk onderwerp");//Use this form to contact us for any issue
+define("_AVAILABLELESSONS","De lessen en cursussen die in het systeem beschikbaar zijn");//Lessons and courses available in the system
+define("_SELECTLAYOUT","Kies een lay-out");//Select a layout
+define("_ENROLL","Inschrijven");//Enroll
+define("_INFORMATION","Informatie");//Information
+define("_STARTPAGE","Startpagina");//Start page
+define("_SIGNUP","Aanmelden");//Sign up
+define("_INFOFORLESSON","Informatie voor de les");//Information for lesson
+define("_DONTHAVEACCOUNT","Ik heb geen account");//Create an account
+define("_FORGOTPASSWORD","Ik ben mijn wachtwoord vergeten");//I forgot my password
+define("_LOGINFORM","Login formulier");//Login form
+define("_SEARCHFORM","Zoek formulier");//Search form
+define("_CARTBLOCK","Winkelwagen blok");//Shopping Cart block
+define("_CUSTOMBLOCK","Aangepast blok");//Custom block
+define("_LESSONSLIST","Lessen lijst");//Lessons list
+define("_SYSTEMNEWS","System nieuws");//System news
+define("_REMOVE","Verwijderen");//Remove
+define("_TWOCOLUMNSRIGHT","Twee kolommen rechts uitgelijnd");//Two columns right-aligned
+define("_TWOCOLUMNSLEFT","Twee kolommen links uitgelijnd");//Two columns left-aligned
+define("_THREECOLUMNS","Drie kolommen");//Three columns
+define("_SIMPLE","Eenvoudig");//Simple
+define("_SAVELAYOUT","Lay-out opslaan");//Save layout
+define("_ADDBLOCK","Blok toevoegen");//Add block
+define("_RESTOREDEFAULTLAYOUT","Herstellen standaard lay-out");//Restore default layout
+define("_INFOFORCOURSE","Informatie voor de cursus");//Information for course
+define("_PLEASELOGINTOCOMPLETEREGISTRATION","Meld u aan om uw registratie compleet te maken");//If you are an existing user, please login below to complete registration. 
+define("_GOTOLESSONSLIST","Ga naar lessenlijst");//Go to lessons list
+define("_PUBLISHED","Geplaatst");//Published
+define("_NOTPUBLISHED","Niet geplaatst");//Not published
+define("_OPTIONSFORPROJECT","Opties voor het project");//Options for project
+define("_SKILLGAPTESTRESULTSREMOVEDFROMUSERTHETESTCANBEREPEATED","De toetsresultaten van deze gebruiker zijn verwijderd. De toets kan nu opnieuw worden gemaakt.");//Test results have been successfully removed for this user. The test can now be completed again.
+define("_HOMEOFLESSON","Begin van de les");//Home of lesson
+define("_OPTIONSFORGROUP","Opties voor groep");//Options for group
+define("_SURVEYFAILEDTOBEDELETED","Enquete kan niet worden verwijderd");//Survey failed to be deleted
+define("_COURSESNUMBER","Aantal cursussen");//Number of courses
+define("_GROUPSNUMBER","Aantal groepen");//Number of groups
+define("_FORUMTITLE","Forum titel");//Forum title
+define("_OTHERLESSONS","Andere lessen");//Other lessons
+define("_CONTENTREPORT","Rapporteer een fout");//Report an error
+define("_CONTENTREPORTTOPROFS","Rapporteer een fout aan de docenten");//Report an error to professors
+define("_TOPIC","Onderwerp");//Topic
+define("_LINK","Link");//Link
+define("_REPORT","Rapport");//Report
+define("_SUCCESFULLYSENDREPORT","Uw rapport is verzonden");//Your report was successfully sent
+define("_ERRORREPORTFOR","Inhoud foutenrapport voor de les");//Content error report for lesson
+define("_YOUSHOULDCHANGEHEADERLANGUAGETAG","U moet _HEADERLANGUAGETAG veranderen in");//You should change _HEADERLANGUAGETAG in
+define("_LANGUAGEFILE","taal bestand");//language file
+define("_YOURSYSTEMSUPPORTS","Uw systeem ondersteunt");//Your system supports
+define("_LINKTOTOPIC","Link naar onderwerp");//Link to topic
+define("_SCOREINEACHUNIT","Score per eenheid");//Score in each unit
+define("_SCOREINUNIT","Score in eenheid");//Score in unit
+define("_SHOWDETAILS","Toon details");//Show details
+define("_DISPLAYORDEREDLIST","Laat geordende lijst zien");//Display ordered list
+define("_AVERAGESCOREON","gemiddelde score over");//average score on
+define("_SCOREONLASTEXECUTION","score bij de laatste uitvoering");//score on last execution
+define("_EXECUTIONS","Uitvoeringen");//Executions
+define("_RECENTLYCOMPLETEDTESTS","Onlangs voltooide toetsen");//Recently completed tests
+define("_IMPORTNOTICE","Waarschuwing: door het importeren van een les zullen alle bestaande les gegevens worden gewist");//Warning: importing a lesson will erase all existing lesson information
+define("_RESET","Reset");//Reset
+define("_RESETGRAPH","Reeset afbeelding");//Reset graph
+define("_CANNOTAUTOMATICALLYLOGIN","U kunt niet automatisch inloggen");//You cannot login automatically
+define("_LOGINENTRANCE","Inloggen");//Login
+define("_SELECTEDLESSONS","Gekozen lessen");//Selected lessons
+define("_ADDTOLESSONS","Toevoegen aan lessen");//Add to lessons
+define("_AVAILABLEBLOCKS","Beschikbare blokken");//Available blocks
+define("_ADDCUSTOMBLOCK","Toevoegen aangepast blok");//Add custom block
+define("_CURRENTLAYOUT","Huidige lay-out");//Current layout
+define("_UNDOALLCHANGES","Alle wijzigingen ongedaan maken");//Undo all changes
+define("_BLOCKTITLE","Blok titel");//Block title
+define("_BLOCKCONTENT","Blok inhoud");//Block content
+define("_YOUCANNOTACCESSREQUESTEDRESOURCE","U hebt geen toegang tot de aangevraagde informatie");//You cannot access the requested resource
+define("_TOTALUNITS","Totale eenheden");//Total units
+define("_DISPLAYORDEREDLISTINFO","Geef nummering weer naast elk mogelijk antwoord voor de multiple-choice vragen");//Displays numbering next to each possible answer for multiple choice questions
+define("_CONFIRMATIONPEDINGFROMADMIN","Bevestiging in behandeling door de beheerder");//Confirmation pending by the administrator
+define("_USERHASNOTTHECOURSE","De gebruiker beschikt niet over de cursus");//The user does not have the course
+define("_USERHASTHECOURSE","De gebruiker heeft de cursus");//The user has the course
+define("_TOTALTESTS","Totaal toetsen");//Total tests
+define("_TOTALPROJECTS","Totaal projecten");//Total projects
+define("_SELECTCHATROOM","Selecteer chatroom");//Select room
+define("_SHOWUSERSINROOM","Toon online gebruikers in chatroom");//Show online room users
+define("_INVITESYOUTOJOINTHE","nodigt u uit om deel te nemen aan de chat");//invites you to join the chat room
+define("_EFRONTMAIN","Hoofd-systeem");//System main
+define("_CHATROOMDELETEDBYOWNER","chatroom is verwijderd door de maker of de beheerder");//chat room was deleted by its creator or the administrator
+define("_NOVISIBLETOPICSFOUNDINTHISFORUM","Er zijn geen zichtbare onderwerpen in dit forum");//There are no visible topics in this forum
+define("_NONEWPOLLLOCKED","U kunt geen nieuwe polls aanmaken omdat dit forum is vergrendeld");//You cannot create any new polls because this forum is locked
+define("_FORUMOFLESSON","Forum van de les");//Forum of lesson
+define("_REDIRECTEDTOEFRONTMAIN","Doorverwezen naar algemene chatroom");//Redirected to general room
+define("_CHATROOMHASBEENDEACTIVATED","chatruimte is uitgeschakeld");//chat room has been deactivated
+define("_ROOMS","Chatrooms");//Rooms
+define("_ADDROOM","Chatroom toevoegen");//Add room
+define("_ROOMSUCCESSFULLYDELETED","Chatroom verwijderd");//Room successfully deleted
+define("_LESSONROOMSCANNOTBEDELETED","Les chatrooms kunnen niet worden verwijderd");//Lesson rooms cannot be deleted
+define("_CHANGESIDEBARWIDTH","Verander breedte zijbalk");//Change sidebar width
+define("_SIDEBARWIDTH","Zijbalk breedte");//Sidebar width
+define("_VALUESUBMITTEDISNOTNUMERICAL" ,"De verzonden waarde is niet numeriek!");//Value submitted is not numerical!
+define("_SIDEBARVALUESMUSTBEBETWEEN" ,"Zijbalk waarden moeten zich bevinden tussen ");//Sidebar values must be between
+define("_ACTIVATEEFRONTCHAT","Activeer chat");//Activate chat
+define("_DEACTIVATEEFRONTCHAT","Deactiveren chat");//Deactivate chat
+define("_ENABLEMATHCONTENT","Wiskundig type inhoud mogelijk maken");//Enable mathematic type content
+define("_NEWCHATMESSAGES","Nieuwe chat-berichten");//New chat messages
+define("_CHATMESSAGESDELETEDSUCCESSFULLY","Geselecteerde chat-berichten zijn verwijderd");//Chat messages selected have been deleted successfully
+define("_CHATMESSAGESCOULDNOTBEDELETED","De chat-berichten kunnen niet worden verwijderd");//The chat messages could not be deleted
+define("_MANAGEPASTCOVERSATIONS","Beheer oude gesprekken");//Manage past conversations
+define("_AREYOUSUREYOUTODELETETHISCONVERSATION","Weet u zeker dat u dit gesprek wilt verwijderen?");//Are you sure you want to delete this conversation?
+define("_SEARCHRESULTSINFILES","Resultaat van zoeken in bestanden");//Search results in files
+define("_EXPORTCHATCONVERSATIONS","Exporteer chatgesprekken");//Export chat conversations
+define("_COMPLETEWITHQUESTION","Afsluiten met vraag");//Complete with question
+define("_WRONGANSWER","Verkeerd antwoord");//Wrong answer
+define("_CORRECTANSWER","Goed antwoord");//Correct answer
+define("_AGO","geleden");//ago
+define("_EXPIRESIN","eindigt in");//expires in
+define("_STARTRESUME","Start/hervatten");//Start/resume
+define("_RECURRINGPAYMENT","Terugkerende betaling");//Recurring payment
+define("_BUY","Kopen");//Buy
+define("_SUBSCRIBE","Abonneren");//Subscribe
+define("_REMOVEALL","Verwijder alle");//Remove all
+define("_MUSTSEEALLUNITS","U moet alle eenheden zien");//Must see all units
+define("_MUSTSEE","U moet zien");//Must see
+define("_MUSTSEEUNIT","U moet eenheid zien");//Must see unit
+define("_MUSTCOMPLETEALLTESTSWITHSCORE","U moet alle toetsen voltooien met score");//Must complete all tests with score
+define("_MUSTCOMPLETETEST","U moet de toets afmaken");//Must complete test
+define("_YOUMAYLOGINMAILACTIVATION","U mag beginnen met het gebruik van het systeem na activatie via e-mail");//You may start using the system after activation via email
+define("_ADMINISTRATIONGROUP","Beheer groep");//The administration group
+define("_CHANGEFONTSIZE","Wijzig lettergrootte");//Change font size
+define("_SHOWEMPLOYEESFROMSUBBRANCHES","Toon gebruikers van subafdelingen");//Show users from subbranches
+define("_ANDSUBBRANCHES","en haar subafdelingen");//and its subbranches
+define("_WITHTHEJOBDESCRIPTION","met de functie");//with the job position
+define("_FORTHEJOBDESCRIPTION","voor de functie");//for the job position
+define("_ADMINISTRATORSNOJOBDESCRIPTIONS","Een baan kan niet worden toegewezen aan beheerders");//Administrators can not be assigned with jobs
+define("_SUGGESTSKILLSACCORDINGTOLESSONS","Stel vaardigheden voor volgens de lessen waartoe de vraag behoort");//Suggest skills according to the lessons the question belongs
+define("_NOSKILLSTOPROPOSE","Geen vaardigheden werden gevonden om voor te kunnen stellen");//No skills were found for suggestion
+define("_ALLPROPOSEDSKILLSAREALREADYCORRELATED" ,"Alle voorgestelde vaardigheden hebben reeds verband met elkaar");//All proposed skills are already correlated
+define("_ADDITIONALFOOTER","Aanvullende voettekst");//Additional footer
+define("_YOUHAVECOMPLETEDTHELESSON","U heeft de les voltooid");//You have completed the lesson
+define("_RECURRINGPAYMENTS","Terugkerende betalingen");//Recurring payments
+define("_PAYPALRECURSION","Recursie");//Recursion
+define("_SUBSCRIPTION","Abonnement");//Subscription
+define("_DAILY","Dagelijks");//Daily
+define("_WEEKLY","Wekelijks");//Weekly
+define("_MONTHLY","Maandelijks");//Monthly
+define("_YEARLY","Jaarlijks");//Yearly
+define("_DAYSCONDITIONAL","Dag(en)");//Day(s)
+define("_WEEKSCONDITIONAL","Week (weken)");//Week(s)
+define("_MONTHSCONDITIONAL","Maand(en)");//Month(s)
+define("_YEARSCONDITIONAL","Jaar (jaren)");//Year(s)
+define("_SUBSCRIPTIONDURATION","Duur abonnement");//Subscription duration
+define("_COULDNOTCREATEUSERDIRECTORY","Kan geen gebruikersmap aanmaken");//Could not create user directory
+define("_YOUALREADYHAVETHISLESSON","U heeft deze les al");//You already have this lesson
+define("_YOUALREADYHAVETHISCOURSE","U heeft deze cursus al");//You already have this course
+define("_ONLYSTUDENTSMAYSUBSCRIBETOLESSONS","Alleen studenten kunnen zich aanmelden bij lessen. Bent u een docent, vraag dan de beheerder u in te schrijven bij een les.");//Only students may subscribe to lessons. If you are a professor, please ask the administrator to enroll you to one.
+define("_CHARGINGEACH","Bereken allen");//Charge each
+define("_LESSONPARTOFCOURSES","Deze les is onderdeel van de cursussen");//This lesson is part of the courses
+define("_YESAFTERLOGIN","Ja, maar pas nadat de gebruiker inlogt");//Yes, but only after user logs in
+define("_CHECKED","Gecontroleerd");//Checked
+define("_NOTCHECKED","Niet gecontroleerd");//Not checked
+define("_NOTSELECTEDLESSONSORSELECTEDYOUHAVEALREADY","U heeft de les al die u heeft geselecteerd");//You already have the lessons you selected
+define("_GETTHECOURSE","Verkrijg de cursus");//Get the course
+define("_YOULAREDYHAVETHECOURSE","U heeft de cursus al");//You already have the course
+define("_THISISAPMFROMSITE","Dit is een prive-bericht van");//This is a private message from
+define("_INSERTINTOBRANCH","Invoegen aan afdeling");//Insert into branch
+define("_NOSPECIFICBRANCH","Geen specifieke afdeling");//No specific branch
+define("_BRANCHFILTER","Afdeling filter");//Branch filter
+define("_SEARCHUSER","Zoek gebruiker");//Search user
+define("_NOUSERSFULFILLTHESPECIFIEDCRITERIA","Geen gebruikers voldoen aan de opgegeven criteria");//No users fulfill the specified criteria
+define("_USERFORM","Gebruikersformulier");//Training record
+define("_USERFORMPRINTPREVIEW","Gebruikersformulier voorbeeld");//Training record preview
+define("_USERSFULFILLINGCRITERIA","Gebruikers die aan de criteria voldoen");//Users fulfilling the criteria
+define("_UNCATEGORIZEDSKILLS","Niet-gecategoriseerde vaardigheden");//Non-categorized skills
+define("_ADDQUICKSKILLGAP","Snelle vaardigheidstoets generator");//Quick skill-gap test generator
+define("_SELECTASSOCIATEDDIRECTIONSCOURSESANDLESSONS","Selecteer de richtingen, cursussen en lessen die behoren bij de vragen in de toets");//Select the directions, courses or lessons that will be associated with the test&#039;s questions
+define("_SELECTASSOCIATEDSKILLSORSKILLCATEGORIES","Selecteer de vaardigheden of vaardigheidscategorieën die behoren bij de vragen in de toets");//Select the skills or skill categories that will be associated with the test&#039;s questions
+define("_NEWSELECTION","Nieuwe selectie");//New selection
+define("_SELECTQUESTIONSBASEDONLESSONS","Selecteer vragen op basis van lessen");//Select questions based on lessons
+define("_SELECTQUESTIONSBASEDONSKILLS","Selecteer vragen op basis van vaardigheden");//Select questions based on skills
+define("_NOQUESTIONSDEFINEDFORTHISLESSON","Geen vragen  gedefinieerd voor deze les");//No questions defined for this lesson
+define("_NOQUESTIONSDEFINEDFORTHISSKILL","Geen vragen gedefinieerd voor deze vaardigheid");//No questions defined for this skill
+define("_ADDITIONALACCOUNTS","Gekoppelde gebruikersnamen");//Mapped accounts
+define("_ADDACCOUNT","Account toevoegen");//Add account
+define("_DELETEACCOUNT","Account verwijderen");//Delete account
+define("_SWITCHTO","Schakel over naar");//Switch to
+define("_YOUHAVENTSETADDITIONALACCOUNTS","U heeft geen extra accounts aangemaakt");//You haven&#039;t set any additional accounts
+define("_OPERATIONWASNOTCOMPLETEDSUCCESFULLY","Handeling niet goed afgesloten");//Operation was not completed succesessfully
+define("_LESSONMODULES","Les modules");//Lesson modules
+define("_COURSEEXPORTEDSUCCESFULLY","Cursus geexporteerd");//Course exported successfully
+define("_IMPORTCOURSE","Importeer cursus");//Import course
+define("_EXPORTCOURSE","Exporteer cursus");//Export course
+define("_COURSEDATAFILE","Cursus data bestand");//Course data file
+define("_COURSEIMPORTNOTICE","Waarschuwing: Het importeren van een cursus zal alle bestaande informatie van de cursus wissen");//Warning: Importing a course will erase all existing course information
+define("_CLICKTOEXPORTCOURSE","Klik om de cursus te exporteren");//Click to export course
+define("_IMPORT","Importeer");//Import
+define("_RESETLESSONDATA","Herstel de volgende lesgegevens");//Reset the following lesson data
+define("_DEPENDSONCONTENT","Afhankelijk van de inhoud");//Depends on content
+define("_HIDEEXTRAOPTIONS","Verberg extra opties bij het bekijken van inhoud");//Hide extra options when viewing content
+define("_HIDERIGHTBAR","Verberg rechter zijbalk bij het bekijken van inhoud");//Hide right side bar when viewing content
+define("_HIDELEFTBAR","Verberg linker zijbalk bij het bekijken van inhoud");//Hide left side bar when viewing content
+define("_HIDEPERCENTAGE","Verberg volledig percentage bij het bekijken van inhoud");//Hide complete percentage when viewing content
+define("_OPTIONSFORLESSON","Opties voor les");//Options for lesson
+define("_LAYOUTFORLESSON","Lay-out voor les");//Layout for lesson
+define("_COURSEIMPORTEDSUCCESFULLY","Cursus geïmporteerd");//Course imported successfully
+define("_LOCKDOWNMESSAGE","Lock down bericht");//Lock down message
+define("_LOCKDOWNONLYADMINISTRATORSCANLOGIN","Het systeem is geblokkeerd. Alleen beheerders mogen momenteel inloggen");//The system is locked down. Only administrators may login during this period
+define("_THESYSTEMISCURRENTLYLOCKED","Het systeem is momenteel geblokkeerd");//The system is currently locked
+define("_UNLOCK","Ontgrendelen");//Unlock
+define("_SYSTEMDOWNFORMAINTENANCE","Het systeem is geblokkeerd wegens onderhoud");//The system is currently down from maintenance
+define("_COPYGLOSSARY","Kopieer terminologie");//Copy glossary
+define("_COPYOTHERENTITIES","Kopieer andere eenheden");//Copy other entities
+define("_TEXTAREA","Tekstgebied");//Text area
+define("_CHARACTERSMAX20ONLYNOSPACES","Alleen letters, maximaal 20 tekens lang, zonder spaties");//Letters only, maximum 20 characters length, without spaces
+define("_COURSEACTIONS","Cursus handelingen");//Course actions
+define("_LICENSENOTE","Licentie");//License note
+define("_ENABLELICENSENOTE","Activeer licentie");//Enable license note
+define("_IMPORTANTNOTICE","Belangrijke mededeling");//Important notice
+define("_NOTACCEPTANDEXIT","Weigeren en afsluiten");//Decline and exit
+define("_ACCEPTANDCONTINUE","Accepteren en doorgaan");//Accept and continue
+define("_LOGINASADMIN","Log in als beheerder");//Login as administrator
+define("_LEARNINGMETHOD","Leermethode");//Learning method
+define("_NOQUESTIONSELECTIONSHAVEBEENMADE","Er zijn geen vragen geslecteerd");//No question selections have been made
+define("_DOYOUWANTTOFURTHEREDITTHETEST","Wilt u de toets verder bewerken?");//Do you want to further edit the test?
+define("_NOQUESTIONSFOUND","Geen vragen kunnen worden gevonden");//No questions could be found
+define("_INSERTINTO","Invoegen bij");//Insert into
+define("_KEEPEXISTINGDATA","Behoud bestaande gegevens");//Keep existing data
+define("_REPLACEEXISTINGDATA","Vervang bestaande gegevens");//Replace existing data
+define("_IFEMPTYFATHERBRANCH","Velden in rood zijn verplicht. Als geen naam wordt opgegeven voor het hoofdkantoor van een afdeling, dan zal de afdeling op de hoogste positie in de organistie worden geplaatst");//Fields in red are mandatory. If no name is given for the father branch of a branch, then it will be placed on the top level of the organization hierarchy
+define("_IFEMPTYJOBS","Velden in rood zijn verplicht. Indien er geen afdelingsnaam wordt opgegeven, dan wordt de functie bij alle afdelingen ingevoerd. Als een niet bestaande afdelingsnaam wordt opgegeven, dan zal de functie niet worden ingevoerd.");//Fields in red are mandatory. If the branch name given is null then the job position will be inserted to all branches. If the branch name is given but does not exist, then the job will not be imported.
+define("_IFEMPTYSKILL","Velden in rood zijn verplicht. Als er geen vaardigheidscategorienaam wordt opgegeven, dan zal de vaardigheid worden ondergebracht bij de categorie: &#39;Geen specifieke categorie&#39;");//Fields in red are mandatory. If no skill category name is given, then the skill will be put under the category: 'No specific category'
+define("_IMPORTDATA","Importeren van gegevens");//Import data
+define("_THEFOLLOWINGBRANCHESCOULDNOTBEIMPORTED","De volgende afdelingen kunnen niet worden geïmporteerd");//The following branches could not be imported
+define("_THEFOLLOWINGJOBSCOULDNOTBEIMPORTED","De volgende functies kunnen niet worden geïmporteerd");//The following job positions could not be imported
+define("_THEFOLLOWINGSKILLSCOULDNOTBEIMPORTED","De volgende vaardigheden kunnen niet worden geïmporteerd");//The following skills could not be imported
+define("_BRANCHDESIGNATEDFORTHISJOBDESCRIPTIONDOESNOTEXIST","De aangewezen afdeling voor deze functie bestaat niet");//Branch designated for this job position does not exist
+define("_EXPORTFROM","Exporteer uit");//Export from
+define("_EXPORTUSINGCSVFORMATQM","Exporteren van gegevens met behulp van csv formaat (gescheiden door &quot;;&quot;)");//Export data using csv format (separated with &quot;;&quot;)
+define("_EXPORTUSINGCSVFORMATCOMMA","Exporteren van gegevens met behulp van csv formaat (gescheiden door &quot;,&quot;)");//Export data using csv format (separated with &quot;,&quot;)
+define("_EXPORTDATA","Exporteren van gegevens");//Export data
+define("_SUCCEEDEDINASKILLGAPTESTLCWITHASCORE","Geslaagd voor een vaardigheidstoets met een score van");//Succeeded in a skillgap test with a score
+define("_FAILEDINASKILLGAPTESTLCWITHASCORE","Niet geslaagd voor een vaardigheidstoets met een score van");//Failed in a skillgap test with a score
+define("_ADDSKILLSTOSKILLSET","Voeg alle vaardigheidsresultaten toe aan de vaardighedenlijst van de gebruiker");//Add all skill results to user skill set
+define("_ADDSKILLTOSKILLSET","Voeg vaardigheid toe aan de vaardighedenlijst van de gebruiker");//Add skill to user skill set
+define("_CHECKYOURVERSIONISCORRECT","De sleutel werkt niet. Controleer of deze sleutel geschikt is voor uw versie.");//The key could not be applied. Please make sure that the key provided is suitable for your version
+define("_CHECKYOURKEYISCORRECT","De sleutel werkt niet. Zorg ervoor dat de sleutel goed is gevormd en correct is ingevuld");//The key could not be applied. Please make sure that the key is well formed and entered correctly
+define("_MINIMUMPASSWORDLENGTH","Minimale lengte wachtwoord");//Minimum password length
+define("_MULTIPLELOGINS","Meerdere logins");//Multiple logins
+define("_ALLOWMULTIPLELOGINSGLOBALLY","Wereldwijd gelijktijdige logins toestaan");//Allow concurrent logins globally
+define("_MULTIPLELOGINSFOR","gelijktijdige logins voor");//concurrent logins for
+define("_ALLOW","Toestaan");//Allow
+define("_DISALLOW","Niet toestaan");//Disallow
+define("_EXCEPTFORTHEGROUPS","Behalve voor de groepen");//Except for the groups
+define("_EXCEPTFORTHEROLES","Behalve voor de rollen");//Except for the roles
+define("_EXCEPTFORTHEUSERS","Behalve voor de gebruikers");//Except for the users
+define("_COULDNOTSETCONFIGURATIONVALUE","De volgende configuratie-waarde niet kan worden ingesteld");//The following configuration value could not be set
+define("_HOLDDOWNCTRLFORMULTIPLESELECT","Houd de CTRL-toets ingedrukt om meerdere waardes tegelijk te selecteren of deselecteren");//Hold down the CTRL key while clicking for multiple select or deselect
+define("_COURSESETTINGS","Cursus instellingen");//Course settings
+define("_FREETEXT","Vrije tekst");//Free text
+define("_OUTCOMEPENDING","Resultaat in behandeling");//Outcome pending
+define("_USERNOTCOMPLETEDTEST","De gebruiker heeft de toets niet voltooid");//The user has not completed this test
+define("_IMPORTORGANIZATIONALDATA","Importeer organisatorische gegevens");//Import organizational data
+define("_EXPORTORGANIZATIONALDATA","Exporteer organisatorische gegevens");//Export organizational data
+define("_IMPORTEXPORT","Importeer / exporteer");//Import - export
+define("_EXPORTIMPORTDATA","Exporteer / importeer gegevens");//Export - Import
+define("_THISPMISSENTALLUSERS","Dit prive-bericht werd verstuurd naar alle actieve gebruikers.");//This private message was sent to all active users.
+define("_THISPMISSENTLESSONUSERS","Dit prive-bericht werd verstuurd naar alle gebruikers van les");//This private message was sent to all users of lesson
+define("_THISPMISSENTCOMPLETEDCOURSEUSERS","Dit prive-bericht werd verstuurd naar alle gebruikers die de cursus hebben afgerond");//This private message was sent to all users completed course.
+define("_THISPMISSENTCOURSEUSERS","Dit prive-bericht werd verstuurd naar alle gebruikers van de cursus");//This private message was sent to all users of course
+define("_THISPMISSENTLESSONPROFESSORS","Dit prive-bericht werd verstuurd naar de docenten van de les");//This private message was sent to professors of lesson
+define("_THISPMISSENTUSERTYPE","Dit prive-bericht werd verstuurd naar alle gebruikers van het type");//This private message was sent to all users of type
+define("_THISPMISSENTUSERGROUP","Dit prive-bericht werd verstuurd naar alle gebruikers van de groep");//This private message was sent to all users of group
+define("_THISPMISSENTSPECIFICUSERS","Dit prive-bericht werd verstuurd naar specifieke gebruikers.");//This private message was sent to specific users.
+define("_RTLLANGUAGE","Van rechts naar links");//Right to left
+define("_YOUCANONLYUPLOADONEFILE","U kunt maar 1 bestand uploaden");//You can only upload one file
+define("_DELETETHEFILETOUPLOADANOTHER","Verwijder dit bestand als u een andere wilt uploaden");//Delete this file if you want to upload another
+define("_LOGINERRORPLEASEMAKESURECAPSLOCKISOFF","Uw gebruikersnaam of wachtwoord is onjuist. Probeer het opnieuw, zorg ervoor dat de CAPS LOCK-toets is uitgeschakeld");//Your username or password is incorrect. Please try again, making sure that CAPS LOCK key is off
+define("_YOUCANNOTACCESSTHISLESSONBECAUSEOFCOURSERULES","U heeft geen toegang tot deze les want door de regels");//You can not access this lesson because of course rules
+define("_SHOWHEADLINE","Toon kop");//Show headline
+define("_YOUAREREVISITINGCHANGESNOTTAKENINTOACCOUNT","Opmerking: u bevindt zich opnieuw in deze eenheid, eventuele wijzigingen zullen niet in aanmerking zullen komen voor verandering");//Note: you are revisiting this unit, so any changes will not be taken into account
+define("_ACTIONONRENTRYCOMPLETED","Handeling opnieuw ingeven voltooid");//Action on re-entry
+define("_LETCONTENTDECIDE","Laat de inhoud bepalend zijn");//Let content decide
+define("_DONTCHANGE","Laat ongewijzigd");//Leave unchanged
+define("_DASHBOARD","Dashboard");//Dashboard
+define("_MYWALL","Mijn prikbord");//My wall
+define("_RELATEDPEOPLE","Betrokken personen");//Related people
+define("_LEARNINGACTIVITY","Leeractiviteit");//Learning activity
+define("_TIMELINE","Tijdslijn");//Timeline
+define("_WASASSIGNEDTHELESSON","werd toegewezen de les");//was assigned lesson
+define("_WILLBETEACHINGLESSON","zal de les onderwijzen");//will be teaching the lesson
+define("_HASCOMPLETEDLESSON","heeft de les voltooid");//has completed lesson
+define("_NOLONGERATTENDSLESSON","niet langer aanwezig bij les");//no longer attends lesson
+define("_WROTEACOMMENTFORUNIT","schreef een reactie voor eenheid");//wrote a comment for unit
+define("_COMPLETEDTEST","test voltooid");//completed test
+define("_CREATEDTHENEWFORUM","maakte het nieuwe forum aan");//created the new forum
+define("_CREATEDTHENEWTOPIC","maakte een nieuw onderwerp aan");//created the new topic
+define("_CREATEDTHENEWPOLL","maakte een nieuwe poll aan");//created the new poll
+define("_POSTEDTHENEWMESSAGE","plaatste het nieuwe bericht");//posted the new message
+define("_CHANGEDHISHERPROFILE","veranderde zijn/haar profiel");//changed his/her profile
+define("_CHANGEDHISHERAVATARPICTURE","veranderde zijn/haar profielfoto");//changed his/her display picture
+define("_INTHEFORUMOFTHELESSON","in het forum van de les");//in the forum of the lesson
+define("_OFTHELESSON","van de les");//of the lesson
+define("_FORTHELESSON","voor de les");//for the lesson
+define("_CLICKTOCHANGESTATUS","Klik om status te veranderen");//Click to change status
+define("_SHORTDESCRIPTIONCV","Korte beschrijving/CV");//Short description/CV
+define("_APPLYPROFILECHANGES","Voer profiel wijzigingen door");//Apply profile changes
+define("_IS","is");//is
+define("_SUCCESFULLYUPDATEDPROFILE","Profiel succesvol bijgewerkt");//Successfully updated profile
+define("_WRITESOMETHINGABOUTYOURSELF","schrijf iets over jezelf");//write something about yourself
+define("_NAMEARTICLE","");//
+define("_INVITETOCHATINCURRENTROOM","Uitnodigen om te chatten in de huidige chatroom");//Invite to chat in current room
+define("_GOTODASHBOARD","Ga naar dashboard");//Go to dashboard
+define("_GOTOMYPROFILE","Ga naar mijn profiel");//Go to my profile
+define("_GOTOPEOPLELIST","Ga naar de gebruikerslijst");//Go to people&#039;s list
+define("_PEOPLE","Mensen");//People
+define("_EVERYONE","Iedereen");//Everyone
+define("_RECENTLYCHANGED" ,"Recently changed status");
+define("_RELATEDTOCURRENTLESSON","Gerelateerd aan de huidige les");//Related to current lesson
+define("_NORELATEDPEOPLEFOUND","Geen verwante mensen gevonden");//No related people found
+define("_ADDCOMMENTTOMYPROFILE","Reactie toevoegen aan mijn profiel");//Add comment to my profile
+define("_COMMENTEDONTHEPROFILEOF","reageerde op het profiel van");//commented on the profile of
+define("_COMMENTEDONHISHEROWNPROFILE","reageerde op zijn / haar eigen profiel");//commented on his/her own profile
+define("_DELETEDACOMMENTFROMHISHEROWNPROFILE","verwijderde een opmerking van zijn/haar profiel");//deleted a comment from his/her profile
+define("_UNREGISTEREDEVENT","Ongeregistreerde gebeurtenis");//Unregistered event
+define("_FORTHEMODULE","voor de module");//for the module
+define("_COMMONLESSONS","gemeenschappelijke lessen");//common lessons
+define("_COMMONLESSON","gemeenschappelijke les");//common lesson
+define("_LESSONSTIMELINE","Les tijdslijn");//Lesson timeline
+define("_NORELATEDEVENTSFOUND","Geen gerelateerde gebeurtenissen gevonden");//No related events found
+define("_SELECTTIMELINETOPIC","Kies onderwerp");//Select topic
+define("_ANYTOPIC","Ieder onderwerp");//Any
+define("_ADDLESSONTIMELINETOPIC","Voeg lesonderwerp toe");//Add lesson topic
+define("_DELETELESSONTIMELINETOPIC","Verwijderen lesonderwerp");//Delete lesson topic
+define("_EDITLESSONTIMELINETOPIC","Wijzig lesonderwerp");//Edit lesson topic
+define("_LESSONTIMELINETOPIC","Lesonderwerp titel");//Lesson topic title
+define("_SUCCESSFULLYCREATEDLESSONTIMELINETOPIC","Lesonderwerp met succes aangemaakt");//Lesson topic created successfully
+define("_LESSONTIMELINETOPICDATAUPDATED","Lesonderwerp bijgewerkt");//Lesson topic updated successfully
+define("_POSTMESSAGEFORLESSONTIMELINETOPIC","Plaats bericht voor deze les");//Post message for this lesson topic
+define("_ADDPOSTFORLESSONTOPIC","Voeg bericht toe aan lesonderwerp");//Add post to lesson topic
+define("_EDITPOSTFORLESSONTOPIC","Wijzig bericht van lesonderwerp");//Edit post to lesson topic
+define("_SUCCESFULLYADDEDTOPICPOST","Bericht lesonderwerp succesvol geplaatst");//Successfully added lesson topic post
+define("_THEPOST","het bericht");//the message
+define("_POSTEDFORLESSONTOPIC","geplaatst voor het lesonderwerp");//posted for the lesson topic
+define("_EDITMESSAGEFORLESSONTIMELINETOPIC","Wijzig bericht voor het lesonderwerp");//Edit message for lesson topic
+define("_DELETEMESSAGEFORLESSONTIMELINETOPIC","Verwijder bericht voor het lesonderwerp");//Delete message for lesson topic
+define("_DELETEDAPOSTFORLESSONTOPIC","Verwijder bericht voor het lesonderwerp");//Deleted a post for lesson topic
+define("_TOPICPOSTDOESNOTEXISTANYMORE","Geplaatst bericht bij lesonderwerp bestaat niet meer");//Lesson topic post does not exist any more
+define("_LESSONTIMELINETOPICDELETED","Lesonderwerp succesvol verwijderd");//Lesson topic successfully deleted
+define("_AREYOUSUREYOUWANTTODISMISSTHISLESSONTIMELINETOPIC" , "Weet u zeker dat u het onderwerp en alle berichten van het lesonderwerp wilt verwijderen");//Are you sure you want to delete the topic and all posts of lesson topic
+define("_GOTOCOMPLETESYSTEMTIMELINE","Ga naar tijdslijn compleet systeem");//Goto complete system timeline
+define("_SYSTEMTIMELINE","Systeem tijdslijn");//System timeline
+define("_LOGOWIDTH","Breedte logo");//Logo width
+define("_LOGOHEIGHT","Hoogte logo");//Logo height
+define("_LOGODIMENSIONSMUSTBEPOSITIVE","Logo afmetingen moeten positief zijn");//Logo dimensions must be positive
+define("_SOCIAL","Sociaal");//Social
+define("_OPTIONSFORSOCIALMODULE","Opties voor sociale module");//Options for social
+define("_ENTIRESOCIALMODULE","Gehele sociale module");//Entire social module
+define("_EVENTSLOGGING","Gebeurtenissen logboek");//Event logging
+define("_SYSTEMTIMELINES","Systeem tijdslijnen");//System timelines
+define("_LESSONTIMELINES","Lessen tijdslijnen");//Lessons timelines
+define("_USERSTATUS","Gebruikersstatus");//User status
+define("_FBCONNECT","Facebook Connect");//Facebook connect
+define("_EMAILDIGESTS","Meldingen");//Notifications
+define("_SENDNOTIFICATION","Stuur melding");//Send notification
+define("_ONDATE","Op datum");//On date
+define("_ONEVENT","Bij gebeurtenis");//On event
+define("_AFTEREVENT","Na gebeurtenis");//After event
+define("_FREQUENCY","Frequentie");//Frequency
+define("_ONCE","Eenmaal");//Once
+define("_PERIODICALLY","Periodiek");//Periodically
+define("_EVERY","Elke");//Every
+define("_3DAYS","3 dagen");//3 days
+define("_JOIN","Aanmelden");//Join
+define("_VISITED","Bezocht");//Visited
+define("_NOTVISITED","Niet bezocht");//Not visited
+define("_LEAVE","Verlaten");//Leave
+define("_ASSIGNED","Toegekend");//Assigned
+define("_REMOVED","Verwijderd");//Removed
+define("_ANYLESSON","Elke les");//Any lesson
+define("_ANYCOURSE","Elke cursus");//Any course
+define("_ANYTEST","Elke test");//Any test
+define("_ADDTEMPLATIZEDTEXT","Voeg standaard tekst toe");//Add templatized text
+define("_RECIPIENTSUSERNAME","Naam ontvanger");//Recipient&#039;s name
+define("_AUTHORUSERNAME","Gebruikersnaam auteur");//Author&#039;s username
+define("_COURSETITLE","Cursus titel");//Course title
+define("_GROUPNAME","Groepsnaam");//Group name
+define("_TIMEAFTEREVENT","Tijd tot het versturen na gebeurtenis");//Time to send after event
+define("_STARTINGFROM","Vanaf");//Starting from
+define("_SYSTEMJOIN","Aangemeld in het systeem");//System join
+define("_SYSTEM_REMOVAL","Uit het systeem verwijderd");//System removal
+define("_LESSON_ACQUISITION_AS_STUDENT","Les acquisitie als student");//Lesson acquisition as student
+define("_LESSON_ACQUISITION_AS_PROFESSOR","Les acquisitie als docent");//Lesson acquisition as professor
+define("_LESSON_VISITED","Les bezocht");//Lesson visited
+define("_LESSON_REMOVAL","Les verwijdering");//Lesson removal
+define("_LESSON_COMPLETION","Les voltooing");//Lesson completion
+define("_NEW_POST_FOR_LESSON_TIMELINE_TOPIC","Bericht voor lesonderwerp tijdslijn");//Post for lesson timeline topic
+define("_DELETE_POST_FROM_LESSON_TIMELINE","Verwijderen uit lesonderwerp tijdslijn");//Delete from lesson timeline topic
+define("_TEST_CREATION","Aanmaken toets");//Test creation
+define("_TEST_START","Start toets");//Test start
+define("_TEST_COMPLETION","Afronding toets");//Test completion
+define("_CONTENT_CREATION","Inhoud aangemaakt");//Content creation
+define("_CONTENT_MODIFICATION","Inhoud gewijzigd");//Content modification
+define("_CONTENT_START","Inhoud start");//Content start
+define("_CONTENT_COMPLETION","Inhoud afgerond");//Content completion
+define("_NEW_COMMENT_WRITING","Nieuw lesbericht schrijven");//New lesson comment writing
+define("_NEW_FORUM","Nieuw forum");//New forum
+define("_NEW_TOPIC","Nieuw onderwerp");//New topic
+define("_NEW_POLL","Nieuwe poll");//New poll
+define("_NEW_FORUM_MESSAGE_POST","Nieuw forumbericht");//New forum message post
+define("_STATUS_CHANGE","Status wijzigen");//Status change
+define("_AVATAR_CHANGE","Avatar wijzigen");//Avatar change
+define("_PROFILE_CHANGE","Profiel wijzigen");//Profile change
+define("_NEW_PROFILE_COMMENT_FOR_OTHER","Nieuw profielcommentaar voor anderen");//New profile comment for other
+define("_NEW_PROFILE_COMMENT_FOR_SELF","Nieuw profielcommentaar voor zichzelf");//New profile comment for self
+define("_DELETE_PROFILE_COMMENT_FOR_SELF","Verwijder profielcommentaar voor zichzelf");//Delete profile comment for self
+define("_NOT","Niet");//Not
+define("_UNITCONTENT","Inhoud eenheid");//Unit content
+define("_ANYUNIT","Elke eenheid");//Any unit
+define("_REGISTEREDNOTIFICATIONS","Geregistreerde meldingen");//Registered notifications
+define("_ADDNOTIFICATION","Voeg melding toe");//Add notification
+define("_WHEN","Wanneer");//When
+define("_NOTIFICATIONSETUPSUCCESSFULLY","Melding succesvol ingesteld");//Notification setup successfully
+define("_DAYSAFTEREVENT","dagen na de gebeurtenis");//days after event
+define("_NOTIFICATIONDELETEDSUCCESSFULLY","Melding succesvol verwijderd");//Notification deleted successfully
+define("_AREYOUSUREYOUWANTTOREMOVETHATNOTIFICATION","Weet u zeker dat u deze melding wilt verwijderen?");//Are you sure you want to remove this notification?
+define("_SYSTEM_VISITED","Systeem bezocht");//System visited
+define("_SYSTEM_NOT_VISITED","Systeem niet bezocht");//System not visited
+define("_LESSON_NOT_VISITED","Les niet bezocht");//Lesson not visited
+define("_LESSON_NOT_COMPLETED","Les niet voltooid");//Lesson not completed
+define("_TEST_NOT_COMPLETED","Toets niet voltooid");//Test not completed
+define("_CONTENT_NOT_COMPLETED","Inhoud niet voltooid");//Content not completed
+define("_VISITEDLESSON","bezocht les");//visited lesson
+define("_GOTOLESSONSTIMELINE","Ga naar lessen tijdslijn");//Goto lessons timeline
+define("_GROUPLESSONS","Groepslessen");//Group lessons
+define("_GROUPCOURSES","Groepscursussen");//Group courses
+define("_GROUPUSERSTATUS","Status gebruikers groep");//Group user status
+define("_NOTACTIVE","Inactief");//Inactive
+define("_ASSIGNLESSONSTOALLNEWMEMBERS","Toewijzen groepsprofiel aan nieuwe leden");//Assign group profile to new members
+define("_ASSIGNLESSONSTONEWMEMBERSEXPLANATION","Het groepsprofiel (o.a. taal, standaard status, type gebruiker, bijbehorende lessen en cursussen) wordt automatisch toegewezen aan alle gebruikers die vanaf nu tot deze groep toetreden");//The group profile (i.e. preferred language, default status, user type, associated lessons and courses) will be automatically assigned to all users joining this group from now on
+define("_GROUPLANGUAGE","Groepstaal");//Group language
+define("_GROUPUSERTYPE","Groep gebruikerstype");//Group user type
+define("_NOCOMMONGROUPUSERSTATUS","Geen gemeenschappelijke gebruikersstatus");//No common user status
+define("_NOCOMMONGROUPUSERTYPE","Geen gemeenschappelijke gebruikerstype");//No common user type
+define("_NOCOMMONGROUPLANGUAGE","Geen gemeenschappelijke taal");//No common language
+define("_SUCCESFULLYUPDATEDGROUP","Groep is bijgewerkt");//Group was successfully updated
+define("_ASSIGNLESSONSTOGROUPUSERS","Wijs geselecteerde lessen toe aan de groep gebruikers");//Assign selected lessons to group users
+define("_AUTOMATICALLYGENERATEGROUPKEY","Automatisch genereren van groepssleutel");//Automatically generate group key
+define("_UNIQUEGROUPKEY","Unieke groepssleutel");//Unique group key
+define("_UNIQUEGROUPKEYINFO","Deze unieke groepssleutel kan worden verstrekt aan de gebruikers om zich te kunnen inschrijven voor een bepaalde groep door te klikken op de sleutel-pictogram op de login pagina");//This unique group key can be provided to users to enable them to register themselves to a particular group by clicking the key icon on the courses list, after they login
+define("_ISTHEDEFAULTEFRONTSYSTEMGROUP","Standaard systeem groep");//Default system group
+define("_ISTHEDEFAULTEFRONTSYSTEMGROUPINFO","Door dit te selecteren worden alle nieuwe gebruikers van het systeem automatisch toegewezen aan deze groep. Slechts 1 groep kan de standaard systeemgroep zijn. Als een nieuwe groep als standaard groep wordt ingesteld, dan zal dit de voorgaande geselecteerde groep vervangen.");//Checking this will make all new users to be automatically assigned to this group. Only one group can be the default system group. As a result, new default group selections replace the previous ones.
+define("_ENTERGROUPKEY","Groepssleutel");//Group/Lesson key
+define("_ENTERGROUPKEYINFO","Door het invoeren van een unieke groepssleutel die aan u is verstrekt door de systeembeheerder, kunt u zichzelf inschrijven voor alle lessen van die specifieke groep");//By submitting here a unique group key provided to you by the system administrator you are able to register yourself to all lessons of that particular group
+define("_WRONGGROUPLESSONKEY","De groepssleutel die u heeft ingevoerd is niet geldig");//The group key you have entered is not valid
+define("_THEGROUPHASNOLESSONS","De groep die overeenkomt met uw sleutel bevat geen lessen en cursussen");//The group corresponding to your key has no lessons and no courses
+define("_THEGROUPISNOTACTIVE","De groep die overeenkomt met uw sleutel is niet actief");//The group corresponding to your key is not active
+define("_YOUALREADYATTENDALLLESSONSOFTHISGROUP","U bent reeds ingeschreven voor alle lessen en alle cursussen van deze groep");//You are already attending all lessons and all courses of this group
+define("_YOUHAVEBEENASSIGNEDWITH","U bent toegewezen aan");//You have been assigned
+define("_PLEASEFILLINTHEGROUPSKEY","Vul de groepssleutel in");//Please fill in the group key
+define("_ASSIGNCOURSESTOGROUPUSERS","Wijs geselecteerde cursussen toe aan een groep gebruikers");//Assign selected courses to group users
+define("_LCNEWLESSONS","nieuwe lessen");//new lessons
+define("_LCNEWCOURSES","nieuwe cursussen");//new courses
+define("_INSERTINTOGROUP","Invoegen bij groep");//Insert into group
+define("_NOSPECIFICGROUP","Geen specifieke groep");//No specific group
+define("_VIEWINSERTGROUPKEY","Toon groepssleutel optie");//Show group key option
+define("_MAXGROUPKEYUSAGE","Maximaal aantal sleutels gebruikt");//Maximum key uses
+define("_MAXGROUPKEYUSAGEINFO","Als dit veld een waarde groter dan nul heeft, dan wordt het aantal keren dat de groepssleutel kan worden gebruikt beperkt. Als het veld de waarde nul heeft, dan is er geen limiet.");//Leave blank for no limit
+define("_REMAININGKEYUSES","Resterend aantal keren dat de groepssleutel kan worden gebruikt");//Remaining group key uses
+define("_THEGROUPKEYHASEXPIRED","De groepssleutel is niet meer geldig");//The group key has expired
+define("_TESTCORRUPTEDORNOTACOMPLETEDTEST","Het spijt ons, maar deze toets is beschadigd en dus ontoegankelijk. Ga naar de lijst met voltooide toetsen om deze toets uit de lijst te verwijderen.");//We are sorry, but this test is corrupted and thus inaccessible. Please visit the done tests list to delete this test execution.
+define("_STUDENTSINGROUP","Studenten in groep");//Students in group
+define("_PROFESSORSINGROUP","Docenten in groep");//Professors in group
+define("_SUPERVISEDEMPLOYEES","Gecontroleerd");//Supervised
+define("_UNATTACHEDEMPLOYEES","Niet gerelateerd");//Unattached
+define("_NONOTIFICATIONSHAVEBEENREGISTERED","Geen meldingen geregistreerd");//No notifications have been registered
+define("_CANNOTSCHEDULEMESSAGEFORPASTDATE","U kunt een kennisgeving niet inplannen op een datum in het verleden");//You cannot schedule a notification for a past date
+define("_EDITNOTIFICATION","Wijzig melding");//Edit notification
+define("_NOMESSAGESHAVEBEENPOSTEDONYOURWALLYET","Er zijn nog geen berichten op uw muur geplaatst");//No messages have been posted on your wall yet
+define("_NOUSERSARECURRENTLYRELATEDTOYOU","Geen gebruikers zijn gerelateerd aan u");//No users are currently related to you
+define("_RECENTINCOMINGMESSAGES","Recent ingekomen berichten");//Recent incoming messages
+define("_GOTOMYMESSAGES","Ga naar mijn berichten");//Go to my messages
+define("_USERINACTIVE","Het account is uitgeschakeld door de systeembeheerder");//The account has been deactivated by the administrator
+define("_TESTCORRUPTEDASKRESETEXECUTION","Het spijt ons, maar deze toets is beschadigd en dus ontoegankelijk. Vraag uw docent om deze toets opnieuw in te stellen");//We are sorry, but this test is corrupted and thus inaccessible. Please ask your professor to reset this test execution
+define("_LOWERHANDLES","Handgrepen onder");//Lower handles
+define("_UPPERHANDLES","Handgrepen boven");//Upper handles
+define("_ALLHANDLES","Alle handgrepen");//All handles
+define("_MYPROFILE","mijn Profiel");//my Profile
+define("_MYPLACEMENTS","mijn Posities");//my Placements
+define("_MYHISTORY","mijn Geschiedenis");//my History
+define("_MYFILES","mijn Bestanden");//my Files
+define("_MAPPEDACCOUNTS","Gekoppelde gebruikersnamen");//Mapped accounts
+define("_MYGROUPS","mijn Groepen");//my Groups
+define("_AVAILABLE","Beschikbaar");//Available
+define("_NEVER","Nooit");//Never
+define("_CLASSMATES","Klasgenoten");//Classmates
+define("_LESSONPEOPLE","Deelnemers les");//People connection
+define("_NORMALIZEDIMENSIONS","Normale afmetingen");//Normalize dimensions
+define("_WASASSIGNEDTHECOURSE","werd toegewezen aan de cursus");//was assigned the course
+define("_WILLBETEACHINGCOURSE","zal de cursus doen");//will be teaching the course
+define("_VISITEDCOURSE","bezocht cursus");//visited course
+define("_HASCOMPLETEDCOURSE","heeft de cursus afgerond");//has completed the course
+define("_NOLONGERATTENDSCOURSE","volgt de cursus niet langer");//no longer attends the course
+define("_STARTEDTEST","begonnen met de test");//started the test
+define("_PROJECT_SUBMISSION","Project indienen");//Project submission
+define("_SUBMITTEDPROJECT","project ingediend");//submitted the project
+define("_COMMENTSWALL","Reacties/Prikbord");//Comments/Wall
+define("_AREYOUSUREYOUWANTTODELETETHISCOMMENT","Weet je zeker dat je deze reactie  wilt verwijderen?");//Are you sure you want to delete this comment?
+define("_COULDNOTRETRIEVEEMPLOYEESJOBS","Kan banen van gebruiker niet ophalen");//Could not retrieve user's jobs
+define("_ADDTEXTTEMPLATE","Voeg standaard tekst toe");//Add text template
+define("_NONOTIFICATIONRECIPIENTSDEFINED","Geen ontvangers van meldingen gedefinieerd");//No notification recipients defined
+define("_HIDESIDEBARIMAGES","Verberg afbeeldingen zijbalk");//Hide sidebar images
+define("_RECIPIENTSSURNAME","Achternaam ontvanger");//Recipient&#039;s surname
+define("_MESSAGESQUEUE","Berichten wachtrij");//Messages queue
+define("_SENDNEXTQUEUEMESSAGES","Stuur volgende berichten in wachtrij");//Send next queue messages
+define("_COURSE_ACQUISITION_AS_STUDENT","Cursus acquisitie als student");//Course acquisition as student
+define("_COURSE_ACQUISITION_AS_PROFESSOR","Cursus acquisitie als docent");//Course acquisition as professor
+define("_COURSE_VISITED","Cursus bezocht");//Course visited
+define("_COURSE_REMOVAL","Cursus verwijderd");//Course removal
+define("_COURSE_COMPLETION","Cursus voltooid");//Course completion
+define("_COURSE_NOT_VISITED","Cursus niet bezocht");//Course not visited
+define("_COURSE_NOT_COMPLETED","Cursus niet voltooid");//Course not completed
+define("_PENDINGTESTS","Toetsen in behandeling");//Pending tests
+define("_SETPERIOD","Selecteer periode");//Select period
+define("_PREVIOUSWEEK","Vorige week");//Previous week
+define("_TODAY","Vandaag");//Today
+define("_YESTERDAY","Gisteren");//Yesterday
+define("_PREVIOUSMONTH","Vorige maand");//Previous month
+define("_AUTOMATICCOMPLETION","Automatisch afronden");//Complete automatically
+define("_EXPIREDBEFORE","verstreken voor");//expired before
+define("_DEADLINEDATEMUSTBEINFUTURE","Uiterste datum moet in de toekomst zijn");//Deadline date must be in the future
+define("_NOTIFICATIONLANGUAGETEMPLATEINFO","Door middel van het instellen van taal tags kunt u meldingen verzenden in verschillende talen naar gelang de taal van elke gebruiker. Het bericht onder  elke taal tag zal worden gestuurd naar alle gebruikers die gebruik maken van die taal. Als de taal van een gebruiker niet is ingesteld of als er geen tags worden gebruikt, dan zal de standaard boodschap (de bovenste die geen tag heeft) worden verzonden");//Setting language tags allows you to send notifications in different languages according to every user&#039;s language. The message below each language tag will be sent to all users who use that language. In the case where a user&#039;s language is not defined or no tags are used, then the default message (the first one on the top that has no tag) is used
+define("_SYSTEM_ONPASSWORD_FORGOTTEN","Wachtwoord vergeten");//Password forgotten
+define("_MD5ENCODINGOF","MD5 codering");//MD5 encoding
+define("_RECIPIENTSLOGIN","Login Ontvanger");//Recipient&#039;s login
+define("_HOSTSYSTEMURL","Systeem host url");//System host url
+define("_WRITETEXTORENTERTEMPLATETOBEENCODED","Schrijf de tekst tussen de haakjes of voeg de sjabloon toe om te worden gecodeerd");//Inside the bracktes write the text or add the template to be encoded
+define("_SYSTEM_REGISTERED","Registratie gebruiker");//User registration
+define("_SYSTEM_EMAIL_ACTIVATION","Activeren e-mail gebruiker");//User email activation
+define("_RECIPIENTSEMAIL","E-mail ontvanger");//Recipient&#039;s email
+define("_RECIPIENTSLANGUAGE","Taal Ontvanger");//Recipient&#039;s language
+define("_RECIPIENTSCOMMENTS","Opmerkingen ontvanger");//Recipient&#039;s comments
+define("_NEWSYSTEMANNOUNCEMENT","Nieuwe systeemmelding");//New system announcement
+define("_NEWLESSONANNOUNCEMENT","Nieuwe lesmelding");//New lesson announcement
+define("_RECIPIENTSUSERTYPE","Gebruikerstype ontvanger");//Recipient&#039;s user type
+define("_EVENTDATE","Datum gebeurtenis");//Event&#039;s date
+define("_EVENTTIMESTAMP","Tijdstempel gebeurtenis");//Event&#039;s timestamp
+define("_HUMANNAME","Naam");//Name
+define("_CONSIDERSUBUNITS","Overweeg subeenheden");//Consider subunits
+define("_USERSFILTER","Gebruikers filter");//Users filter
+define("_ACTIVEUSERS","Actieve gebruikers");//Active users
+define("_INACTIVEUSERS","Inactieve gebruikers");//Inactive users
+define("_WELCOMETOOUR","Welkom op onze");//Welcome to our
+define("_TOALLSYSTEMUSERS","naar alle gebruikers van het systeem");//to all system users
+define("_ALLLESSONUSERS","Alle les gebruikers");//All lesson users
+define("_USERTRIGGERINGTHEEVENT","Gebruiker triggert de gebeurtenis");//User triggering the event
+define("_EVENTAPPLIESTO","Gebeurtenis is van toepassing op");//Event applies to
+define("_SYSTEM_ON_NEW_PASSWORD_REQUEST","Nieuw wachtwoord aanvragen");//New password request
+define("_SURVEYID","Enquête id");//Survey id
+define("_SURVEYMESSAGE","Enquête bericht");//Survey message
+define("_NEWSURVEY","Nieuwe enquête gepubliceerd");//New survey published
+define("_EXPLICITLYSELECTED","Expliciet geselecteerd");//Explicitly selected
+define("_LESSONPROFESSORS","Les docenten");//Lesson professors
+define("_TOBESENTIMMEDIATELY","Moet onmiddellijk worden verzonden");//To be sent immediately
+define("_NEWLESSONPROJECT","Nieuw les-project");//New lesson project
+define("_REMAININGPLURAL","resterende");//remaining
+define("_NONESKILL","Geen");//None
+define("_LASTMONTH","Vorige maand");//Last month
+define("_LASTWEEK","Afgelopen week");//Last week
+define("_LAST24HOURS","Laatste 24 uur");//Last 24 hours
+define("_WEEKLYREMINDERFROM","Wekelijkse herinnering van");//Weekly reminder from
+define("_YOUHAVENOTLOGGEDINFORAWEEK","U heeft sinds een week niet ingelogd in het systeem");//You have not logged into the system for a week
+define("_USETHEFOLLOWINGLINKTOLOGINTONOW","U kunt op de volgende link klikken om direct in te loggen in het systeem");//You can use the following link to log into the system now
+define("_SYSTEMADMINISTRATOR","Systeem beheerder");//System administrator
+define("_NEWSYSTEMJOININ","Nieuwe gebruiker in het systeem");//New user in system
+define("_ANEWUSERHASBEENINSERTEDINTOTHESYSTEM","Een nieuwe gebruiker is toegevoegd aan het systeem");//A new user has been inserted into the system
+define("_MATHSERVER","Math serverlocatie");//Math server location
+define("_MATHSERVERINFO","Voor meer info ga naar http://www.forkosh.com/imetex.html");//For more info see at http://www.forkosh.com/mimetex.html
+define("_ANSWERNOTVISIBLE","Antwoord niet zichtbaar");//Answer not visible
+define("_PROGRAMMEDLESSONSTART","Begin geplande les");//Lesson scheduled beginning
+define("_PROGRAMMEDLESSONEXPIRY","Vervaldatum geplande les");//Lesson scheduled expiration
+define("_BEFOREEVENT","Voor gebeurtenis");//Before event
+define("_TIMEBEFOREEVENT","Tijdstip om te sturen voorafgaand aan gebeurtenis");//Time to send before event
+define("_DAYSBEFOREEVENT","dagen voor gebeurtenis");//days before event
+define("_PROJECTEXPIRY","Tijd totdat een project verlopen is");//Project expiration
+define("_SELECTEDUSERS","Geselecteerde gebruikers");//Selected users
+define("_DURATIONFOREXPIRATION","Tijd totdat een certificaat verlopen is");//Time for certificate expiration
+define("_MONTHS","Maanden");//Months
+define("_EXPIREINSTRUCTIONS","Stel de tijd totdat een certificaat verlopen is. Kies 0 voor geen vervaldatum");//Set the time for expiration after certificate will be issued. Select 0 for no expiration
+define("_RESETCOURSEWHENEXPIRE","Stel cursus opnieuw in wanneer een certificaat verlopen is");//Reset course when certificate expires
+define("_SENDMESSAGEASHTML","Stuur e-mail in html formaat");//Send email in html format
+define("_RECENTLYSENT","Onlangs verzonden");//Recently sent
+define("_REGISTERED","Geregistreerd");//Registered
+define("_PAGELOADSBEFORESENDINGNEXTNOTIFICATIONS","Gemiddelde pagina loads voordat de volgende meldingen worden verstuurd");//Average page loads before sending the next set of notifications
+define("_MESSAGESTOSENDEVERYTIME","Het aantal meldingen dat per keer moet worden verstuurd");//Number of notifications to send in each pass
+define("_MAXIMUMSENTMESSAGESSTORED","Het aantal onlangs verzonden meldingen dat bewaard moet blijven");//Number of recently sent notifications to store
+define("_NOTIFICATIONCONFIGURATIONSUPDATEDSUCCESSFULLY","Meldingen configuratie is bijgewerkt");//Notification configuration was updated successfully
+define("_LESSONNOTFOUND","De les is niet gevonden.");//The lesson was not found.
+define("_PROJECTEXPIRATIONFORLESSON","Vervaldatum nadert voor project van de les");//Expiration approaching for project of lesson
+define("_LESSONEXPIRATIONFORLESSON","Vervaldatum nadert voor de les");//Expiration approaching for lesson
+define("_TESTCOMPLETIONFORLESSON","Toets voltooing voor de les");//Test completion for lesson
+define("_STUDENTOFLESSON","Een deelnemer van de les");//A student of lesson
+define("_PROJECTCOMPLETIONFORLESSON","Project indienen voor de les");//Project submission for lesson
+define("_HASSUBMITTEDATEST","heeft afgerond een toets");//has completed a test
+define("_HASSUBMITTEDAPROJECT","heeft een project ingediend");//has submitted a project
+define("_THEPROJECTFORLESSON","het project voor de les");//the project for lesson
+define("_ISABOUTTOEXPIREINTHREEDAYS","zal over 3 dagen verlopen");//is about to expire in three days
+define("_NEWTOPICFORFORUM","Nieuw onderwerp voor het forum van");//New topic for the forum of
+define("_NEWTOPICPUBLISHEDINTHEFORUMOF","Een nieuw onderwerp is gepubliceerd op het forum van");//A new topic has been published in the forum of
+define("_NEWMESSAGEPOSTFORFORUM","Nieuw bericht geplaatst op het forum van");//New message posted in the forum of
+define("_NEWMESSAGEPOSTPUBLISHEDINTHEFORUMOF","Een nieuw bericht is geplaatst op het forum van");//A new messages has been posted in the forum of
+define("_CHANGEINUNIT","Verandering in eenheid");//Change in unit
+define("_UNITTITLED" , "De eenheid genaamd");//The unit titled
+define("_HASBEENMODIFIEDAS" ,"is als volgt aangepast");//has been modified as follows
+define("_SHOWCURRENCYSYMBOLBEFOREPRICE","Laat valutasymbool zien voor prijs");//Show currency symbol before price
+define("_CERTIFICATEEXPIRED","Certificaat is verlopen");//Certificate expired
+define("_CERTIFICATEISSUEDON","Certificaat is afgegeven op");//Certificate issued on
+define("_CERTIFICATEEXPIREDON","Certificaat is verlopen op");//Certificate expired on
+define("_CERTIFICATEEXPIRESON","Certificaat vervalt op");//Certificate expires on
+define("_RESETCOURSEAFTEREXPIRATION","Stel cursus opnieuw in na vervaldatum");//Reset course after expiration
+define("_RESETLICENSENOTE","Stel licentievoorwaarde opnieuw in");//Reset license note
+define("_USETHISINCASEYOUWANTALLUSERSTORECOMPLYTOLICENSENOTE","Selecteer dit indien u wilt dat alle gebruikers opnieuw de licentievoorwaarde moeten accepteren");//Check this if you want all users to re-comply to the license note
+define("_USERSWITHCOMMONLESSONS","Gebruikers die lessen met mij delen");//Users who share lessons with me
+define("_SHOWLESSONINCATALOG","Toon les in catalogus");//Show lesson in catalog
+define("_SHOWALLIMAGES","Toon alle afbeeldingen");//Show all images
+define("_HIDESIDEBARANDINNERTABLESIMAGES","Verberg zijbalk en afbeeldingen in de tabel");//Hide sidebar and innertable images
+define("_IMAGESDISPLAYING","Afbeeldingen weergeven");//Images displaying
+define("_NOTEMPTY","Gedefinieerd");//Defined
+define("_PAGECOULDNOTBEDELETED","De pagina kan niet worden verwijderd");//The page could not be deleted
+define("_LOGGOUTUSERIFINACTIVEFOR","Meld gebruiker af als hij inactief is voor (in minuten)");//Logout user if he is inactive for (in minutes)
+define("_PREVIOUSMESSAGE","Vorig bericht");//Previous message
+define("_ORCAPITAL","OF");//OR
+define("_CHARACTERS","Karakters");//Characters
+define("_UNDISCLOSEDRECIPIENTS","Vertrouwelijke ontvangers");//Undisclosed recipients
+define("_RANDOMPOOLQUESTIONSCANNOTBELESSTHANQUESTIONS","Het aantal vragen in de lijst met willekeurige vragen kan niet minder zijn dan het aantal toets vragen");//Random pool questions cannot be less than the test's questions
+define("_DISABLEOPTIONS","Uitschakelen opties");//Disable options
+define("_SELECTOPTIONSDISABLED","Selecteer de opties die systeembreed moeten worden uitgeschakeld");//Select the options you want to be globally disabled
+define("_HASJOINEDTHESYSTEM","is aangemeld in het systeem");//has joined the system
+define("_HASBEENREMOVEDFROMTHESYSTEM","is verwijderd uit het systeem");//has been removed from the system
+define("_THEPROJECT","Het project");//The project
+define("_HASEXPIRED","is vervallen");//has expired
+define("_HASCREATEDUNIT","heeft de eeneheid aangemaakt");//has created the unit
+define("_HASMODIFIEDUNIT","heeft de eenheid gewijzigd");//has modified the unit
+define("_HASCOMPLETEDUNIT","heeft de eenheid afgerond");//has completed the unit
+define("_HASPUBLISHEDSURVEY","heeft de enquête gepubliceerd");//has published the survey
+define("_HASCREATEDPROJECT","heeft het project gepubliceerd");//has published project
+define("_ISSUECERTIFICATEFORCOMPLTETED","Certificaten afgeven indien voltooid");//Issue certificates for completed
+define("_COMPLETEDON","Voltooid op");//Completed on
+define("_SMARTYCACHING","Inschakelen Smarty Cache opties");//Enable Smarty caching
+define("_SMARTYCACHETIMEOUT","Smarty caching timeout");//Smarty caching timeout
+define("_ESTIMATETIMETOCOMPLETE","Geschatte benodigde tijd om te voltooien");//Estimated time to complete
+define("_TOTALDURATION","Totale tijdsduur");//Total duration
+define("_CURRENTLYSELECTEDTIMEFROM","Totale tijd kan worden");//Total time may be from
+define("_UPDATETESTTIME","Update toetstijd");//Update test time
+define("_AUTOSELECT","Automatisch selecteren");//Auto select
+define("_REFRESHDURATION","Vernieuw toetsduur op basis van vragen");//Refresh test duration based on questions
+define("_TOTALQUESTIONSOFWHICH","Totaal aantal vragen, waarvan");//Total questions, out of which
+define("_CHOOSEUNITS","Kies eenheden");//Choose units
+define("_CHOOSENUMBERANDTYPEOFQUESTIONS","Kies het aantal en type vragen");//Choose number and type of questions
+define("_SETTOTALDURATION","Stel de totale tijdsduur in");//Set total duration
+define("_CLICKWILLCREATEATESTWITH","Door willekeurig te klikken zal een toets aangemaakt worden met");//Clicking Randomize will create a test with
+define("_SELECTEDUNITS","Geselecteerde eenheden");//Selected units
+define("_RANDOMIZATION","Willekeurig");//Randomization
+define("_DRAGNDROP","Slepen en plaatsen");//Drag and drop
+define("_PHPLIVEDOCXINFO","phpLiveDocx is een platform waarmee men certificaten om kan zetten naar pdf-formaat. Het is vrijgegeven met de volgende licentie: http://www.phplivedocx.org/articles/phplivedocx-license/. U moet zich <a target=\"_blank\" href=\"https://www.livedocx.com/user/account_registration.aspx\">hier</a> registreren voor een account en uw referenties invullen");//phpLiveDocx is a platform used to transform certificate documents in a pdf format. It is released under the following license: http://www.phplivedocx.org/articles/phplivedocx-license/ . You have to sign up an account <a target=\"_blank\" href=\"https://www.livedocx.com/user/account_registration.aspx\">here</a> and paste your credentials
+define("_PHPLIVEDOCXSERVER","Phplivedocx server");//Phplivedocx server
+define("_INSERTDRAGDROPCOUPLES","Plaatsen en slepen koppels");//Insert drag and drop couples
+define("_USESSO","Gebruik SSO");//Use SSO
+define("_HACPURL","HACP Url");//HACP Url
+define("_CLASSNOTIMPLEMENTED","Klas niet geimplementeerd");//Class not implemented
+define("_RANDOMIZETESTQUESTIONS","Willekeurige toetsvragen");//Randomize test questions
+define("_COULDNOTREADDATAFROMSERVER","Gegevens kunnen niet worden gelezen bij server");//Data could not be read from server
+define("_COULDNOTCONNECTTOSERVER","Een verbinding met de server kon niet worden volbracht");//A connection with the server could not be established
+define("_ANERROROCCURED","Een fout is opgetreden");//An error occured
+define("_REMAININGQUESTIONTIME","Resterende tijd voor vragen");//Remaining question time
+define("_REMAININGTESTTIME","Resterende toetstijd");//Remaining test time
+define("_SUBMITQUESTION","Vraag verzenden");//Submit Question
+define("_ONLYFORWARD","Beweeg alleen vooruit");//Move only forward
+define("_APPLICABLETOONEBYONE","Alleen van toepassing bij toetsen met vaste volgorde");//Only applies to one-by-one tests
+define("_TIMESPENT","Tijd besteed");//Time spent
+define("_INVALIDKEY","Ongeldige sleutel");//Invalid key
+define("_FORGROUP","voor groep");//for group
+define("_FORBRANCH","voor afdeling");//for branch
+define("_ANDBRANCH","en afdeling");//and branch
+define("_PREVIEWSAVEDLAYOUT","Voorbeeld opgeslagen lay-out");//Preview saved layout
+define("_EDITHEADER","Bewerken koptekst");//Edit header
+define("_EDITFOOTER","Bewerken voettekst");//Edit footer
+define("_HEADERCONTENT","Inhoud koptekst");//Header content
+define("_FOOTERCONTENT"," Inhoud voettekst");//Footer content
+define("_HIDEHEADER","Verberg koptekst");//Hide header
+define("_HIDEFOOTER","Verberg voettekst");//Hide footer
+define("_DELETECUSTOMHEADERAREYOUSURE","Deze actie zal de aangepast koptekst (voettekst) permanent verwijderen. Weet u het zeker?");//This action will permanently delete the custom header (footer). Are you sure?
+define("_SYSTEMENTITIES","Systeem entiteiten");//System entities
+define("_ALLEVENTS","Alle gebeurtenissen");//All events
+define("_COLLAPSECATALOG","Uitklappen catalogus");//Collapse catalog
+define("_PERIODWASADDEDSUCCESSFULLY","Periode is toegevoegd");//Period was added successfully
+define("_THEMES","Thema&#39;s");//Themes
+define("_CUSTOMIZATION","Aanpassen");//Customization
+define("_EXTERNALPAGES","Externe pagina&#39;s");//External pages
+define("_SITEFAVICON","Site favicon");//Site favicon
+define("_USEDEFAULTFAVICON","Gebruik standaard favicon");//Use default favicon
+define("_CUSTOMCSS","Aangepassen css");//Custom css
+define("_VISUALSETTINGS","Visuele instellingen");//Visual settings
+define("_LASTIPUSED","Laatste IP gebruikt");//Last ip used
+define("_CERTIFICATEKEY","Certificaat sleutel");//Certificate key
+define("_HIDEINDEX","Verberg op de homepage");//Hide from index page
+define("_HIDEBLOCKIMAGES","Verberg blok afbeeldingen");//Hide block images
+define("_UPLOADEDPROJECTS","Uploaded projecten");//Uploaded projects
+define("_SEARCHTEXTMUSTBENONEMPTYANDMORETHAN","Het zoekveld mag niet leeg zijn en moet meer dan 3 tekens bevatten");//Search text must be non empty and more than 3 characters
+define("_MAXIMIZEVIEWABLEAREA","Stel het zichtbare gebied in op maximaal");//Maximize viewable area
+define("_IMAGESDISPLAY","Afbeeldingen vertonen");//Images display
+define("_YOUARECURRENTLYLOGGEDINAS","Je bent momenteel ingelogd als");//You are logged in as
+define("_VERYHARD","Heel moeilijk");//Very hard
+define("_CURRENTTESTHAS","De huidige test heeft");//The current test has
+define("_QUESTIONSOFTOTALTIME","vragen met totale tijd");//questions of total time
+define("_WHEREARANDOMPOOLOF","waar een willekeurige groep van");//where a random pool of
+define("_QUESTIONSISUSEDEACHTIME","vragen elke keer gebruikt is");//questions is used each time
+define("_SELECTOPTION","Selecteer optie");//Select option
+define("_CREATERANDOMTESTTHATLASTS","Maak een willekeurige toets die duurt");//Create a random test that lasts
+define("_CREATERANDOMTESTTHATHAS","Maak een willekeurige toets die");//Create a random test that has
+define("_CHANGEQUESTIONSBASEDONDIFFICULTY","Pas moeilijkheidsgraad aan");//Adjust difficulty
+define("_ADJUSTTYPE","Pas type aan");//Adjust type
+define("_BASICTESTPARAMETERS","Basisparameters");//Basic parameters
+define("_DIFFICULTYLEVELS","Moeilijkheidsgraden");//Difficulty levels
+define("_QUESTIONTYPES","Vraagtypes");//Question types
+define("_ADVANCEDSETTINGS","Geavanceerde instellingen");//Advanced settings
+define("_QUESTIONSINEACHEXECUTION","vragen in elke test (willekeurige pool)");//questions in each test execution (random pool)
+define("_USE","Gebruiken");//Use
+define("_QUESTIONSBYPERCENTAGE","Vragen per percentage");//Questions by percentage
+define("_QUESTIONPERCENTAGE","Vragen percentage");//Questions percentage
+define("_MEANDIFFICULTY","Gemiddelde moeilijkheid");//Mean difficulty
+define("_ANY","Elke");//Any
+define("_IMPORTANCEOFQUESTIONSVSDURATION","Belang van vragen vs duur");//Importance of questions vs duration
+define("_ACCURATEPERCENTAGE","Nauwkeurig percentage");//Accurate percentage
+define("_TOTALQUESTIONSTIME","totale tijd vragen");//total questions time
+define("_UPDATETOTALTESTTIME","Werk de totale duur van de toets automatisch bij op basis van de vragentijd");//Automatically update total test time based on questions time
+define("_QUESTIONCODE","Vraagcode");//Question code
+define("_QUESTIONTYPECODE","Vraagtype code");//Question type code
+define("_VERYHIGH","Zeer hoog");//Very high
+define("_ADJUSTQUESTIONS","Pas vragen aan");//Adjust questions
+define("_CUSTOMSTATISTICS","Tijdslimiet rapporten");//Time constraint reports
+define("_WANTUSAGEREPOSTLESSON","Gebruiksrapportage voor de les");//Usage report for lesson
+define("_WANTUSAGEREPOSTCOURSE","Gebruiksrapportage voor cursus");//Usage report for course
+define("_WANTUSERSENROLLEDLESSON","Gebruikers ingeschreven voor les");//Users enrolled to lesson
+define("_WANTUSERSENROLLEDCOURSE","Gebruikers ingeschreven voor cursus");//Users enrolled to course
+define("_WANTUSERSCOMPLETEDLESSON","Gebruikers voltooiden de les");//Users completed the lesson
+define("_WANTUSERSCOMPLETEDCOURSE","Gebruikers voltooiden de cursus");//Users completed the course
+define("_WANTUSERSCERTIFICATEDCOURSE","Gebruikers die een certificaat hebben ontvangen voor de cursus");//Users that got a certification for the course
+define("_WANTMOSTACTIVEUSERS","Meest actieve gebruikers");//Most active users
+define("_WANTMOSTACTIVELESSONS","Meest actieve lessen");//Most active lessons
+define("_WANTMOSTACTIVECOURSES","Meest actieve cursussen");//Most active courses
+define("_WANTUSERSCOMPLETEDTEST","Gebruikers die de toets hebben voltooid");//Users completed the test
+define("_WANTUSERSSUBMITTEDPROJECT","Gebruikers die het project hebben ingediend");//Users submitted the project
+define("_WANTUSERSREGISTEREDSYSTEM","Geregistreerde gebruikers voor het systeem");//Users registered to the system
+define("_SIDEBARINTERFACE","Zijbalk interface");//Sidebar interface
+define("_NORMALVERTICAL","Verticaal (Standaard)");//Vertical (Default)
+define("_HORIZONTALSIDEBAR","Horizontaal");//Horizontal
+define("_MOBILEVERSION","Mobiele versie (beperkte breedte)");//Mobile version (limited horizontal)
+define("_NOSIDEBAR","Geen zijbalk");//No sidebar
+define("_EDITLESSONINFORMATION","Wijzig les informatie");//Edit lesson information
+define("_ENTITYNOTFOUND","Entiteit niet gevonden");//Entity not found
+define("_OPERATIONCOMPLETEDSUCCESSFULLY","Operatie voltooid");//Operation completed successfully
+define("_ONLYFORLESSONS","Alleen voor lessen");//Only for lessons
+define("_CONTENTTOOLS","Inhoud hulpmiddelen");//Content tools
+define("_TOGGLEFILEMANAGER","Schakel bestandsbeheer in");//Toggle file manager
+define("_UNITPROPERTIES","Eenheid eigenschappen");//Unit properties
+define("_COPYSURVEYS","Kopieer enquêtes");//Copy surveys
+define("_COPYQUESTIONS","Kopieer vragen");//Copy questions
+define("_INSTALLTHEME","Installeer thema");//Install theme
+define("_UPLOADTHEMEFILEZIPFORMAT","Upload het thema bestand (zip)");//Upload the theme file (zip)
+define("_THEMESUCCESSFULLYINSTALLED","Het thema is met succes geïnstalleerd");//The theme was successfully installed
+define("_USETHEME","Gebruik thema");//Use theme
+define("_ACTIVETHEME","Actief thema");//Active theme
+define("_THEMESELECTION","Thema selectie");//Theme selection
+define("_NOTANIMAGEFILE","Het geüploade bestand is geen afbeelding");//The uploaded file is not an image
+define("_COMMENT","Reactie");//Comment
+define("_COMMENTPROPERTIES","Reactie eigenschappen");//Comment properties
+define("_EDITCOMMENT","Wijzig reactie");//Edit comment
+define("_EDITCONDITIONS","Wijzig voorwaarden");//Edit rules
+define("_EDITINFORMATION","Bewerk informatie");//Edit information
+define("_FACEBOOK","Facebook");//Facebook
+define("_OPTIONSFORFACEBOOKMODULE","Opties voor Facebook module");//Options for Facebook module
+define("_ENTIREFACEBOOKMODULE","Gehele Facebook module");//Entire Facebook module
+define("_FACEBOOKDATAACQUISITION","Facebook data acquisitie");//Facebook data acquisition
+define("_FACEBOOKLOGGING","Koppelen met Facebook");//Connect with Facebook
+define("_FACEBOOKEXTERNALLOGGING","Extern inloggen via Facebook");//External login through Facebook
+define("_FACEBOOKCONNECT","Koppelen met Facebook");//Connection with Facebook
+define("_FACEBOOKPROFILE","Facebook profiel");//Facebook profile
+define("_YOUARENOTCONNECTEDTOFACEBOOK","U bent niet gekoppeld met Facebook. Koppel door te klikken");//You are not connected to Facebook. Connect by clicking
+define("_NOUSERFOUNDWITHTHISFACEBOOKIDPLEASELOGIN","De koppeling met uw Facebook account is gelukt, maar een eFront gebruiker kan niet hieraan worden gekoppeld. Log in het systeem in om deze twee te koppelen");//You have been successfully connected to your Facebook account, but no eFront user could be linked with it. Please login into eFront to link the two accounts now
+define("_EXPORTCURRENTTHEME","Exporteer huidige instellingen als thema");//Export current settings as theme
+define("_SOCIALMODULEOPTIONS","Sociale module opties");//Social module options
+define("_FACEBOOKAPIKEY","Facebook API key");//Facebook API key
+define("_FACEBOOKSECRET","Facebook Application Secret");//Facebook Application Secret
+define("_FACEBOOKCONNECTENABLEDBUTNOAPPPROVIDED","Facebook Connect is ingeschakeld, maar geen details zoals API-sleutel en Secret zijn beschikbaar");//Facebook connect is enabled, but no details like API key and Secret are provided for the corresponding application
+define("_WELCOME","Welkom");//Welcome
+define("_FACEBOOKLOGININFO","U kunt een koppeling maken tussen uw Facebook account en een bestaand eFront account door de gebruikersnaam en het wachtwoord in te voeren van dat account of maak een nieuwe account aan door een nieuwe gebruikersnaam en nieuw wachtwoord te kiezen voor een nieuw eFront account.");//You may connect your Facebook account with an existing eFront one by providing the user login and password of that account or create a new account into our system right now by selecting a user login and a password for your new eFront account
+define("_FACEBOOKMERGEACCOUNT","Koppel Facebook en eFront accounts");//Merge Facebook and eFront accounts
+define("_EXISTINGLOGIN","Bestaande systeem login");//Existing system login
+define("_NEWLOGIN","Nieuwe login");//New login
+define("_MERGEWITHEXISTINGACCOUNT","Samenvoegen met bestaand account");//Merge with existing account
+define("_CREATENEWACCOUNTTOMERGEWITHFACEBOOK","Maak een nieuw account aan via uw Facebook profiel");//Create new account from your Facebook profile
+define("_FACEBOOKMAPPEDACCOUNT","Facebook toegewezen account");//Facebook mapped account
+define("_YOUHAVENTSETFACEBOOKACCOUNT","U heeft nog geen Facebook account ingesteld");//You haven&#039;t set a Facebook account
+define("_COULDNOTCONNECTTOFACEBOOK","Kan geen verbinding maken met Facebook");//Could not connect to Facebook
+define("_LOGINWITHYOURFACEBOOKACCOUNT","Login met uw Facebook account");//Login with your Facebook account
+define("_HERE","hier");//here
+define("_MESSAGEPROPERTIES","Bericht eigenschappen");//Message properties
+define("_TOPICPROPERTIES","Onderwerp eigenschappen");//Topic properties
+define("_POLLPROPERTIES","Poll eigenschappen");//Poll properties
+define("_FORUMPROPERTIES","Forum eigenschappen");//Forum properties
+define("_UPDATETHEME","Update thema");//Update theme
+define("_FACEBOOKLOGININFOONLYMERGE","U kunt een verbinding tussen uw Facebook account en een bestaand eFront account maken door de gebruikersnaam en het wachtwoord in te voeren van dat account");//You may connect your Facebook account with an existing eFront one by providing the user login and password of that account
+define("_MORETHANONEUSERWITHSAMEMAILENTERLOGIN","Er zijn meerdere gebruikers met hetzelfde e-mailadres. Gebruik uw gebruikersnaam in het onderstaande formulier");//There are more than one users with the same Email address. Use your login in the form below
+define("_MAPPEDACCOUNTSUCCESSFULLYDELETED","Gekoppeld account is verwijderd");//Mapped account was successfully deleted
+define("_THEMEPROPERTIES","Thema eigenschappen");//Theme properties
+define("_CHANGETHEME","Thema wijzigen");//Change theme
+define("_LOGO","Logo");//Logo
+define("_FAVICON","Favicon");//Favicon
+define("_NOLOGOFOUND","Geen logo gevonden");//No logo found
+define("_DOWNLOADTHEME","Donwload thema");//Donwload theme
+define("_ORSPECIFYREMOTETHEME","Of specificeer remote thema");//Or specify remote theme
+define("_INSTALL","Installeer");//Install
+define("_REMOTETHEMEXMLFILE","Gelieve de URL te specificeren van het remote thema XML beschrijvend bestand");//Please specify the URL of the remote theme's XML description file
+define("_THEMEALREADYEXISTS","Een thema met dezelfde naam bestaat al");//A theme with the same name already exists
+define("_COMMUNICATIONWITHTHIRDPARTY","Communicatie met derde partij gereedschappen");//Communication with 3rd party tools
+define("_USERACTIVATIONSETTINGS","Gebruiker activatie/registratie");//User activation/registration
+define("_LANGUAGESETTINGS","Taalinstellingen");//Language settings
+define("_SECURITYSETTINGS","Beveiligingsinstellingen");//Security settings
+define("_CLEARCACHE","Cache opschonen");//Clear cache
+define("_CLEARTEMPLATESCACHE","Sjablonen cache opschonen");//Clear templates cache
+define("_CLEARTESTSCACHE","Toets cache opschonen");//Clear tests cache
+define("_CLEAR","Opschonen");//Clear
+define("_CREDIT","Credit");//Credit
+define("_COURSECATALOG","Cursuscatalogus");//Course catalog
+define("_PAYMENTS","Betalingen");//Payments
+define("_AMOUNT","Hoeveelheid");//Amount
+define("_ADDMANUALPAYMENT","Voeg handmatige betaling toe");//Add manual payment
+define("_METHOD","Methode");//Method
+define("_MANUAL","Handleiding");//Manual
+define("_ACCOUNTS","Accounts");//Accounts
+define("_BALANCE","Saldo");//Balance
+define("_ENABLEBALANCE","Saldo inschakelen");//Enable balance
+define("_ENABLEVOUCHER","Kortingsbon inschakelen");//Enable discount voucher
+define("_SEASONDISCOUNT","Seizoenskorting");//Season discount
+define("_DISCOUNTPERIOD","Seizoenskorting interval");//Season discount interval
+define("_VOUCHERDISCOUNT","Waardebon korting");//Voucher discount
+define("_DISCOUNTSTARTSAT","Seizoenskorting begint op");//Season discount starts at
+define("_ANDLASTS","en duurt");//and lasts
+define("_CREATEVOUCHER","Maak waardebon aan");//Create voucher
+define("_AFTERPRICE","Prijs erna");//After price
+define("_BEFOREPRICE","Prijs ervoor");//Before price
+define("_SHOWCURRENCYSYMBOL","Toon valutasymbool");//Show currency symbol
+define("_PAYMENT","Betaling");//Payment
+define("_PAYUSINGYOURBALANCE","Betalen met uw accountsaldo");//Pay using your account balance
+define("_VOUCHER","Waardebon");//Voucher
+define("_REVIEWANDCHECKOUT","Check selecties en rond af");//Review selections and finish
+define("_JOBS","Banen");//Jobs
+define("_SHOWCOURSEINCATALOG","Toon cursus in catalogus");//Show course in catalog
+define("_PASTESELECTED","Plak het geselecteerde");//Paste selected
+define("_SWITCHACCOUNT","Wissel van gebruiker");//Switch account
+define("_CONNECTED","Gekoppeld");//Connected
+define("_CANNOTMAPSAMEACCOUNT","Je kunt een gekoppeld account niet toevoegen bij jezelf");//You can not add a mapped account with yourself
+define("_EXPORTTHEME","Export thema");//Export theme
+define("_DEFAULTFORBROWSER","Standaard voor browser");//Default for browser
+define("_MOBILECLIENT","Mobiele Client");//Mobile client
+define("_USETHEMEBROWSER","Gebruik standaard thema voor deze browser");//Use theme by default for this browser
+define("_ACTIVETHEMEBROWSER","Standaard thema voor deze browser");//Default theme for this browser
+define("_JOBNOTASSIGNED","Baan niet toegewezen");//Job not assigned
+define("_DISCOUNTVOUCHER","Kortingsbon");//Discount voucher
+define("_CLICKTOENTERDISCOUNTVOUCHER","Klik om kortingsbon in te voeren");//Click to enter discount voucher
+define("_INVALIDVOUCHER","De waardebon code die u heeft opgegeven is niet geldig");//The voucher code you entered is not valid
+define("_TOTALPRICEAFTERDISCOUNT","Totale prijs na korting");//Total price after discount
+define("_SUCCESSFULLYENROLLED","De inschrijvingsprocedure is met succes afgerond");//The enrollment procedure was completed successfully
+define("_SORRYYOUALREADYHAVETHELESSONSYOUSELECTED","Het spijt ons, maar het lijkt erop dat u al bent ingeschreven voor de lessen die u heeft geselecteerd");//We are sorry, but it seems that you are already enrolled to the lessons you selected
+define("_ADDITIONALACCOUNTALREADYEXISTS","Deze account bestaat al in uw gekoppelde accounts");//This account already exists in your mapped accounts
+define("_TRIGGERINGUSERSNAME","Triggering gebruikersnaam");//Triggering user&#039;s name
+define("_TRIGGERINGUSERSSURNAME","Triggering gebruikersachternaam");//Triggering user&#039;s surname
+define("_TRIGGERINGUSERSLOGIN","Triggering gebruikerslogin");//Triggering user&#039;s login
+define("_TRIGGERINGUSERSTYPE","Triggering gebruikerstype");//Triggering user&#039;s type
+define("_TRIGGERINGUSERSEMAIL","Triggering gebruikers e-mail");//Triggering user&#039;s email
+define("_FUTUREASSIGNMENTSWILL","Toekomstige opdrachten zijn van toepassing op alle functies omschreven als:");//Future assignments will apply to all job positions described as: 
+define("_FUTUREASSIGNMENTSWILLNOT","Toekomstige opdrachten zullen alleen van toepassing zijn op deze functie omschreven als:");//Future assignments will apply only to this job position described as: 
+define("_NOCORRELATEDSKILLSHAVEBEENFOUND","Geen andere gecorreleerde vaardigheden zijn gevonden");//No other correlated skills have been found
+define("_ONNEWBRANCH","Toevoeging nieuwe afdeling");//New branch addition
+define("_ONBRANCHREMOVAL","Verwijderen afdeling");//Branch removal
+define("_ONJOBASSIGNMENT","Opdracht");//Job assignment
+define("_ONJOBREMOVAL","Verwijder de functie van de gebruiker");//Remove job from user
+define("_JOBDESCRIPTIONNAME","Functie naam");//Job position name
+define("_ENCRYPTURL","Gecodeerde URL");//Encrypt URL
+define("_USERNAMEFORMATINFO","Stel de manier in waarop gebruikers worden getoond in het systeem. Gebruik #name# voor voornaam, #surname# voor achternaam, #login# voor gebruikersnaam, #type# voor gebruikerstype en #n# voor de eerste letter van de voornaam");//Format the way logins appear in the system. Use #name# for the first name, #surname# for the last name, #login# for the login, #type# for the user type and #n# for the first name's initial letter
+define("_USERNAMEFORMAT","Gebruikersnaam format");//Username format
+define("_LDAP","LDAP");//LDAP
+define("_SMTP","SMTP");//SMTP
+define("_LOCALE","Locale");//Locale
+define("_PHP","PHP");//PHP
+define("_SOCIALOPTIONS","Sociale opties");//Social options
+define("_PHPINFO","PHP info");//PHP info
+define("_APPEARANCE","Uiterlijk");//Appearance
+define("_SITELOGO","Site logo");//Site logo
+define("_CHANGELAYOUTFORTHEME","Verander lay-out voor het thema");//Change layout for theme
+define("_LAYOUTFORTHEME","Lay-out voor thema");//Layout for theme
+define("_RESETTHEME","Reset thema");//Reset theme
+define("_THISWILLDELETECUSTOMBLOCKS","Met deze handeling verwijdert u alle wijzigingen, inclusief aangepaste blokken en kop- en voettekst. Weet u het zeker?");//This action will delete all modifications, including custom blocks and header/footer. Are you sure?
+define("_THEMEFAVICON","Thema favicon");//Theme favicon
+define("_THEMELOGO","Thema logo");//Theme logo
+define("_USETHEMEFAVICON","Gebruik thema favicon");//Use theme favicon
+define("_USETHEMELOGO","Gebruik thema logo");//Use theme logo
+define("_SHOWSTUDENTCPANEL","Toon deelnemers bedieningspaneel");//Show student control panel
+define("_FORWARD","Verder");//Forward
+define("_SENDER","Afzender");//Sender
+define("_ORIGINALMESSAGE","Oorspronkelijk bericht");//Original message
+define("_PRIORITY","Prioriteit");//Priority
+define("_PLEASEPICKANOPTION","Selecteer een optie");//Please pick an option
+define("_YOUHAVEMETCONDITIONS","Aan afrondingsvoorwaarden voldaan, in afwachting van de bevestiging");//Completion rules met, confirmation pending
+define("_OVERALLPROGRESS","Algemene vooruitgang");//Overall progress
+define("_THEORYPROGRESS","Theorie vooruitgang");//Theory progress
+define("_AVERAGETESTSCOREOFLASTEXECUTIONS","Gemiddelde test score (op basis van de laatste uitvoering van elke toets)");//Average test score (counting each test's last execution)
+define("_AVERAGEPROJECTSCORE","Gemiddelde project score");//Average project score
+define("_HELP","Help");//Help
+define("_LOGOUTUSERAFTER","Afmelden gebruikers na");//Logout users after
+define("_MINUTESOFINACTIVITY","minuten van in-activiteit");//minutes of inactivity
+define("_ENABLED","Ingeschakeld");//Enabled
+define("_DISABLEDFORSTUDENTS","Uitgeschakeld voor studenten");//Disabled for students
+define("_DISABLEDFORPROFESSORSANDSTUDENTS","Uitgeschakeld voor studenten en docenten");//Disabled for students and professors
+define("_DISABLEDFORALL","Uitgeschakeld");//Disabled
+define("_COPYPROPERTIESFROM","Kopieer eigenschappen van");//Copy properties from
+define("_SHAREFOLDERWITH","Deel map met");//Share folder with
+define("_CLONELESSON","Dupliceer les");//Clone lesson
+define("_START","Start");//Start
+define("_RESUMEALL","Met alles doorgaan");//Resume all
+define("_SUSPENDALL","Alles opschorten");//Suspend all
+define("_EXITALL","Alles sluiten");//Exit all
+define("_DAYLOWER","dag");//day
+define("_LESSONUSERSNOTCOMPLETED","Gebruikers die de les niet hebben afgerond");//Users that have not completed the lesson
+define("_NOUSEREMAILFOUND","geen e-mail gevonden");//no email found
+define("_SENDIMMEDIATELY","Stuur onmiddellijk");//Send immediately
+define("_MAXIMUMTIMEBETWEENNOTIFICATIONS","Maximaal aantal minuten tussen de verzending van opeenvolgende meldingen");//Maximum minutes between successive notification sets dispatches
+define("_POSITIVENUMBERREQUIRED","Positief nummer vereist");//Positive number required
+define("_EFRONTFILE","Eigendom eFront");//Efront proprietary
+define("_SCORM2004","SCORM 2004");//SCORM 2004
+define("_SCORM12","SCORM 1.2");//SCORM 1.2
+define("_AICC","AICC");//AICC
+define("_CSV","CSV");//CSV
+define("_PDF","PDF");//PDF
+define("_DOC","DOC");//DOC
+define("_HTML","HTML");//HTML
+define("_XML","XML");//XML
+define("_AUTODETECT","Automatisch detecteren");//Auto detect
+define("_GENERICSTRUCTURE","Generieke structuur");//Generic structure
+define("_IMPORTTYPE","Importeer type");//Import type
+define("_IMPORTFILE","Importeer bestand");//Import file
+define("_IMPORTFROMURL","Importeren van URL");//Import from URL
+define("_IMPORTFROMPATH","Importeren van pad");//Import from path
+define("_CHOOSEUNIT","Kies eenheid");//Choose unit
+define("_USECRON","Gebruik cron job");//Use cron job
+define("_USECRONINFO","Je kunt meldingen ontvangen via cron job door het <br>send_notifications.php script dat zich bevindt in de www/ <br>folder van je installatie uit te voeren. Het is echter essentieel dat je de <br>HTTP_HOST variabele voor de \$_SERVER variabele bepaalt. <br>Een voorbeeld script dat uitgevoerd kan worden via cron job is: <br><br>&lt;"."?php<br>\$_SERVER['HTTP_HOST'] = \"127.0.0.1\";<BR>include \"/home/user/eFront/www/send_notifications.php\";<BR>?".">");//You can have notifications being sent by a cron job by executing<br> the send_notifications.php script located in the www/ <br>folder of your installation. However, it is essential that you define <br>the HTTP_HOST variable for the \$_SERVER variable. <br>A sample script that could be executed by cron is the following: <br><br>&lt;"."?php<br>\$_SERVER['HTTP_HOST'] = \"127.0.0.1\";<BR>include \"/home/user/eFront/www/send_notifications.php\";<BR>?".">
+define("_HOURSAFTEREVENT","uren na gebeurtenis");//hours after event
+define("_HOURSBEFOREEVENT","uren voor gebeurtenis");//hours before event
+define("_AVAILABLEFOR","Beschikbaar voor");//Available for
+define("_DAYSAFTERREGISTRATION","dagen na registratie");//days after registration
+define("_NOTIFICATIONTIME","Tijd");//Time
+define("_RESEND","E-mail opnieuw verzenden");//Resend email
+define("_CERTIFICATESTATISTICS","Certificaat rapportage");//Certificate reports
+define("_WANTUSERSCERTIFICATEDALLCOURSES","Gebruikers die een certificaat ontvingen voor elke cursus");//Users that got a certification for any course
+define("_EVENTSTATISTICS","Gebeurtenissen rapportage");//Event reports
+define("_EVENTSMATCHINGTHECRITERIA","Gebeurtenissen matching criteria");//Events matching criteria
+define("_NOEVENTSFOUND","Geen gebeurtenissen gevonden die aan uw zoekcriteria voldoen");//No events match your search criteria
+define("_VISITEDTHESYSTEM","bezocht het systeem");//visited the system
+define("_HASSETTHESCHEDULEDSTARTINGDATEFORLESSON","heeft de geplande begindatum voor de les ingesteld");//has set the scheduled starting date for lesson
+define("_HASSETTHESCHEDULEDEXPIRYDATEFORLESSON","heeft de geplande einddatum voor de les ingesteld");//has set the scheduled expiry date for lesson
+define("_HASPUBLISHEDTHEANNOUNCEMENT","heeft de melding gepubliceerd");//has published the announcement
+define("_HASASKEDFORANEWPASSWORD","vroeg om een nieuw wachtwoord");//asked for a new password
+define("_WASREGISTEREDINTOTHESYSTEM","werd geregistreerd in het systeem");//was registered into the system
+define("_ACTIVATEDHISACCOUNTWITHEACTIVATIONMAIL","heeft zijn account geactiveerd via e-mail");//activated his account via email
+define("_CREATEDTHETEST","maakte de toets");//created the test
+define("_CREATEDTHEBRANCH","maakte de afdeling");//created the branch
+define("_DELETEDTHEBRANCH","verwijderde de afdeling");//deleted the branch
+define("_WASASSIGNEDTHEJOB","werd toegewezen aan de baan");//was assigned the job
+define("_WASREMOVEDFROMJOB","werd verwijderd van baan");//was removed from job
+define("_SCHEDULEDSTARTOFLESSON","Geplande start van de les");//Scheduled start of lesson
+define("_SCHEDULEDEXPIRYOFLESSON","Gepland einde van de les");//Scheduled expiration of lesson
+define("_HASFORGOTTENHISPASSWORD","is zijn wachtwoord vergeten");//has forgotten his password
+define("_BLOCKFILENAME","Blok naam");//Block name
+define("_VERSIONINFORMATION","Versie informatie");//Version information
+define("_BUILD","gebouwd");//build
+define("_INSTALLEDVERSION","Geïnstalleerde versie");//Installed version
+define("_LATESTVERSION","Laatste versie");//Latest version
+define("_DOWNLOADANDINSTALL","Download en installeer");//Download and install
+define("_DOWNLOADINGFILE","Downloaden bestand");//Downloading file
+define("_EDITION","Editie");//Edition
+define("_UPGRADEURL","Url om nieuwe versies via te lezen");//Url to read new versions from
+define("_SOMEFILESARENOTWRITABLE","Sommige bestanden zijn niet te bewerken");//Some files are not writable
+define("_SOMEDIRECTORIESARENOTWRITABLE","Sommige mappen zijn niet te bewerken");//Some directories are not writable
+define("_ONFIRED","Verwijder gebruiker uit bedrijf");//Remove user from company
+define("_WASFIRED","werd ontslagen bij het bedrijf");//was laid off from the company
+define("_GROUPASSIGNMENT","Groepsopdracht");//Group assignment
+define("_WASASSIGNEDTOGROUP","werd toegewezen aan groep");//was assigned to group
+define("_REMOVALFROMGROUP","Verwijderd van groep");//Removal from group
+define("_WASREMOVEDFROMGROUP","werd verwijderd uit de groep");//was removed from group
+define("_ONNEWSKILL","Vaardigheidsopdracht");//Skill assignment
+define("_WASASSIGNEDSKILL","werd de vaardigheid toegewezen");//was assigned skill
+define("_ONSKILLREMOVAL","Verwijdering vaardigheid");//Skill removal
+define("_DOESNOTHAVEANYMORESKILL","heeft de vaardigheid niet meer");//does not have anymore the skill
+define("_ONSKILLEDIT","Gebruikersvaardigheid bewerkt");//User skill edited
+define("_HADHISSKILLEDITEDTO","heeft een vaardigheid aangepast naar");//has a new description for skill
+define("_ONHCDHIRED","Ingehuurde gebruiker");//User hired
+define("_WASHIRED","werd ingehuurd bij het bedrijf");//was hired to the company
+define("_ONHCDLEFT","Gebruiker verliet bedrijf");//User left company
+define("_HASLEFTHECOMPANY","verliet het bedrijf");//left the company
+define("_ONWAGECHANGE","Loonsverandering");//Wage change
+define("_HASHADHISWAGECHANGETO","zal nieuw loon ontvangen van");//will be receiving a new wage of
+define("_EVENTTYPE","Soort gebeurtenis");//Event type
+define("_ANYEVENT","Elke gebeurtenis");//Any event
+define("_PERIOD","Periode");//Period
+define("_KEY","Sleutel");//Key
+define("_SEARCHCERTIFICATESBYKEY","Zoek certificaat gebruikmakend van de sleutel");//Search for certificate using its key
+define("_ENTERPARTOFCERTIFICATEKEY","Voer een deel van de certificeringsleutel in");//Enter part of certification key
+define("_SMARTYBLOCK","Gebruik smarty code in blok");//Use smarty code in block
+define("_EXPORTSETTINGS","Exporteer instellingen");//Export settings
+define("_IMPORTSETTINGS","Instellingen importeren");//Import settings
+define("_SETTINGSFILE","Instellingen bestand");//Settings file
+define("_SETTINGSIMPORTEDSUCCESFULLY","Instellingen geïmporteerd");//Settings imported successfully
+define("_TOGGLEACCESSASSEPARATEPAGE","Schakel toegang in als een aparte pagina");//Toggle access as a separate page
+define("_LINKS","Links");//Links
+define("_HASCERTIFICATED","kreeg certificaat voor");//got certificate for
+define("_WITHGRADE","met graad");//with grade
+define("_WITHKEY","met sleutel");//with key
+define("_CERTIFICATEISSUE","Certificaat afgegeven");//Certificate issue
+define("_CERTIFICATEREVOKE","Certificaat ingetrokken/vervallen");//Certificate revoke/expire
+define("_HASLOSTCERTIFICATE","heeft certificaat verloren");//lost certificate for
+define("_PREVIOUSCERTIFICATES","Vorige certificaten");//Previous ceriticates
+define("_PRIVATE","Prive");//Private
+define("_WANTCERTIFICATESEXPIRED","Certificaten die zullen verlopen");//Certificates that will expire
+define("_MAXIMUMUSERS","Maximaal aantal gebruikers");//Maximum users
+define("_MAXIMUMUSERSREACHEDFORLESSON","Het maximaal aantal gebruikers voor deze les is bereikt");//The maximum number of users for this lesson is reached
+define("_MAXIMUMUSERSREACHEDFORCOURSE","Het maximaal aantal gebruikers voor deze cursus is bereikt");//The maximum number of users for this course is reached
+define("_FILTERS","Filters");//Filters
+define("_NOBEFOREUPLOAD","Kopieer geen gebeurtenissen die nog niet geupload zijn");//Don't copy onunload events
+define("_GROUPSTATISTICS","Groepsrapporten");//Group reports
+define("_BRANCHSTATISTICS","Afdelingsrapporten");//Branch reports
+define("_CHOOSEGROUP","Kies groep");//Choose group
+define("_GROUPISNOTVALIDORYOUCANNOTSEEGROUP","De groep is niet geldig of u kunt de groep niet zien");//The group is not valid or you cannot see the group
+define("_REPORTSFORGROUP","Rapporten voor groep");//Reports for group
+define("_COUNTONLYGROUPUSERS","Tel alleen groepsgebruikers");//Count only group users
+define("_GROUPUSERTRAFFIC","Verkeer gebruikersgroep");//Group user traffic
+define("_USERSTRAFFIC","Gebruikersverkeer");//Users traffic
+define("_ONLYFORGROUPLESSONS","Alleen groepslessen");//Only group lessons
+define("_ONLYFORGROUPUSERS","Alleen groepsgebruikers");//Only group users
+define("_LESSONSTRAFFIC","Verkeer lessen");//Lessons traffic
+define("_GROUPLESSONTRAFFIC","Verkeer groepslessen");//Group lessons traffic
+define("_ARCHIVE","Archief");//Archive
+define("_ARCHIVEDON","Gearchiveerd op");//Archived on
+define("_RESTORESELECTED","Herstel geselecteerde");//Restore selected
+define("_ARCHIVEENTITY","Archief");//Archive
+define("_LOADMATHTYPESASIMAGES","Laat wiskunde types zien als afbeeldingen");//Display math types as images
+define("_MATHIMAGESINFO","Aanbevolen voor Internet Explorer 8. Je moet ook de browser cache opschonen");//Recommended for Internet Explorer 8. You may also have to delete your browser&#039;s cache
+define("_EDITCOURSESDIRECTION","Categorie cursussen");//Category courses
+define("_GROUPROLE","Gemeenschappelijke rol groep");//Group common role
+define("_GROUPONLY","Groep");//Group
+define("_YOUCANTDOTHESURVEYCONTACTLESSONPROFESSOR","Of je hebt de enquête al gedaan of deze is inactief");//Either you have done the survey or it is inactive
+define("_CHOOSEBRANCH","Kies afdeling");//Choose branch
+define("_BRANCHISNOTVALIDORYOUCANNOTSEEBRANCH","De afdeling is niet geldig of u kunt deze niet zien");//The branch is not valid or you cannot see the branch
+define("_REPORTSFORBRANCH","Rapporten voor afdeling");//Reports for branch
+define("_BRANCHUSERS","Gebruikers afdeling");//Branch users
+define("_BRANCHUSERTRAFFIC","Verkeer gebruikers afdeling");//Branch user traffic
+define("_CORRECTANSWERPERCENTAGE","Correct antwoord percentage");//Correct answer percentage
+define("_QUESTIONANALYSIS","Vraag analyse");//Question analysis
+define("_PARTICIPANTSCAP","Deelnemers");//Participants
+define("_PERCENTWITHSCOREHIGHEREQUAL","Percentage met een score hoger of gelijk");//Percent with score higher or equal
+define("_PARTICIPATIONSTATISTICS","Deelname rapporten");//Participation reports
+define("_YESABBREVIATION","J");//Y
+define("_NOABBREVIATION","N");//N
+define("_TOGGLESIDEBAR","Schakel zijbalk in");//Toggle sidebar
+define("_SCOREDISTRIBUTION","Score distributie");//Score distribution
+define("_CUMULATIVESCOREDISTRIBUTION","Cumulatieve score distributie");//Cumulative score distribution
+define("_SEARCHTYPE","Rapporten voor een specifieke");//Reports for a specific
+define("_KEYUSAGE","Sleutel gebruik");//Key usage
+define("_INVALIDVERSIONKEY","Ongeldige versiesleutel");//Invalid version key
+define("_SETTINGKEYFAILEDWITHCODE","Instellen van de versiesleutel met code mislukt");//Setting the version key failed with code
+define("_THEREISNEWVERSION","Er is een nieuwe versie beschikbaar!");//There is a new version available!
+define("_RELEASENOTES","Release notities");//Release notes
+define("_VERSIONUPTODATE","Uw versie is up-to-date");//Your version is up to date
+define("_CONTACTINGSERVER","Verbinden met server ...");//Contacting server...
+define("_ERRORCONNECTINGTOLICENSESERVER","Het systeem kan geen verbinding maken met serverlicentie");//The system could not connect to license server
+define("_LICENSESERVER","Serverlicentie");//License server
+define("_UPGRADESVALIDUNTIL","Upgrades geldig tot");//Upgrades valid until
+define("_ACTIVATEDON","Geactiveerd");//Activated on
+define("_SERVERRESPONDED","De server antwoordde");//The server responded
+define("_FILEZEROSIZE","Ophalen van informatie over het upgrade bestand is mislukt");//Failed to retrieve proper information about the upgrade file
+define("_FILECANNOTOPEN","Het bestand kon niet worden opgehaald");//The file could not be retrieved
+define("_FILECANNOTBEWRITTENTOHOMEDIRECTORY","Het gedownloade bestand kan niet worden geschreven naar je home directory");//The downloaded file could not be written to your home directory
+define("_SHOWEMPTYBLOCKS","Toon lege blokken");//Show empty blocks
+define("_INACTIVITYLOGOUT","U bent uitgelogd vanwege een lange periode van in-activiteit");//You have been logged out due to a long period of inactivity
+define("_ABANDON","Verlaten");//Abandon
+define("_ABANDONALL","Alles verlaten");//Abandon all
+define("_COMPLETIONPERCENTAGEBLOCK","Afronding percentage blok");//Completion percentage block
+define("_UNITOPTIONSBLOCK","Eenheid opties blok");//Unit options block
+define("_RIGHTBAR","Rechter zijbalk");//Right sidebar
+define("_LEFTBAR","Linker zijbalk");//Left sidebar
+define("_STUDENTCPANEL","Deelnemers bedieningspaneel");//Student control panel
+define("_SMARTCONTENT","Slimme inhoud");//Smart content
+define("_ZIPHANDLING","Zip methode");//Zip handling method
+define("_COMPLETION","Afronding");//Completion
+define("_SETALLTO","Zet allemaal op");//Set all to
+define("_INADEQUATEBALANCE","Onvoldoende saldo");//Inadequate balance
+define("_PAYPALMODE","Paypal modus");//Paypal mode
+define("_SANDBOX","Sandbox");//Sandbox
+define("_VIEWTRANSACTIONLOGFILE","Transactie logbestand");//Transaction log file
+define("_CURRENTSETADDRESSDOESNOTMATCHPAYPAL","Ingestelde adres komt niet overeen met ontvangen kantooradres");//Currently set address does not match received business address
+define("_UNSUPPORTEDOPERATIONTYPE","Niet ondersteund handelingstype");//Unsupported operation type
+define("_DUPLICATECOMPLETEDPAYMENT","Dupliceer voltooide betaling");//Duplicate completed payment
+define("_UNSUPPORTEDPAYMENTSTATUS","Niet ondersteunde betaling status");//Unsupported payment status
+define("_YOUHAVECANCELLEDTHETRANSACTION","U heeft de transactie geannuleerd");//You have cancelled the transaction
+define("_TRANSACTIONCOMPLETELESSONSWILLBEASSIGNED","De transactie werd succesvol afgerond. Uw selectie zal spoedig toegevoegd worden.");//The transaction was completed successfully. Your selection will be assigned shortly
+define("_PAYPALDEBUG","Paypal debug modus");//Paypal debug mode
+define("_MYACCOUNT","Mijn account");//my Account
+define("_MODULE","Module");//Module
+define("_EMBEDTYPE","Inbedden inhoud als");//Embed content as
+define("_INLINEIFRAME","Inline (iframe)");//Inline (iframe)
+define("_NEWWINDOWPOPUP","Nieuw venster (popup)");//New window (popup)
+define("_POPUPPARAMETERS","Popup parameters");//Popup parameters
+define("_CLICKTOSTARTUNIT","Klik op de knop om te beginnen met de eenheid");//Click on the button to start the unit
+define("_STARTUNIT","Start eenheid");//Start unit
+define("_SCORM2004NOTSUPPORTED","Helaas SCORM 2004 wordt niet ondersteund in deze editie");//Unfortunately SCORM 2004 is not supported in this edition
+define("_RESTOREDEFAULTNOTIFICATIONS","Herstel standaard meldingen");//Restore default notifications
+define("_CONTENTPROGRESSEXCLUDINGTESTS","Vooruitgang inhoud (excl. toetsen)");//Content progress (excl. tests)
+define("_DATABASEVERSION","Database versie");//Database version
+define("_DIFFERENTVERSIONSUPGRADENEEDED","Uw database versie is anders dan de code versie. Voer het %link script uit");//Your database version is different than the code version. Please run the %link script
+define("_UPGRADE","Upgrade");//Upgrade
+define("_DOWNLOADEXPORTEDCOURSE","Download geexporteerde cursus");//Download exported course
+define("_MAXDISCOUNT100","De maximale korting is 100%");//The maximum discount is 100%
+define("_REGISTRATIONUPDATE","Registratie / Update");//Registration/Update
+define("_ROWS","Rijen");//Rows
+define("_COMMANDFAILEDWITHOUTPUT","De opdracht is mislukt met de volgende uitkomst");//The command failed with the following output
+define("_PERHAPSDONTSUPPORTZIP","Misschien ondersteunt uw systeem geen zip verwerking?");//Perhaps your system does not support zip processing?
+define("_TOCREATECOURSEYOUMUSTFIRSTCREATECATEGORY","Voor het aanmaken van een cursus, moet u eerst een categorie aanmaken");//In order to create a course, you must first create a category
+define("_LESSONBRANCHESSELECTION","Selecteer lestakken");//Select lesson branches
+define("_LESSONBRANCHES","Lestakken");//Lesson branches
+define("_COURSEBRANCHES","Cursustakken");//Course branches
+define("_ALLOWSTUDENTSTOSPECIFYTOTALQUESTIONS","Laat deelnemers het aantal vragen in elke toets zelf bepalen");//Allow students to specify number of questions in each test execution
+define("_MAXIMUM","Maximaal");//Maximum
+define("_MINIMUM","Minimaal");//Minimum
+define("_REPETITIONS","Herhalingen");//Repetitions
+define("_MAINTAINHISTORY","Onderhoud geschiedenis");//Maintain history
+define("_KEYISNOTFORTHISEDITION","De sleutel is niet geschikt voor deze editie");//The key is not suitable for this edition
+define("_ILLEGALMODE","Illegale modus");//Illegal mode
+define("_MUSTSPECIFYQUESTIONNUMBER","U moet het aantal vragen invoeren");//You must specify the number of questions
+define("_MUSTSPECIFYVALUEFROM","U moet een waarde invoeren");//You must specify a value from
+define("_COURSEPROFESSORS","Cursus docenten");//Course professors
+define("_PROFESSORSOFCOURSE","Docent van deze cursus");//Professors of course
+define("_USERSUPERVISORS","Begeleiders gebruiker");//User supervisors
+define("_USEROPTIONSFOR","Opties voor gebruiker");//Options for user
+define("_MYSTATUS","Mijn Leer Status");//my Learning status
+define("_MYCOURSES","Mijn Cursussen");//my Courses
+define("_CERTIFICATIONS","Certificaten");//Certificates
+define("_MYCERTIFICATIONS","mijn Certificaten");//my Certificates
+define("_NOCERTIFICATESHAVEBEENISSUEDYET","Er zijn nog geen certificaten afgegeven voor de gebruiker");//No certificates have been issued to the user yet
+define("_SUPERVISORTOACTIVATE","Te worden geactiveerd door de begeleider");//To be activated by supervisor
+define("_NOSUPERVISORSFOUND","Geen tak begeleiders gevonden");//No branch supervisors found
+define("_PRINTCONTENT","Print inhoud");//Print content
+define("_VERIFYFOLLOWINGINFOISCORRECT","Controleer of de volgende informatie juist is");//Please verify that the following information is correct
+define("_NOCATEGORIESDEFINED","Er zijn geen categorieën gedefinieerd");//There are no categories defined
+define("_SUPERVISORMAILUSERACTIVATION","Begeleider activatie e-mail");//Supervisor email activation
+define("_EMPLOYEEACCOUNTACTIVATIONMAILSUBJECT","Werknemer accountactiveringsbericht");//Employee account activation email
+define("_EMPLOYEEACCOUNTACTIVATIONMAILBODY","Met deze e-mail kunt u de nieuwe gebruiker activeren");//This email enables you to activate the new system user
+define("_ASSIGNEDTOBRANCH","toegewezen tak");//assigned to branch
+define("_BYCLICKINGONTHELINK","door te klikken op de volgende link");//by clicking on the following link
+define("_EMPLOYEEACCOUNTSUCCESSFULLYACTIVATED","Het account van uw werknemer is succesvol geactiveerd");//The account of your employee was successfully activated
+define("_SHOWHORIZONTALBAR","Horizontale balk");//Horizontal bar
+define("_BRANCHINFORMATION","Afdelingsinformatie");//Branch information
+define("_BRANCHNAMEDESCRIPTION","Afdelingsnaam omschrijving");//Branch field name
+define("_JOBDESCRIPTIONDESCRIPTION","Functienaam omschrijving");//Job field name
+define("_SUPERVISORDESCRIPTION","Activeren begeleider omschrijving");//Activating supervisor field name
+define("_LEAVEEMPTYTONOTUSE","Laat leeg om niet te gebruiken");//Leave empty to ommit
+define("_PLEASESELECT","Selecteer");//Please select
+define("_YOURSUPERVISORWILLACTIVATEYOURACCOUNT","Uw begeleider zal uw account activeren");//Your supervisor will activate your account
+define("_INVALIDPARAMETER","Ongeldige parameter");//Invalid parameter
+define("_IMS","IMS");//IMS
+define("_IMSIMPORT","Importeer IMS Inhoud");//Import IMS Content
+define("_IMSEXPORT","Exporteer IMS Inhoud");//Export IMS Content
+define("_UPLOADTHEIMSFILEINZIPFORMAT","Upload IMS bestand als ZIP");//Upload IMS file in ZIP format
+define("_IMSOPTIONS","IMS opties");//IMS options
+define("_SUCCESSFULLYIMPORTEDIMSFILE","IMS-bestand is geïmporteerd");//IMS file was successfully imported
+define("_TOOLTIP","Tekstballon");//Tooltip
+define("_HIDDEN","Verberg voor gebruikers");//Hidden from users
+define("_RESETSCORMDATA","Herstel gebruikersgegevens");//Reset user data
+define("_TOGGLEADVENCEDPARAMETERS","Geavanceerde instellingen");//Advanced settings
+define("_ADDINSTANCE","Voeg voorbeeld toe");//Add instance
+define("_INSTANCE","Voorbeeld");//Instance
+define("_COURSECODE","Cursus code");//Course code
+define("_TRAININGHOURS","Trainingsuren");//Training hours
+define("_COURSEINSTANCES","Cursusvoorbeelden");//Course instances
+define("_CAPACITY","Capaciteit");//Capacity
+define("_SEATSREMAINING","Resterende plaatsen");//Seats remaining
+define("_STARTDATE","Start datum");//Start date
+define("_AREYOUSUREYOUWANTTODELETEINSTANCE","Weet u zeker dat u dit voorbeeld wilt verwijderen?");//Are you sure you want to delete this instance?
+define("_EDITCOURSEINSTANCE","Wijzig voorbeeld");//Edit instance
+define("_EDITLESSONSCOURSEINSTANCE","Voorbeeld lessen");//Instance lessons
+define("_EDITUSERSCOURSEINSTANCE","Voorbeeld gebruikers");//Instance users
+define("_SKILLSOFFEREDINSTANCE","Voorbeeld vaardigheden");//Instance skills
+define("_COURSEOPTIONSFORINSTANCE","Opties voor voorbeeld");//Options for instance
+define("_JUMPTO","Ga naar");//Jump to
+define("_PARENTCOURSE","Bovenliggende cursus");//Parent Course
+define("_LOCATIONBRANCH","Locatie (afdeling)");//Location (branch)
+define("_SELECTBRANCH","Selecteer afdeling");//Select branch
+define("_SHARED","Gedeeld");//Shared
+define("_UNIQUE","Uniek");//Unique
+define("_MODE","Modus");//Mode
+define("_USEONLYCOURSESINCATALOG","Gebruik alleen cursussen in de catalogus");//Use only courses in catalog
+define("_ALLJOBS","Alle functies");//All jobs
+define("_SHOWMOTTOONHEADER","Toon naam en motto ook in de header");//Show name and motto also on header
+define("_ASSIGNCOURSES","Wijs cursussen toe");//Assign courses
+define("_MASSCOURSESASSIGNMENTINFO","Selecteer cursussen om deze toe te kennen aan alle gevonden gebruikers");//Select courses to assign to all the users found
+define("_NOUSERSHAVEBEENFOUND","Geen gebruikers gevonden");//No users have been found
+define("_ASSIGNMENT","Toewijzing");//Assignment
+define("_ANYLOWESTLEVELBRANCH","Elke op het laagste niveau");//Any at the lowest level
+define("_ANYABOVETHELOWESTLEVELBRANCH","Elke net boven het laagste niveau");//Any just above the lowest level
+define("_NOCOURSESHAVEBEENREGISTERED","Er zijn geen cursussen geregistreerd");//No courses have been registered
+define("_NOREQUIREDTRAININGSETYET","Geen vereiste opleiding is vastgesteld");//No required training has been defined yet
+define("_REQUIREDTRAINING","Vereiste opleiding");//Required training
+define("_NEWREQUIREDTRAININGCOURSE","Nieuwe voorwaarde opleiding");//New training condition
+define("_REQUIREDTRAININGCOURSES","Vereiste opleidingen");//Required training courses
+define("_ADDALTERNATIVETRAINING","Voeg alternatieve opleiding toe");//Add alternative training
+define("_HASREQUIREDTRAINING","Heeft vereiste opleiding");//Has required training
+define("_SEARCHRESULTSINGLOSSARY","Zoekresultaten in woordenlijst");//Search results in glossary
+define("_NORESULTSFOUNDINGLOSSARY","Geen resultaten gevonden in woordenlijst");//No results found in glossary
+define("_PROJECTSSCORE","Projecten score");//Projects score
+define("_TESTSSCORE","Toets score");//Tests score
+define("_AUTOLOGIN","Automatische login");//Auto login
+define("_ACCESSLINK","Toegang link");//Access link
+define("_AUTOLOGINITHLINK","De gebruiker kan automatisch inloggen met link");//User can login automatically by link
+define("_DEFAULTUSERTYPE","Standaard gebruikerstype");//Default user type
+define("_FORCEUSERANSERALLQUESTIONS","Verplicht deelnemer alle vragen te beantwoorden");//Force student to answer all questions
+define("_YOUHAVETOANSWERALLQUESTIONS","Je moet alle vragen beantwoorden");//You have to answer all questions
+define("_ALLOWINDEPENDENTLESSONS","Sta onafhankelijke lessen toe");//Allow independent lessons
+define("_NOPRESELECTEDDATE","Geen voorgeselecteerde datum");//No preselected date
+define("_CURRENTDATE","Huidige datum");//Current date
+define("_SHOWHELP","Toon hulp links");//Display help links
+define("_ALLOWUSERANSERALLRONG","Sta deelnemers toe verkeerd beantwoorde vragen opnieuw te doen");//Allow students to redo only the wrong answered questions
+define("_ALLOWANSWERWRONGINFO","Alleen als toets herhalingen zijn toegestaan");//Only if test repetitions are allowed
+define("_USERREDOWRONG","Alleen verkeerd beantwoorde vragen opnieuw doen");//Redo only wrong answered
+define("_DEFAULTTHEMECANNOTBEIMPORTED","Standaard thema kan niet worden geimporteerd");//Default theme cannot be imported
+define("_ACCESSEXPIRED","Toegang verlopen");//Access expired
+define("_LESSONSCHEDULE","Lessen schema");//Lessons schedule
+define("_COURSESTARTSAT","De cursus start op");//The course starts on
+define("_COURSEENDSAT","De cursus eindigt op");//The course ends on
+define("_ENDDATE","Einddatum");//End date
+define("_SELECTSKILLCATEGORY","Selecteer vaardigheidscategorie");//Select skill category
+define("_NOHEADERROWISDEFINEDORHEADERROWNOTCOMPATIBLEWITHIMPORTTYPE","Geen header rij is gedefinieerd of header is niet compatibel met importeer type");//No header row was defined or header not compatible with import type
+define("_IMPORTEDUSER","Geimporteerde gebruiker");//Imported user
+define("_USERSTOCOURSES","Gebruikers in cursussen");//Users to courses
+define("_USERSTOGROUPS","Gebruikers in groepen");//Users to groups
+define("_IMPORTANYTHING","Importeer alles");//Anything recognized
+define("_DATATOIMPORT","Gegevens importeren");//Data to import
+define("_SUCCESSFULLIMPORTS","succesvolle invoer");//successfull imports
+define("_FAILEDIMPORTS","mislukte invoer");//failed imports
+define("_REPLACEDUSER","Bijgewerkte gebruiker");//Updated user
+define("_HEADERDOESNOTINCLUDEESSENTIALCOLUMN","Het bestand bevat de nodige kolommen niet");//The file does not contain the necessary columns
+define("_REPLACEDEXISTINGASSIGNMENT","Bestaande opdracht vervangen");//Replaced existing assignment
+define("_NEWCOURSEASSIGNMENT","Nieuwe cursusopdracht");//New course assignment
+define("_NEWGROUPASSIGNMENT","Nieuwe groepsopdracht");//New group assignment
+define("_USERSTOJOBS","Gebruikers met functies");//Users to jobs
+define("_USERSTOSKILLS","Gebruikers met vaardigheden");//Users to skills
+define("_DATATOEXPORT","Data om te exporteren");//Data to export
+define("_MANDATORYFIELDS","Verplichte velden");//Mandatory fields
+define("_OPTIONALFIELDS","Optionele velden");//Optional fields
+define("_CSVIMPORTEXPLAINATION","Verstrek een bestand met een kopregel voor ieder invoertype, allen volgens de verplichte en optionele kopregelnamen zoals hieronder weergegeven in willekeurige volgorde. De kopregel van elke kolom geeft de betekenis ervan weer. Onbekende kolommen zullen worden weggelaten, zonder dat de rest van de procedure wordt beïnvloed.");//Provide a file with a header line containing for each import type, all mandatory and any optional field titles from the ones provided below in any order. The title of each column denotes its meaning. Unrecognized columns will be ommitted, without affecting the rest of the procedure.
+define("_NEWJOBASSIGNMENT","Nieuwe functie opdracht");//New job description assignment
+define("_NEWSKILLASSIGNMENT","Nieuwe vaardigheden opdracht");//New skill assignment
+define("_REPLACEDEXISTINGBRANCH","Bestaande afdeling ervangen ");//Replaced existing branch
+define("_REPLACEDEXISTINGJOB","Bestaande job vervangen ");//Replaced existing job
+define("_REPLACEDEXISTINGSKILL","Bestaande vaardigheden vervangen ");//Replaced existing skill
+define("_BRANCHALREADYEXISTS","Afdeling bestaat al");//Branch exists already
+define("_MISSINGSKILLCATEGORY","Ontbrekende vaardigheidscategorie");//Missing skill category
+define("_SKILLALREADYEXISTS","Vaardigheid bestaat al");//Skill exists already
+define("_BRANCHDOESNOTEXIST","Afdeling bestaat niet");//Branch does not exist
+define("_BRANCHNAMEAMBIGUOUS","Afdelingsnaam is dubbelzinnig");//Branch name is ambiguous
+define("_JOBTITLEAMBIGUOUS","Functienaam is dubbelzinnig");//Job title is ambiguous
+define("_SKILLAMBIGUOUS","Vaardigheidsnaam is dubbelzinnig");//Skill name is ambiguous
+define("_SKILLCATEGORYAMBIGUOUS","Vaardigheidscategorie is dubbelzinnig");//Skill category is ambiguous
+define("_MISSING_JOB_DESCRIPTION","Ontbrekende functiebeschrijving");//Missing job description
+define("_SKILLDOESNOTEXIST","Deze vaardigheid bestaat niet");//This skill does not exist
+define("_USERALREADYEXISTSINGROUP","Gebruiker bestaat al in groep");//User already exists in group
+define("_COUPONS","Coupons");//Coupons
+define("_COUPONCODE","Coupon-code");//Coupon code
+define("_TOTALUSES","Totaal gebruik");//Total uses
+define("_TOTALUSESBYSINGLEUSER","Totaal gebruik per gebruiker");//Total uses by single user
+define("_MAXIMUMUSESBYSINGLEUSER","Maximaal gebruik per gebruiker");//Maximum uses by single user
+define("_VALIDFROM","Geldig vanaf");//Valid from
+define("_DISCOUNT","Korting");//Discount
+define("_SUCCESSFULLYUPDATEDCOUPON","Coupon succesvol bijgewerkt");//Successfully updated coupon
+define("_CREATEUNIQUECOUPON","Maak unieke coupon aan");//Create unique coupon
+define("_ADDCOUPON","Voeg coupon toe");//Add coupon
+define("_COUPONPROPERTIES","Coupon eigenschappen");//Coupon properties
+define("_REPORTS","Rapporten");//Reports
+define("_EXPIRED","Verlopen");//Expired
+define("_USES","Gebruik");//Uses
+define("_VALIDUNTIL","Geldig tot");//Valid until
+define("_USESREMAINING","Resterend gebruik");//Uses remaining
+define("_MAXIMUMUSES","Maximaal gebruik");//Maximum uses
+define("_USESSOFAR","Gebruik tot nu toe");//Uses so far
+define("_COUPON","Coupon");//Coupon
+define("_INVALIDCOUPON","Ongeldige coupon");//Invalid coupon
+define("_CLICKTOENTERDISCOUNTCOUPON","Klik hier om couponkorting in te voeren");//Click to enter discount coupon
+define("_TESTREDONE","Gecorrigeerd");//Corrected
+define("_CURRICULUMS","Curricula");//Curricula
+define("_CURRICULUM","Curriculum");//Curriculum
+define("_ASSIGNCURRICULUMTOGROUPUSERS","Wijs curriculum toe aan gebruikersgroep");//Assign curriculum to group users
+define("_ASSIGNCURRICULUMTOUSER","Wijs curriculum toe aan gebruiker");//Assign curriculum to user
+define("_ADDCURRICULUM","Voeg curriculum toe");//Add curriculum
+define("_EDITCURRICULUM","Wijzig curriculum");//Edit curriculum
+define("_COULDNOTFINDCOURSE","Kan cursus niet vinden");//Could not find course
+define("_IMPORTRESULTSFOR","Importeer resultaten voor");//Import results for
+define("_COUPONUSAGE","Coupon verbruik");//Coupon usage
+define("_NEWPAYPALPAYMENT","Nieuwe PayPal-betaling");//New paypal payment
+define("_NEWBALANCEPAYMENT","Nieuw saldo");//New balance payment
+define("_USEDCOUPON","Gebruikte coupon");//Used coupon
+define("_PAYEDWITHBALANCE","Betaald met saldo");//Payed with balance
+define("_PAYEDWITHPAYPAL","Betaald met PayPal");//Payed with paypal
+define("_YOUMUSTCOMPLETEALLTESTS","U moet alle toetsen voltooien");//You must complete all tests
+define("_ELIMINATEPOSTXSS","Verwijder &lt;script&gt; tags uit POST");//Remove &lt;script&gt; tags from POST
+define("_LOGINREDIRECTPAGE","Stuur gebruiker na het inloggen direct door naar");//Redirect user after login to
+define("_LESSONSCATALOG","Gebruikers-les-catalogus");//User's lesson catalog
+define("_USERDASHBOARD","Gebruikers-dashboard");//User's dashboard
+define("_NOTITLEPROVIDEDFORNEWJOB","Geen titel verstrekt voor functieomschrijving");//No title provided for job description
+define("_EDITORTYPE","Redacteur type");//Editor type
+define("_DONOTSHOWTESTAFTERSUBMITTING","Toon alleen een melding nadat een toets is ingestuurd");//Show only a message after submitting test
+define("_TESTSUCCESSFULLYSUBMITTED","Deze toets is succesvol verzonden");//This test was successfully submitted
+define("_LEARNINGSTATUS","Leer status");//Learning Status
+define("_HASNOTANEMAILADDRESS","heeft geen e-mail adres");//has not an Email address
+define("_FEEDBACK","Terugkoppeling");//Feedback
+define("_SETFOUNDEMPLOYEESINTOGROUP","Plaats gebruikers in groep");//Insert users into group
+define("_INSERTINTONEWGROUP","Plaats in nieuwe groep");//Insert into new group
+define("_INSERTINTOEXISTINGGROUP","Plaats in bestaande groep");//Insert into existing group
+define("_NEWGROUPNAME","Nieuwe groepsnaam");//New group name
+define("_YOUSHOULDPROVIDEEXISTINGORNEWGROUP","U moet of een bestaande groepsnaam selecteren of een nieuwe groepsnaam invoeren");//You should either select an existing group or provide a new group name
+define("_SUBMITANDEDITGROUP","Verzenden en bewerken groep");//Submit and edit group
+define("_SEARCHGROUPUSERS","Zoeken naar gebruikers om deze toe te voegen aan de groep");//Search users to add to group
+define("_AFTER","Na");//After
+define("_BEFORE","Voor");//Before
+define("_PARTICIPATIONINTHECOURSESOFTHEGROUP","Deelname van alle gebruikers aan de cursussen van de groep");//Participation of all users in the courses of the group
+define("_PARTICIPATIONOFGROUPUSERSINCOURSES","Deelname van de groep gebruikers aan de cursussen van het systeem");//Participation of group users in the courses of the system
+define("_PURGELOGS","Opschonen logs");//Purge logs
+define("_LOGSSIZE","Logs grootte");//Logs size
+define("_OLDESTLOG","Oudste log invoer");//Oldest log entry
+define("_PURGELOGSOLDERTHAN","Schoon logs op die ouder zijn dan");//Purge logs older than
+define("_SUCCESSFULLYPURGEDLOGS","Logs succesvol opgeschoond");//Successfully purged logs
+define("_ONLYXCANBEAPPLIEDATATIME","Slechts %x eenheden zijn verwerkt, wat de limiet is voor deze handeling");//Only %x entities where processed, which is the limit for this operation
+define("_YOUCANNOTASSIGNUSERSBECAUSECURRICULUMISEMPTY","U kunt geen gebruikers toewijzen aan dit curriculum, omdat deze geen cursussen bevat");//You cannot assign users to this curriculum because it has no courses
+define("_CURRICULUMPROPERTIES","Curriculum eigenschappen");//Curriculum properties
+define("_ENTRIES","Inschrijvingen");//Entries
+define("_ENTERPRISEOPTIONS","Enterprise opties");//Enterprise options
+define("_SHOWORGANIZATIONCHARTTOUSERS","Toon organigram aan de gebruikers");//Show organization chart to users
+define("_SHOWUSERFORMTOUSERS","Toon trainingsverslag aan gebruikers");//Show training record to users
+define("_SHOWUNASSIGNEDEMPLOYEESTOSUPERVISORS","Toon ongekoppelde gebruikers aan begeleiders");//Show unassigned users to supervisors
+define("_ALLOWUSERSTODELETEFILESSHAREDWITHSUPERVISORS","Sta gebruikers toe om bestanden gedeeld met de begeleider te verwijderen");//Allow users to delete supervisor shared files
+define("_MYEMPLOYEEFORM","mijn Trainingsverslag");//my Training record
+define("_CLEARQUERYCACHE","Query cache opschonen");//Clear query cache
+define("_FEEDBACKOPTIONS","Terugkoppeling opties");//Feedback options
+define("_OPTIONSFORFEEDBACK","Opties voor terugkoppeling");//Options for feedback
+define("_RECENTLYCOMPLETEDFEEDBACK","Onlangs voltooide terugkoppeling");//Recently completed feedback
+define("_PHPLIVEDOCXCONFIGURATIONFILEISNOTWRITABLE","LiveDocx PHP configuratiebestand (bibliotheken / phplivedocx_config.php) is niet beschrijfbaar. Alle wijzigingen die u bij het LiveDocx configuratiebestand heeft doorgevoerd zijn niet opgeslagen");//PHP LiveDocx configuration file (libraries/phplivedocx_config.php) is not writable. Any changes you made to the livedocx configuration were not saved
+define("_RESETPROGRESSDATA","Reset vooruitgang gegevens");//Reset progress data
+define("_DEBUGMODE","Debug modus");//Debug mode
+define("_GENERALSETTINGS","Algemene instellingen");//General settings
+define("_FINISHLESSONMESSAGE","Gefeliciteerd! U heeft de les voltooid. Selecteer een locatie om nu naartoe te gaan:");//Congratulations! You have finished the lesson. Please select a place to go now:
+define("_NEXTLESSON","Volgende les");//Next lesson
+define("_LESSONFINISHED","Les voltooid");//Lesson finished
+define("_YOUAREATTHELASTLESSONYOUMAYVISIT","U bevindt zich bij de laatste les, u zou door kunnen gaan met");//You are at the last lesson you may visit
+define("_FEEDBACKISDONE","Terugkoppeling werd voltooid");//Feedback is done
+define("_PROCEEDTOFEEDBACK","Ga naar terugkoppeling");//Proceed to feedback
+define("_SUCCESFULLYMODIFIEDFEEDBACK","Terugkoppeling succesvol bijgewerkt");//Successfully modified feedback
+define("_FEEDBACKSTARTEDAT","Terugkoppeling gestart op");//Feedback started at
+define("_EXPLICITLYSELECTEDINFO","De ontvangers worden geselecteerd door het systeem op basis van het evenement. <BR> - "._NEWSURVEY .": Ontvangers zijn de gebruikers die deelnemen aan de enquête. <BR> - "._ONJOBASSIGNMENT .": De ontvanger is de begeleider geselecteerd door de werknemer. <BR> - "._PROJECTEXPIRY .": Ontvangers zijn de gebruikers die zijn toegewezen aan het project.");//The recipients are selected by the system interface according to the event.<BR>- "._NEWSURVEY.": Recipients are the users participating in the survey.<BR>- "._ONJOBASSIGNMENT.": The recipients is the supervisor selected by the employee.<BR>- "._PROJECTEXPIRY.": Recipients are the users that have been assigned the project.
+define("_ENROLLEDON","Ingeschreven op");//Enrolled on
+define("_JOBDOESNOTEXIST","Baan bestaat niet");//Job does not exist
+define("_SEARCHFORUSER","Vind gebruikers [Profiel criteria]");//Find users [Profile criteria]
+define("_SEARCHCRITERIA","Zoekcriteria");//Search criteria
+define("_SUBMITFEEDBACK","Stuur terugkoppeling");//Submit feedback
+define("_FEEDBACKRESULTS","Terugkoppeling resultaten");//Feedback results
+define("_PASSWORDREMINDER","Wachtwoord herinnering");//Reset password link
+define("_MUSTCOMPLETEALLTESTS","Moet alle toetsen voltooien");//Must complete all tests
+define("_FEEDBACKSTATISTICS","Terugkoppeling rapportages");//Feedback reports
+define("_CHOOSEFEEDBACK","Kies terugkoppeling");//Choose feedback
+define("_REPORTSFORFEEDBACK","Rapportage voor terugkoppeling");//Report for feedback
+define("_CURRENTLYBROWSINGFOLDER","Bezig met zoeken in de map");//Currently browsing folder
+define("_CURRENTLYSHOWING","Toont momenteel");//Showing
+define("_MATERIALINPROGRESS","Materialen in ontwikkeling");//Material in progress
+define("_ALLMATERIAL","Alle materialen");//All material
+define("_CACHEENTRYNOTFOUND","Cache toegang niet gevonden");//Cache entry not found
+define("_CACHEENTRYEXPIRED","Cache toegang verstreken");//Cache entry expired
+define("_CACHEENTRYINVALID","Cache is niet geldig");//Cache entry is invalid
+define("_PURGENOTIFICATIONS","Schoon meldingen op");//Purge notifications
+define("_NOTIFICATIONSSIZE","Meldingen grootte");//Notifications size
+define("_OLDESTNOTIFICATION","Oudste melding");//Oldest notification
+define("_PURGENOTIFICATIONSOLDERTHAN","Meldingen opschonen die ouder zijn dan");//Purge notifications older than
+define("_CURRENTUSERS","Huidige");//Current
+define("_SELECTEDCOURSES","Geselecteerde cursussen");//Selected courses
+define("_MODULEFILESPRESENTNOTINSTALLED","Module bestanden zijn aanwezig, maar zijn niet geïnstalleerd");//Module files are present, but it is not installed
+define("_DISABLEPAYMENTSNOTICE","Dit zal bij alle lessen en cursussen de prijs op 0 zetten");//This will set all lessons and courses price to 0
+define("_SPECIFYIDFORSREENMATCHING","Geef object id op voor bijpassende scherm afmetingen");//Specify object id for screen matching dimensions
+define("_COMMASEPARATEDLIST","Door komma gescheiden lijst");//Comma separated list
+define("_WEBSERVERAUTHENTICATION","Web server authenticatie");//Web server authentication
+define("_USERSETTINGS","Gebruikersinstellingen");//User settings
+define("_THIRDPARTYTOOLS","Derde partij gereedschappen");//3rd party tools
+define("_DONOTTAKEACCOUNTINCORRECTING","Neem het niet mee in de correctie");//Do not take it into account in correction
+define("_AREYOUSUREYOUWANTTOINITIALIZELESSON","Weet u zeker dat u deze les wilt initialiseren? Dit zal gegevens permanent verwijderen");//Are you sure you want to initialize lesson? This will permanently delete data
+define("_EXTERNALTOOLS","Externe hulpmiddelen");//External tools
+define("_MATHSETTINGS","Wiskunde instellingen");//Math settings
+define("_PHPLIVEDOCX","PHP livedocx");//PHP livedocx
+define("_CANNOTACCESSIPBAN","U heeft geen toegang tot deze pagina omdat deze IP is geblokkeerd");//You cannot access this page due to the following IP being banned
+define("_EMAILSETTINGS","E-mail instellingen");//Email settings
+define("_ERRORPAGEFORINVALIDLOGIN","Fout-pagina wordt weergegeven wanneer de gebruikersnaam ontbreekt of leeg is");//Error page displayed when the username is missing or empty
+define("_ERRORPAGEFORUNAUTHORIZED","Fout-pagina wordt weergegeven wanneer de gebruiker niet kan worden aangemaakt");//Error page displayed when the user could not be created
+define("_VARIABLEFORUSERNAME","Variabele die de gebruikersnaam bevat");//Variable that contains the username
+define("_INCLUDEFILETHATHANDLESUSERCREATION","Voeg bestand bij dat de gebruiker aanmaakt");//Include file that handles user creation
+define("_WEBSERVERREGISTRATION","Webserver registratie");//Web server registration
+define("_USEORLOGICTOCORRECTANSWERS","Gebruik OR logica om het juiste antwoord te berekenen");//Use OR logic to calculate correct answer
+define("_VARIABLEMUSTCONTAINLOGIN","De variabele x% moet &quot;%y&quot; bevatten om door te gaan");//The variable %x must contain &quot;%y&quot; in order to continue
+define("_OPENUNITINPOPUP","Open eenheid in pop-up venster");//Open unit in popup window
+define("_USERALREADYEXISTSARCHIVED","Een gebruiker met de opgegeven gebruikersnaam bestaat al (gearchiveerd)");//A user with the specified login already exists (archived)
+define("_EVENTSSIZE","Gebeurtenis grootte");//Events size
+define("_OLDESTEVENT","Oudste gebeurtenis");//Oldest event
+define("_PURGEEVENTSOLDERTHAN","Schoon gebeurtenissen op die ouder zijn dan");//Purge events older than
+define("_PURGEEVENTS","Schoon gebeurtenissen op");//Purge events
+define("_USERSEPERUSERTYPE","Gebruikers per gebruikerstype");//Users per user type
+define("_MINUTESPERUSER","Minuten per gebruiker");//Minutes per user
+define("_LOGINSPERDAY","Logins per dag");//Logins per day
+define("_ACCESSES","Bezoeken");//Accesses
+define("_ACCESSESPERUSER","Bezoeken per gebruiker");//Accesses per user
+define("_ACCESSESPERDAY","Bezoeken per dag");//Accesses per day
+define("_OCCURENCES","Voorvallen");//Occurences
+define("_SCORES","Scores");//Scores
+define("_PROPAGATECOURSE","Vermenigvuldig cursus");//Propagate course
+define("_LESSONSTRUCTURE","Les structuur");//Lesson structure
+define("_ADMINISTRATORCANNOTACCESSLESSONPAGE","Een beheerder heeft geen toegang tot les pagina's");//An administrator cannot access lesson pages
+define("_FAILEDPERMISSIONSMESSAGE","%x mappen en %y bestanden zijn niet beschrijfbaar op de webserver. <br> Klik <a href = 'view_file.php?file=%z&action=download' target = '_NEW'>hier</a> om een volledige rapport te downloaden");//%x directories and %y files are not writable by the web server.<br> Click <a href = 'view_file.php?file=%z&action=download' target = '_NEW'>here</a> to download a complete report
+define("_CLICKHERETOSETPERMISSIONS","Klik hier om schrijfrechten in te stellen");//Click here to set write permissions
+define("_CLICKHERETOUNSETPERMISSIONS","Klik hier om schrijfrechten ongedaan te maken");//Click here to unset write permissions
+define("_SETPERMISSIONS","Stel machtigingen in");//Set permissions
+define("_UNSETPERMISSIONS","Uitgeschakelde machtigingen");//Unset permissions
+define("_SETPERMISSIONSINSTRUCTIONS","Deze handeling zal proberen alle bestanden en mappen beschrijfbaar te maken door de webserver. Dit is verplicht als je automatische upgrades uit wilt laten voeren en kan nuttig zijn als u problemen ondervindt tijdens of na een upgrade. Aan de andere kant, alle bestanden schrijfbaar maken kan een bedreiging vormen in bepaalde situaties.");//This operation will try setting permissions to all files and folders to be writable by the web server. This is mandatory if you wish to perform automatic upgrades and may be useful in cases you are experiencing troubles during or after upgrading. On the other hand, leaving all files writable may pose a security threat under certain circumstances.
+define("_UNSETPERMISSIONSINSTRUCTIONS","Deze handeling zal proberen alle bestanden en mappen niet-schrijfbaar te maken door de webserver, met uitzondering van de bestanden die verplicht zijn om het systeem goed te laten functioneren. Dit is de meest veilige instelling, maar maakt het automatisch upgraden van het systeem onmogelijk");//This operation will try setting permissions to all files and folders to be non-writable by the web server, except for those mandatory for the system to function properly. This is the most secure setting but will prevent the system from upgrading automatically
+define("_CLICKHERETOCHECKPERMISSIONS","Klik hier om machtigingen te controleren");//Click here to check permissions
+define("_CHECKPERMISSIONS","Controleer machtigingen");//Check permissions
+define("_CHECKPERMISSIONSINSTRUCTIONS","Deze handeling zal niet controleren welke bestanden en mappen in uw systeem beschrijfbaar zijn door de webserver");//This operation will check which files and folders of your system are not writable by the web server
+define("_OPERATIONOUTCOME","Handeling resultaten");//Operation outcome
+define("_NOOPERATIONPERFORMEDYET","Nog geen operatie uitgevoerd");//No operation performed yet
+define("_SOMEFILESARENOTWRITABLEVISITMAINTENANCECLEANUPPERMISSIONS","Sommige bestanden / mappen zijn niet beschrijfbaar. Ga naar &#39;permissies&#39; in onderhoud -&gt; opschonen om de machtigingen te controleren en inspecteer deze bestanden");//Some files/folders are not writable. Please visit the 'permissions' section in maintenance -> cleanup to check permissions and review these files
+define("_OTHERWISEPLEASEREGISTER","Anders kunt u een <button onclick = \"location='index.php?ctg=signup'\">nieuwe account</button> aanmaken");//Otherwise, you may create a <button onclick = \"location='index.php?ctg=signup'\">new account</button>
+define("_FREELESSONSANDCOURSESWHEREASSIGNEDPLEASEREVIEWNONFREE","U was ingeschreven voor gratis lessen en cursussen. Bekijk hieronder uw selectie van niet gratis lessen en cursussen");//You were enrolled to free lessons and courses. Please review below your selection of non free lessons and courses
+define("_SUPERVISORS","Begeleiders");//Supervisors
+define("_COURSEOPTIONS","Cursus opties");//Course options
+define("_RESETEXECUTIONSFORALLUSERS","Reset uitvoering voor alle gebruikers");//Reset executions for all users
+define("_ADVANCEDUSERREPORTS","Gebruikersrapporten generator");//User reports generator
+define("_ADDTOGROUP","Toevoegen aan groep");//Add to group
+define("_ASSIGNCOURSE","Cursus toewijzen");//Assign course
+define("_ASSIGNLESSON","Les toewijzen");//Assign lesson
+define("_REMOVECOURSE","Verwijderen cursus");//Remove course
+define("_REMOVELESSON","Verwijder les");//Remove lesson
+define("_REMOVEFROMGROUP","Verwijder uit groep");//Remove from group
+define("_RESETLEARNINGPROGRESS","Reset leervoortgang");//Reset learning progress
+define("_BUILDER","Bouwer");//Builder
+define("_ADDREPORT","Voeg nieuw rapport toe");//Add new report
+define("_CONDITIONTYPE","Type voorwaarde");//Condition type
+define("_CONDITIONSPECIFICATION","Voorwaarde specificatie");//Condition specification
+define("_ADDCOLUMN","Voeg kolom toe");//Add column
+define("_RELATIONWITHTHEFOLLOWINGCONDITION","Relatie met de volgende");//Relation with next
+define("_COLUMNTYPE","Kolomtype");//Column type
+define("_GRIDNAME","Grid naam");//Grid name
+define("_ALIGNED","Uitgelijnd");//Aligned
+define("_SELECTREPORT","Selecteer rapportage");//Select report
+define("_AVAILABLEREPORTS","Beschikbare rapporten");//Available reports
+define("_EDITREPORT","Wijzig rapportage");//Edit report
+define("_NOREPORTSINTHESYSTEM","Er zijn geen meldingen in het systeem gedefinieerd. Alstublieft");//There are no reports defined in the system. Please 
+define("_CREATEONE","Maak aan");//create one
+define("_NEWREPORT","Nieuwe rapportage");//New report
+define("_REPORTNAME","Naam rapportage");//Report name
+define("_SELECTCONDITION","Selecteer voorwaarde");//Select condition
+define("_ISNOT","is niet");//is not
+define("_HASCOMPLETEDALLASSIGNEDLESSONS","Heeft alle toegewezen lessen voltooid");//Has completed all assigned lessons
+define("_HASCOMPLETEDALLASSIGNEDCOURSES","Heeft alle toegewezen cursussen afgerond");//Has completed all assigned courses
+define("_HAS","Heeft");//Has
+define("_HASNOT","Heeft niet");//Has not
+define("_ENROLLEDTO","Ingeschreven op");//Enrolled to
+define("_BETWEEN","Tussen");//Between
+define("_ISASSIGNED","Is toegewezen");//Is assigned
+define("_ISNOTASSIGNED","Is het niet toegewezen");//Is not assigned
+define("_DURINGLASTDAY","laatste 24 uur");//last 24h
+define("_DURINGLASTWEEK","vorige week");//last week
+define("_DURINGLASTMONTH","vorige maand");//last month
+define("_COLUMN","Kolom");//Column
+define("_SELECTCOLUMN","Selecteer kolom");//Select column
+define("_LEAVEBLANKTOAUTOADJUST","Laat leeg voor automatische instelling van de breedte");//Leave blank to auto-adjust width
+define("_LEAVEBLANKTOUSECOLUMNNAME","Laat leeg om kolomnaam te gebruiken");//Leave blank to use column name
+define("_WIDTHPERCENTAGE","Breedte (%)");//Width (%)
+define("_PLEASESELECTACOLUMN","Selecteer een kolom");//Please select a column
+define("_CHANGECOLUMNORDER","Wijzig de kolommen volgorde");//Change the columns order
+define("_VIEWINGREPORT","Bekijk rapportage");//Viewing report
+define("_PLEASESELECTACONDITION","Selecteer een voorwaarde");//Please select a condition
+define("_BASIC","Basis");//Basic
+define("_LEARNING","Leren");//Learning
+define("_ENTERPRISE","Onderneming");//Enterprise
+define("_DRAGITEMSTOCHANGEORDER","Sleep elementen om volgorde te veranderen");//Drag items to change order
+define("_CUSTOMFIELDS","Aangepaste velden");//Custom fields
+define("_FORMATTEDLOGIN","Aangepaste gebruikersnaam");//Formatted login
+define("_DEFAULTSORT","Standaard sorteren");//Default sort
+define("_ANDTAKESPRECEDENCE","&quot;and&quot; operator heeft voorrang");//&quot;and&quot; operator takes precedence
+define("_CURREPAGEOPERATIONS","Huidige pagina handelingen");//Current page operations
+define("_ORSPECIFYANEWGROUPTOADDTO","Of geef een nieuwe groep op om toe te voegen aan");//Or specify a new group to add to
+define("_ADDTO","Toevoegen aan");//Add to
+define("_REMOVEFROM","Verwijderen uit");//Remove from
+define("_GROUPOPERATIONS","Handelingen van de groep");//Group operations
+define("_CERTIFICATEOPERATIONS","Certificaat handelingen");//Certificate operations
+define("_LESSONOPERATIONS","Les handelingen");//Lesson operations
+define("_COURSEOPERATIONS","Cursus handelingen");//Course operations
+define("_EXPORTTOCSV","Exporteren naar CSV");//Export to csv
+define("_NOEVENTCODEDEFINED","Geen gebeurtenis code bepaald");//No event code defined
+define("_FILESIMPORTEDSUCCESSFULLY","Bestanden geïmporteerd");//Files imported successfully
+define("_CONVERTFOLDERSTOHIERARCHY","Zet mappen om naar geneste hiërarchie");//Convert folders to nested hierarchy
+define("_UNCOMPRESSRECURSIVELYIMPORT","Decomprimeer zip file(s) en importeer de inhoud");//Uncompress zip file(s) and import contents
+define("_THEMELOCKED","Het thema is vergrendeld");//The theme is locked
+define("_BLANKREPORT","Blanco verslag");//Blank report
+define("_CUSTOMREPORTS","Aangepaste rapporten");//Custom reports
+define("_ADMINISTRATORCONFIRMENROLLED","De systeembeheerder zal dit herzien en uw inschrijvingen activeren");//The system administrator will review and activate your enrollments
+define("_REFRESHTABLE","Vernieuwen tabel");//Refresh table
+define("_REMOVEFROMSET","Verwijderen uit set");//Remove from set
+define("_BRANCHTREE","Afdeling boomstructuur");//Branch tree
+define("_CHANGECONDITIONORDER","Verander voorwaarde volgorde");//Change condition order
+define("_INDEX","Index");//Index
+define("_EVENTDATETIME","Gebeurtenis datum en tijd");//Event date and time
+define("_CERTIFICATEFILEWASCORRUPTORMISSINGANDWASRESET","Het certificaat bestand ontbreekt of is beschadigd en is daarom gereset");//The certificate file was missing or corrupt and thus was reset
+define("_VISIBLEFROM","Zichtbaar vanaf");//Visible from
+define("_EXPIRESAT","Loopt af op");//Expires at
+define("_CALENDARDISPLAYDATE","Kalender display datum");//Calendar display date
+define("_GLOBAL","Globaal");//Global
+define("_ALLDAY","De gehele dag");//All day
+define("_CREATECALENDAREVENT","Maak agenda-item aan");//Create calendar event
+define("_OVERWRITEIFFOLDEREXISTS","Overschrijven bestaande map");//Overwrite existing folder
+define("_LANDINGPAGE","Landingspagina");//Landing page
+define("_EXPORTTOXLS","Exporteren naar xls");//Export to xls
+define("_SURVEYFAILEDTOBEPUBLISHED","Enquête werd niet gepubliceerd");//Survey failed to be published
+define("_PRINTCHART","Print grafiek");//Print chart
+define("_RESPONSEDETAILS","Reactie details");//Response details
+define("_SHOWINGONLYACTIVEENTITIES","Toont alleen actieve entiteiten");//Showing only active entities
+define("_SHOWINGONLYINACTIVEENTITIES","Toont alleen inactieve entiteiten");//Showing only inactive entities
+define("_SHOWINGALLENTITIES","Toont zowel actieve als inactieve entiteiten");//Showing both active and inactive entities
+define("_EVENTDOESNOTEXIST","Dit evenement bestaat niet meer");//This event no longer exists
+define("_CLEARQUEUEMESSAGES","Leegmaken wachtrijberichten");//Clear queue messages
+define("_APPLYTOUSERALLREADYTOJOBPOSITION","Pas toe op gebruikers die al behoren tot deze functie");//Apply to users already belongs to this job position
+define("_APPLYTOUSERALLREADYTOJOBPOSITIONHELP","Dit kan alleen maar een nieuwe selectie toevoegen (niet verwijderen) aan een gebruiker");//This can only add (not remove) a new selection to a user
+define("_SORTBY","Sorteren op");//Sort by
+define("_TRAINING","Training");//Training
+define("_COMPLETEDLESSONS","Afgesloten lessen");//Completed lessons
+define("_INCOMPLETELESSONS","Onvolledige lessen");//Incomplete lessons
+define("_COMPLETEDCOURSES","Afgesloten cursussen");//Completed courses
+define("_INCOMPLETECOURSES","Onvolledige cursussen");//Incomplete courses
+define("_EDITCOLUMN","Kolom bewerken");//Edit column
+define("_LESSONSFORCOURSE","Lessen voor de cursus");//Lessons for course
+define("_TESTSFORLESSON","Toetsen voor de les");//Tests for lesson
+define("_SETALLUSERSSTATUSCOMPLETED","Stel de status van alle gebruikers in op voltooid");//Complete for all users
+define("_LESSONTIMES","Lestijden");//Lesson times
+define("_MINUTESPERDAY","Minuten per dag");//Minutes per day
+define("_LOGOUTUSERAFTERMINUTES","Afmelden gebruiker na (minuten)");//Log out user after (minutes)
+define("_UPDATERPERIODSECONDS","Updater periode (ms)");//Updater period (ms)
+define("_RECOMMENDEDVALUEMORETHAN2000LESSTHANAUTOLOGOUTTIME","Aanbevolen waarden zijn niet minder dan 10000ms en niet meer dan 360000ms. Het moet ook worden ingesteld op een lagere waarde dan de automatisch afmeld tijd.");//Recommended values are no less than 10000ms and no more than 360000ms. It also must be set less than the auto logout time.
+define("_MORETHANONEBRANCHESONLYFIRSTSHOWING","Meer dan 1 afdeling (locatie) is gerelateerd aan deze cursus, waarvan de eerste");//More than 1 branches (locations) associated with this course, showing the first one
+define("_INSERT","Plaats");//Insert
+define("_ASSIGNMENTAPPROVEDBY","Opdracht goedgekeurd door");//Assignment approved by
+define("_EMPLOYEEIMMEDIATESUPERVISOR","Directe leidinggevende van werknemer");//Employee's immediate supervisor
+define("_SYSTEM_USER_DEACTIVATED","Deactivering van gebruiker");//User deactivation
+define("_WASDEACTIVATEDFROMTHESYSTEM","werd gedeactiveerd in het systeem");//was deactivated from system
+define("_SUPERVISORAPPROVAL","Goedkeuring begeleider");//Supervisor approval
+define("_APPROVE","Goedkeuren");//Approve
+define("_GROUPKEYEXISTS","Unieke sleutel bestaat al");//Unique key already exists
+define("_PARTOFCOURSES","Een deel van de cursussen");//Part of courses
+define("_THISLESSONISPARTOFCOURSESANDCANNOTCHANGEMODE","Deze les is onderdeel van 1 of meer cursussen, de modus kan dus niet veranderd worden");//This lesson is part of one or more courses, so it cannot change mode
+define("_THISLESSONHASUSERSENROLLEDPLEASEREMOVEBEFORESWITCHINGMODE","Er zijn gebruikers ingeschreven bij deze les. Gelieve hen eerst uit te schrijven voordat naar een andere modes omgeschakeld wordt");//There are users enrolled to this lesson. Please unassign them before switching modes
+define("_COURSESINCOMPLETETOTAL","Cursussen (onvolledig / totaal)");//Courses (incomplete/total)
+define("_EXPORTFILES","Exporteer bestanden");//Export files
+define("_PROGRAMMEDCOURSEEXPIRY","Geplande vervaldatum cursus");//Course scheduled expiration
+define("_PROGRAMMEDCOURSESTART","Gepland begin cursus");//Course scheduled beginning
+define("_SCHEDULEDSTARTOFCOURSE","Geplande aanvang van de cursus");//Scheduled start of course
+define("_SCHEDULEDEXPIRYOFCOURSE","Gepland verstrijken van de cursus");//Scheduled expiration of course
+define("_ALLCOURSEUSERS","Alle cursusgebruikers");//All course users
+define("_MOVEBLOCK","Verplaats blok");//Move block
+define("_EXPANDCOLLAPSEBLOCK","Uitklappen / inklappen blok");//Expand/collapse block
+define("_DEFAULTLEARNERTYPE","Standaard leerlingtype");//Default learner type
+define("_DEFAULTLEARNERTYPEINFO","Als u een groepssleutel heeft bepaald voor deze groep, dan zullen gebruikers die gebruik maken van de sleutel worden ingeschreven bij lessen / cursussen van dit type. Als u deze groep heeft ingesteld als standaard, dan zullen nieuwe gebruikers worden toegewezen aan lessen van de groep van dit type");//If you have set a group key for this group, then users that use the key will be enrolled to lessons/courses having this type. If you have set this group to be default, then new users will be assigned to the group's lessons with this type
+define("_DONTUSEDEFAULTGROUP","Gebruik geen standaard type");//Don't use default type
+define("_YOUHAVEBEENSUCCESSFULLYADDEDTOTHEGROUP","U bent succesvol toegevoegd aan de groep");//You have been successfully added to the group
+define("_THISGROUPISINACTIVE","Deze groep is niet actief");//This group is inactive
+define("_MAXIMUMKEYUSAGESREACHED","De sleutel kan niet meer worden gebruikt");//The key cannot be used any more times
+define("_INVALIDSELECTIONPLEASEPICKFROMLIST","De selectie die u heeft gemaakt is niet geldig. Kies alstublieft een optie uit de lijst");//The selection you made is not valid. Please pick an option from the list
+define("_YOUAREALREADYMEMBEROFTHISGROUP","U bent al lid van deze groep");//You are already member of this group
+define("_AVERAGESCORES","Gemiddelde scores");//Average scores
+define("_PROJECTSAVERAGE","Gemiddelde score over alle projecten");//Average score in all projects
+define("_SWITCHTOTREEVIEW","Overschakelen naar boomstructuur");//Switch to tree view
+define("_SWITCHTOSIMPLEVIEW","Overschakelen naar eenvoudige weergave");//Switch to simple view
+define("_BCCRECIPIENTS","Geheime ontvangers (BCC)");//Undisclosed recipients (bcc)
+define("_RESULTSFOR","Resultaten voor");//Results for
+define("_THANKYOUFORCOMPLETING","Dank u voor het invullen van");//Thank you for completing
+define("_NOREPORTSFOUNDINTHESYSTEM","Geen meldingen in het systeem gevonden");//No reports found in the system
+define("_YOUMAYCREATEONE","U mag er een aanmaken");//You may create one
+define("_YOUCANNOTCHANGEMODECOURSENOTEMPTY","U kunt de les modus niet veranderen, omdat er gebruikers zijn ingeschreven bij de cursus");//You cannot change lesson mode because there are users enrolled to the course
+define("_YOUCANNOTREMOVETHELASTELEMENT","Je kunt het laatste element niet verwijderen");//You cannot remove the last element
+define("_CONTAINS","Bevat");//Contains
+define("_NOTCONTAINS","Bevat geen");//Does not contain
+define("_REMOVEOPTION","Verwijder optie");//Remove option
+define("_CONSIDERCORRECTWHENSCOREISGREATERTHAN","Beschouw als correct wanneer de bij elkaar opgetelde punten groter of gelijk zijn aan");//Consider correct when accumulated points are greater or equal to
+define("_AUTOMATIC","Automatisch");//Automatic
+define("_AUTOCORRECTOPTIONS","Auto-correct opties");//Auto-correct options
+define("_QUESTIONCORRECTION","Correctie vraag");//Question correction
+define("_SEPARATEWORDSWITHPIPE","Scheid woorden met verticale streep |");//Separate words with pipe |
+define("_POINTS","Punten");//Points
+define("_THEUSERDOESNOTHAVETHISCOURSE","De gebruiker beschikt niet over deze cursus");//The user does not have this course
+define("_THEUSERDOESNOTHAVETHISLESSON","De gebruiker beschikt niet over deze les");//The user does not have this lesson
+define("_USERACCESSGRANTED","Gebruiker toegang verleend");//User access granted
+define("_FORCECHANGEPASSWORD","Forceer wijzigen wachtwoord bij eerste login");//Force password change upon initial login
+define("_CHANGEPASSWORD","Wachtwoord wijzigen");//Change password
+define("_OLDPASSWORD","Oud wachtwoord");//Old password
+define("_NEWPASSWORD","Nieuw wachtwoord");//New password
+define("_ONLINETIME","Tijd online");//Time online
+define("_ONLINESINCE","Online sinds");//Online since
+define("_MANUALLY","Handmatig");//Manually
+define("_CLEAROPCODECACHE","Leegmaken opcode cache");//Clear opcode cache
+define("_USELOGO","Gebruik logo");//Use logo
+define("_DEFAULTLOGO","Standaard logo");//Default logo
+define("_UPLOADSITELOGO","Upload website logo");//Upload site logo
+define("_ATLEAST","Ten minste");//At least
+define("_ATMOST","Maximaal");//At most
+define("_EQUALTO","Gelijk aan");//Equal to
+define("_SKILLSSTATISTICS","Vaardigheden rapporten");//Skill reports
+define("_STATISTICSFORSKILL","Rapporten voor vaardigheid");//Reports for skill
+define("_CHOOSESKILL","Kies vaardigheid");//Choose skill
+define("_SKILLGRAPH","Vaardigheid grafiek");//Skill graph
+define("_TOTALSKILLS","Totaal vaardigheden");//Total skills
+define("_SCORMASYNCHROUNOUS","Asynchrone communicatie SCORM");//Asynchronous SCORM communication
+define("_SCORMASYNCHRONOUSEXPLANATION","Schakel over naar asynchrone communicatie indien u problemen ondervindt met het voltooien van SCORM inhoud (met name wanneer u gebruik maakt van door Adobe Captivate gegenereerde inhoud)");//Switch to asynchronous communication if you are experiencing trouble completing SCORM content (especially in case you are using Adobe Captivate generated content)
+define("_WARNINGDISABLINGPAYMENTSWILLSETALLPRICESTOZERO","Waarschuwing: Het uitschakelen van betalingen zet alle prijzen op 0");//Warning: Disabling payments will set all prices to 0
+define("_MULTIPLEOPTIONS","Meerdere opties");//Multiple options
+define("_YOURSESSIONHASEXPIREDPLEASE","Uw sessie is verlopen. Gelieve");//Your session has expired. Please
+define("_CLICKHERE","klik hier");//click here
+define("_TOLOGINAGAIN","om opnieuw in te loggen");//to login again
+define("_SESSIONEXPIRED","Sessie is verlopen");//Session expired
+define("_COMMASEPARATEDLISTOFUSERSOR1FORALL","Een door komma&#39;s gescheiden lijst van gebruikers om debug-informatie te tonen, of een 1 voor alle gebruikers");//Comma separated list of users to show debug information on, or 1 for all users
+define("_JANUARYSHORTHAND","Jan");//Jan
+define("_FEBRUARYSHORTHAND","Feb");//Feb
+define("_MARCHSHORTHAND","Maa");//Mar
+define("_APRILSHORTHAND","Apr");//Apr
+define("_MAYSHORTHAND","Mei");//May
+define("_JUNESHORTHAND","Jun");//Jun
+define("_JULYSHORTHAND","Jul");//Jul
+define("_AUGUSTSHORTHAND","Aug");//Aug
+define("_SEPTEMBERSHORTHAND","Sept");//Sep
+define("_OCTOBERSHORTHAND","Okt");//Oct
+define("_NOVEMBERSHORTHAND","Nov");//Nov
+define("_DECEMBERSHORTHAND","Dec");//Dec
+define("_YOUCANNOTACCESSTHEREQUESTEDRESOURCE","U heeft geen toegang tot de aangevraagde bron");//You cannot access the requested resource
+define("_PLEASESELECTAJOB","Selecteer een functie");//Please select a job description
+define("_EDITJOBPLACEMENT","Bewerk vacature");//Edit job placement
+define("_NORESPONSE","&lt;geen antwoord&gt;");//&lt;no response&gt;
+define("_ACCOUNT","Account");//Account
+define("_ORGANIZATIONALDATA","Organisatorisch profiel");//Organizational profile
+define("_BLANKTOLEAVEUNCHANGED","Laat leeg om ongewijzigd te laten");//Blank to leave unchanged
+define("_OPTIONNUMBERSTARTINGFROMZERO","Voer de optiewaarde of het nummer in, beginnend bij 0");//Enter the option value or its number, starting from 0
+define("_HIDESUPERVISORFROMUSERS","Verberg begeleider van gebruikers");//Hide supervisor from users
+define("_HIDEJOBFROMUSERS","Verberg beroep van gebruikers");//Hide job from users
+define("_YOUMUSTSPECIFYADEFAULTVALUEFORMANDATORYELEMENTS","U moet een standaard waarde invoeren voor de verplichte elementen");//You must specify a default value for mandatory elements
+define("_USETHECURRENTDATE","Gebruik de huidige datum");//Use the current date
+define("_USERSCANCHANGEINFO","Account te wijzigen");//Account change
+define("_USERSCANCHANGEPASS","Wachtwoord te wijzigen");//Password change
+define("_VIEWFEEDBACK","Terugkoppeling bekijken");//View feedback
+define("_SHOWINCOMPLETEQUESTIONSEACHTIME","Toon onvolledige vragen bij elke uitvoering");//Show incomplete questions in each execution
+define("_RETAINBESTEXECUTION","Bewaar beste score");//Retain best score
+define("_AVERAGETESTSCOREOFACTIVEEXECUTIONS","Gemiddelde toetsscore (telt de actieve uitvoering van elke test)");//Average test score (counting each test's active execution)
+define("_SCOREONACTIVEEXECUTION","score op basis van actieve uitvoering");//score on active execution
+define("_YOUCANUSEASTERISK","Als u een woord invult dat eindigt met een sterretje (*), dan zal alleen het eerste deel worden overwogen. Als u bijvoorbeeld 'leren*' invult, dan zijn zowel 'leren' als 'lerend' correct.");//If you specify a word that ends with an asterisk (*), only its first part will be considered. For example, if you specify 'learn*', then both 'learning' and 'learn' will be considered correct.
+define("_COURSELESSONSRULES","Les regels cursus");//Course lesson rules
+define("_RULESBETWEENCOURSES","Regels tussen opleidingen");//Rules between courses
+define("_COURSEDEPENDSON","Cursus hangt af van");//Course depends on
+define("_YOUCANNOTSETSAMECOURSEASRULE","U kunt de cursus niet instellen als een conditio sine qua non van zichzelf");//You cannot set the course as a prerequisite of itself
+define("_DISPLAYALTERNATIVESINSELECTBOX","Toon alternatieven in selectie-box");//Display alternatives in select box
+define("_CHECKINGTHISWILLDISPLAYLISTBOXFIRSTISCORRECT","Dit aanvinken zal een keuzelijst tonen met alle alternatieven, in plaats van een tekstvlak. In dit geval wordt alleen de eerste optie als correct beschouwd");//Checking this will display a list box with all the alternatives, instead of a text box. In this case, only the first option is considered correct
+define("_SHOWANSWERSIFSTUDENTPASSED","Toon correcte antwoorden alleen als student is geslaagd voor de test");//Show correct answers only if student passed the test
+define("_OPTIONSCHECKER","Instellingen controle");//Settings checker
+define("_CHECKBROWSER","Controleer browser");//Checking browser
+define("_CHECKRESOLUTION","Het controleren van schermresolutie");//Checking screen resolution
+define("_CHECKPOPUPBLOCKER","Controleren van Popup blokkering");//Checking for Popup blocker
+define("_CHECKCOOKIES","Het controleren van Cookie status ...");//Checking Cookie state
+define("_CHECKFLASH","Controle van Flash");//Checking for Flash
+define("_CHECKACROBAT","Controle van Adobe Reader");//Checking for Adobe Reader
+define("_CHECKBROWSERIE6","Internet Explorer 6 gedetecteerd. Deze browser is verouderd en de functionaliteit kan worden beïnvloed");//Internet Explorer 6 detected. This browser is obsolete and functionality may be affected
+define("_CHECKBROWSERFAILED","Helaas wordt de browser die u gebruikt niet ondersteund");//Unfortunately the browser that you are using is not supported
+define("_CHECKRESOLUTIONFAILED","Uw schermresolutie voldoet niet aan de minimale eis van");//Your screen resolution does not meet the minimum requirement of
+define("_CHECKPOPUPBLOCKERFAILED","Popup blokkering gedetecteerd. Gelieve pop-ups toe te staan ​​voor deze website en probeer het opnieuw");//Popup blocker detected. Please allow popups for this site and try again
+define("_CHECKCOOKIESFAILED","Cookies lijken te worden uitgeschakeld. Schakel cookies in");//Cookies appear to be disabled. Please enable cookies
+define("_CHECKFLASHFAILED","Flash is niet geïnstalleerd of verouderd");//Flash is not installed, out of date
+define("_CHECKACROBATFAILED","Adobe Reader is niet geïnstalleerd");//Adobe Reader is not installed
+define("_CHECKJAVASCRIPT","Controleren Javascript");//Checking Javascript
+define("_CHECKJAVASCRIPTFAILED","Javascript is niet ingeschakeld in uw browser");//Javascript is not enabled in your browser
+define("_YOUMUSTHAVESETEMAILSUPERVISORACTIVATION","Je moet begeleider e-mail activering toestaan bij systeem instellingen");//You must have enabled supervisor email activation from system settings
+define("_YEARRANGEFROM","Jaar variërend van");//Year range from
+define("_YEARRANGETO","Jaar variërend tot");//Year range to
+define("_GROUPNAMEDESCRIPTION","Groepsnaam beschrijving");//Group name description
+define("_GROUPINFORMATION","Groep informatie");//Group information
+define("_CONTRAINACCESSTOCONTENT","Beperk toegang tot bestanden voor ingelogde gebruikers");//Constrain access to content files to logged in users
+define("_COMPRESSTESTS","Comprimeer toetsresultaten in de database");//Compress test results in database
+define("_MAINTENANCETASKS","Onderhoudstaken");//Maintenance tasks
+define("_CLICKHERETOCOMPRESSTESTS","Klik hier om voltooide tests te comprimeren");//Compress completed tests
+define("_CLICKHERETOUNCOMPRESSTESTS","Klik hier om voltooide tests decomprimeren");//Uncompress completed tests
+define("_COMPRESS","Comprimeren");//Compress
+define("_DATABASETASKS","Database taken");//Database tasks
+define("_PLEASEBACKUPBEFORECOMPRESSING","Maak een backup van uw gegevens voordat u voltooide toetsen comprimeert / decomprimeert");//Please backup your data before compressing/uncompressing completed tests
+define("_CONFIGURATION","Configuratie");//Configuration
+define("_SYSTEMOPTIONS","Systeem opties");//System options
+define("_CASUAL","Toevallig");//Casual
+define("_YOUCANNOTEDITTHISUSER","U heeft geen toegang tot gegevens van deze gebruiker");//You cannot access this user's information
+define("_ENABLEVIRTUALKEYBOARD","Aanzetten virtueel toetsenbord");//Enable virtual keyboard
+define("_THEFILEAPPEARSEMPTYPERHAPSITISNOTFORMATTEDCORRECTLY","Het bestand lijkt leeg te zijn. Misschien is het niet correct geformatteerd?");//The file appears to be empty. Perhaps it is not formatted correctly?
+define("_PROGRAMMEDCERTIFICATEEXPIRY","Geplande vervaldatum certificaat ");//Certificate scheduled expiration
+define("_TESTPASSWORD","Toets wachtwoord");//Test password
+define("_SORRYYOUDONOTHAVEACCESSTOTHISBRANCH","Sorry, je hebt geen toegang tot deze tak");//Sorry, you do not have access to this branch
+define("_SHOWCOMPLETEORGCHART","Toon volledige organogram aan de gebruikers");//Show full organization chart to users
+define("_YOUCANNOTCOPYFROMTHESAMELESSON","U kunt niet kopiëren vanuit dezelfde les");//You can not copy from the same lesson
+define("_MESSAGESSTUDENTS","Berichten van studenten");//Messages from students
+define("_CLICKHERETOREDELETEOLDTOKENS","Verwijder api tokens van meer dan een maand oud");//Delete api tokens more than one month old
+define("_ADDNEWCONDITION","Voeg een nieuwe voorwaarde toe");//Add new condition
+define("_CLICKHERETOREDELETEADVANCEDREPORTVIEWS","Klik hier om geavanceerde rapport aanblikken te verwijderen");//Delete advanced report views
+define("_STANDALONELESSONSAVERAGE","Gemiddelde score in alle op zichzelf staande lessen");//Average score in all standalone lessons (New)
+define("_SCORECALCULATIONMODE","Score berekeningswijze");//Score calculation mode (New)
+define("_TRIGGERINGUSERS","aansporen gebruiker");//Triggering user&#039;s (New)
+define("_MODIFIED","Gewijzigd");//Modified (New)
+define("_USERSSELFENROLL","Gebruikers kunnen zichzelf toevoegen");//Users can add themselves (New)
+define("_SPENTTIMEINLESSON","Tijd in les");//Time in lesson (New)
+define("_TOTALTIMESPENTONTHISUNIT","Tijd in eenheid");//Time in unit (New)
+define("_YOUMUSTSPENDXMINUTESINLESSON","U moet %x minuten besteden aan het bestuderen van de inhoud");//You must spend %x minutes studying content (New)
+define("_MUSTSPENDXMINUTESINLESSON","U moet %x minuten besteden aan het bestuderen van de inhoud");//Must spend %x minutes studying content (New)
+define("_TOTALTIMESPENTONTHISLESSON","Tijd in les");//Time in lesson (New)
+define("_TIMERS","Timers");//Timers (New)
+define("_PREVIOUSUNIT","Vorige eenheid");//Previous unit (New)
+define("_NEXTUNIT","Volgende eenheid");//Next unit (New)
+define("_PREVIOUSLESSON","Vorige les");//Previous lesson (New)
+define("_CONSTRAINAPIIP","IP-adressen die verbinding mogen maken met de API");//IPs allowed to connect to the API (New)
+define("_LOGOUTUSERIFINACTIVEFORMINUTES","Meld gebruiker af als deze inactief is gedurende (minuten)");//Log out user if inactive for (minutes) (New)
+define("_COMPLETEAFTERSECONDS","Voltooi na (seconden)");//Complete after (seconds) (New)
+define("_APPLYFUNCTIONTOALLUNITS","Pas een functie toe op alle eenheden");//Apply a function to all units (New)
+define("_SCORMSPECIFICPROPERTIES","SCORM 1.2 eigenschappen");//SCORM 1.2 properties (New)
+define("_ALLUNITSPROPERTIES","Eigenschappen voor alle eenheden");//Properties for all units (New)
+define("_YOUMAYWANTTODISABLEENABLERESETPASSWORDTOO","Misschien wilt u ook de &quot;reset wachtwoord&quot; link uitschakelen, bij de algemene instellingen");//You may want to disable &quot;reset password&quot; link as well, in general settings (New)
+define("_FORTHISLESSON","Voor de huidige les");//For current lesson (New)
+define("_FORANYLESSON","Voor elke les");//For any lesson (New)
+define("_SHAREDGLOSSARY","Gedeelde woordenlijst");//Shared glossary (New)
+define("_CHARACTERSMAX50ONLYNOSPACES","Alleen brieven, maximaal 50 tekens lang, zonder spaties");//Letters only, maximum 50 characters length, without spaces (New)
+define("_MANDATORYFORUSERS","Verplicht voor gebruikers");//Mandatory for users (New)
+define("_CHECKBOX","Checkbox");//Checkbox (New)
+define("_PLEASEFILLINMISSINGMANDATORYFIELDS","Vul ontbrekende verplichte velden in");//Please fill in missing mandatory fields (New)
+define("_SUBMITACTION","Verzenden handeling");//Submit action (New)
+define("_SHOWONLYTEST","Toon alleen toetsen");//Show only test (New)
+define("_SHOWSCORE","Toon test + gegeven antwoorden + score");//Show test + given answers + score (New)
+define("_SHOWATHANKYOUMESSAGE","Toon een bedank-bericht");//Show a thank-you message (New)
+define("_SHOWGIVENANSWERSNEW","Toon toets + gegeven antwoorden");//Show test + given answers (New)
+define("_SHOWRIGHTANSWERSNEW","Toon toets + gegeven antwoorden + score + juiste antwoorden");//Show test + given answers + score + correct answers (New)
+define("_SHOWANSWERSIFSTUDENTPASSEDNEW","Toon toets + gegeven antwoorden + score + juiste antwoorden alleen als de student voor de test is geslaagd");//Show test + given answers + score + correct answers only if student passed the test (New)
+define("_MAXIMUMPMUSAGESPACE","Maximaal toegestane gebruiksruimte bij prive berichten");//Maximum usage space in private messages (New)
+define("_MAXIMUMPMUSAGESPACEINFO","Definieer toegestane gebruiksruimte in MB voor de gebruiker");//Define user allowed usage space size in MB (New)
+define("_YOUHAVETODELETEFILESFROMYOURSPACE","Je moet een aantal grote berichten (met bijlagen) verwijderen uit uw ruimte");//You have to delete some big-sized messages (with attachments) from your space (New)
+define("_ADDBALANCE","Voeg balans toe");//Add balance (New)
+define("_CURRENTBALANCEINYOURACCOUNT","Huidige saldo op uw rekening");//Current balance in your account (New)
+define("_THEREWASATTACHMENTCUTBECAUSEOFQUOTA","Er behoort een bijlage bij dit bericht. Deze is verwijderd, omdat u de maximale toegestane ruimte heeft overschreden. Verwijder een aantal berichten met bijlagen en neem contact op met de afzender van het bericht");//There was an attachment in this message.It was cut because you have exceeded maximum usage space allowed. Please delete some messages with attachments and contact message sender (New)
+define("_CONNECTEDUSERS","Aangesloten gebruikers");//Connected users (New)
+define("_PLEASENOTEFILESARESHAREDWITHSUPERVISOR","Houdt u er rekening mee dat alle bestanden die u hier upload worden gedeeld met uw begeleider(s)");//Please note that any files you upload here are shared with your supervisor(s) (New)
+define("_REPLACEASSIGNMENTS","Vervang opdrachten");//Replace assignments (New)
+define("_REPLACEASSIGNMENTSEXPLANATION","Dit aanvinken vervangt alle huidige opdrachten van de gebruikers met die uit het CSV-bestand");//Checking this will replace all users' current assignments with those from the csv file (New)
+define("_LESS","minder");//less (New)
+define("_COURSESREGISTRATIONS","Cursus inschrijvingen");//Course registrations (New)
+define("_INACTIVEREGISTRATIONS","Inactieve registraties");//Inactive registrations (New)
+define("_BUYBALANCE","Koop saldo");//Buy balance (New)
+define("_COMPLETEUNITOPTIONS","Eenheid voltooiing opties");//Unit completion options (New)
+define("_COMPLETEAFTERTIMEELAPSED","Voltooid na de verstreken tijd");//Complete after time elapsed (New)
+define("_REMEMBERLOGIN","&quot;Ik wil ingelogd blijven&quot; optie");//&quot;Keep me logged in&quot; option (New)
+define("_PASSWORDSALT","Wachtwoord zout");//Password salt (New)
+define("_CEUS","CEUs");//CEUs (New)
+define("_TOTALCEUS","Totaal CEUs");//Total CEUs (New)
+define("_BRANCHWITHSUBBRANCHES","Tak en sub-takken");//Branch and sub-branches (New)
+define("_KEEPMELOGGEDIN","Ik wil ingelogd blijven");//Keep me logged in (New)
+define("_YOAURENOTALLOWEDTOACCESSTHISUNIT","U heeft geen toegang tot deze eenheid");//You are not allowed to access this unit (New)
+define("_STARTWITHPIPEIFWANTEMPTYCHOICE","Begin met verticale streep | als u een lege keuze wilt");//Start with pipe | if you want an empty choice (New)
+define("_YOUCANTADDTHISBALANCE","U kunt dit saldo niet toevoegen");//You cannot add this balance (New)
+define("_DISPLAYRESULTSTOSTUDENTS","Toon resultaten aan studenten");//Display results to students (New)
+define("_CHECKJAVA","Controle van Java plugin");//Checking Java plugin (New)
+define("_CHECKJAVAFAILED","Java plugin is niet geïnstalleerd");//Java plugin is not installed (New)
+define("_LOADVIDEOJS","Laden videojs");//Load videojs (New)
+define("_SENDMODE","Stuur modus");//Send mode (New)
+define("_EMAILANDPM","E-mail en persoonlijk bericht");//Email and personal message (New)
+define("_ACTIVETIMEINLESSON","Actieve tijd in les");//Active time in lesson (New)
+define("_TOTALACTIVELESSONTIME","Totaal actieve lestijd");//Total active lesson time (New)
+define("_ACTIVELESSONTIMES","Actieve lestijden");//Active lesson times (New)
+define("_PLEASEREMEMBERTOSETUPAPASSWORD","Vergeet niet om een wachtwoord in te stellen");//Please remember to set up a password (New)
+define("_ISLDAPUSER","Ldap gebruiker");//Ldap user (New)
+define("_REPORTSCONDITION","Voorwaarde");//Condition (New)
+define("_USEMYSQLWILDCARDS","U kunt gebruik maken van MySQL jokertekens, % en _");//You can use mysql's wildcard characters, % and _ (New)
+define("_LESSONTIMEREPORTS","Lestijd rapporten");//Lesson time reports (New)
+define("_ACTIVETIMEINCONTENT","Actieve tijd in inhoud");//Active time in content (New)
+define("_TIMEREPORTSEXPLANATION","Schakel over naar actieve tijd als u wilt dat het systeem de daadwerkelijke tijd controleert en rapporteert dat de gebruiker door de inhoud gaat. Schakel over naar totale tijd als u wilt dat het systeem rapporteert wat de totale tijd is dat een gebruiker besteedt aan een les, ongeacht op welke pagina hij / zij is. <br/> <b>Waarschuwing:</b> Overschakelen naar actieve tijd overschrijft alle actieve tijden die tot nu toe zijn geregistreerd bij totale tijd.");//Switch to active time if you want the system to monitor and report only times that the user actually goes through the content. Switch to total time if you want the system to report the total time a user spends on a lesson, regardless which page he/she is on. <br/><b>Warning</b>: Switching to active time reporting will overwrite any active times that have been recorded so far with the corresponding total times. (New)
+define("_TOGGLEQUESTIONSPOOL", "Activeer veel-voorkomende-vraag pool" ); 
+define("_YOUHAVENOTSELECTEDAVALUE", "U heeft geen waarde gekozen"); 
+define("_QUESTIONSPOOL", "veel-voorkomende-vraag pool"); 
+define("_ADDFEEDBACSFEEDBACK", "Terugkoppeling"); 
+define("_SHOWQUESTIONSPOOL", "Toon-algemene-vragen pool"); 
+define("_SHOWLESSONQUESTIONS", "Toon les-vragen"); 
+define("_OLDPASSWORDWRONG", "Oud wachtwoord is onjuist"); 
+define("_COURSETOPICS", "Cursus onderwerpen"); 
+define("_FORCEDOWNLOADFILE","Forceer downloaden bestand automatisch"); 
+define("_FORCEDOWNLOADFILEINFO", "In dit venster wordt het te downloaden bestand weergegeven. Voor bestanden die niet kunnen worden bijgevoegd wordt een link naar het bestand getoond.");
+define("_SPAMDETECTION","Helaas heeft u nu geen toegang tot deze pagina. Probeer het later nog een keer."); 
+define("_YOUCANNOTUSETHISNAME", "U kunt deze naam niet gebruiken."); 
+define("_BANUSERFAILEDLOGINS", "Verbied gebruikers de toegang na 5 mislukte inlog pogingen"); 
+define("_BANUSERFAILEDLOGINSINFO", "De gebruiker wordt gedeactiveerd na 5 opeenvolgende mislukte onlog pogingen"); 
+define("_ALLOWUSERREDOTEST", "Sta gebruiker toe om de toets te herhalen"); 
+define("_ALLSUPERVISORS" , "Alle begeleiders"); 
+define("_REVOKECERTIFICATEFOREXPIRED", "Intrekken verlopen certificaten"); 
+define("_MODULEITSELF", "Modules (individuele)"); 
+define("_MODULESPANEL", "Modules (toevoegen / verwijderen)"); 
+define("_PROFESSORSCANCREATECOURSES", "Docenten kunnen cursussen aanmaken"); 
+define("_YOURSESSIONHASEXPIREDPLEASELOGINAGAIN", "Uw sessie is verlopen, log opnieuw in"); 
+define("_AUTOMATICALLYPROPAGATEBRANCHCOURSESTOUSERS", "Verspreid automatisch afdelingscursussen naar gebruikers"); 
+define("_APPLYTOUSERALLREADYTOBRANCH", "toepassen bij alle gebruikers die klaar zijn voor deze tak"); 
+define("_THEME", "Thema"); 
+define("_SELECTBRANCHTHEME", "Selecteer afdeling thema"); 
+define("_SELECTBRANCHLANGUAGE", "Selecteer afdeling taal" ); 
+define("_ACCESSURL", "Afdeling toegangs-url"); 
+define("_AUTOFILL", "Vul automatisch in"); 
+define("_THEBRANCHWILLBEACCESSIBLEWITHURL", "De afdeling is rechtstreeks bereikbaar via url"); 
+define("_ORRESETCOURSEBEFOREEXPIRE" , "Of reset cursus voordat deze verlopen is"); 
+define("_PROGRESSRESETSUCCESSFULLY", "Reset cursus vooruitgang succesvol"); 
+define("_RESETPROGRESSDATAKEEPCERTIFICATE", "Reset vooruitgang, behoud certificaat"); 
+define("_YOUARENOTAMEMBEROFTHISBRANCH", "Het is niet toegestaan om in te loggen want u bent geen lid van deze afdeling"); 
+define("_MAXONLINEUSERS", "Het maximaal aantal gebruikers online"); 
+define("_IFYOUSPECIFYABRANCHURLTHEBRANCHWILLBEACCESSIBLEWITHURL", "Als u een afdelings-url specificeerd, dan zal de afdeling rechtstreeks toegankelijk zijn via deze url"); 
+define("_FIRST", "eerst"); 
+define("_ALLOWLOGINFROMDIRECTPAGE", "Sta toe dat gebruikers kunnen inloggen via de standaard URL"); 
+define("_YOUCANONLYLOGINFROMYOURBRANCHURL", "U kunt alleen inloggen via de url van uw afdeling"); 
+define("_NEWCOMMENT", "Nieuwe reactie"); 
+define("_ADDCUSTOMTEXT", "Voeg aangepaste tekst toe"); 
+define("_ADDANOTHERCUSTOMTEXT", "Voeg nog een aangepaste tekst toe"); 
+define("_VIEWLESSONASSTUDENT", "Bekijk les als student"); 
+define("_BACKTOPROFESSORMODE", "Terug naar docent-modus"); 
+define("_YOUAREINSTUDENTMODE", "U bekijkt nu deze les als student"); 
+define("_CERTIFICATEEXPIRY", "Cursus certificaat verstrijkt"); 
+define("_TEST_FAILURE", "Toets fout"); 
+define("_FAILEDTEST", "Niet geslaagd bij toets"); 
+define("_TESTFAILUREFORLESSON", "Niet geslaagd bij toets voor les"); 
+define("_HASFAILEDATEST", "Is niet geslaagd voor test");
+define("_MAXIMUMUSERSLIMITREACHEDCONTACTUS", "Het maximaal aantal gebruikers is bereikt. Neem contact met ons op als je toegang wilt.");
+define("_IWANTTOSIGNUPBUTMAXIMUMUSERSLIMITREACHED", "Ik wil me registreren, maar het maximaal aantal gebruikers is bereikt");
+define("_IWANTTOSIGNUPBUTMAXIMUMUSERSLIMITREACHEDBODY", "Ik probeer me te registreren, maar het systeem geeft weer dat het maximaal aantal gebruikers is bereikt");
+define("_PROFESSORCREATECOURSES", "Maak cursussen/lessen aan");
+define("_RESETALLUSERS", "Reset voortgang voor alle gebruikers");
+define("_MYROLE", "Rol");
+define("_MAXSEATSDEPLEATED", "De %y beschikbare plekken voor '%x' zijn vol. Contact %z voor meer informatie");
+define("_IFRAMEPARAMETERS", "iframe parameters"); 
+define("_HEIGHTREFERSTOINITIALHEIGHT", "Afmetingen kunnen dynamisch veranderen na het laden van de inhoud, u kunt afdwingende duidelijke waarden instellen bij het SCORM eigenschappen venster");
+define("_COURSESTARTDATE", "Cursus aanvangsdatum");
+define("_COURSEENDDATE", "Cursus eind datum");
+define("_SEARCHRESULTSINFILESYSTEM", "Zoekresultaten in bestandssysteem");
+define("_FILESYSTEM", "Bestandssysteem");
+define("_PATH", "Pad");
+define("_TIMESAFTERREGISTRATION", "Aantal keer na registratie");
+define("_ACCESSDEPLETED", "U heeft geen toegang meer tot deze les");
+define("_ACCESSESREMAINING", "U heeft nog %x keer toegang tot deze les");
+define("_REMAININGVACANCIES", "Overblijvende vacatures");
+define("_YOUWHEREADDEDTOTHEGROUPBUTSOMEERRORSOCCURED", "U bent toegevoegd tot de groep, maar er hebben zich fouten voorgedaan:");
+define("_SURVEYREMINDER", "Enquete herinnering");
+define("_THISISAREMINDERTOCOMPLETETHEFOLLOWINGSURVEY", "Deze email is een herinnering dat u gevraagd bent om de volgende enquete in te vullen");
+define("_SENDREMINDER", "Stuur herinnering");
+define("_PROJECTASSIGNMENT", "Project toewijzing");
+define("_PROJECTID", "Project id");
+define("_DEAR", "Geachte");
+define("_SETCERTIFICATEDATEFORCOMPLTETED","Stel in dat de certificaat datum dezelfde is als de voltooi datum");
+define("_VIEWCOURSECERTIFICATE","Cursus certificaat");
+define("_SETSHOWNUSERSSTATUSCOMPLETED", "Stel de status van de getoonde gebruikers in op voltooid");
+define("_FREETEXTFILEUPLOAD", "Vrije tekst / bestand upload");
+define("_FREETEXTINPUTTYPE", "Invoer type");
+define("_TEXTAREAANDUPLOAD", "Textveld en upload veld");
+define("_YOUAREREACHINGYOURSUBSCRIPTIONLIMIT", "U heeft bijna uw abonnementslimiet bereikt");
+define("_YOUAREREACHINGYOURSUBSCRIPTIONLIMITBODY", "Geachte %w,<br/>U heeft %x% van uw abonnementslimiet bereikt voor %y bij %z");
+define("_THANKYOUFORCONTACTINGUS", "Bedankt dat u contact met ons heeft opgenomen");
+define("_THANKYOUFORCONTACTINGUSBODY", "We hebben uw email ontvangen. We zullen op korte termijn uw email beantwoorden. Hieronder vindt u een kopie van uw bericht.");
+define("_INCLUDETIME", "Meerekenen tijd");
+define("_AVERAGECOMPLETIONTIME", "Gemiddelde tijd om te voltooien");
+define("_YOUCANUSENUMBERRANGE", "U kunt ook een cijfer-bereik hanteren: Bijvoorbeeld, wanneer u 1-10 gebruikt voor het correcte antwoord, dan zal ieder nummer van 1 tot 10 beschouwd worden als correct antwoord");
+define("_SETALLTOCOMPLETED", "Stel alles in als voltooid");
+define("_SETALLTOUNCOMPLETED", "Stel alles in als niet-voltooid");
+define("_MODREWRITENOTENABLED", "mod_rewrite needed for branch urls seems not to be enabled");
+define("_YOUHAVETOUSEACSVFILE", "You have to use a csv file");
+define("_USEQUESTIONMARKASDELIMITER", "Use ; as delimiter");
+define("_CSVFILE", "CSV file");
+define("_SIMPLECOMPLETEMODE", "Simple/complete mode");
+define("_SELECTELEMENTSHIDDENSIMPLE", "Select which elements should be visible when in simple mode");
+define("_SIMPLEMODE", "Simple mode");
+define("_COMPLETEMODE", "Complete mode");
+define("_SWITCHTOCOMPLETEMODE", "Switch to complete mode");
+define("_SWITCHTOSIMPLEMODE", "Switch to simple mode");
+define("_FIELDRULE", "Field rule");
+define("_FIELDRULEEXPLANATION", "A regular expression to check the user input. For example, in order to enforce only digits, you would use: /^\d+$/");
+define("_TRANSACTIONID", "Transaction ID");
+define("_USERPROJECTSCOMPRESSED", "Download user's projects files");
+define("_DAYSAFTERCOURSEENROLLMENT","day(s) after course enrollment");
+define("_DAYSAFTERLESSONENROLLMENT","day(s) after lesson enrollment");
+define("_DISABLED", "Disabled");
+define("_ALWAYSVISIBLE", "Always visible");
+define("_VISIBLEONLYINCOMPLETEMODE", "Only in complete mode");
+define("_TINCAN", "Tin can");
+define("_RESETLICENSENOTEALWAYS", "Force users accept license note at every login");
+define("_FOR","for");
+define("_SWITCHCALENDARMODE", "Switch to date mode");
+define("_SWITCHPERIODMODE", "Switch to period mode");
+define("_MODREWRITENOTENABLED", "mod_rewrite seems not enabled. If you are sure it is enabled, please set value of mod_rewrite_bypass in database configuration table to 1");
+define("_WANTCERTIFICATESALREADYEXPIRED", "Certificates already expired");
+define("_NOW", "now");
+define("_WANTUSERSNOTCERTIFICATEDCOURSE","Users that are enrolled but have not a certification for the course");
+define("_WANTUSERSNOTCERTIFICATEDALLCOURSES", "Users that are enrolled but have not a certification for any course");
+define("_TINCANIMPORT", "Import tin can content");
+define("_USERIMMEDIATESUPERVISORS", "User immediate supervisors");
+define("_STATEMENT", "Statement");
+define("_WANTCERTIFICATESALREADYEXPIREDFOR","Certificates already expired for course");
+define("_WANTCERTIFICATESEXPIREDFOR","Certificates that will expire for course");
+define("_PEOPLECONNECTIONS", "People Connections");
+define("_SHOWONLINEUSERS", "Show connected users");
+define("_SHOWTOOLTIPS","Show tooltips");
+define("_USESIMPLECOMPLETEMODESWITCH","Use simple/complete switch");
+define("_DAYSCONDITIONALLOWERCASE", "day(s)");
+define("_TINCANREPORTS", "Tin can reports");
+define("_FEATURES", "Features");
+define("_BEHAVIOR", "Behavior");
+define("_PASSWORDISTHESAME", "New password is the same with the old one. Please change it");
+define("_FILTERBYLESSON","Filter by lesson");
+define("_FILTERBYUSER","Filter by user");
+define("_FILTERBYVERB","Filter by verb");
+define("_FILTERBYOBJECT","Filter by object");
+define("_SELECTOBJECTFROMLIST", "Select an object from the list below");
+define("_SELECTVERBFROMLIST", "Select a verb from the list below");
+define("_GOTO", "Go to");
+?>

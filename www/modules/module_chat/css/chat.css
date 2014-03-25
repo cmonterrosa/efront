@@ -1,0 +1,135 @@
+.chatbox {
+	width: 225px;/*225 default*/
+	/*float:right;*/
+	position:static;
+	border:1px solid #666666; /*#666666*/
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	z-index:997;
+	vertical-align:bottom;
+}
+
+.lessonBox{
+background-color:#00FF00;
+}
+
+.chatboxhead {
+	height:23px;
+	background-color: #006699;
+	padding:1px;
+	color: #FFFFFF;
+	z-index:996;
+	max-width:225px;
+}
+
+.chatboxblink {
+	background-color: #0099FF;
+	z-index:996;
+
+}
+
+.chatboxcontent {
+	font-family: Trebuchet MS,verdana,geneva,arial,helvetica,sans-serif;
+	color: #222222;
+	height:200px;
+	width:211px;
+	overflow:auto;
+	padding:7px;
+	background-color: #FFFFFF;
+	line-height: 1.3em;
+	position:relative;
+	z-index:996;
+	white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.chatboxinput {
+	padding: 5px;
+	background-color:#FFFFFF;
+	border-left:1px solid #cccccc;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	position:relative;
+	z-index:996;
+	font-family: Trebuchet MS,verdana,geneva,arial,helvetica,sans-serif;
+}
+
+.chatboxtextarea {
+	width: 206px;
+	height:30px;
+	padding:3px 0pt 3px 3px;
+	border: 1px solid #006699;
+	margin: 1px;
+	overflow:hidden;
+	background-color:#FFFFFF;
+	font-family: Trebuchet MS,verdana,geneva,arial,helvetica,sans-serif;
+	overflow-x:hidden;
+	color: #222222;
+	z-index:995;
+}
+
+.chatboxtextareaselected {
+	border: 2px solid #0066FF;
+	margin:0;
+	font-family: Trebuchet MS,verdana,geneva,arial,helvetica,sans-serif;
+	overflow-x:hidden;
+	z-index:995;
+}
+
+.chatboxmessage {
+	margin-left:1em;
+	z-index:995;
+}
+
+.chatboxinfo {
+	margin-left:-1em;
+	color:#666666;
+	z-index:995;
+
+}
+
+.chatboxmessagefrom {
+	margin-left:-1em;
+	font-weight: bold;
+	font-family: Trebuchet MS,verdana,geneva,arial,helvetica,sans-serif;
+	z-index:995;
+}
+
+.chatboxmessagecontent {
+	font-family: Trebuchet MS,verdana,geneva,arial,helvetica,sans-serif;
+	z-index:995;
+}
+
+.chatboxoptions {
+	float: right;
+	
+	z-index:995;
+
+}
+
+.chatboxoptions a {
+	text-decoration: none;
+	color: white;
+	font-weight:bold;
+
+	z-index:995;
+
+}
+.chatboxoptions a img{
+	border:none;
+	z-index:995;
+	vertical-align:middle;
+}
+.chatboxtitle {
+	float: left;
+	padding-top:2px;
+	margin-left:2px;
+	font-family: Trebuchet MS,verdana,geneva,arial,helvetica,sans-serif;
+	max-width:190px;
+	z-index:-100;
+}

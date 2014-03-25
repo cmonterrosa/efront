@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<module>
+	<title>WorkBook</title>
+	<author>Vasilis Prountzos</author>
+	<date>2011 03 02</date>
+	<version>1.4.4</version>
+	<description>Through Workbook module professors are trying to get students to pay attention to certain lesson items</description>
+	<className>module_workbook</className>
+</module>

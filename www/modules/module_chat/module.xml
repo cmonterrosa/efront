@@ -1,0 +1,9 @@
+<?xml version="1.0" ?> 
+<module> 
+ <title>Chat Module </title> 
+ <author>Christos Xanthos</author> 
+ <date>2011 10 26</date> 
+ <version>1.2</version> 
+ <description>eFront integrated Chat Bar</description> 
+ <className>module_chat</className> 
+</module>
